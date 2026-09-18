@@ -1,0 +1,2 @@
+# Preserve exact numerical data and source bytes for the release checksum file.
+* -text
