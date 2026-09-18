@@ -1,0 +1,18 @@
+{
+  "mesh_size_m": 0.013,
+  "rpm": 1800.0,
+  "nodes": 14525,
+  "elements": 7132,
+  "first_frequency_hz": 78.57701,
+  "max_aluminum_integration_point_vm_pa": 38917625.60127846,
+  "max_displacement_m": 6.480832404438865e-05,
+  "aluminum_mass_kg": 3.918346114049538,
+  "aluminum_polar_inertia_kg_m2": 0.1672133222306652,
+  "steel_mass_kg": 3.995163377570139,
+  "steel_polar_inertia_kg_m2": 0.16160435862271216,
+  "a2_at_0.5m_m_s2": 4.260509438783084e-10,
+  "a2_at_1m_m_s2": 2.4455171849675204e-11,
+  "a2_at_2m_m_s2": 1.4985576653070631e-12,
+  "quadrature_mass_kg": 7.913388407021244,
+  "case": "baseline"
+}

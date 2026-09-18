@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the code or generated data."
+type: software
+title: "Shaped-rotor gravitational communication"
+authors:
+  - family-names: Mandal
+    given-names: Soumyajit
+  - family-names: Madanayake
+    given-names: Arjuna
+version: 0.2.0
+date-released: 2026-09-18
+license: MIT
+repository-code: "https://github.com/mandalsoumyajit/shaped-rotor-gravcomm"
+abstract: "Finite-volume Newtonian source fields, constrained CF-FSK modulation, conditional receiver simulations, and CalculiX assessment of a shaped rotor."

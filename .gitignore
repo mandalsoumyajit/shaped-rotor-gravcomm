@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+*.dat
+*.frd
+*.inp
+*.msh
+*.sta
+*.cvg
+*.12d
+*.log
+spooles.out

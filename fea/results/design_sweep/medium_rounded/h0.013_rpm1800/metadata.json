@@ -1,0 +1,47 @@
+{
+  "spec": {
+    "shape": "cylinder",
+    "radius": 0.035,
+    "center": 0.2,
+    "spoke": 0.03,
+    "rim": 0.02,
+    "fillet": 0.003,
+    "faceted_geometry": true,
+    "insert_size": 0.07924044075275058,
+    "aluminum_mass_kg": 3.125748121564931,
+    "aluminum_polar_inertia_kg_m2": 0.12162835094375493,
+    "steel_mass_kg": 4.787761370054745,
+    "steel_polar_inertia_kg_m2": 0.1944429586413484,
+    "quadrupole_x2_minus_y2_kg_m2": 0.1921056617196323,
+    "insert_radius_m": 0.035,
+    "insert_height_m": 0.07924044075275058,
+    "outer_extent_m": 0.25
+  },
+  "summary": {
+    "mesh_size_m": 0.013,
+    "rpm": 1800.0,
+    "nodes": 113451,
+    "elements": 72297,
+    "first_frequency_hz": 79.86901,
+    "max_aluminum_integration_point_vm_pa": 58126547.20137538,
+    "max_displacement_m": 6.811699179239765e-05,
+    "aluminum_mass_kg": 3.125748121564931,
+    "aluminum_polar_inertia_kg_m2": 0.12162835094375493,
+    "steel_mass_kg": 4.787761370054745,
+    "steel_polar_inertia_kg_m2": 0.1944429586413484,
+    "quadrupole_x2_minus_y2_kg_m2": 0.1921056617196323,
+    "insert_radius_m": 0.035,
+    "insert_height_m": 0.07924044075275058,
+    "outer_extent_m": 0.25
+  },
+  "frequencies_hz": [
+    79.86901,
+    95.35574,
+    101.362,
+    152.0523,
+    229.6898,
+    277.7642,
+    369.1521,
+    499.381
+  ]
+}

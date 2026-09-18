@@ -1,0 +1,22 @@
+{
+  "bandwidth_hz": 1.5625,
+  "grid_points": 32768,
+  "waterfill_coarsening_relative_change": -4.034437228739307e-09,
+  "rows": [
+    {
+      "distance_m": 0.5,
+      "a2_m_s2": 5.180259430854158e-10,
+      "gaussian_benchmark_bit_s": 3.9031283680250652
+    },
+    {
+      "distance_m": 1.0,
+      "a2_m_s2": 2.959361146589241e-11,
+      "gaussian_benchmark_bit_s": 0.15494797274464336
+    },
+    {
+      "distance_m": 2.0,
+      "a2_m_s2": 1.811791186413819e-12,
+      "gaussian_benchmark_bit_s": 0.0008806634330182756
+    }
+  ]
+}

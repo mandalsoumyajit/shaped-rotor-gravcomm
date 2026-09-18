@@ -1,0 +1,3 @@
+calculix-ccx	2.21-1
+python3-gmsh	4.12.1+ds1-1.1build2
+Gmsh Python: 4.12.1
