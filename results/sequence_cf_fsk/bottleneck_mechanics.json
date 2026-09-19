@@ -1,0 +1,38 @@
+[
+  {
+    "ts": 2.0,
+    "r": 0.4,
+    "q": 0.1,
+    "mechanics": {
+      "peak_nm": 1.2136335596129677,
+      "worst_symbol_rms_nm": 0.4974180823516184,
+      "peak_power_w": 191.7809364340155,
+      "feasible": true
+    },
+    "max_rpm": 1516.5
+  },
+  {
+    "ts": 1.75,
+    "r": 0.4,
+    "q": 0.075,
+    "mechanics": {
+      "peak_nm": 1.189885935947397,
+      "worst_symbol_rms_nm": 0.4878776121174204,
+      "peak_power_w": 188.0282868236025,
+      "feasible": true
+    },
+    "max_rpm": 1515.4285714285713
+  },
+  {
+    "ts": 1.75,
+    "r": 0.4,
+    "q": 0.1,
+    "mechanics": {
+      "peak_nm": 1.5698479145965296,
+      "worst_symbol_rms_nm": 0.6406222784690319,
+      "peak_power_w": 248.07068059021063,
+      "feasible": false
+    },
+    "max_rpm": 1517.5714285714284
+  }
+]

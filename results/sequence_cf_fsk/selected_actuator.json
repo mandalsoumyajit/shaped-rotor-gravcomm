@@ -1,0 +1,43 @@
+{
+  "all_transition_mechanics": {
+    "peak_nm": 1.2136335596129677,
+    "worst_symbol_rms_nm": 0.4974180823516184,
+    "peak_power_w": 191.7809364340155,
+    "feasible": true
+  },
+  "all_transition_drive": {
+    "peak_torque_nm": 1.2134053578396975,
+    "rms_torque_nm": 0.22669946294086984,
+    "peak_motoring_power_w": 191.74930448702557,
+    "peak_regenerative_power_w": 175.9427371576081,
+    "motoring_work_j": 1390.8136944984192,
+    "absorbed_work_j": 616.497588379057,
+    "drag_heat_j": 774.3161060875194,
+    "kinetic_energy_change_j": 3.1785600043298513e-08,
+    "energy_balance_error_j": 5.7173707824363516e-11,
+    "peak_speed_rad_s": 158.80750862544343,
+    "speed_limit_exceeded": false,
+    "continuous_torque_exceeded": false,
+    "max_sampled_carrier_error_hz": 4.734219621838065e-05,
+    "final_carrier_error_hz": 2.035847046499839e-10
+  },
+  "packet_drive": {
+    "peak_torque_nm": 1.1134031487384717,
+    "rms_torque_nm": 0.21469707566036697,
+    "peak_motoring_power_w": 161.24735103041735,
+    "peak_regenerative_power_w": 175.94273716500032,
+    "motoring_work_j": 793.4392400784892,
+    "absorbed_work_j": 319.5789332898435,
+    "drag_heat_j": 473.8603067896513,
+    "kinetic_energy_change_j": -7.531587753992159e-11,
+    "energy_balance_error_j": -9.30301045526633e-10,
+    "peak_speed_rad_s": 158.80750863208553,
+    "speed_limit_exceeded": false,
+    "continuous_torque_exceeded": false,
+    "max_sampled_carrier_error_hz": 4.7340000705276e-05,
+    "final_carrier_error_hz": -4.760636329592671e-13
+  },
+  "maximum_complex_waveform_error": 4.903650821173175e-05,
+  "actual_drive_packet_decodes": true,
+  "payload_hex": "9141eff9bd6b5e72"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "ts": 2.0,
+    "r": 0.4,
+    "q": 0.1,
+    "worst_valid_byte_stream_rms_nm": 0.4474016719053217,
+    "uniform_random_byte_stream_rms_nm": 0.22063353949126654,
+    "worst_repeating_bytes": [
+      251,
+      42
+    ]
+  },
+  {
+    "ts": 1.75,
+    "r": 0.4,
+    "q": 0.075,
+    "worst_valid_byte_stream_rms_nm": 0.4383863848491875,
+    "uniform_random_byte_stream_rms_nm": 0.21636498862413178,
+    "worst_repeating_bytes": [
+      251,
+      42
+    ]
+  },
+  {
+    "ts": 1.75,
+    "r": 0.4,
+    "q": 0.1,
+    "worst_valid_byte_stream_rms_nm": 0.5828499608954054,
+    "uniform_random_byte_stream_rms_nm": 0.28509851587859664,
+    "worst_repeating_bytes": [
+      251,
+      42
+    ]
+  }
+]

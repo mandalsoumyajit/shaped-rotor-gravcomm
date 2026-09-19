@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gravcomm-reproduction"
-version = "0.2.0"
+version = "0.3.0"
 description = "Finite-volume shaped-rotor gravity, constrained CF-FSK, and CalculiX reproduction."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -16,6 +16,10 @@ dependencies = [
 
 [project.scripts]
 gravcomm-figures = "gravcomm.figures:main"
+
+[project.optional-dependencies]
+sequence = ["numba>=0.60"]
+test = ["pytest>=8"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

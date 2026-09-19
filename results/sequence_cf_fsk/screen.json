@@ -1,0 +1,4226 @@
+[
+  {
+    "ts": 2.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.08333333333333333,
+    "rate": 1.0666666666666667,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 57624,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9809068476903742,
+      "worst_symbol_rms_nm": 0.4040161813957057,
+      "peak_power_w": 155.00497025196807,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 2.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.1,
+    "rate": 1.0666666666666667,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 38416,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9435606605799728,
+      "worst_symbol_rms_nm": 0.4342935443082865,
+      "peak_power_w": 149.11678565201333,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.05208333333333333,
+    "rate": 0.8888888888888888,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.0196946330108063,
+      "worst_symbol_rms_nm": 0.2987883203312527,
+      "peak_power_w": 161.13429794897598,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.06944444444444445,
+    "rate": 0.8888888888888888,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 1,
+      "symbols": 192,
+      "ser": 0.005208333333333333,
+      "packet_errors": 1,
+      "packet_error_upper95": 0.47067940860113155,
+      "byte_errors": 1,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.696463088673871,
+      "worst_symbol_rms_nm": 0.2902262886005146,
+      "peak_power_w": 110.05656714057676,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.08333333333333333,
+    "rate": 0.8888888888888888,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6706045651269161,
+      "worst_symbol_rms_nm": 0.3119528005728922,
+      "peak_power_w": 105.97034867590483,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.04464285714285714,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7624287099671231,
+      "worst_symbol_rms_nm": 0.22662470078143387,
+      "peak_power_w": 120.48059383616844,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.08928571428571427,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 10976,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.4748574199342461,
+      "worst_symbol_rms_nm": 0.42745212224467705,
+      "peak_power_w": 233.06008214855854,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.05952380952380952,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 1,
+      "symbols": 192,
+      "ser": 0.005208333333333333,
+      "packet_errors": 1,
+      "packet_error_upper95": 0.47067940860113155,
+      "byte_errors": 1,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5249524733114155,
+      "worst_symbol_rms_nm": 0.2220554494717328,
+      "peak_power_w": 82.95409773203842,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.11904761904761904,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 4116,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9999049466228309,
+      "worst_symbol_rms_nm": 0.4116414124176915,
+      "peak_power_w": 158.0070899402985,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.07142857142857142,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 1,
+      "symbols": 192,
+      "ser": 0.005208333333333333,
+      "packet_errors": 1,
+      "packet_error_upper95": 0.47067940860113155,
+      "byte_errors": 1,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5059268804282397,
+      "worst_symbol_rms_nm": 0.23855454067717027,
+      "peak_power_w": 79.95128248193303,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 3.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.14285714285714285,
+    "rate": 0.7619047619047619,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2744,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9618537608564796,
+      "worst_symbol_rms_nm": 0.442486530704615,
+      "peak_power_w": 152.00803635244742,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.0390625,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5954532310685786,
+      "worst_symbol_rms_nm": 0.18029645141257572,
+      "peak_power_w": 94.09477626295201,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.078125,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 10976,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.1409064621371572,
+      "worst_symbol_rms_nm": 0.3329749635169885,
+      "peak_power_w": 180.28844700212568,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.052083333333333336,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4136354873790524,
+      "worst_symbol_rms_nm": 0.1782122449653683,
+      "peak_power_w": 65.36355268322745,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.10416666666666667,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 4116,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7772709747581049,
+      "worst_symbol_rms_nm": 0.3224976626364268,
+      "peak_power_w": 122.82599984267657,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.0625,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3990900678838903,
+      "worst_symbol_rms_nm": 0.1912537914010299,
+      "peak_power_w": 63.06505479684948,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.125,
+    "rate": 0.6666666666666666,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2744,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7481801357677806,
+      "worst_symbol_rms_nm": 0.3466631924199398,
+      "peak_power_w": 118.22900406992065,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.034722222222222224,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.48097539244924736,
+      "worst_symbol_rms_nm": 0.14899793407712922,
+      "peak_power_w": 76.00474660164396,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.06944444444444445,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 10976,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9119507848984948,
+      "worst_symbol_rms_nm": 0.2684974387748357,
+      "peak_power_w": 144.1083876795096,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.0462962962962963,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3373169282994982,
+      "worst_symbol_rms_nm": 0.14851098495634402,
+      "peak_power_w": 53.30353290902209,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.0925925925925926,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 4116,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6246338565989965,
+      "worst_symbol_rms_nm": 0.26162318152677483,
+      "peak_power_w": 98.70596029426584,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.1851851851851852,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2058,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.199267713197993,
+      "worst_symbol_rms_nm": 0.4916665876908082,
+      "peak_power_w": 189.5113869481609,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.05555555555555555,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3258147351016772,
+      "worst_symbol_rms_nm": 0.15912544070772144,
+      "peak_power_w": 51.48735368105345,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 4.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.1111111111111111,
+    "rate": 0.5925925925925926,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2744,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6016294702033543,
+      "worst_symbol_rms_nm": 0.28116988310931185,
+      "peak_power_w": 95.07600874425896,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.03125,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3990900678838903,
+      "worst_symbol_rms_nm": 0.12702334326646608,
+      "peak_power_w": 63.06505479684948,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.0625,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 10976,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7481801357677806,
+      "worst_symbol_rms_nm": 0.22266025907393996,
+      "peak_power_w": 118.22900406992065,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.125,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.4463602715355612,
+      "worst_symbol_rms_nm": 0.4193877775383072,
+      "peak_power_w": 228.55690261606293,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.041666666666666664,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.2827267119225935,
+      "worst_symbol_rms_nm": 0.12757628648266994,
+      "peak_power_w": 44.67707170582576,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.08333333333333333,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 4116,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5154534238451871,
+      "worst_symbol_rms_nm": 0.21830781392341048,
+      "peak_power_w": 81.45303788787321,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.16666666666666666,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2058,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9809068476903742,
+      "worst_symbol_rms_nm": 0.4040348236704904,
+      "peak_power_w": 155.0059064304503,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.05,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.27341764344568986,
+      "worst_symbol_rms_nm": 0.13640673405981152,
+      "peak_power_w": 43.20603305854387,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.1,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2744,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4968352868913797,
+      "worst_symbol_rms_nm": 0.23451381589458214,
+      "peak_power_w": 78.51096059330942,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.2,
+    "rate": 0.5333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1372,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9436705737827594,
+      "worst_symbol_rms_nm": 0.4343109511602426,
+      "peak_power_w": 149.13083131211278,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.028409090909090908,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 21952,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3385041883337936,
+      "worst_symbol_rms_nm": 0.11112432140104814,
+      "peak_power_w": 53.49114624532473,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.056818181818181816,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 10976,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6270083766675872,
+      "worst_symbol_rms_nm": 0.18901370062797676,
+      "peak_power_w": 99.08118696687113,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.11363636363636363,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.2040167533351744,
+      "worst_symbol_rms_nm": 0.35081071205957626,
+      "peak_power_w": 190.26126840996395,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.03787878787878788,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 8232,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.24233612555586242,
+      "worst_symbol_rms_nm": 0.11235122955841048,
+      "peak_power_w": 38.294466004809266,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.07575757575757576,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 4116,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.43467225111172486,
+      "worst_symbol_rms_nm": 0.1864707478990278,
+      "peak_power_w": 68.6878264858402,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.15151515151515152,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2058,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.8193445022234498,
+      "worst_symbol_rms_nm": 0.33933117844643074,
+      "peak_power_w": 129.47561000710195,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.045454545454545456,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 5488,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.23463872165237853,
+      "worst_symbol_rms_nm": 0.1198223162301429,
+      "peak_power_w": 37.078791345528685,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.09090909090909091,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 2744,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.419277443304757,
+      "worst_symbol_rms_nm": 0.20017101313097788,
+      "peak_power_w": 66.25755578108947,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 5.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.18181818181818182,
+    "rate": 0.48484848484848486,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1372,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7885548866095141,
+      "worst_symbol_rms_nm": 0.36476226127882494,
+      "peak_power_w": 124.61832049364237,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.026041666666666664,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 3136,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.29242365825270156,
+      "worst_symbol_rms_nm": 0.09933893311140922,
+      "peak_power_w": 46.20940363007773,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.05208333333333333,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1568,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5348473165054032,
+      "worst_symbol_rms_nm": 0.16367281472936895,
+      "peak_power_w": 84.51770173637715,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.10416666666666666,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.0196946330108063,
+      "worst_symbol_rms_nm": 0.29880922448094166,
+      "peak_power_w": 161.13429794897598,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.034722222222222224,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1176,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.21161577216846772,
+      "worst_symbol_rms_nm": 0.1009925163504852,
+      "peak_power_w": 33.43997092797793,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.06944444444444445,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 588,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.37323154433693545,
+      "worst_symbol_rms_nm": 0.16244985757432306,
+      "peak_power_w": 58.97883633217754,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.1388888888888889,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 294,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.696463088673871,
+      "worst_symbol_rms_nm": 0.29024787765818877,
+      "peak_power_w": 110.05764443110223,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.041666666666666664,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.205151141281729,
+      "worst_symbol_rms_nm": 0.10739814646049856,
+      "peak_power_w": 32.41841631180995,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.08333333333333333,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.36030228256345803,
+      "worst_symbol_rms_nm": 0.17421347792131478,
+      "peak_power_w": 56.93572709984157,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.16666666666666666,
+    "rate": 0.4444444444444444,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 196,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6706045651269161,
+      "worst_symbol_rms_nm": 0.3119729482366011,
+      "peak_power_w": 105.97577926076455,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.024038461538461536,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 3136,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.2565621703454972,
+      "worst_symbol_rms_nm": 0.09042496454316355,
+      "peak_power_w": 40.542495626187296,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.04807692307692307,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1568,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4631243406909944,
+      "worst_symbol_rms_nm": 0.14418248730429045,
+      "peak_power_w": 73.18388572859625,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.09615384615384615,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.8762486813819889,
+      "worst_symbol_rms_nm": 0.2584920582347786,
+      "peak_power_w": 138.4666659334142,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.1923076923076923,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.7024973627639777,
+      "worst_symbol_rms_nm": 0.49203673425944333,
+      "peak_power_w": 269.03222634305,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.032051282051282055,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1176,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.18770811356366485,
+      "worst_symbol_rms_nm": 0.09233539959482277,
+      "peak_power_w": 29.662032258717645,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.06410256410256411,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 588,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3254162271273297,
+      "worst_symbol_rms_nm": 0.14393164232224312,
+      "peak_power_w": 51.42295899365696,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.12820512820512822,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 294,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6008324542546595,
+      "worst_symbol_rms_nm": 0.25217315047955435,
+      "peak_power_w": 94.94585261629177,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.25641025641025644,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 147,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.151664908509319,
+      "worst_symbol_rms_nm": 0.4725645412470966,
+      "peak_power_w": 182.0097961082877,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.038461538461538464,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.18219794754773194,
+      "worst_symbol_rms_nm": 0.0978871487431366,
+      "peak_power_w": 28.791685223404386,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.07692307692307693,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.31439589509546384,
+      "worst_symbol_rms_nm": 0.15416058442400582,
+      "peak_power_w": 49.68281784985231,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 6.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.15384615384615385,
+    "rate": 0.41025641025641024,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 196,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5787917901909277,
+      "worst_symbol_rms_nm": 0.27099402876672135,
+      "peak_power_w": 91.46674188321381,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.02232142857142857,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 3136,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.22810717749178078,
+      "worst_symbol_rms_nm": 0.08356545379725261,
+      "peak_power_w": 36.045977601875855,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.04464285714285714,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1568,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4062143549835615,
+      "worst_symbol_rms_nm": 0.1289282324857145,
+      "peak_power_w": 64.19084967997338,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.08928571428571427,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7624287099671231,
+      "worst_symbol_rms_nm": 0.22664830518805254,
+      "peak_power_w": 120.48059383616844,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.17857142857142855,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.4748574199342461,
+      "worst_symbol_rms_nm": 0.42747726537510283,
+      "peak_power_w": 233.06008214855854,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.02976190476190476,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1176,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.16873811832785385,
+      "worst_symbol_rms_nm": 0.08561544094261185,
+      "peak_power_w": 26.664353575843347,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.05952380952380952,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 588,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.2874762366557077,
+      "worst_symbol_rms_nm": 0.1293956342823661,
+      "peak_power_w": 45.427601627908366,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.11904761904761904,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 294,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5249524733114155,
+      "worst_symbol_rms_nm": 0.22207960555988066,
+      "peak_power_w": 82.95507817558281,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.23809523809523808,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 147,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.9999049466228309,
+      "worst_symbol_rms_nm": 0.4116676643399458,
+      "peak_power_w": 158.02332301302945,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.03571428571428571,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.1639885935947397,
+      "worst_symbol_rms_nm": 0.09047067743124394,
+      "peak_power_w": 25.913823653760748,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.07142857142857142,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.2779771871894794,
+      "worst_symbol_rms_nm": 0.13838266613902503,
+      "peak_power_w": 43.92655464524917,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.14285714285714285,
+    "rate": 0.38095238095238093,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 196,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5059543743789587,
+      "worst_symbol_rms_nm": 0.2385770859230275,
+      "peak_power_w": 79.95529223936043,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.020833333333333332,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 3136,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.205151141281729,
+      "worst_symbol_rms_nm": 0.07820632019427728,
+      "peak_power_w": 32.41841631180995,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.041666666666666664,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1568,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.36030228256345803,
+      "worst_symbol_rms_nm": 0.11681223940691034,
+      "peak_power_w": 56.93572709984157,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.08333333333333333,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.6706045651269161,
+      "worst_symbol_rms_nm": 0.20109889981028098,
+      "peak_power_w": 105.97034867590483,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.16666666666666666,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.2912091302538322,
+      "worst_symbol_rms_nm": 0.3754781096513801,
+      "peak_power_w": 204.03959182803135,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.027777777777777776,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1176,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.15343409418781934,
+      "worst_symbol_rms_nm": 0.08031505331486793,
+      "peak_power_w": 24.245979382466075,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.05555555555555555,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 588,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.2568681883756387,
+      "worst_symbol_rms_nm": 0.11780884885939638,
+      "peak_power_w": 40.59085324115382,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.1111111111111111,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 294,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4637363767512774,
+      "worst_symbol_rms_nm": 0.1979128265315211,
+      "peak_power_w": 73.28151374399825,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.2222222222222222,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 147,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.8774727535025548,
+      "worst_symbol_rms_nm": 0.36260932486295355,
+      "peak_power_w": 138.67275238196845,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.03333333333333333,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.1492958152206983,
+      "worst_symbol_rms_nm": 0.08459401098442594,
+      "peak_power_w": 23.592274318551347,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.06666666666666667,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.24859163044139657,
+      "worst_symbol_rms_nm": 0.125772999110907,
+      "peak_power_w": 39.28375505884914,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 7.5,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.13333333333333333,
+    "rate": 0.35555555555555557,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 196,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.44718326088279314,
+      "worst_symbol_rms_nm": 0.21251802341601017,
+      "peak_power_w": 70.66765237601905,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.01953125,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 3136,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.18636330776714466,
+      "worst_symbol_rms_nm": 0.07396219359707323,
+      "peak_power_w": 29.44952320857175,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.0390625,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1568,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3227266155342893,
+      "worst_symbol_rms_nm": 0.1070665022673023,
+      "peak_power_w": 50.99794089336516,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.078125,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.5954532310685786,
+      "worst_symbol_rms_nm": 0.18032239681469953,
+      "peak_power_w": 94.09477626295201,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.2,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.15625,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 1.1409064621371572,
+      "worst_symbol_rms_nm": 0.3330031734022272,
+      "peak_power_w": 180.28844700212568,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.026041666666666668,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 1176,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.1409088718447631,
+      "worst_symbol_rms_nm": 0.07607457377710078,
+      "peak_power_w": 22.26671731364061,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.052083333333333336,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 588,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.23181774368952623,
+      "worst_symbol_rms_nm": 0.1084494578090238,
+      "peak_power_w": 36.6323291035029,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.10416666666666667,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 294,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.4136354873790524,
+      "worst_symbol_rms_nm": 0.17823855697207328,
+      "peak_power_w": 65.36439715284614,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.4,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.20833333333333334,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 147,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7772709747581049,
+      "worst_symbol_rms_nm": 0.3225269290405875,
+      "peak_power_w": 122.83605514189703,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.125,
+    "spacing_hz": 0.03125,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 784,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.1372725169709726,
+      "worst_symbol_rms_nm": 0.07987114373698014,
+      "peak_power_w": 21.69209284204612,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.25,
+    "spacing_hz": 0.0625,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 392,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.22454503394194514,
+      "worst_symbol_rms_nm": 0.11555850631333872,
+      "peak_power_w": 35.48321714351475,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 0.5,
+    "spacing_hz": 0.125,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 196,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.3990900678838903,
+      "worst_symbol_rms_nm": 0.19127836645421498,
+      "peak_power_w": 63.0672564448794,
+      "feasible": true
+    }
+  },
+  {
+    "ts": 8.0,
+    "transition_fraction": 0.5,
+    "spacing_dwell_product": 1.0,
+    "spacing_hz": 0.25,
+    "rate": 0.3333333333333333,
+    "whitener": {
+      "sample_rate_hz": 2.0,
+      "taps": 13,
+      "memory_s": 6.0,
+      "rms_psd_error": 0.01049984357275874,
+      "max_psd_error": 0.06672495794317612,
+      "central_max_psd_error": 0.01563555470485678
+    },
+    "states": 98,
+    "trial": {
+      "packets": 8,
+      "bytes_per_packet": 8,
+      "symbol_errors": 0,
+      "symbols": 192,
+      "ser": 0.0,
+      "packet_errors": 0,
+      "packet_error_upper95": 0.3123439780663678,
+      "byte_errors": 0,
+      "independent_symbol_probe_errors": 0,
+      "average_ser_upper95": 0.3123439780663678,
+      "symbol_errors_per_packet": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mechanics": {
+      "peak_nm": 0.7481801357677806,
+      "worst_symbol_rms_nm": 0.3466905447072333,
+      "peak_power_w": 118.24219421020392,
+      "feasible": true
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "added_acceleration_asd": 0.0,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 3.904524965450327
+  },
+  {
+    "added_acceleration_asd": 0.0,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 3.904524965450341
+  },
+  {
+    "added_acceleration_asd": 0.0,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 3.9045249654503995
+  },
+  {
+    "added_acceleration_asd": 1e-10,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 2.9201628538719318
+  },
+  {
+    "added_acceleration_asd": 1e-10,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 2.920162853871945
+  },
+  {
+    "added_acceleration_asd": 1e-10,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 2.920162853871993
+  },
+  {
+    "added_acceleration_asd": 2e-10,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 1.8848491162279546
+  },
+  {
+    "added_acceleration_asd": 2e-10,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 1.8848491162279624
+  },
+  {
+    "added_acceleration_asd": 2e-10,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 1.8848491162279943
+  }
+]

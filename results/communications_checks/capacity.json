@@ -1,0 +1,86 @@
+[
+  {
+    "distance_m": 0.5,
+    "amplitude_m_s2": 5.180259430854158e-10,
+    "bandwidth_hz": 1.5625,
+    "capacity_bit_s": 3.903128367933285,
+    "relative_grid_change": -2.3514523661560816e-11
+  },
+  {
+    "distance_m": 0.5,
+    "amplitude_m_s2": 5.180259430854158e-10,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 3.904524965450327,
+    "relative_grid_change": -3.552713678800501e-15
+  },
+  {
+    "distance_m": 0.5,
+    "amplitude_m_s2": 5.180259430854158e-10,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 3.904524965450341,
+    "relative_grid_change": -1.4988010832439613e-14
+  },
+  {
+    "distance_m": 0.5,
+    "amplitude_m_s2": 5.180259430854158e-10,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 3.9045249654503995,
+    "relative_grid_change": -5.861977570020827e-14
+  },
+  {
+    "distance_m": 1.0,
+    "amplitude_m_s2": 2.959361146589241e-11,
+    "bandwidth_hz": 1.5625,
+    "capacity_bit_s": 0.15494797274468375,
+    "relative_grid_change": 2.6068036618198676e-13
+  },
+  {
+    "distance_m": 1.0,
+    "amplitude_m_s2": 2.959361146589241e-11,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 0.1549479727447102,
+    "relative_grid_change": -1.0479395129436853e-12
+  },
+  {
+    "distance_m": 1.0,
+    "amplitude_m_s2": 2.959361146589241e-11,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 0.15494797274487257,
+    "relative_grid_change": -4.193090319404291e-12
+  },
+  {
+    "distance_m": 1.0,
+    "amplitude_m_s2": 2.959361146589241e-11,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 0.15494797274552227,
+    "relative_grid_change": -1.6781243061814166e-11
+  },
+  {
+    "distance_m": 2.0,
+    "amplitude_m_s2": 1.811791186413819e-12,
+    "bandwidth_hz": 1.5625,
+    "capacity_bit_s": 0.0008806634330163774,
+    "relative_grid_change": -2.1554980023097414e-12
+  },
+  {
+    "distance_m": 2.0,
+    "amplitude_m_s2": 1.811791186413819e-12,
+    "bandwidth_hz": 2.0,
+    "capacity_bit_s": 0.0008806634330168968,
+    "relative_grid_change": -3.9190872769268026e-13
+  },
+  {
+    "distance_m": 2.0,
+    "amplitude_m_s2": 1.811791186413819e-12,
+    "bandwidth_hz": 4.0,
+    "capacity_bit_s": 0.0008806634330172419,
+    "relative_grid_change": 7.855716077642683e-12
+  },
+  {
+    "distance_m": 2.0,
+    "amplitude_m_s2": 1.811791186413819e-12,
+    "bandwidth_hz": 8.0,
+    "capacity_bit_s": 0.0008806634330103236,
+    "relative_grid_change": 1.07013908845488e-09
+  }
+]

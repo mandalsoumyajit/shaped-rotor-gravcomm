@@ -1,0 +1,14 @@
+{
+  "packets": 500,
+  "bits": 32000,
+  "bit_errors": 0,
+  "whitener": {
+    "sample_rate_hz": 4,
+    "taps": 25,
+    "memory_s": 6.0,
+    "rms_psd_error": 0.011458325468477774,
+    "max_psd_error": 0.07745583201323547,
+    "central_max_psd_error": 0.017899665563732237
+  },
+  "purpose": "Sample-rate convergence diagnostic; low counts do not estimate BER precisely"
+}

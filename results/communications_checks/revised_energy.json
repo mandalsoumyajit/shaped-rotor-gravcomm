@@ -1,0 +1,21 @@
+{
+  "duration_s": 98.0,
+  "diagnostics": {
+    "peak_torque_nm": 1.2136196119503,
+    "rms_torque_nm": 0.22673113392607877,
+    "peak_motoring_power_w": 191.78152253585085,
+    "peak_regenerative_power_w": 175.97874240522586,
+    "motoring_work_j": 1390.8797486643134,
+    "absorbed_work_j": 616.5636422662598,
+    "drag_heat_j": 774.3161064008594,
+    "kinetic_energy_change_j": -1.7104178296279904e-09,
+    "energy_balance_error_j": -1.0953733253414932e-09,
+    "peak_speed_rad_s": 158.80750864034871,
+    "speed_limit_exceeded": false,
+    "continuous_torque_exceeded": false,
+    "max_sampled_carrier_error_hz": 2.959578210948166e-06,
+    "final_carrier_error_hz": -1.0949463558063144e-11
+  },
+  "centrifugal_regional_mean_mpa": 18.082802281527503,
+  "stored_energy_at_max_speed_j": 3985.6315260395504
+}

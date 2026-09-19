@@ -1,145 +1,186 @@
 # Shaped-rotor gravitational communication
 
-Reproduction code and model-generated data for *Near-Field Gravitational
-Communication with a Shaped Rotor: Finite-Element Assessment and CF-FSK Modeling*,
-by Soumyajit Mandal and Arjuna Madanayake (2026 draft).
+Simulation code and generated data for *Near-Field Gravitational Communication
+with a Shaped Rotor: Finite-Element Assessment and CF-FSK Modeling*, by
+Soumyajit Mandal and Arjuna Madanayake. Paper reproduction version: **v0.3.0**.
 
-The default source is a 7.913509 kg rotor with an aluminium carrier and two
-steel inserts. It is the highest-signal member of three completed rounded
-designs at fixed mass, not a global optimum. The numerical CF-FSK point gives
-0.333 bit/s at 0.5 m under an idealized frequency-dependent receiver model.
-This is not a demonstrated link or a certified mechanical design.
+The reference source is a 7.913509 kg aluminium carrier with two steel inserts.
+The selected seven-tone continuous-frequency frequency-shift keying (CF-FSK)
+point uses 2 s symbols and supports 1.333 mapped bit/s at 0.5 m. Eight-byte
+packets with six known trailer symbols carry 1.067 bit/s, excluding acquisition.
+The finest-sampling confirmation has 144 bit errors in 2,912,000 bits across
+31 errored packets: BER 4.95e-5, with a packet-aware 95% interval
+[1.59e-5, 1.70e-4]. These are acquired-packet simulations under the stated noise
+model. Hardware communication, assembly strength and environmental rejection
+remain experimental validation tasks.
 
-## License and provenance
+## What changed in v0.3.0
 
-Original code, documentation and model-generated data in this repository
-are released under the MIT License; see `LICENSE`. Third-party software
-(CalculiX, Gmsh, NumPy, SciPy and Matplotlib) retains its own licenses and is
-not bundled. The manuscript, third-party papers and earlier private drafts
-are not included in this code repository. No funding or conflicts of interest
-were reported by the authors. Both authors developed the concept; SM performed
-the simulations and wrote the paper.
+- Full-waveform standard Viterbi decoding retains continuous phase and finite
+  whitening-filter memory, with exact add-compare-select and traceback.
+- The existing byte-to-three-tone mapping is enforced in the trellis.
+- Error-count-driven packet trials and anytime confidence intervals account
+  for correlated errors within packets.
+- The tone-spacing sweep separates receiver discrimination from drive demand.
+- Exact worst-valid-message RMS torque and uniform-byte duty replace the
+  earlier conservative individual-symbol duty screen in interpretation.
+- Sampling, whitening, achieved-drive, technical-noise, energy and capacity
+  checks accompany the detector and three-panel performance figures.
 
-This package contains accepted result summaries, waveform samples, the selected
-source quadrature, CAD, and simulation code. Large solver `.dat`, `.frd` and
-mesh files are regenerated rather than committed. `MANIFEST.sha256` records
-the original exported files; rerunning simulations may change output hashes.
-`docs/model_notes.md` documents conventions and historical diagnostics;
-the workflows below identify the current paper results.
+The earlier 8 s dwell-bin detector and its 0.333 bit/s result are historical.
+Its scripts/data remain for provenance and helper functions; use the current
+workflows below for paper claims. Initial sequence-search screens also used
+different decoding/termination settings from the final BER confirmations.
 
 ## Environment
 
-Python 3.10+ with NumPy, SciPy and Matplotlib runs the analytical models,
-actuator, detector and unit tests. For a Python virtual environment:
+Python 3.10+; NumPy, SciPy and Matplotlib. Numba accelerates the sequence trellis.
+The Monte Carlo worker scripts use Linux `fork`: run them on Linux or WSL.
+The numerical library and unit tests also work on Windows.
 
 ```sh
 python -m venv .venv
 . .venv/bin/activate
-python -m pip install -e .
-PYTHONPATH=src python -m unittest discover -s tests -v
+python -m pip install -e '.[sequence,test]'
+export PYTHONPATH=src
+export OPENBLAS_NUM_THREADS=1
+python -m pytest -q tests
+python -m unittest discover -s fea -p test_fea.py -v
 ```
 
-On Windows, activate `.venv/Scripts/Activate.ps1`, use `python` and set
-`$env:PYTHONPATH = "$PWD/src"` before testing. FEA is tested on Ubuntu under
-WSL with CalculiX 2.21 and Gmsh 4.12.1. Install the OS packages for NumPy,
-SciPy, Matplotlib and CalculiX (`calculix-ccx`); make the Gmsh 4.12.1 Python
-module available to that same Python. `python3 -s` avoids mixing user-site
-packages into the Ubuntu system environment. Check the actual Gmsh and
-CalculiX versions rather than assuming the distribution provides them.
+The checked environment is recorded in
+`results/communications_checks/manifest.json`. For matching numerical behavior,
+use its Python/NumPy/SciPy/Numba versions. On WSL, `python -s` prevents unrelated
+user-site packages from overriding the configured environment.
 
-The paper plots use Gmsh to read the supplied BREP; they do not need to run
-CalculiX. The FEA scripts use a temporary Linux directory for solver I/O and
-copy results back. Full regeneration can require several GB and substantial
-CPU time. Solver/Gmsh version changes may alter mesh numbering and local peaks.
-
-## Fast reproduction from included data
-
-From the repository root in the configured Ubuntu environment:
+## Fast checks and plots from included results
 
 ```sh
-PYTHONPATH=src python3 -s -m unittest discover -s tests -v
-python3 -s -m unittest discover -s fea -p test_fea.py -v
-python3 -s scripts/paper_results.py
-python3 -s scripts/desktop_cf_fsk.py --plot-only
+python scripts/verify_current_results.py
+python scripts/check_revision_capacity.py
+python scripts/summarize_communications_checks.py
+python scripts/summarize_spacing_sweep.py
+python scripts/sequence_paper_figures.py
 ```
 
-This runs 57 model tests and 5 FEA tests, then regenerates the paper's compact
-geometry, field, receiver, modulation-chain and actuator figures. The separate
-Gaussian water-filling benchmark is an optimistic comparison, not CF-FSK rate.
-Run `python3 -s scripts/desktop_cf_fsk.py` to regenerate the symbol-period
-screen, constrained all-transition trajectory, conditional Monte Carlo results,
-and technical-noise sweep. Seeds are fixed in the script. Its millions of
-independent conditional decisions are not a continuous noisy packet experiment.
+These verify retained packet counts, confidence intervals, source amplitudes,
+mechanical references and release-file availability, then regenerate reports
+and the current receiver/detector/performance graphics. They do not rerun the
+large Monte Carlo experiments. All current manuscript graphics are included.
+For geometry/field figure regeneration, first run `scripts/paper_results.py`
+and `scripts/introductory_rotor.py`, then `scripts/sequence_paper_figures.py`
+to update the communications graphics. The geometry plot requires Gmsh 4.12.1.
+
+## Repeating the communications experiments
+
+```sh
+python scripts/check_communications_revision.py --fs 4 --memory 6
+python scripts/check_communications_revision.py --fs 8 --memory 6
+python scripts/check_communications_revision.py --fs 4 --memory 8 --max-packets 6000
+python scripts/check_communications_revision.py --technical-asd 1e-10
+python scripts/check_communications_revision.py --technical-asd 2e-10
+python scripts/sweep_sequence_spacing.py
+python scripts/sweep_sequence_spacing.py --q .1 .5 1 --memory-symbols 4 --max-packets 1000
+python scripts/sweep_sequence_spacing.py --q .1 .5 1 --sample-rate 16 --max-packets 1000
+python scripts/check_revision_drive.py
+python scripts/exact_sequence_duty.py
+```
+
+Run from the repository root. The confirmation driver resumes checkpoints;
+both it and the sweep retain completed results. The sweep restarts incomplete
+points. To regenerate from zero, move the relevant result JSON files to a
+separate backup folder first. Keep included records for comparison.
+Confirmation runs stop at at least 100 bit errors in at least 30 errored packets.
+The longer-memory diagnostic has a 6000-packet cap; its sparse count supports
+an upper bound. All seeds and per-packet counts are retained. Sampling/filter
+variants share seed indices and must not be pooled as independent replications.
+Runtime ranges from seconds for high-error noise cases to many minutes for
+the primary confirmations and longer FIR trellises.
+
+The default sweep uses 1.75 s symbols, 40% transitions and nine spacings.
+Its receiver simulation uses ideal source trajectories; mechanical demands
+are evaluated separately. The achieved-drive script performs fixed-message
+paired sensitivity checks and energy accounting. It does not estimate
+random-message BER from those fixed messages.
 
 ## Data map
 
 | Result | Location |
 |---|---|
-| Three rounded designs and mass/inertia | `fea/results/design_sweep/filleted_screen.csv` |
-| Stress windows, volumes and convergence | `fea/results/design_sweep/averaged_stress_*.csv` |
-| Selected CAD and exact properties | `fea/results/design_sweep/medium_rounded/h0.013_rpm1800/` |
-| Finite-source waveform and spectra | `fea/results/shaped_waveforms/` |
-| Load/mode checks on original carrier | `fea/results/stress_modes/` |
-| Bar verification | `fea/results/benchmark/` |
-| CF-FSK assumptions, trials and trajectory | `results/desktop_cf_fsk/` |
-| Current paper plots and Gaussian benchmark | `results/paper_revision/` |
+| Current BER confirmations and checks | `results/communications_checks/` |
+| Fixed-duration spacing sweep | `results/spacing_sweep/*_fs8_m3.json` |
+| Earlier search stages and exact byte duty | `results/sequence_cf_fsk/` |
+| Current paper figures | `results/paper_revision/` |
+| Historical dwell detector | `results/desktop_cf_fsk/` |
+| Rounded designs, mass, inertia, stress windows | `fea/results/design_sweep/` |
+| Finite-volume waveforms and selected quadrature | `fea/results/shaped_waveforms/` |
+| Original-carrier load/mode checks | `fea/results/stress_modes/` |
+| Rotating-bar benchmark | `fea/results/benchmark/` |
 
-The selected NPZ may be loaded using
+`results/communications_checks/SUMMARY.md` is the current numerical reference.
+Older `sequence_cf_fsk/SUMMARY.md` records the first 2 Hz confirmation; the
+current paper uses the subsequent 8 Hz result. The historical water-filling
+figure generated by `paper_results.py` uses a 1.5625 Hz band; current capacities
+are in `communications_checks/capacity.json` and use a 2 Hz band.
+
+The selected quadrature loads with
 `gravcomm.FiniteRotor.from_npz('fea/results/shaped_waveforms/medium_rounded.npz')`.
-It stores positive quadrature masses and SI coordinates for both materials.
-Rotation is about z; the radial receiver is at (d,0,0) measuring along x.
-Mass is not renormalized to conceal the faceted-boundary error.
+Coordinates and masses are SI. Rotation is about z and the radial receiver at
+(d,0,0) measures x acceleration. Source power is the second harmonic's peak
+amplitude squared divided by two. Higher harmonics are tabulated separately.
 
-## Full FEA and field regeneration
+## FEA regeneration
 
-Run these commands from `fea/`, in order:
+The accepted workflow uses Gmsh 4.12.1 and CalculiX 2.21 on Ubuntu/WSL.
+Install `calculix-ccx` and the specified Gmsh Python module; check actual
+versions. From `fea/`, run:
 
 ```sh
-python3 -s run_calculix.py
-python3 -s shaped_rotor.py
-python3 -s summarize.py
-python3 -s postprocess_carrier.py
-python3 -s design_sweep.py
-python3 -s refine_designs.py
-python3 -s shape_pair.py
-python3 -s filleted_designs.py
-python3 -s static_regions.py
-python3 -s shaped_waveforms.py
-python3 -s design_report.py
+python run_calculix.py
+python shaped_rotor.py
+python summarize.py
+python postprocess_carrier.py
+python design_sweep.py
+python refine_designs.py
+python shape_pair.py
+python filleted_designs.py
+python static_regions.py
+python shaped_waveforms.py
+python design_report.py
 ```
 
-`run_calculix.py` is a bar benchmark; `shaped_rotor.py` is the original
-unfilleted carrier. `filleted_designs.py` generates the three accepted rounded
-variants. It only reuses a result when metadata and the necessary solver files
-exist and the geometry matches. `--geometry-only` checks fixed-mass designs
-without solving. `static_regions.py` averages integration-point von Mises
-stress over fixed 5 and 10 mm radius aluminium windows. See
-`fea/STRESS_MODES_AND_DESIGN.md` for convergence limitations and distinctions
-between original and selected geometry.
+The selected BREP and metadata are included. Large solver outputs and meshes
+are regenerated; full runs can require several GB. Fixed-bore, perfectly
+bonded, linear-elastic models quantify centrifugal loads and carrier modes.
+Regional stress convergence supports geometry comparison; local failure,
+retention, fatigue, shaft/bearings and containment require assembly analysis.
 
-Re-run the two paper scripts from the repository root after regeneration.
-Older helpers `reproduce_figures.py`, the `gravcomm-figures` entry point and
-`operating_envelope.py` are historical sensitivity/illustration workflows;
-their deployment classes or binary illustration are not the current paper's
-default rotor or seven-tone operating point.
+## Receiver and statistical scope
 
-## Interpretation limits
+The structural-damping receiver has a 3.1 g proof mass, 50.3 Hz resonance,
+Q=637000, temperature 300 K and assumed 100 fm/sqrt(Hz) displacement readout.
+Frequency-dependent noise is input-referred once. Initial phase, timing,
+frequency and tone history are acquired inputs. Physical oscillator startup,
+coherent technical interference and hardware synchronization are outside the
+stationary packet model. The calibrated-baseband model samples a finite band;
+sample-rate and whitening checks quantify numerical sensitivity.
 
-- Fixed bore, bonded inserts, linear elastic materials; no actual retention,
-  rotor-bearing, fatigue, gyroscopic or containment qualification.
-- Region-average stress convergence does not prove local peak convergence.
-- Signal power is A2 squared/2, not waveform peak squared/2; higher harmonics
-  are calculated separately and excluded from the decoded channel.
-- Noise is a one-sided frequency-dependent PSD. Resonance gain is not a second
-  reduction of input thermal noise, and the linewidth is not a hard band limit.
-- Receiver timing and carrier acquisition, calibration and startup rejection
-  are assumed. Environmental coherent coupling and hardware BER are untested.
+Standard Viterbi finds the best path for the finite-FIR squared-error metric.
+Residual whitening error remains in the simulated physical noise. Individual
+95% confidence sequences describe each run; the report makes no simultaneous
+coverage claim over the search grid. The best verified feasible point leaves
+the global maximum rate unresolved.
 
-## Versioned source
+## License, provenance and citation
 
-Repository: https://github.com/mandalsoumyajit/shaped-rotor-gravcomm
+Original code, documentation and generated data are released under the MIT
+License. Third-party software retains its own licenses and is not bundled.
+The manuscript, reference papers and private editorial files are excluded.
+Both authors developed the concept; SM performed the simulations and wrote
+the paper. No funding or conflicts of interest were reported.
 
-Paper reproduction version: `v0.2.0`. The release includes the source, documented
-assumptions and accepted numerical data. Cite this version rather than an
-unspecified moving branch. A DOI archive may be added for long-term preservation;
-no DOI has yet been assigned.
+`MANIFEST.sha256` records the exported files; regeneration can change hashes.
+The nested communications manifest records the checked computational inputs.
+`docs/model_notes.md` contains historical modeling notes. Cite version v0.3.0
+using `CITATION.cff` and the versioned GitHub release:
+https://github.com/mandalsoumyajit/shaped-rotor-gravcomm/releases/tag/v0.3.0

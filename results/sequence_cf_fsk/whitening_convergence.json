@@ -1,0 +1,22 @@
+{
+  "packets": 500,
+  "short_bit_errors": 0,
+  "long_bit_errors": 0,
+  "disagreeing_payload_symbols": 0,
+  "short_filter": {
+    "sample_rate_hz": 2,
+    "taps": 13,
+    "memory_s": 6.0,
+    "rms_psd_error": 0.01049984357275874,
+    "max_psd_error": 0.06672495794317612,
+    "central_max_psd_error": 0.01563555470485678
+  },
+  "long_filter": {
+    "sample_rate_hz": 2,
+    "taps": 17,
+    "memory_s": 8.0,
+    "rms_psd_error": 0.003699778050168211,
+    "max_psd_error": 0.04591534672616304,
+    "central_max_psd_error": 0.0040110650890552435
+  }
+}
