@@ -1,0 +1,43 @@
+{
+  "channels": {
+    "tb_2_3_f24_r0.6_q0.08_a0.8125": {
+      "packets": 10112,
+      "payload_bits": 2265088,
+      "errors": 835,
+      "ber": 0.0003686390992314647,
+      "confidence_interval": [
+        0.00020587725968925484,
+        0.0009932322917117556
+      ],
+      "alpha": 0.025,
+      "status": "pass",
+      "erasures": 80,
+      "packet_failures": 80,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.9920886075949367,
+      "max_block_s": 0.10935658309608698,
+      "max_latency_s": 224.01937302714214
+    },
+    "tb_2_3_f18_r0.6_q0.08_a0.9375": {
+      "packets": 2560,
+      "payload_bits": 573440,
+      "errors": 1106,
+      "ber": 0.0019287109375,
+      "confidence_interval": [
+        0.001078311440124064,
+        0.004440243356311513
+      ],
+      "alpha": 0.025,
+      "status": "fail",
+      "erasures": 82,
+      "packet_failures": 82,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.96796875,
+      "max_block_s": 0.08091386687010527,
+      "max_latency_s": 224.0186376720667
+    }
+  },
+  "workers_running": false,
+  "elapsed_this_run_s": 2014.2230789661407,
+  "packets_total": 12672
+}

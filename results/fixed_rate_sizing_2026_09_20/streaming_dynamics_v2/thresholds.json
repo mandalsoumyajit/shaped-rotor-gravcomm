@@ -1,0 +1,1550 @@
+[
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.3080357142857143,
+        "errors": 276,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.05357142857142857,
+        "errors": 48,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.2622767857142857,
+        "errors": 235,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.15736607142857142,
+        "errors": 141,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.013392857142857142,
+        "errors": 12,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.3392857142857143,
+        "errors": 304,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.04352678571428571,
+        "errors": 39,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.25111607142857145,
+        "errors": 225,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.15736607142857142,
+        "errors": 141,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.013392857142857142,
+        "errors": 12,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.18080357142857142,
+        "errors": 162,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.016741071428571428,
+        "errors": 15,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.28348214285714285,
+        "errors": 254,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.16071428571428573,
+        "errors": 144,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.013392857142857142,
+        "errors": 12,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.19308035714285715,
+        "errors": 173,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.027901785714285716,
+        "errors": 25,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.3549107142857143,
+        "errors": 318,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.234375,
+        "errors": 210,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.014508928571428572,
+        "errors": 13,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.08370535714285714,
+        "errors": 75,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.40513392857142855,
+        "errors": 363,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.24776785714285715,
+        "errors": 222,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.013392857142857142,
+        "errors": 12,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.5,
+        "ber": 0.37611607142857145,
+        "errors": 337,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.625,
+        "ber": 0.15959821428571427,
+        "errors": 143,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.625,
+    "empirical_upper_passing_amplitude": 0.75,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.5,
+        "ber": 0.35714285714285715,
+        "errors": 320,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.625,
+        "ber": 0.030133928571428572,
+        "errors": 27,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.625,
+    "empirical_upper_passing_amplitude": 0.75,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.4296875,
+        "errors": 385,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.19977678571428573,
+        "errors": 179,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.013392857142857142,
+        "errors": 12,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_2/3",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 0.5,
+        "ber": 0.4575892857142857,
+        "errors": 410,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.625,
+        "ber": 0.21428571428571427,
+        "errors": 192,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.625,
+    "empirical_upper_passing_amplitude": 0.75,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.12276785714285714,
+        "errors": 110,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.030133928571428572,
+        "errors": 27,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.125,
+    "empirical_upper_passing_amplitude": 1.25,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.421875,
+        "errors": 378,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.1171875,
+        "errors": 105,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.125,
+    "empirical_upper_passing_amplitude": 1.25,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.10267857142857142,
+        "errors": 92,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.04017857142857143,
+        "errors": 36,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.125,
+    "empirical_upper_passing_amplitude": 1.25,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.40625,
+        "errors": 364,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0703125,
+        "errors": 63,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.125,
+    "empirical_upper_passing_amplitude": 1.25,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.16852678571428573,
+        "errors": 151,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0390625,
+        "errors": 35,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.05133928571428571,
+        "errors": 46,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.36160714285714285,
+        "errors": 324,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.07142857142857142,
+        "errors": 64,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.04799107142857143,
+        "errors": 43,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.19866071428571427,
+        "errors": 178,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0390625,
+        "errors": 35,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.14285714285714285,
+        "errors": 128,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.046875,
+        "errors": 42,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.453125,
+        "errors": 406,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.16517857142857142,
+        "errors": 148,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.041294642857142856,
+        "errors": 37,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.13058035714285715,
+        "errors": 117,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.046875,
+        "errors": 42,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.4408482142857143,
+        "errors": 395,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.18080357142857142,
+        "errors": 162,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.041294642857142856,
+        "errors": 37,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.046875,
+        "errors": 42,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.5,
+        "ber": 0.35379464285714285,
+        "errors": 317,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.625,
+        "ber": 0.05133928571428571,
+        "errors": 46,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.625,
+    "empirical_upper_passing_amplitude": 0.75,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.43638392857142855,
+        "errors": 391,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.15736607142857142,
+        "errors": 141,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.041294642857142856,
+        "errors": 37,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "tb_3/4",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 0.5,
+        "ber": 0.45870535714285715,
+        "errors": 411,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.625,
+        "ber": 0.16964285714285715,
+        "errors": 152,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.625,
+    "empirical_upper_passing_amplitude": 0.75,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.012276785714285714,
+        "errors": 11,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": 1.125,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.05357142857142857,
+        "errors": 48,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.03236607142857143,
+        "errors": 29,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": 1.125,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.05580357142857143,
+        "errors": 50,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.036830357142857144,
+        "errors": 33,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0033482142857142855,
+        "errors": 3,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": 1.125,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0011160714285714285,
+        "errors": 1,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": 1.125,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.05580357142857143,
+        "errors": 50,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.029017857142857144,
+        "errors": 26,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.25,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.006696428571428571,
+        "errors": 6,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.125,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.25,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": 1.125,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.25,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.014508928571428572,
+        "errors": 13,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.075,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.060267857142857144,
+        "errors": 54,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.04352678571428571,
+        "errors": 39,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.4,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.008928571428571428,
+        "errors": 8,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.05580357142857143,
+        "errors": 50,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.04241071428571429,
+        "errors": 38,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.004464285714285714,
+        "errors": 4,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 1.0,
+    "empirical_upper_passing_amplitude": null,
+    "status": "above_grid"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.011160714285714286,
+        "errors": 10,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.0011160714285714285,
+        "errors": 1,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.75,
+    "empirical_upper_passing_amplitude": 0.875,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.07142857142857142,
+        "errors": 64,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.033482142857142856,
+        "errors": 30,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  },
+  {
+    "scheme": "uncoded",
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "points": [
+      {
+        "amplitude_scale": 0.75,
+        "ber": 0.011160714285714286,
+        "errors": 10,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 0.875,
+        "ber": 0.0033482142857142855,
+        "errors": 3,
+        "packets": 4
+      },
+      {
+        "amplitude_scale": 1.0,
+        "ber": 0.0,
+        "errors": 0,
+        "packets": 4
+      }
+    ],
+    "empirical_lower_failing_amplitude": 0.875,
+    "empirical_upper_passing_amplitude": 1.0,
+    "status": "bracketed_in_pilot"
+  }
+]

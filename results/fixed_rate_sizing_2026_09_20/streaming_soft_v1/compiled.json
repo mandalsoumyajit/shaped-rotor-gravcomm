@@ -1,0 +1,28 @@
+{
+  "status": "streaming_replay_feasible_approximation_checks_pass_on_diagnostics_not_BER_qualified",
+  "checks": {
+    "strong_history4_vs5": {
+      "max_abs_difference": 0.0007847305908939006,
+      "relative_l2": 9.359041719414491e-06,
+      "sign_changes": 0,
+      "finite_bits": 256
+    },
+    "weak_history4_vs5": {
+      "max_abs_difference": 0.019548132663132378,
+      "relative_l2": 0.0004033672730583356,
+      "sign_changes": 0,
+      "finite_bits": 256
+    },
+    "persistent_array_bytes_32": 41085904,
+    "persistent_array_bytes_128": 41085904
+  },
+  "source_sha256": {
+    "src/gravcomm/compact_innovations.py": "82b9ef13c17ac84135a12801a8d53a8d0dadee8a72223c1f5cfcf5c7580af73f",
+    "src/gravcomm/streaming_soft.py": "440218d0e565912a77fac267a8e7d999a808bc59dc869fe1d12d668b90c8148e",
+    "tests/test_streaming_soft.py": "4a72b2360660f028aece38edd8581758c39caf827731d52ff56a7c586acf4304",
+    "scripts/validate_streaming_soft.py": "7ed3a04a68bc269bec28b91bd65b949989816712544bbab809193ddd9cf9b392",
+    "scripts/check_streaming_reference.py": "e9244287a09b7732c25c9d98d4c6a1f2d1625e56a3dc93a7508744855fe9762d",
+    "scripts/check_streaming_independent.py": "f05cdc530cb6ebbe62b14f8a8083012a227d6e28f9bff4c6a5c0c9b1559a1aff",
+    "scripts/compile_streaming_soft.py": "9b497e865f1918cb7c15af0bb1b267f5458ce76f4b97eb313045e8ec24b4fc57"
+  }
+}

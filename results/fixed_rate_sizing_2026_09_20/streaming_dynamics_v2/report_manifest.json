@@ -1,0 +1,7 @@
+{
+  "scripts\\report_streaming_dynamics.py": "d1fbdbc13569a7bd51e9bae442b6d97ba3e3a8544798f4692de7f1f5233655f2",
+  "scripts\\compile_streaming_dynamics.py": "31b30e00e332e570a6645accc2e8dc66933a4c84d9f7167041703e08658ed4ac",
+  "scripts\\audit_rotor_orientation.py": "a45055997b094fbefdbaaf347c58afdbbe8f7ed1ee1055261acae4626bd72f74",
+  "tests\\test_streaming_dynamics.py": "93a884507679e0eee0c6e720f556c0a40f085a5b6f1402dc7ac91d1e6ac7b539",
+  "fea\\results\\shaped_waveforms\\medium_rounded.npz": "8ec19bf0075de6e0aa2a6b85b1d32f9b5961127f560f447fcba1e3cedcd0e072"
+}

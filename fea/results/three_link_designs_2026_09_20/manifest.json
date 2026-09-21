@@ -1,0 +1,413 @@
+{
+  "frozen": {
+    "selection": "Corrected user scope: qualified 0.5 m, 1 m, and smallest passing 2 m design",
+    "channels": [
+      {
+        "config": {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125
+        },
+        "distance_m": [
+          0.5
+        ],
+        "source_designs": [
+          {
+            "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+            "scheme": "tb_2/3",
+            "information_bits": 256,
+            "carrier_hz": 24.0,
+            "transition_fraction": 0.6,
+            "q": 0.08,
+            "amplitude_scale": 0.8125,
+            "distance_m": 0.5,
+            "amplitude_m_s2": 4.2089607795180265e-10,
+            "scale": 0.9611854132640992,
+            "diameter_m": 0.4805927066320496,
+            "mass_kg": 7.027334750750038,
+            "inertia_kg_m2": 0.2593109958282796,
+            "radial_gap_m": 0.24700364668397518,
+            "field_refinement_relative": 1.9128179040706073e-09,
+            "packets": 64,
+            "payload_bits": 224,
+            "symbol_s": 1.382716049382716,
+            "errors": 3,
+            "raw_coded_ber": 0.029296875,
+            "ber": 0.00020926339285714285,
+            "ber_ci": [
+              4.4684231747916366e-07,
+              0.08051987524085412
+            ],
+            "erasures": 2,
+            "wrong_accepted": 0,
+            "accepted_payload_rate_bps": 0.96875,
+            "latency_s": 224.01404977822676,
+            "max_block_s": 0.04386118892580271,
+            "stress_ratio": 0.3914255955265675,
+            "peak_torque_nm": 1.5978502164486474,
+            "rms_torque_nm": 0.747713786516066,
+            "peak_power_w": 120.49236454609739,
+            "gate": true,
+            "error_packet_convergence": true,
+            "ber_qualified95": false,
+            "ber_rejected95": false,
+            "screen_eligible": true
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125
+        },
+        "distance_m": [
+          1.0
+        ],
+        "source_designs": [
+          {
+            "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+            "scheme": "tb_2/3",
+            "information_bits": 256,
+            "carrier_hz": 24.0,
+            "transition_fraction": 0.6,
+            "q": 0.08,
+            "amplitude_scale": 0.8125,
+            "distance_m": 1.0,
+            "amplitude_m_s2": 4.208960787258846e-10,
+            "scale": 1.6825151825997688,
+            "diameter_m": 0.8412575912998844,
+            "mass_kg": 37.69173275922457,
+            "inertia_kg_m2": 4.2616721384923375,
+            "radial_gap_m": 0.5666712043500578,
+            "field_refinement_relative": 7.368960996956275e-11,
+            "packets": 64,
+            "payload_bits": 224,
+            "symbol_s": 1.382716049382716,
+            "errors": 3,
+            "raw_coded_ber": 0.029296875,
+            "ber": 0.00020926339285714285,
+            "ber_ci": [
+              4.4684231747916366e-07,
+              0.08051987524085412
+            ],
+            "erasures": 2,
+            "wrong_accepted": 0,
+            "accepted_payload_rate_bps": 0.96875,
+            "latency_s": 224.01404977822676,
+            "max_block_s": 0.04386118892580271,
+            "stress_ratio": 0.6851742631997808,
+            "peak_torque_nm": 26.260026988722583,
+            "rms_torque_nm": 12.288375976436768,
+            "peak_power_w": 1980.2436500888432,
+            "gate": true,
+            "error_packet_convergence": true,
+            "ber_qualified95": false,
+            "ber_rejected95": false,
+            "screen_eligible": true
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "tb_2_3_f18_r0.6_q0.08_a1",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 18.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 1.0
+        },
+        "seed_start": 3000000,
+        "distance_m": [
+          2.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 2.0,
+            "amplitude_scale": 1.0,
+            "amplitude_m_s2": 5.180259429886703e-10,
+            "scale": 3.0625736247174875,
+            "diameter_m": 1.5312868123587438,
+            "mass_kg": 227.3153385558173,
+            "inertia_kg_m2": 85.15649266353365,
+            "radial_gap_m": 1.2216565938206283,
+            "field_refinement_relative": 1.8675783142185765e-10,
+            "stress_ratio": 0.940921057379721,
+            "peak_torque_nm": 524.7263803828092,
+            "peak_power_w": 29680.142735904894
+          }
+        ]
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_alpha",
+      "input_sha256": "45bb20443e90d73438bec7c99869bc88b1b8f6d25b1d734897481b6f7e90d55d"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_gx",
+      "input_sha256": "754d820623714a3c296e75dd48e471e72547a958a8562016410df5d659ad432d"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_gy",
+      "input_sha256": "f1ce961327972e520bf4e1ad3ed42a73cf6f50a840da512bb025365b87b45026"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_gz",
+      "input_sha256": "b518b03fd43b88bcf59734339c840d0f6c45655a43e7001829eafaf835268bb4"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design1_low",
+      "input_sha256": "507615b541c085cc9204b1733f235250c695c83eb731e048a10aa8fb79f75625"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design1_center",
+      "input_sha256": "c790c20c2a8d817c7364872ddb002b45345aae5913a5a5e544d8459840543d64"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design1_high",
+      "input_sha256": "9954196b5172134a5b75f52b7033fbe111e92b389b9fdb42e9782302bb6c2c43"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design2_low",
+      "input_sha256": "fc3e7b70e7d67fb50de98352c7e1d0cb7bf00a8c51ff21fe76538de123b789b5"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design2_center",
+      "input_sha256": "fb032243780455f4c0128ecae7b2dd916a4d8476e4b1399e47d7d98156272e81"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design2_high",
+      "input_sha256": "67d73b1f3b4eb85df943574515f4dab371d435f522528007cd3de880b9bcb09c"
+    },
+    {
+      "name": "design3_low",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 526.9821428571429,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design3_low",
+      "input_sha256": "c0b56393db50c5e343e0f5b7e5259a6a223e4652639617366c27bfa58fd15d8e"
+    },
+    {
+      "name": "design3_center",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design3_center",
+      "input_sha256": "1188f4b009e8d1af38c0a10b3b35a6dd315d4fd345e0d8704d41c408d4c10221"
+    },
+    {
+      "name": "design3_high",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 553.0178571428571,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design3_high",
+      "input_sha256": "7b47c446a1d83f77411068974348051ffe648d3a755bec48ab4bb890490d4d89"
+    },
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_alpha",
+      "input_sha256": "e676588a9e335cd1f2e84248a3359fa1ab13a5fe72bc72da8eda89b3df461d4b"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_gx",
+      "input_sha256": "efd83c27ece07a3f115231ae50d101222110ddb6c3e7876b133c3aae433261a1"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_gy",
+      "input_sha256": "287584b4d801a9542b91bc7a4a31d7bac4c295a178b44599c8d32015f28ac90a"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_gz",
+      "input_sha256": "09d6830646707fc9a04363434258f7d82f9c554c7a5c8cc02f3327553855c57b"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design1_low",
+      "input_sha256": "035a7512b6efabedecfeb1b75c84494e9974030878e78dd2bac09e36bcf8a1f4"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design1_center",
+      "input_sha256": "2313cafcf141ae27b49981ace5a298cd3b5cbf65b5291c6e4331cd3a14561bb3"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design1_high",
+      "input_sha256": "640b2ebb27d870d176ee6a1fac21107e278478d51ab57d92737fd9ca2384ab03"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design2_low",
+      "input_sha256": "722d3c7561b81619435ccd10166b66ee0b35ac8163c56b4aa7dfa5ff0c3640d1"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design2_center",
+      "input_sha256": "5a33e77cd100808121a9f927a4d27cb266ae4272e6ad83688e4166ec011bf169"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design2_high",
+      "input_sha256": "623c5221fbdf369ba2e52b8e1c283f36d1ccdbec1885b772eaf3fa7d69e31165"
+    },
+    {
+      "name": "design3_low",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 526.9821428571429,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design3_low",
+      "input_sha256": "9ca3b24143aaee1cae3b07e96a538cbe333014afeb45eb8611392fcb8796afa3"
+    },
+    {
+      "name": "design3_center",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design3_center",
+      "input_sha256": "2231e3915f44525b508b2ed15d515ec666093f59d362de85dd8caa2f746dff38"
+    },
+    {
+      "name": "design3_high",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 553.0178571428571,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design3_high",
+      "input_sha256": "748cd4318cae739940edf0883fe249ee83a1ca5ee5924677921e312e7930b79a"
+    }
+  ],
+  "source_sha256": {
+    "fea/three_link_fea.py": "087a7d104746d18f6a8f16babc9e2ede1bac6cefab70f7a9d7e52d54e86a6774",
+    "fea/run_calculix.py": "0d8072aca2350c3eccd4439cdca0fb183a32f06ddecf18a8c0e8b0c64700b1d2",
+    "fea/postprocess_carrier.py": "590982a422db58124e7b25123c45ce11391d39f0142abb477dd8d4a61e363421",
+    "fea/results/three_link_designs_2026_09_20/frozen_designs.json": "7efff63f6da33b5d4256f69e17552590858e410c4b3be1259e7c88da419fe75e"
+  },
+  "assumptions": "linear elastic, fixed bore, bonded inserts; gravity/tangential static bases omit geometric stiffness; modal step includes centrifugal prestress only"
+}

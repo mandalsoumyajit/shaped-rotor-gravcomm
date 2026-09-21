@@ -1,0 +1,9 @@
+{
+  "updated_utc": "2026-09-20T20:45:46.554876+00:00",
+  "status": "fine_threshold_screen_complete",
+  "packets": 768,
+  "convergence_gates": 12,
+  "error_packet_checks": 6,
+  "workers_running": false,
+  "ber_qualified": false
+}

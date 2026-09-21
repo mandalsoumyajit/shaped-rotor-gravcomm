@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "executable": ".venv/bin/python",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "numba": "0.60.0",
+  "logical_cpus": 96,
+  "worker_count": 64,
+  "blas_thread_settings": "streaming_dynamics_runtime sets OPENBLAS_NUM_THREADS, MKL_NUM_THREADS, OMP_NUM_THREADS to 1; live ps inspection showed one thread per active worker"
+}

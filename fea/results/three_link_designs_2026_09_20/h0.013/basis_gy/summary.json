@@ -1,0 +1,13 @@
+{
+  "name": "basis_gy",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gy",
+  "mesh": 0.013,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_gy",
+  "input_sha256": "287584b4d801a9542b91bc7a4a31d7bac4c295a178b44599c8d32015f28ac90a",
+  "frequencies_hz": [],
+  "max_u_m": 2.444081149011643e-07,
+  "raw_max_vm_pa": 63908.282964998354,
+  "elapsed_s": 43.45908331871033
+}

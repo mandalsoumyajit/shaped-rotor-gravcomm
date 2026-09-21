@@ -1,0 +1,59 @@
+{
+  "all_26_cases_complete": true,
+  "equilibrium_checks": [
+    {
+      "mesh": 0.018,
+      "basis": "alpha",
+      "force_relative_error": 5.247648999303895e-06,
+      "torque_relative_error": 1.0777174286324964e-07
+    },
+    {
+      "mesh": 0.018,
+      "basis": "gx",
+      "force_relative_error": 0.00013612744556693753,
+      "torque_relative_error": null
+    },
+    {
+      "mesh": 0.018,
+      "basis": "gy",
+      "force_relative_error": 0.00013613267063642952,
+      "torque_relative_error": null
+    },
+    {
+      "mesh": 0.018,
+      "basis": "gz",
+      "force_relative_error": 0.00013614122456531445,
+      "torque_relative_error": null
+    },
+    {
+      "mesh": 0.013,
+      "basis": "alpha",
+      "force_relative_error": 6.33537732807727e-06,
+      "torque_relative_error": 1.0547871509558604e-07
+    },
+    {
+      "mesh": 0.013,
+      "basis": "gx",
+      "force_relative_error": 0.00012316741719458208,
+      "torque_relative_error": null
+    },
+    {
+      "mesh": 0.013,
+      "basis": "gy",
+      "force_relative_error": 0.0001231709770531859,
+      "torque_relative_error": null
+    },
+    {
+      "mesh": 0.013,
+      "basis": "gz",
+      "force_relative_error": 0.00012315913368679998,
+      "torque_relative_error": null
+    }
+  ],
+  "postprocess_source_sha256": {
+    "report_three_link_fea.py": "b1fb1d3dac9fe9f47e9219cc27cb2030405d574cc1eea453149462c3c254ce2a",
+    "compile_three_link_fea.py": "7158f215d4057781acd970a131881a3f5e7528397d43c363bb0c4de7bde52961",
+    "three_link_modal_response.py": "f6ed4ce8e1ab0fbe45c90853fbf65809db6806a8a7e6c5b103cc515de832e5c9",
+    "assembly_screen.py": "5b95257e072f35df0214ecbd5d14251b32b8f5cb7f0503ab3813f49bd536f335"
+  }
+}

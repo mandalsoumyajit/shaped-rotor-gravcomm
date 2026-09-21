@@ -1,0 +1,13 @@
+{
+  "name": "basis_gz",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gz",
+  "mesh": 0.013,
+  "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gz",
+  "input_sha256": "94eff482e0cc40b395c1e727921ed6bf24af2a17a5906b6c16de9f6d6cae0bd9",
+  "frequencies_hz": [],
+  "max_u_m": 4.210968910108369e-06,
+  "raw_max_vm_pa": 340840.89600140875,
+  "elapsed_s": 22.854308605194092
+}

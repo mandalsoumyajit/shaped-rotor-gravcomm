@@ -1,0 +1,13 @@
+# BER qualification protocol, frozen before trials
+
+Qualify the chosen minimum-mass designs: rate-2/3 convolutional coding, 256 information bits/224 payload bits, r=.6 and q=.08. Carrier/amplitude pairs: 24 Hz / .8125 of reference for 0.5 and 1 m; 18 Hz / .9375 for 2 m. frozen_designs.json retains all dimensions, field maps and source-selection hash. Do not change amplitudes, codes or receiver to make these designs pass.
+
+The 0.5/1 m sources were sized for the same received acceleration. They therefore share one normalized channel under the fixed receiver and background model. Qualify two unique channel conditions; map the first result to both distances. This equivalence is conditional on the modeled harmonic field and assumes achieved rotor motion, acquired timing/phase and calibrated input. It is not physical hardware/site qualification.
+
+New independent packet index ranges start at 1000000 and 2000000, disjoint from every screening trial and from each other. Use the unchanged streaming_dynamics_runtime.run implementation. One bounded packet-error fraction in [0,1] per independent packet; all tentative payload errors count, including CRC-rejected frames. No independent-bit assumption and no old samples pooled.
+
+Use the existing two-sided time-uniform confidence sequence, with alpha=.025 per unique channel (Bonferroni across two channels gives at least 95% simultaneous coverage). At deterministic prefixes of 128 packets, pass only when the upper bound <=1e-3; fail only when the lower bound >1e-3. Continue until every frozen channel has a statistical pass/fail conclusion; no predetermined small-packet success criterion. Complete each prefix before testing to avoid completion-time-dependent sampling. Save every record and hash. Receiver quality failures invalidate rather than pass a result.
+
+Report erasures, packet failures, wrong accepted packets and empirical accepted throughput separately. This qualifies post-decode BER only; accepted 1 bit/s goodput and <300 s latency are separate requirements and cannot be inferred from BER alone. Prior runtime tests establish streaming feasibility; timings under 40-worker workstation load are not real-time worst-case bounds. Initial and error-containing packet convergence checks are available from the preceding studies; independently recheck qualification error records if numerical uncertainty arises.
+
+Use CPU workers on the authorized exxact host (96 logical CPUs, low initial load). Start with 40 workers and single-thread BLAS. No GPU services are modified. No automation or external notifications are created. Update tracker and compile a final pass/fail report, including confidence levels and model limitations.

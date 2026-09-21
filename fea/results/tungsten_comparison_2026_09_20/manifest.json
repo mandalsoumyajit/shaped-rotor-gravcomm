@@ -1,0 +1,415 @@
+{
+  "frozen": {
+    "selection": "Corrected user scope: qualified 0.5 m, 1 m, and smallest passing 2 m design",
+    "channels": [
+      {
+        "config": {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125
+        },
+        "distance_m": [
+          0.5
+        ],
+        "source_designs": [
+          {
+            "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+            "scheme": "tb_2/3",
+            "information_bits": 256,
+            "carrier_hz": 24.0,
+            "transition_fraction": 0.6,
+            "q": 0.08,
+            "amplitude_scale": 0.8125,
+            "distance_m": 0.5,
+            "amplitude_m_s2": 4.2089607795180265e-10,
+            "scale": 0.9611854132640992,
+            "diameter_m": 0.4805927066320496,
+            "mass_kg": 7.027334750750038,
+            "inertia_kg_m2": 0.2593109958282796,
+            "radial_gap_m": 0.24700364668397518,
+            "field_refinement_relative": 1.9128179040706073e-09,
+            "packets": 64,
+            "payload_bits": 224,
+            "symbol_s": 1.382716049382716,
+            "errors": 3,
+            "raw_coded_ber": 0.029296875,
+            "ber": 0.00020926339285714285,
+            "ber_ci": [
+              4.4684231747916366e-07,
+              0.08051987524085412
+            ],
+            "erasures": 2,
+            "wrong_accepted": 0,
+            "accepted_payload_rate_bps": 0.96875,
+            "latency_s": 224.01404977822676,
+            "max_block_s": 0.04386118892580271,
+            "stress_ratio": 0.3914255955265675,
+            "peak_torque_nm": 1.5978502164486474,
+            "rms_torque_nm": 0.747713786516066,
+            "peak_power_w": 120.49236454609739,
+            "gate": true,
+            "error_packet_convergence": true,
+            "ber_qualified95": false,
+            "ber_rejected95": false,
+            "screen_eligible": true
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125
+        },
+        "distance_m": [
+          1.0
+        ],
+        "source_designs": [
+          {
+            "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+            "scheme": "tb_2/3",
+            "information_bits": 256,
+            "carrier_hz": 24.0,
+            "transition_fraction": 0.6,
+            "q": 0.08,
+            "amplitude_scale": 0.8125,
+            "distance_m": 1.0,
+            "amplitude_m_s2": 4.208960787258846e-10,
+            "scale": 1.6825151825997688,
+            "diameter_m": 0.8412575912998844,
+            "mass_kg": 37.69173275922457,
+            "inertia_kg_m2": 4.2616721384923375,
+            "radial_gap_m": 0.5666712043500578,
+            "field_refinement_relative": 7.368960996956275e-11,
+            "packets": 64,
+            "payload_bits": 224,
+            "symbol_s": 1.382716049382716,
+            "errors": 3,
+            "raw_coded_ber": 0.029296875,
+            "ber": 0.00020926339285714285,
+            "ber_ci": [
+              4.4684231747916366e-07,
+              0.08051987524085412
+            ],
+            "erasures": 2,
+            "wrong_accepted": 0,
+            "accepted_payload_rate_bps": 0.96875,
+            "latency_s": 224.01404977822676,
+            "max_block_s": 0.04386118892580271,
+            "stress_ratio": 0.6851742631997808,
+            "peak_torque_nm": 26.260026988722583,
+            "rms_torque_nm": 12.288375976436768,
+            "peak_power_w": 1980.2436500888432,
+            "gate": true,
+            "error_packet_convergence": true,
+            "ber_qualified95": false,
+            "ber_rejected95": false,
+            "screen_eligible": true
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "tb_2_3_f18_r0.6_q0.08_a1",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 18.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 1.0
+        },
+        "seed_start": 3000000,
+        "distance_m": [
+          2.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 2.0,
+            "amplitude_scale": 1.0,
+            "amplitude_m_s2": 5.180259429886703e-10,
+            "scale": 3.0625736247174875,
+            "diameter_m": 1.5312868123587438,
+            "mass_kg": 227.3153385558173,
+            "inertia_kg_m2": 85.15649266353365,
+            "radial_gap_m": 1.2216565938206283,
+            "field_refinement_relative": 1.8675783142185765e-10,
+            "stress_ratio": 0.940921057379721,
+            "peak_torque_nm": 524.7263803828092,
+            "peak_power_w": 29680.142735904894
+          }
+        ]
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/basis_alpha",
+      "input_sha256": "ab0755b1f14cc3618ea8d2b2e0797309bf57cb3cdb6ac80785236d0765c5e299"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/basis_gx",
+      "input_sha256": "5c86d848aaae5569747697de7313daedc6321e97c02d73c9e0e1bd74a5f07cf3"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/basis_gy",
+      "input_sha256": "60f77bb37271d3cbfb76f7d9eaee48c2b99923f4ffc0d31a9655ba4a6c5759c6"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/basis_gz",
+      "input_sha256": "fc9b535e239c40c6e2fb2bf3dbece0c60d197c2bdc193e5c48bf328ca02a6caa"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design1_low",
+      "input_sha256": "f92f60bfb330a9667403d5963fd6314b5858c994dabbc0e2257ffbb37af88886"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design1_center",
+      "input_sha256": "57eedeadb129fbdf9da6052a1c5c93799ce1e5609c6745bd899330bd70ccc361"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design1_high",
+      "input_sha256": "9348f1f8ad59094dd78abe3397763e6be6d3c2830a5694c27f7fb028dc7d6ab9"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design2_low",
+      "input_sha256": "891c3efef6985655c8b3606c1fdf41bea489a6cff682ba1ad964481721576ab2"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design2_center",
+      "input_sha256": "30f50524882079d495a59490fdc869fc56c3b8d3d94e72aacd2fdaa16e091f25"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design2_high",
+      "input_sha256": "765ff15e2c251fbfca0b31192311289be79fc7ac83d03daf8b00237675973ed8"
+    },
+    {
+      "name": "design3_low",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 526.9821428571429,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design3_low",
+      "input_sha256": "17dc298e58337af36ad0d7dd727fb617110632aea75d889fe7388345d1fb4b19"
+    },
+    {
+      "name": "design3_center",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design3_center",
+      "input_sha256": "68f10ef1ab51376051a1e7cb75144bd0743d81ae4f361ffc17ce97cd1f06d245"
+    },
+    {
+      "name": "design3_high",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 553.0178571428571,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design3_high",
+      "input_sha256": "4c1ee806ce0319da8104ec177ebb2b09fbef5fb9b9bd1f86282055054caa8a83"
+    },
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_alpha",
+      "input_sha256": "bff90e01c1468df9aeae8cae4474ed7842ced10334d012a004529131e1aa4e81"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gx",
+      "input_sha256": "545cffd2b9c61ece8d68d3ea68f364b7cf5bcf94a6a16b713142f8b55d903f97"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gy",
+      "input_sha256": "46892219aaae590923ccd5f4c6c3e2ebd75b6d30723a4c4345c048b433d2ea0e"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gz",
+      "input_sha256": "94eff482e0cc40b395c1e727921ed6bf24af2a17a5906b6c16de9f6d6cae0bd9"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design1_low",
+      "input_sha256": "dce7ea1679b9c9dfafcc32b00cd562664c1e96abcf3b48a4c411ee861311b6a9"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design1_center",
+      "input_sha256": "ee3ed704e8c5ae025127fcf655826b25f16e201ab13e2b8e3519f6620b73441e"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9611854132640992,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design1_high",
+      "input_sha256": "a5270826e4de9b9a5c3c407928bfc3982c1fb6fc88ed92f3f574be2e7b801ee1"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 706.9821428571429,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design2_low",
+      "input_sha256": "d3e1ef60095c845c443565ab597efd60e5d51ddfdece501bd253b482e4164941"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design2_center",
+      "input_sha256": "117f5c5b937efea326327be961ddcc948e1c204ebd2ec36c0b21a76df8e274eb"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.6825151825997688,
+      "kind": "centrifugal",
+      "rpm": 733.0178571428571,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design2_high",
+      "input_sha256": "17272f1eae3eaa1dcf274e03d4c0137f71e677f1c0c47630a383c3c7507ab772"
+    },
+    {
+      "name": "design3_low",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 526.9821428571429,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design3_low",
+      "input_sha256": "b6df01b545a01e82c354ff7a82553642ade421668cca5dc66507442543053ed5"
+    },
+    {
+      "name": "design3_center",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design3_center",
+      "input_sha256": "91434a21c30496c242f5b962975a1c5ee8820740e0f6dce54da4d61de1103fb9"
+    },
+    {
+      "name": "design3_high",
+      "scale": 3.0625736247174875,
+      "kind": "centrifugal",
+      "rpm": 553.0178571428571,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/design3_high",
+      "input_sha256": "55ed50961be0cf8ab01269e67467ee7697fc7210118bfec517bdbbcf285e0014"
+    }
+  ],
+  "source_sha256": {
+    "fea/tungsten_link_fea.py": "196b1a573a23b7037d88b644b278ef53630dfbb83c3b5431768146b4508f530e",
+    "fea/run_calculix.py": "0d8072aca2350c3eccd4439cdca0fb183a32f06ddecf18a8c0e8b0c64700b1d2",
+    "fea/postprocess_carrier.py": "590982a422db58124e7b25123c45ce11391d39f0142abb477dd8d4a61e363421",
+    "fea/design_sweep.py": "c952bc6aa3c89e6a275ec90b47d933761a1eab7f61bf3b753039b2d557111f2e",
+    "fea/shaped_rotor.py": "19daa7d9e8a5fce731447909eeb1a929ffe2679a12bdac9dcfcf8cb0fa579536",
+    "fea/results/tungsten_comparison_2026_09_20/frozen_designs.json": "7efff63f6da33b5d4256f69e17552590858e410c4b3be1259e7c88da419fe75e"
+  },
+  "assumptions": "linear elastic, fixed bore, bonded inserts; gravity/tangential static bases omit geometric stiffness; modal step includes centrifugal prestress only"
+}

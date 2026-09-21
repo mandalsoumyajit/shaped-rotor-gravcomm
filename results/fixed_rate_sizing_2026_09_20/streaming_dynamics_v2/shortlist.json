@@ -1,0 +1,110 @@
+[
+  {
+    "id": "uncoded_f24_r0.5_q0.1_a0.875",
+    "scheme": "uncoded",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.5,
+    "q": 0.1,
+    "amplitude_scale": 0.875
+  },
+  {
+    "id": "uncoded_f24_r0.6_q0.05_a1",
+    "scheme": "uncoded",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.05,
+    "amplitude_scale": 1.0
+  },
+  {
+    "id": "tb_3_4_f24_r0.6_q0.08_a0.75",
+    "scheme": "tb_3/4",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 0.75
+  },
+  {
+    "id": "tb_2_3_f24_r0.6_q0.08_a0.75",
+    "scheme": "tb_2/3",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 0.75
+  },
+  {
+    "id": "uncoded_f18_r0.6_q0.08_a1.125",
+    "scheme": "uncoded",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 1.125
+  },
+  {
+    "id": "tb_3_4_f18_r0.5_q0.125_a0.875",
+    "scheme": "tb_3/4",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "amplitude_scale": 0.875
+  },
+  {
+    "id": "tb_3_4_f18_r0.5_q0.0625_a1.25",
+    "scheme": "tb_3/4",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.0625,
+    "amplitude_scale": 1.25
+  },
+  {
+    "id": "tb_2_3_f18_r0.6_q0.08_a0.875",
+    "scheme": "tb_2/3",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 0.875
+  },
+  {
+    "id": "tb_3_4_f24_r0.6_q0.08_a0.875",
+    "scheme": "tb_3/4",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 0.875
+  },
+  {
+    "id": "tb_2_3_f24_r0.6_q0.08_a0.875",
+    "scheme": "tb_2/3",
+    "information_bits": 256,
+    "carrier_hz": 24.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 0.875
+  },
+  {
+    "id": "tb_3_4_f18_r0.5_q0.125_a1",
+    "scheme": "tb_3/4",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.5,
+    "q": 0.125,
+    "amplitude_scale": 1.0
+  },
+  {
+    "id": "tb_2_3_f18_r0.6_q0.08_a1",
+    "scheme": "tb_2/3",
+    "information_bits": 256,
+    "carrier_hz": 18.0,
+    "transition_fraction": 0.6,
+    "q": 0.08,
+    "amplitude_scale": 1.0
+  }
+]

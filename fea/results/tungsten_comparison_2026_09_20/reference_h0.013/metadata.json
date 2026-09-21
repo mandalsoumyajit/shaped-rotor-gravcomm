@@ -1,0 +1,36 @@
+{
+  "spec": {
+    "shape": "cylinder",
+    "radius": 0.035,
+    "center": 0.2,
+    "spoke": 0.03,
+    "rim": 0.02,
+    "fillet": 0.003,
+    "faceted_geometry": true,
+    "insert_size": 0.03455763666161622,
+    "aluminum_mass_kg": 3.125748121564931,
+    "aluminum_polar_inertia_kg_m2": 0.12162835094375493,
+    "steel_mass_kg": 4.787761370054745,
+    "steel_polar_inertia_kg_m2": 0.1944429586413484,
+    "quadrupole_x2_minus_y2_kg_m2": 0.1921056617196323,
+    "insert_radius_m": 0.035,
+    "insert_height_m": 0.07924044075275058,
+    "outer_extent_m": 0.25
+  },
+  "cad": {
+    "aluminum_mass_kg": 3.125748121564931,
+    "aluminum_polar_inertia_kg_m2": 0.12162835094375493,
+    "quadrupole_x2_minus_y2_kg_m2": 0.19210566171963228,
+    "insert_radius_m": 0.035,
+    "insert_height_m": 0.03455763666161622,
+    "outer_extent_m": 0.25,
+    "tungsten_mass_kg": 4.787761370054745,
+    "tungsten_polar_inertia_kg_m2": 0.19444295864134836
+  },
+  "insert_material": {
+    "density_kg_m3": 18000,
+    "E_pa": 330000000000.0,
+    "poisson_ratio": 0.28,
+    "poisson_ratio_status": "assumed"
+  }
+}

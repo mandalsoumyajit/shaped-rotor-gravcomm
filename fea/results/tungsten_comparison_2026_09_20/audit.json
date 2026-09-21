@@ -1,0 +1,71 @@
+{
+  "solver_cases": 26,
+  "checks": [
+    {
+      "mesh": 0.018,
+      "similarity_relative_error": 9.054130445385056e-08,
+      "equilibrium": [
+        {
+          "mesh": 0.018,
+          "basis": "alpha",
+          "force_relative_error": 9.269637683704154e-07,
+          "torque_relative_error": 1.1699219970573438e-07
+        },
+        {
+          "mesh": 0.018,
+          "basis": "gx",
+          "force_relative_error": 0.00013601435845681791,
+          "torque_relative_error": null
+        },
+        {
+          "mesh": 0.018,
+          "basis": "gy",
+          "force_relative_error": 0.00013601535650812103,
+          "torque_relative_error": null
+        },
+        {
+          "mesh": 0.018,
+          "basis": "gz",
+          "force_relative_error": 0.00013601105612266656,
+          "torque_relative_error": null
+        }
+      ]
+    },
+    {
+      "mesh": 0.013,
+      "similarity_relative_error": 2.47476330761387e-07,
+      "equilibrium": [
+        {
+          "mesh": 0.013,
+          "basis": "alpha",
+          "force_relative_error": 5.866700728528578e-07,
+          "torque_relative_error": 9.706547010601696e-08
+        },
+        {
+          "mesh": 0.013,
+          "basis": "gx",
+          "force_relative_error": 0.00012290888624661494,
+          "torque_relative_error": null
+        },
+        {
+          "mesh": 0.013,
+          "basis": "gy",
+          "force_relative_error": 0.00012290329437313787,
+          "torque_relative_error": null
+        },
+        {
+          "mesh": 0.013,
+          "basis": "gz",
+          "force_relative_error": 0.00012289565791406346,
+          "torque_relative_error": null
+        }
+      ]
+    }
+  ],
+  "postprocess_sha256": {
+    "compile_tungsten_link_fea.py": "3cbf5c488617c578c601ce90815c75e2b069e3d68279158331d35d03ad4ac974",
+    "tungsten_modal_response.py": "6000169b00aaab4a41ce3d4e31d33bdac28de19b745045696846cba0a069e24f",
+    "tungsten_field_comparison.py": "43c519ed216151d9d4cd21ba93628e19dcf4cb3a4d4d0f0ac6a7ae3e640ba00a",
+    "report_tungsten_comparison.py": "d9d0c85b81570dd8980c94977b4a614676233215594f3ffa88dd278488b96f1f"
+  }
+}

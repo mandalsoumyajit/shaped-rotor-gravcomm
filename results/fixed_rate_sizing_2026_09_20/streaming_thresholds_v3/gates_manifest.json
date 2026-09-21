@@ -1,0 +1,190 @@
+{
+  "jobs": [
+    [
+      {
+        "id": "tb_3_4_f24_r0.6_q0.08_a0.8125",
+        "scheme": "tb_3/4",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_3_4_f24_r0.6_q0.08_a0.875",
+        "scheme": "tb_3/4",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.875
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_2_3_f24_r0.6_q0.08_a0.875",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.875
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_3_4_f18_r0.5_q0.125_a0.8125",
+        "scheme": "tb_3/4",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.5,
+        "q": 0.125,
+        "amplitude_scale": 0.8125
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_3_4_f18_r0.5_q0.125_a0.875",
+        "scheme": "tb_3/4",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.5,
+        "q": 0.125,
+        "amplitude_scale": 0.875
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_2_3_f18_r0.6_q0.08_a0.9375",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.9375
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "tb_2_3_f18_r0.6_q0.08_a1",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "uncoded_f24_r0.5_q0.1_a0.875",
+        "scheme": "uncoded",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.5,
+        "q": 0.1,
+        "amplitude_scale": 0.875
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "uncoded_f24_r0.5_q0.1_a0.9375",
+        "scheme": "uncoded",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.5,
+        "q": 0.1,
+        "amplitude_scale": 0.9375
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "uncoded_f18_r0.6_q0.08_a1.125",
+        "scheme": "uncoded",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.125
+      },
+      50000,
+      true
+    ],
+    [
+      {
+        "id": "uncoded_f18_r0.6_q0.08_a1.1875",
+        "scheme": "uncoded",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.1875
+      },
+      50000,
+      true
+    ]
+  ],
+  "sha256": {
+    "scripts/streaming_thresholds.py": "12ee7b891a58bb4fd22de50e44ee1976b72060b1642798785f6689510e6fdc14",
+    "scripts/streaming_dynamics_runtime.py": "638a3dd0a9951ec446d1e509e24468952176eb8a7bd9b144f5c8a46663924425",
+    "scripts/streaming_dynamics_search.py": "fad7c6fb11e6cc8359e00c4f00c3024a78d08234e24993585ca2d2b1a1dcb28d",
+    "src/gravcomm/actuator.py": "183b057b9f62104b679c46bcec6c42a9dca0de7d24a7e0eed68a652e57022e22",
+    "src/gravcomm/beam_sequence.py": "9148f62a1ddeef4f5fbc9326cef263e99b8e855a693a9ecda0a684df48941a7a",
+    "src/gravcomm/causal_receiver.py": "65294595c22ab7fd145a7305fb9c9843ec2fead8f11979a0c206f0c81e7e641e",
+    "src/gravcomm/causal_sequence.py": "ab6e0158402d3060d1d78c042e141469a6e9983447844eb75234372709c8e3a9",
+    "src/gravcomm/coded_sequence.py": "415118f5e497528e46634d97a5d2a5419eb1135496517a4d2bdd99ecf3aeafd0",
+    "src/gravcomm/compact_innovations.py": "82b9ef13c17ac84135a12801a8d53a8d0dadee8a72223c1f5cfcf5c7580af73f",
+    "src/gravcomm/constants.py": "d37df7b57448dec90d5fdd59d8a5ab5b810ac3305049ec020dbf8615f9260077",
+    "src/gravcomm/convolutional_candidates.py": "649c65400b5f31a6a15a8b947253bdba978a2772517833e39176bb2d0bd160b0",
+    "src/gravcomm/designs.py": "619eeebd152ffb56858322dc2a5b02147b3d5ca8e8237203d9454d90766c7cb0",
+    "src/gravcomm/environmental_noise.py": "2cde655176cfed0dc7ba27679e697844a7c7fdbcfffc0f09fcbd28c139c9d333",
+    "src/gravcomm/figures.py": "438893f16482c91a23cd9dbc5f18f4bca732990822d2dc18f86ad7cf84adef28",
+    "src/gravcomm/finite_rotor.py": "ef8543d0865528840fe6d9e3458d68188079fd891e1b5566429f4ffd9b6634f3",
+    "src/gravcomm/geophone.py": "d59a33ee205dae071c0c2364f0bd6b557e9e1fa8d07c7cc40d42fb07c4b5b8a9",
+    "src/gravcomm/link_budget.py": "6a720b559e25e737fa6d39aef675f831442ddb0f5607188408556cd8184be3db",
+    "src/gravcomm/mechanics.py": "f6d6edcafd97acc522dfde3065c4cb9a1bd072f9f486b89e414a9beadd6c978e",
+    "src/gravcomm/noise.py": "1e7d383615b89d3d76f214595a9327ad5fe0acb134d1f5fc33dd519af1ddda8c",
+    "src/gravcomm/packet_confidence.py": "ed82879bb19f57da22ba20e03d814e7c6b0fb08ccaa7610183024c885e5d9eea",
+    "src/gravcomm/plotting.py": "2d9679f71763f608883b1814c8befe6b1cefab4f28a91f8a451f68cd969a3cac",
+    "src/gravcomm/receivers.py": "175b6026527a259a9d5e3d76671dc29c2c408bf49ad3bb4265b1f87e1a1269b7",
+    "src/gravcomm/rotor.py": "bf5294690bfeae589b60a057a21e6da1a7991ffc4e4b983c083325c9b71ebad6",
+    "src/gravcomm/sequence_decoder.py": "1219303138d2b58c70ca7453fb63473c6c29347e4a1c24c44100fcf79ce4e9d2",
+    "src/gravcomm/streaming_soft.py": "440218d0e565912a77fac267a8e7d999a808bc59dc869fe1d12d668b90c8148e",
+    "src/gravcomm/torsion.py": "e426365085d93ce9358c75d5420038f09dec8051c22ae61978437b3ab058b78a",
+    "src/gravcomm/whitened_viterbi.py": "53cb7c60b139864966f39f43ead62f020492fd6aa4d85562325e59990d646b5e",
+    "src/gravcomm/__init__.py": "93c9570f74891801f1e1526d33dfe2548830a6c3272bbcd5f60807fc5e579215"
+  }
+}

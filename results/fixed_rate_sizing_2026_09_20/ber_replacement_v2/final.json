@@ -1,0 +1,61 @@
+{
+  "channels": {
+    "tb_2_3_f18_r0.6_q0.08_a1": {
+      "packets": 10624,
+      "payload_bits": 2379776,
+      "errors": 833,
+      "ber": 0.00035003294427710845,
+      "confidence_interval": [
+        0.00016835117062509138,
+        0.0009929838344430804
+      ],
+      "alpha": 0.016666666666666666,
+      "status": "pass",
+      "erasures": 58,
+      "packet_failures": 58,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.9945406626506024,
+      "max_block_s": 0.3286558697000146,
+      "max_latency_s": 224.0379907321185
+    },
+    "tb_2_3_f18_r0.6_q0.08_a1.0625": {
+      "packets": 7040,
+      "payload_bits": 1576960,
+      "errors": 92,
+      "ber": 5.83400974025974e-05,
+      "confidence_interval": [
+        6.5023933645417985e-06,
+        0.0009963404739592792
+      ],
+      "alpha": 0.016666666666666666,
+      "status": "pass",
+      "erasures": 9,
+      "packet_failures": 9,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.998721590909091,
+      "max_block_s": 0.30245225224643946,
+      "max_latency_s": 224.0416816645302
+    },
+    "tb_2_3_f18_r0.6_q0.08_a1.125": {
+      "packets": 6656,
+      "payload_bits": 1490944,
+      "errors": 10,
+      "ber": 6.707160027472527e-06,
+      "confidence_interval": [
+        4.774164840618577e-11,
+        0.0009965264351616406
+      ],
+      "alpha": 0.016666666666666666,
+      "status": "pass",
+      "erasures": 1,
+      "packet_failures": 1,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.9998497596153846,
+      "max_block_s": 0.30513217812404037,
+      "max_latency_s": 224.04118642536923
+    }
+  },
+  "workers_running": false,
+  "elapsed_this_run_s": 3533.698545217514,
+  "packets_total": 24320
+}

@@ -1,0 +1,13 @@
+{
+  "name": "basis_gy",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gy",
+  "mesh": 0.013,
+  "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gy",
+  "input_sha256": "46892219aaae590923ccd5f4c6c3e2ebd75b6d30723a4c4345c048b433d2ea0e",
+  "frequencies_hz": [],
+  "max_u_m": 2.4390303441509824e-07,
+  "raw_max_vm_pa": 63822.84952810922,
+  "elapsed_s": 22.350321292877197
+}

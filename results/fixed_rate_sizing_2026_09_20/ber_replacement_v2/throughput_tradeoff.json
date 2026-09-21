@@ -1,0 +1,29 @@
+[
+  {
+    "mass_kg": 227.3153385558173,
+    "diameter_m": 1.5312868123587438,
+    "rejection_percent": 0.545933734939763,
+    "accepted_bps": 0.9945406626506024,
+    "estimated_rate_increase_percent": 0.5489305318947535,
+    "estimated_torque_increase_percent": 1.1008743110779706,
+    "centrifugal_stress_factor_vs_desktop_1800rpm": 0.8853324362205722
+  },
+  {
+    "mass_kg": 235.50077200370995,
+    "diameter_m": 1.5494506202723277,
+    "rejection_percent": 0.12784090909090384,
+    "accepted_bps": 0.998721590909091,
+    "estimated_rate_increase_percent": 0.1280045512729311,
+    "estimated_torque_increase_percent": 0.2561729541973312,
+    "centrifugal_stress_factor_vs_desktop_1800rpm": 0.9064602654166678
+  },
+  {
+    "mass_kg": 243.4822427497433,
+    "diameter_m": 1.5667609054282938,
+    "rejection_percent": 0.015024038461541878,
+    "accepted_bps": 0.9998497596153846,
+    "estimated_rate_increase_percent": 0.015026296018039176,
+    "estimated_torque_increase_percent": 0.030054849931793193,
+    "centrifugal_stress_factor_vs_desktop_1800rpm": 0.9268271425251823
+  }
+]

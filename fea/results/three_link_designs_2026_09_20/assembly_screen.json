@@ -1,0 +1,131 @@
+[
+  {
+    "distance_m": 0.5,
+    "carrier_hz": 24.0,
+    "shaft_diameter_mm": 20.0,
+    "bearing_span_mm": 120.0,
+    "drive_torsion_length_mm": 50.0,
+    "flange_thickness_mm": 5.0,
+    "flange_od_mm": 57.67112479584595,
+    "pilot_diameter_mm": 11.53422495916919,
+    "flange_bolt_circle_mm": 38.44741653056397,
+    "flange_bolt_count": 6,
+    "flange_bolt_nominal_mm": 4,
+    "bolt_shear_load_from_torque_n": 13.853121662747078,
+    "bare_rotor_mass_kg": 7.027334750750038,
+    "illustrative_central_assembly_mass_kg": 0.49279355589017737,
+    "central_added_polar_inertia_kg_m2": 9.991223598615163e-05,
+    "central_inertia_increase_percent": 0.038529887892727585,
+    "gravity_radial_load_per_support_n": 36.87363312915664,
+    "insert_mass_kg": 2.125807891537518,
+    "max_insert_centrifugal_force_n": 2407.950346908334,
+    "nominal_insert_projected_pressure_mpa": 1.8616804956792596,
+    "nominal_shaft_vm_mpa": 3.322554475769575,
+    "nominal_shaft_yield_ratio": 195.6326088075489,
+    "shaft_torsional_stiffness_nm_rad": 24166.097335306098,
+    "shaft_only_rotor_torsion_hz": 48.57684167982042,
+    "lateral_sensitivity": [
+      {
+        "per_bearing_stiffness_n_m": 10000000.0,
+        "translational_frequency_hz": 214.92612254780892,
+        "static_sag_um": 5.377526155807221
+      },
+      {
+        "per_bearing_stiffness_n_m": 100000000.0,
+        "translational_frequency_hz": 347.3465020890226,
+        "static_sag_um": 2.0588991741831233
+      },
+      {
+        "per_bearing_stiffness_n_m": 1000000000.0,
+        "translational_frequency_hz": 379.2536020758284,
+        "static_sag_um": 1.727036476020714
+      }
+    ]
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_hz": 24.0,
+    "shaft_diameter_mm": 40.0,
+    "bearing_span_mm": 200.0,
+    "drive_torsion_length_mm": 75.0,
+    "flange_thickness_mm": 8.0,
+    "flange_od_mm": 100.95091095598613,
+    "pilot_diameter_mm": 20.190182191197227,
+    "flange_bolt_circle_mm": 67.30060730399076,
+    "flange_bolt_count": 6,
+    "flange_bolt_nominal_mm": 6,
+    "bolt_shear_load_from_torque_n": 130.06334831476542,
+    "bare_rotor_mass_kg": 37.69173275922457,
+    "illustrative_central_assembly_mass_kg": 2.938017792479786,
+    "central_added_polar_inertia_kg_m2": 0.0016731851415238137,
+    "central_inertia_increase_percent": 0.03926123566407763,
+    "gravity_radial_load_per_support_n": 199.22087162393575,
+    "insert_mass_kg": 11.401959033861434,
+    "max_insert_centrifugal_force_n": 22607.618146947967,
+    "nominal_insert_projected_pressure_mpa": 5.7043844810010915,
+    "nominal_shaft_vm_mpa": 4.811855185034509,
+    "nominal_shaft_yield_ratio": 135.08303450643817,
+    "shaft_torsional_stiffness_nm_rad": 257771.70490993172,
+    "shaft_only_rotor_torsion_hz": 39.13474407388112,
+    "lateral_sensitivity": [
+      {
+        "per_bearing_stiffness_n_m": 10000000.0,
+        "translational_frequency_hz": 104.92263529712133,
+        "static_sag_um": 22.564336036229015
+      },
+      {
+        "per_bearing_stiffness_n_m": 100000000.0,
+        "translational_frequency_hz": 231.5160015665199,
+        "static_sag_um": 4.634457590074798
+      },
+      {
+        "per_bearing_stiffness_n_m": 1000000000.0,
+        "translational_frequency_hz": 295.6711505636537,
+        "static_sag_um": 2.8414697454593765
+      }
+    ]
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_hz": 18.0,
+    "shaft_diameter_mm": 80.0,
+    "bearing_span_mm": 360.0,
+    "drive_torsion_length_mm": 120.0,
+    "flange_thickness_mm": 12.0,
+    "flange_od_mm": 183.75441748304925,
+    "pilot_diameter_mm": 36.75088349660985,
+    "flange_bolt_circle_mm": 122.5029449886995,
+    "flange_bolt_count": 6,
+    "flange_bolt_nominal_mm": 10,
+    "bolt_shear_load_from_torque_n": 1427.7925602284188,
+    "bare_rotor_mass_kg": 227.3153385558173,
+    "illustrative_central_assembly_mass_kg": 19.001449587952145,
+    "central_added_polar_inertia_kg_m2": 0.0324181123888315,
+    "central_inertia_increase_percent": 0.03806886753417667,
+    "gravity_radial_load_per_support_n": 1207.7712652250482,
+    "insert_mass_kg": 68.76415564491266,
+    "max_insert_centrifugal_force_n": 141258.37124236076,
+    "nominal_insert_projected_pressure_mpa": 10.757542801373567,
+    "nominal_shaft_vm_mpa": 10.02181780758752,
+    "nominal_shaft_yield_ratio": 64.85849298795722,
+    "shaft_torsional_stiffness_nm_rad": 2577717.0490993173,
+    "shaft_only_rotor_torsion_hz": 27.685107929671187,
+    "lateral_sensitivity": [
+      {
+        "per_bearing_stiffness_n_m": 10000000.0,
+        "translational_frequency_hz": 44.29312868410701,
+        "static_sag_um": 126.61589306967171
+      },
+      {
+        "per_bearing_stiffness_n_m": 100000000.0,
+        "translational_frequency_hz": 117.74816142673416,
+        "static_sag_um": 17.916479199417395
+      },
+      {
+        "per_bearing_stiffness_n_m": 1000000000.0,
+        "translational_frequency_hz": 187.7554603260765,
+        "static_sag_um": 7.0465378123919615
+      }
+    ]
+  }
+]

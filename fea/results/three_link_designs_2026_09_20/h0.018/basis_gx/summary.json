@@ -1,0 +1,14 @@
+{
+  "name": "basis_gx",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gx",
+  "mesh": 0.018,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_gx",
+  "input_sha256": "754d820623714a3c296e75dd48e471e72547a958a8562016410df5d659ad432d",
+  "frequencies_hz": [],
+  "max_u_m": 8.533338003526564e-08,
+  "raw_max_vm_pa": 17142.405345203806,
+  "elapsed_s": 36.97216773033142,
+  "reused_from": "fea/results/scaled_replacements_2026_09_20/h0.018/basis_gx"
+}

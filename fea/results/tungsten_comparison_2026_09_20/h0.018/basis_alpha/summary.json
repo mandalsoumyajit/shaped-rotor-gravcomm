@@ -1,0 +1,13 @@
+{
+  "name": "basis_alpha",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "alpha",
+  "mesh": 0.018,
+  "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/basis_alpha",
+  "input_sha256": "ab0755b1f14cc3618ea8d2b2e0797309bf57cb3cdb6ac80785236d0765c5e299",
+  "frequencies_hz": [],
+  "max_u_m": 6.384379459585662e-07,
+  "raw_max_vm_pa": 118961.41135874584,
+  "elapsed_s": 16.231929540634155
+}

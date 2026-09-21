@@ -1,0 +1,27 @@
+{
+  "name": "design2_high",
+  "scale": 1.6825151825997688,
+  "kind": "centrifugal",
+  "rpm": 733.0178571428571,
+  "design": 2,
+  "mesh": 0.013,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design2_high",
+  "input_sha256": "623c5221fbdf369ba2e52b8e1c283f36d1ccdbec1885b772eaf3fa7d69e31165",
+  "frequencies_hz": [
+    45.45054,
+    55.08656,
+    60.17904,
+    89.47371,
+    135.408,
+    163.4964,
+    219.1729,
+    295.4597,
+    343.0244,
+    345.9375,
+    372.7243,
+    485.2621
+  ],
+  "max_u_m": 5.380425005183921e-05,
+  "raw_max_vm_pa": 27288310.015799023,
+  "elapsed_s": 181.91499876976013
+}

@@ -1,0 +1,32 @@
+{
+  "status": "preliminary study specification; certified stock properties required",
+  "carrier": {
+    "grade": "6061-T651 machined plate, unwelded",
+    "E_pa": 70000000000.0,
+    "nu": 0.33,
+    "density_kg_m3": 2700,
+    "screen_yield_pa": 240000000.0,
+    "source_minimum": "35 ksi = 241.3 MPa for relevant plate thickness; rounded down to 240 MPa",
+    "source": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1010/Kaiser_Aluminum_Sheet_Plate.pdf"
+  },
+  "inserts": {
+    "grade": "1045 normalized, specially ordered with certified minimum yield",
+    "E_pa": 200000000000.0,
+    "nu": 0.3,
+    "density_kg_m3": 7850,
+    "screen_yield_pa": 300000000.0,
+    "source_caveat": "Ordinary 1045 stock has typical properties only; minimum 300 MPa is a procurement requirement, not guaranteed by grade alone.",
+    "source": "https://atlassteels.com.au/documents/Atlas1045.pdf"
+  },
+  "shaft": {
+    "grade": "4140 quenched and tempered",
+    "E_pa": 200000000000.0,
+    "nu": 0.3,
+    "density_kg_m3": 7850,
+    "screen_yield_pa": 650000000.0,
+    "source_caveat": "Conservative study floor below cited 740 MPa minimum for supplier Condition U at <=180 mm; actual stock certificate controls.",
+    "source": "https://atlassteels.com.au/documents/Atlas4140.pdf"
+  },
+  "static_screen_factor": 2,
+  "fatigue_allowable": null
+}

@@ -1,0 +1,27 @@
+{
+  "name": "design2_center",
+  "scale": 1.6825151825997688,
+  "kind": "centrifugal",
+  "rpm": 720.0,
+  "design": 2,
+  "mesh": 0.018,
+  "folder": "fea/results/tungsten_comparison_2026_09_20/h0.018/design2_center",
+  "input_sha256": "30f50524882079d495a59490fdc869fc56c3b8d3d94e72aacd2fdaa16e091f25",
+  "frequencies_hz": [
+    45.85911,
+    55.62336,
+    60.25225,
+    90.95283,
+    135.7947,
+    174.6266,
+    219.9806,
+    329.6587,
+    344.1106,
+    347.1883,
+    373.6315,
+    567.3879
+  ],
+  "max_u_m": 5.144771642504787e-05,
+  "raw_max_vm_pa": 22395087.40988842,
+  "elapsed_s": 69.02799487113953
+}

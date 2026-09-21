@@ -1,0 +1,9 @@
+{
+  "mesh_mass_kg": 7.90541539816371,
+  "mesh_inertia_kg_m2": 0.3156459443309868,
+  "min_jacobian": 1.0733744810963773e-09,
+  "unit_acceleration_torque_nm": -0.3156459443309862,
+  "nodes": 67099,
+  "elements": 41709,
+  "source_sha256": "95bc73de7d96304b1e0adb4baea9b42dc44c25d18ff85660040a8e792635fa05"
+}

@@ -1,0 +1,93 @@
+[
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0
+    },
+    3000169,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0
+    },
+    3000245,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0
+    },
+    3000380,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1.0625",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0625
+    },
+    4001394,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1.0625",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0625
+    },
+    4001522,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1.0625",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.0625
+    },
+    4004202,
+    true
+  ],
+  [
+    {
+      "id": "tb_2_3_f18_r0.6_q0.08_a1.125",
+      "scheme": "tb_2/3",
+      "information_bits": 256,
+      "carrier_hz": 18.0,
+      "transition_fraction": 0.6,
+      "q": 0.08,
+      "amplitude_scale": 1.125
+    },
+    5002215,
+    true
+  ]
+]

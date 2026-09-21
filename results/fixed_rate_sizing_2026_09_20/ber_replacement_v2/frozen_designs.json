@@ -1,0 +1,98 @@
+{
+  "selection": "Three larger 2 m candidates frozen together; choose the smallest passing tested candidate; simultaneous confidence across all three.",
+  "channels": [
+    {
+      "config": {
+        "id": "tb_2_3_f18_r0.6_q0.08_a1",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0
+      },
+      "seed_start": 3000000,
+      "distance_m": [
+        2.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 2.0,
+          "amplitude_scale": 1.0,
+          "amplitude_m_s2": 5.180259429886703e-10,
+          "scale": 3.0625736247174875,
+          "diameter_m": 1.5312868123587438,
+          "mass_kg": 227.3153385558173,
+          "inertia_kg_m2": 85.15649266353365,
+          "radial_gap_m": 1.2216565938206283,
+          "field_refinement_relative": 1.8675783142185765e-10,
+          "stress_ratio": 0.940921057379721,
+          "peak_torque_nm": 524.7263803828092,
+          "peak_power_w": 29680.142735904894
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "tb_2_3_f18_r0.6_q0.08_a1.0625",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0625
+      },
+      "seed_start": 4000000,
+      "distance_m": [
+        2.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 2.0,
+          "amplitude_scale": 1.0625,
+          "amplitude_m_s2": 5.504025645278621e-10,
+          "scale": 3.0989012405446554,
+          "diameter_m": 1.5494506202723277,
+          "mass_kg": 235.50077200370995,
+          "inertia_kg_m2": 90.32828301225628,
+          "radial_gap_m": 1.212574689863836,
+          "field_refinement_relative": 7.123190925995004e-13,
+          "stress_ratio": 0.9520820686351927,
+          "peak_torque_nm": 556.5944710580148,
+          "peak_power_w": 31482.70025030092
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "tb_2_3_f18_r0.6_q0.08_a1.125",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.125
+      },
+      "seed_start": 5000000,
+      "distance_m": [
+        2.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 2.0,
+          "amplitude_scale": 1.125,
+          "amplitude_m_s2": 5.827791859715783e-10,
+          "scale": 3.1335218108565877,
+          "diameter_m": 1.5667609054282938,
+          "mass_kg": 243.4822427497433,
+          "inertia_kg_m2": 95.48797548330707,
+          "radial_gap_m": 1.2039195472858533,
+          "field_refinement_relative": 8.335554468885675e-13,
+          "stress_ratio": 0.9627186206390641,
+          "peak_torque_nm": 588.3880157372253,
+          "peak_power_w": 33281.04121320604
+        }
+      ]
+    }
+  ]
+}

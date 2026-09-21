@@ -1,0 +1,6 @@
+{
+  "method": "existing per-configuration 95% time-uniform packet-fraction confidence sequence",
+  "target_ber": 0.001,
+  "zero_error_packets_needed": 5374,
+  "qualification_scope": "Frozen independent configuration; no multiplicity correction; any errors change sample requirements"
+}

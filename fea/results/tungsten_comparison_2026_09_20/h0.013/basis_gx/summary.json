@@ -1,0 +1,13 @@
+{
+  "name": "basis_gx",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gx",
+  "mesh": 0.013,
+  "folder": "fea/results/tungsten_comparison_2026_09_20/h0.013/basis_gx",
+  "input_sha256": "545cffd2b9c61ece8d68d3ea68f364b7cf5bcf94a6a16b713142f8b55d903f97",
+  "frequencies_hz": [],
+  "max_u_m": 8.554470637529896e-08,
+  "raw_max_vm_pa": 17964.626409313023,
+  "elapsed_s": 22.443637371063232
+}

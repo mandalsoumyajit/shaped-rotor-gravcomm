@@ -1,0 +1,150 @@
+{
+  "selection": "Corrected user scope: qualified 0.5 m, 1 m, and smallest passing 2 m design",
+  "channels": [
+    {
+      "config": {
+        "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125
+      },
+      "distance_m": [
+        0.5
+      ],
+      "source_designs": [
+        {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125,
+          "distance_m": 0.5,
+          "amplitude_m_s2": 4.2089607795180265e-10,
+          "scale": 0.9611854132640992,
+          "diameter_m": 0.4805927066320496,
+          "mass_kg": 7.027334750750038,
+          "inertia_kg_m2": 0.2593109958282796,
+          "radial_gap_m": 0.24700364668397518,
+          "field_refinement_relative": 1.9128179040706073e-09,
+          "packets": 64,
+          "payload_bits": 224,
+          "symbol_s": 1.382716049382716,
+          "errors": 3,
+          "raw_coded_ber": 0.029296875,
+          "ber": 0.00020926339285714285,
+          "ber_ci": [
+            4.4684231747916366e-07,
+            0.08051987524085412
+          ],
+          "erasures": 2,
+          "wrong_accepted": 0,
+          "accepted_payload_rate_bps": 0.96875,
+          "latency_s": 224.01404977822676,
+          "max_block_s": 0.04386118892580271,
+          "stress_ratio": 0.3914255955265675,
+          "peak_torque_nm": 1.5978502164486474,
+          "rms_torque_nm": 0.747713786516066,
+          "peak_power_w": 120.49236454609739,
+          "gate": true,
+          "error_packet_convergence": true,
+          "ber_qualified95": false,
+          "ber_rejected95": false,
+          "screen_eligible": true
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125
+      },
+      "distance_m": [
+        1.0
+      ],
+      "source_designs": [
+        {
+          "id": "tb_2_3_f24_r0.6_q0.08_a0.8125",
+          "scheme": "tb_2/3",
+          "information_bits": 256,
+          "carrier_hz": 24.0,
+          "transition_fraction": 0.6,
+          "q": 0.08,
+          "amplitude_scale": 0.8125,
+          "distance_m": 1.0,
+          "amplitude_m_s2": 4.208960787258846e-10,
+          "scale": 1.6825151825997688,
+          "diameter_m": 0.8412575912998844,
+          "mass_kg": 37.69173275922457,
+          "inertia_kg_m2": 4.2616721384923375,
+          "radial_gap_m": 0.5666712043500578,
+          "field_refinement_relative": 7.368960996956275e-11,
+          "packets": 64,
+          "payload_bits": 224,
+          "symbol_s": 1.382716049382716,
+          "errors": 3,
+          "raw_coded_ber": 0.029296875,
+          "ber": 0.00020926339285714285,
+          "ber_ci": [
+            4.4684231747916366e-07,
+            0.08051987524085412
+          ],
+          "erasures": 2,
+          "wrong_accepted": 0,
+          "accepted_payload_rate_bps": 0.96875,
+          "latency_s": 224.01404977822676,
+          "max_block_s": 0.04386118892580271,
+          "stress_ratio": 0.6851742631997808,
+          "peak_torque_nm": 26.260026988722583,
+          "rms_torque_nm": 12.288375976436768,
+          "peak_power_w": 1980.2436500888432,
+          "gate": true,
+          "error_packet_convergence": true,
+          "ber_qualified95": false,
+          "ber_rejected95": false,
+          "screen_eligible": true
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "tb_2_3_f18_r0.6_q0.08_a1",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0
+      },
+      "seed_start": 3000000,
+      "distance_m": [
+        2.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 2.0,
+          "amplitude_scale": 1.0,
+          "amplitude_m_s2": 5.180259429886703e-10,
+          "scale": 3.0625736247174875,
+          "diameter_m": 1.5312868123587438,
+          "mass_kg": 227.3153385558173,
+          "inertia_kg_m2": 85.15649266353365,
+          "radial_gap_m": 1.2216565938206283,
+          "field_refinement_relative": 1.8675783142185765e-10,
+          "stress_ratio": 0.940921057379721,
+          "peak_torque_nm": 524.7263803828092,
+          "peak_power_w": 29680.142735904894
+        }
+      ]
+    }
+  ]
+}

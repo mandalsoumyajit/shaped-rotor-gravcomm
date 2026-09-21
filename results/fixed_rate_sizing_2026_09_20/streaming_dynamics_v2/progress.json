@@ -1,0 +1,9 @@
+{
+  "updated_utc": "2026-09-20T20:33:06.824746+00:00",
+  "status": "bounded_refinement_complete",
+  "pilot_packets": 680,
+  "confirmation_packets": 384,
+  "convergence_records": 60,
+  "workers_running": false,
+  "ber_qualified": false
+}

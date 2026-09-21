@@ -1,0 +1,18 @@
+{
+  "packets": 2560,
+  "payload_bits": 573440,
+  "errors": 1106,
+  "ber": 0.0019287109375,
+  "confidence_interval": [
+    0.0010783114401240641,
+    0.004440243356311513
+  ],
+  "alpha": 0.025,
+  "status": "fail",
+  "erasures": 82,
+  "packet_failures": 82,
+  "wrong_accepted": 0,
+  "accepted_payload_rate_bps": 0.96796875,
+  "max_block_s": 0.08091386687010527,
+  "max_latency_s": 224.0186376720667
+}

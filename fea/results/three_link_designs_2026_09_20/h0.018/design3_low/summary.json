@@ -1,0 +1,28 @@
+{
+  "name": "design3_low",
+  "scale": 3.0625736247174875,
+  "kind": "centrifugal",
+  "rpm": 526.9821428571429,
+  "design": 3,
+  "mesh": 0.018,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.018/design3_low",
+  "input_sha256": "c0b56393db50c5e343e0f5b7e5259a6a223e4652639617366c27bfa58fd15d8e",
+  "frequencies_hz": [
+    25.71733,
+    30.87272,
+    33.12515,
+    49.58654,
+    74.98118,
+    90.79094,
+    120.7339,
+    163.2773,
+    189.5512,
+    190.6068,
+    205.2609,
+    267.9233
+  ],
+  "max_u_m": 0.00016756164997718887,
+  "raw_max_vm_pa": 40334797.9323832,
+  "elapsed_s": 142.6184413433075,
+  "reused_from": "fea/results/scaled_replacements_2026_09_20/h0.018/design1_low"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "design1_center",
+  "scale": 0.9611854132640992,
+  "kind": "centrifugal",
+  "rpm": 720.0,
+  "design": 1,
+  "mesh": 0.013,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.013/design1_center",
+  "input_sha256": "2313cafcf141ae27b49981ace5a298cd3b5cbf65b5291c6e4331cd3a14561bb3",
+  "frequencies_hz": [
+    77.33493,
+    94.68853,
+    105.2712,
+    155.6587,
+    235.8461,
+    284.4893,
+    383.4062,
+    515.7542,
+    598.8437,
+    605.0747,
+    652.059,
+    846.7974
+  ],
+  "max_u_m": 9.678252558553272e-06,
+  "raw_max_vm_pa": 8592289.504371334,
+  "elapsed_s": 176.37076330184937
+}

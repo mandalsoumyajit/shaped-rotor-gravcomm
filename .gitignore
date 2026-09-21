@@ -16,3 +16,7 @@ dist/
 *.12d
 *.log
 spooles.out
+
+# Optional release-data extraction and verification outputs
+/DATA_MANIFEST.sha256
+/results/fixed_rate_sizing_2026_09_20/*/*/

@@ -1,0 +1,148 @@
+{
+  "receiver": {
+    "input_rate_hz": 16,
+    "output_rate_hz": 4,
+    "full_minus3db_bandwidth_hz": 2,
+    "noise_equivalent_bandwidth_hz": 2.0205826554210726,
+    "order": 6,
+    "sos": [
+      [
+        2.882589194400281e-05,
+        5.765178388800562e-05,
+        2.882589194400281e-05,
+        1.0,
+        -1.3490799948883918,
+        0.460233664037698
+      ],
+      [
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        -1.454243586251585,
+        0.5740619150839549
+      ],
+      [
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        -1.6812394272942186,
+        0.8197604429273136
+      ]
+    ],
+    "maximum_pole_radius": 0.9054062308860669
+  },
+  "order_selection": [
+    {
+      "order": 2,
+      "maximum_alias_to_main_psd_fraction": 2.9831121213366587
+    },
+    {
+      "order": 4,
+      "maximum_alias_to_main_psd_fraction": 0.004677861137220488
+    },
+    {
+      "order": 6,
+      "maximum_alias_to_main_psd_fraction": 9.288711931913473e-06
+    },
+    {
+      "order": 8,
+      "maximum_alias_to_main_psd_fraction": 7.2940827352111e-08
+    }
+  ],
+  "alias_budget_psd_fraction": 0.0001,
+  "group_delay": {
+    "at_center_s": 0.6070046324217304,
+    "max_within_minus3db_band_s": 1.0559236950313526
+  },
+  "step_settling_1e4_s": 5.4375,
+  "impulse_energy_tail_1e6_s": 4.5625,
+  "covariance": {
+    "max_exact_whitened_covariance_error": 1.354472091159387e-14,
+    "condition_number_128": 547.5561789907309,
+    "empirical_max_lag_error_relative_to_variance": 0.00797462868975533,
+    "empirical_innovation_power": 1.0033987036534506,
+    "empirical_innovation_max_abs_lag_correlation": 0.007658276928135907,
+    "empirical_innovation_pseudocovariance": [
+      0.0019151980177723987,
+      -0.0021786610770577817
+    ],
+    "empirical_innovation_mean": [
+      0.0013397256446490433,
+      0.00037100293720713573
+    ],
+    "fft_refinement_relative_errors": [
+      3.0443296425616497e-16,
+      2.1145483202698639e-16,
+      1.1275919188048944e-16,
+      0.0
+    ]
+  },
+  "initialization_checks": [
+    {
+      "burn_s": 0,
+      "max_output_error_in_noise_rms": 2.3226127581782543
+    },
+    {
+      "burn_s": 2,
+      "max_output_error_in_noise_rms": 0.16317621529969722
+    },
+    {
+      "burn_s": 4,
+      "max_output_error_in_noise_rms": 0.011331733296803759
+    },
+    {
+      "burn_s": 8,
+      "max_output_error_in_noise_rms": 9.877699982193069e-06
+    },
+    {
+      "burn_s": 16,
+      "max_output_error_in_noise_rms": 3.5016496816023645e-11
+    },
+    {
+      "burn_s": 32,
+      "max_output_error_in_noise_rms": 0.0
+    }
+  ],
+  "finite_memory_diagnostics": [
+    {
+      "retained_samples": 8,
+      "history_s": 1.75,
+      "max_whitened_covariance_error": 0.2321903085991709
+    },
+    {
+      "retained_samples": 16,
+      "history_s": 3.75,
+      "max_whitened_covariance_error": 0.021843358270231438
+    },
+    {
+      "retained_samples": 32,
+      "history_s": 7.75,
+      "max_whitened_covariance_error": 0.0007630547133941243
+    },
+    {
+      "retained_samples": 64,
+      "history_s": 15.75,
+      "max_whitened_covariance_error": 1.126064117735208e-06
+    },
+    {
+      "retained_samples": 128,
+      "history_s": 31.75,
+      "max_whitened_covariance_error": 2.4589430684584556e-12
+    }
+  ],
+  "runtime": {
+    "cholesky_1024_samples_s": 0.12391980004031211,
+    "stream_1024_innovations_s": 0.002776599954813719
+  },
+  "status": "causal_sampled_frontend_and_matched_finite_record_metric_verified_not_end_to_end_hardware_or_BER_validation",
+  "scope": "Sampled calibrated-acceleration boundary. Analog acquisition and transducer calibration upstream remain requirements. Noise stationary through packet boundaries. No acquisition algorithm or code ranking. -3dB bandwidth is not a brick-wall information bandwidth.",
+  "source_sha256": {
+    "src/gravcomm/causal_receiver.py": "7f4a904bbc725a12b1f672f9f0d31192ecc5bc4814918b54dd14af9293f149a1",
+    "scripts/characterize_causal_receiver.py": "5f10996334576ecc834935065950bccd3c25e4e855e9e87fe16b1b6b92e5d471",
+    "tests/test_causal_receiver.py": "e5fa3145f12b47c1de681f2cf4bf6c069c14c53cf5937fc6716da82b4a0f1c40",
+    "src/gravcomm/receivers.py": "175b6026527a259a9d5e3d76671dc29c2c408bf49ad3bb4265b1f87e1a1269b7",
+    "src/gravcomm/constants.py": "d37df7b57448dec90d5fdd59d8a5ab5b810ac3305049ec020dbf8615f9260077"
+  }
+}

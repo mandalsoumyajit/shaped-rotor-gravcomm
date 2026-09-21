@@ -1,0 +1,20 @@
+{
+  "job": {
+    "name": "design1_high_refinement",
+    "scale": 0.9611854132640992,
+    "kind": "centrifugal",
+    "rpm": 733.0178571428571,
+    "design": 1,
+    "mesh": 0.01,
+    "folder": "fea/results/tungsten_comparison_2026_09_20/refinement_h0.01_design1_high",
+    "input_sha256": "9586acdbcea7d1bc584815fc22a3f623b3cb298952a7b8bb6990ba632cbd7324"
+  },
+  "mesh": {
+    "mesh_mass_kg": 7.9066147005938205,
+    "mesh_inertia_kg_m2": 0.31576145183640386,
+    "min_jacobian": 2.7410010358411424e-10,
+    "unit_acceleration_torque_nm": -0.3157614518364058,
+    "nodes": 100535,
+    "elements": 61865
+  }
+}

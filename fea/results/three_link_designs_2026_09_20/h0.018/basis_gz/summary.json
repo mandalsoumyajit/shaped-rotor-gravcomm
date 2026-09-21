@@ -1,0 +1,14 @@
+{
+  "name": "basis_gz",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gz",
+  "mesh": 0.018,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.018/basis_gz",
+  "input_sha256": "b518b03fd43b88bcf59734339c840d0f6c45655a43e7001829eafaf835268bb4",
+  "frequencies_hz": [],
+  "max_u_m": 4.195293202151952e-06,
+  "raw_max_vm_pa": 287468.6063988646,
+  "elapsed_s": 36.83739733695984,
+  "reused_from": "fea/results/scaled_replacements_2026_09_20/h0.018/basis_gz"
+}

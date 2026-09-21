@@ -1,0 +1,13 @@
+{
+  "name": "basis_alpha",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "alpha",
+  "mesh": 0.013,
+  "folder": "fea/results/three_link_designs_2026_09_20/h0.013/basis_alpha",
+  "input_sha256": "e676588a9e335cd1f2e84248a3359fa1ab13a5fe72bc72da8eda89b3df461d4b",
+  "frequencies_hz": [],
+  "max_u_m": 6.399651782163544e-07,
+  "raw_max_vm_pa": 134924.25660735823,
+  "elapsed_s": 42.21283674240112
+}
