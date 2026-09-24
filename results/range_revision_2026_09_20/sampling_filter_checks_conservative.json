@@ -1,0 +1,76 @@
+[
+  {
+    "case": "scale2_2m_same_receiver",
+    "symbol_s": 25.3833,
+    "q": 0.5,
+    "packets": 1000,
+    "payload_bits": 64000,
+    "paired_filter_bit_errors_3symbols": 5,
+    "paired_filter_bit_errors_4symbols": 5,
+    "paired_filter_disagreeing_bits": 0,
+    "independent_double_sampling_bit_errors": 7,
+    "short_filter": {
+      "sample_rate_hz": 0.6303356931525846,
+      "taps": 49,
+      "memory_s": 76.14989999999999,
+      "rms_psd_error": 0.0004870582877114182,
+      "max_psd_error": 0.011394377009724677,
+      "central_max_psd_error": 0.0001893062868434381
+    },
+    "long_filter": {
+      "sample_rate_hz": 0.6303356931525846,
+      "taps": 65,
+      "memory_s": 101.5332,
+      "rms_psd_error": 0.0003582069242664882,
+      "max_psd_error": 0.009661925539422356,
+      "central_max_psd_error": 0.00011776162907040089
+    },
+    "double_sample_filter": {
+      "sample_rate_hz": 1.2606713863051693,
+      "taps": 97,
+      "memory_s": 76.14989999999999,
+      "rms_psd_error": 0.0005446587838369972,
+      "max_psd_error": 0.015438874398737257,
+      "central_max_psd_error": 0.00010950637030848753
+    },
+    "elapsed_s": 55.71899999998277,
+    "scope": "Paired memory check and independently seeded sample-rate diagnostic; no rare-event confidence claim."
+  },
+  {
+    "case": "scale2_2m_slow_retuned_receiver",
+    "symbol_s": 14.3602,
+    "q": 0.5,
+    "packets": 1000,
+    "payload_bits": 64000,
+    "paired_filter_bit_errors_3symbols": 6,
+    "paired_filter_bit_errors_4symbols": 6,
+    "paired_filter_disagreeing_bits": 0,
+    "independent_double_sampling_bit_errors": 2,
+    "short_filter": {
+      "sample_rate_hz": 1.1141906101586327,
+      "taps": 49,
+      "memory_s": 43.080600000000004,
+      "rms_psd_error": 0.0012067904730487784,
+      "max_psd_error": 0.0253855336644071,
+      "central_max_psd_error": 0.00036866410639690983
+    },
+    "long_filter": {
+      "sample_rate_hz": 1.1141906101586327,
+      "taps": 65,
+      "memory_s": 57.44080000000001,
+      "rms_psd_error": 0.001022214021818184,
+      "max_psd_error": 0.02352567740491618,
+      "central_max_psd_error": 0.0002479452963521922
+    },
+    "double_sample_filter": {
+      "sample_rate_hz": 2.2283812203172655,
+      "taps": 97,
+      "memory_s": 43.080600000000004,
+      "rms_psd_error": 0.0019103072840899972,
+      "max_psd_error": 0.046982014111785375,
+      "central_max_psd_error": 0.0003537006840697021
+    },
+    "elapsed_s": 52.79700000002049,
+    "scope": "Paired memory check and independently seeded sample-rate diagnostic; no rare-event confidence claim."
+  }
+]

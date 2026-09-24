@@ -1,0 +1,292 @@
+[
+  {
+    "rotors": 1,
+    "scale_per_rotor": 2.0,
+    "total_moving_mass_kg": 63.30807593295741,
+    "individual_mass_kg": 63.30807593295741,
+    "diameter_per_rotor_m": 1.0,
+    "total_inertia_kg_m2": 10.114281906723056,
+    "carrier_hz": 25.15,
+    "mechanical_rpm": 754.5,
+    "rotor_centers_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "receiver_m": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "swept_source_extent_xyz_m": [
+      1.0,
+      1.0,
+      0.1584808
+    ],
+    "individual_complex_coefficients": [
+      [
+        -5.918722293171436e-11,
+        9.125458844130474e-17
+      ]
+    ],
+    "ideal_receiver_aligned_amplitude_m_s2": 5.918722293178471e-11,
+    "equal_mechanical_phase_amplitude_m_s2": 5.918722293178471e-11,
+    "ideal_mechanical_phase_offsets_rad": [
+      -1.5707955558971933
+    ],
+    "gaussian_benchmarks_bit_s": {
+      "fixed_50p3Hz_receiver": 4.7499709501205116e-05,
+      "retuned_receiver": 0.7427955810161008
+    },
+    "max_phase_refinement_relative": 7.369977919960121e-16,
+    "total_rotational_energy_j": 31570.450755531783,
+    "scope": "Equal moving mass and centrifugal stress scale; unequal footprint. Drives/support mass, power limits, phase errors, packet decoding and environmental noise not included. Retuned column changes receiver resonance only, retaining assumed mass/Q/readout."
+  },
+  {
+    "rotors": 2,
+    "scale_per_rotor": 1.5874010519681994,
+    "total_moving_mass_kg": 63.308075932957394,
+    "individual_mass_kg": 31.654037966478697,
+    "diameter_per_rotor_m": 0.7937005259840997,
+    "total_inertia_kg_m2": 6.371598339425614,
+    "carrier_hz": 31.68701440485606,
+    "mechanical_rpm": 950.6104321456818,
+    "rotor_centers_m": [
+      [
+        0.0,
+        -0.42,
+        0.0
+      ],
+      [
+        0.0,
+        0.42,
+        0.0
+      ]
+    ],
+    "receiver_m": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "swept_source_extent_xyz_m": [
+      0.7937005259840997,
+      1.6337005259840995,
+      0.1257862943183809
+    ],
+    "individual_complex_coefficients": [
+      [
+        -1.4228569611197641e-11,
+        8.766365427913337e-12
+      ],
+      [
+        -1.422859653809458e-11,
+        -8.766321696633248e-12
+      ]
+    ],
+    "ideal_receiver_aligned_amplitude_m_s2": 3.3424623005477596e-11,
+    "equal_mechanical_phase_amplitude_m_s2": 2.8457166149325824e-11,
+    "ideal_mechanical_phase_offsets_rad": [
+      -1.294705816251708,
+      1.2947073527365183
+    ],
+    "gaussian_benchmarks_bit_s": {
+      "fixed_50p3Hz_receiver": 2.4172270606835386e-05,
+      "retuned_receiver": 0.27999812474784147
+    },
+    "max_phase_refinement_relative": 2.1616175930332982e-15,
+    "total_rotational_energy_j": 31570.450755531772,
+    "scope": "Equal moving mass and centrifugal stress scale; unequal footprint. Drives/support mass, power limits, phase errors, packet decoding and environmental noise not included. Retuned column changes receiver resonance only, retaining assumed mass/Q/readout."
+  },
+  {
+    "rotors": 4,
+    "scale_per_rotor": 1.2599210498948732,
+    "total_moving_mass_kg": 63.30807593295741,
+    "individual_mass_kg": 15.827018983239352,
+    "diameter_per_rotor_m": 0.6299605249474366,
+    "total_inertia_kg_m2": 4.013855434658777,
+    "carrier_hz": 39.92313645700021,
+    "mechanical_rpm": 1197.6940937100064,
+    "rotor_centers_m": [
+      [
+        0.0,
+        -0.34,
+        -0.1
+      ],
+      [
+        0.0,
+        -0.34,
+        0.1
+      ],
+      [
+        0.0,
+        0.34,
+        -0.1
+      ],
+      [
+        0.0,
+        0.34,
+        0.1
+      ]
+    ],
+    "receiver_m": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "swept_source_extent_xyz_m": [
+      0.6299605249474366,
+      1.3099605249474366,
+      0.29983664796208975
+    ],
+    "individual_complex_coefficients": [
+      [
+        -4.822695462408182e-12,
+        2.3274577595515973e-12
+      ],
+      [
+        -4.822695531993896e-12,
+        2.3274578162406947e-12
+      ],
+      [
+        -4.82270258949672e-12,
+        -2.3274429890646163e-12
+      ],
+      [
+        -4.8227026786471116e-12,
+        -2.3274430000261916e-12
+      ]
+    ],
+    "ideal_receiver_aligned_amplitude_m_s2": 2.141978584443911e-11,
+    "equal_mechanical_phase_amplitude_m_s2": 1.92907962625686e-11,
+    "ideal_mechanical_phase_offsets_rad": [
+      -1.3459787480664023,
+      -1.3459787461233388,
+      1.345980279368519,
+      1.3459802820646933
+    ],
+    "gaussian_benchmarks_bit_s": {
+      "fixed_50p3Hz_receiver": 2.896034180777345e-05,
+      "retuned_receiver": 0.11358321383503306
+    },
+    "max_phase_refinement_relative": 4.58047707964415e-15,
+    "total_rotational_energy_j": 31570.450755531772,
+    "scope": "Equal moving mass and centrifugal stress scale; unequal footprint. Drives/support mass, power limits, phase errors, packet decoding and environmental noise not included. Retuned column changes receiver resonance only, retaining assumed mass/Q/readout."
+  },
+  {
+    "rotors": 8,
+    "scale_per_rotor": 1.0,
+    "total_moving_mass_kg": 63.30807593295741,
+    "individual_mass_kg": 7.913509491619676,
+    "diameter_per_rotor_m": 0.5,
+    "total_inertia_kg_m2": 2.528570476680764,
+    "carrier_hz": 50.3,
+    "mechanical_rpm": 1509.0,
+    "rotor_centers_m": [
+      [
+        0.0,
+        -0.3,
+        -0.36
+      ],
+      [
+        0.0,
+        -0.3,
+        -0.12
+      ],
+      [
+        0.0,
+        -0.3,
+        0.12
+      ],
+      [
+        0.0,
+        -0.3,
+        0.36
+      ],
+      [
+        0.0,
+        0.3,
+        -0.36
+      ],
+      [
+        0.0,
+        0.3,
+        -0.12
+      ],
+      [
+        0.0,
+        0.3,
+        0.12
+      ],
+      [
+        0.0,
+        0.3,
+        0.36
+      ]
+    ],
+    "receiver_m": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "swept_source_extent_xyz_m": [
+      0.5,
+      1.1,
+      0.7992404
+    ],
+    "individual_complex_coefficients": [
+      [
+        -1.3882676575347585e-12,
+        5.912662610410521e-13
+      ],
+      [
+        -1.5641745534441749e-12,
+        6.572387484575842e-13
+      ],
+      [
+        -1.564174574504195e-12,
+        6.572387643037992e-13
+      ],
+      [
+        -1.3882677120659489e-12,
+        5.912663024349536e-13
+      ],
+      [
+        -1.3882694609458118e-12,
+        -5.9126202828272e-13
+      ],
+      [
+        -1.5641765640940889e-12,
+        -6.572339630430957e-13
+      ],
+      [
+        -1.564176590398923e-12,
+        -6.572339648557004e-13
+      ],
+      [
+        -1.3882695292675444e-12,
+        -5.912620330501237e-13
+      ]
+    ],
+    "ideal_receiver_aligned_amplitude_m_s2": 1.2822318241481605e-11,
+    "equal_mechanical_phase_amplitude_m_s2": 1.1809776642269295e-11,
+    "ideal_mechanical_phase_offsets_rad": [
+      -1.369479037931727,
+      -1.3719047759559058,
+      -1.3719047740548485,
+      -1.3694790323927157,
+      1.369480562493588,
+      1.3719063056380256,
+      1.3719063081484772,
+      1.3694805699110981
+    ],
+    "gaussian_benchmarks_bit_s": {
+      "fixed_50p3Hz_receiver": 0.03775007344508109,
+      "retuned_receiver": 0.03775007344508109
+    },
+    "max_phase_refinement_relative": 9.210344636476683e-15,
+    "total_rotational_energy_j": 31570.450755531783,
+    "scope": "Equal moving mass and centrifugal stress scale; unequal footprint. Drives/support mass, power limits, phase errors, packet decoding and environmental noise not included. Retuned column changes receiver resonance only, retaining assumed mass/Q/readout."
+  }
+]

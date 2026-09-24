@@ -1,0 +1,248 @@
+[
+  {
+    "design": {
+      "distance": 0.5,
+      "mass": 7.027334750750038,
+      "radius": 0.2402963533160248,
+      "power": 120.49236454609739
+    },
+    "gap_m": 0.01,
+    "wall_thickness_m": 0.22700364668397519,
+    "magnetic_center_distance_m": 0.25670215614058106,
+    "tx_coil_half_thickness_m": 0.0046985094566059,
+    "tx_coil_mean_radius_m": 0.2355978438594189,
+    "rx_radius_m": 0.3403330741855069,
+    "noise_scenarios": [
+      {
+        "label": "quiet PCB extrapolation",
+        "capacity_failure_sigma": 8055209435.396418,
+        "bpsk_budget_sigma": 791315868.9693146
+      },
+      {
+        "label": "1 pT ambient",
+        "capacity_failure_sigma": 8055173192.146202,
+        "bpsk_budget_sigma": 791165153.820193
+      },
+      {
+        "label": "10 pT stress",
+        "capacity_failure_sigma": 8055197348.026373,
+        "bpsk_budget_sigma": 778291748.96462
+      },
+      {
+        "label": "10 Hz ambient knee",
+        "capacity_failure_sigma": 8055205648.73755,
+        "bpsk_budget_sigma": 791309940.222265
+      },
+      {
+        "label": "optimistic flat 1 fT total",
+        "capacity_failure_sigma": 44818391651.75718,
+        "bpsk_budget_sigma": 1469375248.3369496
+      }
+    ],
+    "points": [
+      {
+        "conductivity": 0.01,
+        "bpsk_required_average_W": 1.590357907035044e-17,
+        "carrier_Hz": 999.0,
+        "capacity_minimum_average_W": 2.013767365199991e-18
+      },
+      {
+        "conductivity": 4.0,
+        "bpsk_required_average_W": 1.59256467096368e-17,
+        "carrier_Hz": 999.0,
+        "capacity_minimum_average_W": 2.016376732386568e-18
+      },
+      {
+        "conductivity": 10000.0,
+        "bpsk_required_average_W": 4.274393147066685e-17,
+        "carrier_Hz": 308.7730269199189,
+        "capacity_minimum_average_W": 5.411169703572006e-18
+      },
+      {
+        "conductivity": 1000000.0,
+        "bpsk_required_average_W": 4.6437668692187004e-14,
+        "carrier_Hz": 25.39782366823019,
+        "capacity_minimum_average_W": 6.089808443866659e-15
+      },
+      {
+        "conductivity": 10000000.0,
+        "bpsk_required_average_W": 2.0709109374643853e-11,
+        "carrier_Hz": 3.387842690132472,
+        "capacity_minimum_average_W": 3.045202731388504e-12
+      },
+      {
+        "conductivity": 58000000.0,
+        "bpsk_required_average_W": 4.859768774381905e-09,
+        "carrier_Hz": 1.0,
+        "capacity_minimum_average_W": 7.3269743039214e-10
+      }
+    ],
+    "gain_validation_max_abs_dB": 0.036943833146362307,
+    "gap_0.005_capacity_sigma": 7547996029.154016,
+    "gap_0.02_capacity_sigma": 9285561882.481644
+  },
+  {
+    "design": {
+      "distance": 1.0,
+      "mass": 37.69173275922457,
+      "radius": 0.4206287956499422,
+      "power": 1980.2436500888432
+    },
+    "gap_m": 0.01,
+    "wall_thickness_m": 0.5466712043500578,
+    "magnetic_center_distance_m": 0.5798957501944254,
+    "tx_coil_half_thickness_m": 0.008224545844367614,
+    "tx_coil_mean_radius_m": 0.4124042498055746,
+    "rx_radius_m": 0.3403330741855069,
+    "noise_scenarios": [
+      {
+        "label": "quiet PCB extrapolation",
+        "capacity_failure_sigma": 2316411506.0594816,
+        "bpsk_budget_sigma": 190718076.82215968
+      },
+      {
+        "label": "1 pT ambient",
+        "capacity_failure_sigma": 2316423204.0556393,
+        "bpsk_budget_sigma": 190684771.59885806
+      },
+      {
+        "label": "10 pT stress",
+        "capacity_failure_sigma": 2316410311.1027136,
+        "bpsk_budget_sigma": 187853423.34667355
+      },
+      {
+        "label": "10 Hz ambient knee",
+        "capacity_failure_sigma": 2316410666.0975246,
+        "bpsk_budget_sigma": 190716792.9143718
+      },
+      {
+        "label": "optimistic flat 1 fT total",
+        "capacity_failure_sigma": 10929389233.975122,
+        "bpsk_budget_sigma": 327083740.8401786
+      }
+    ],
+    "points": [
+      {
+        "conductivity": 0.01,
+        "bpsk_required_average_W": 2.4416727822219147e-17,
+        "carrier_Hz": 999.0,
+        "capacity_minimum_average_W": 3.0917254239535254e-18
+      },
+      {
+        "conductivity": 4.0,
+        "bpsk_required_average_W": 2.478063275785465e-17,
+        "carrier_Hz": 999.0,
+        "capacity_minimum_average_W": 3.134584681407019e-18
+      },
+      {
+        "conductivity": 10000.0,
+        "bpsk_required_average_W": 2.4897172224428183e-16,
+        "carrier_Hz": 171.66283821610318,
+        "capacity_minimum_average_W": 3.166723692350504e-17
+      },
+      {
+        "conductivity": 1000000.0,
+        "bpsk_required_average_W": 1.997141733831688e-12,
+        "carrier_Hz": 7.671350378810732,
+        "capacity_minimum_average_W": 2.767533193448809e-13
+      },
+      {
+        "conductivity": 10000000.0,
+        "bpsk_required_average_W": 1.624912463526087e-09,
+        "carrier_Hz": 1.0471215637244482,
+        "capacity_minimum_average_W": 2.695463742991461e-10
+      },
+      {
+        "conductivity": 58000000.0,
+        "bpsk_required_average_W": 9.346197571386545e-05,
+        "carrier_Hz": 1.0,
+        "capacity_minimum_average_W": 1.3092827819829118e-07
+      }
+    ],
+    "gain_validation_max_abs_dB": 0.045790693640528034,
+    "gap_0.005_capacity_sigma": 2255821260.9603953,
+    "gap_0.02_capacity_sigma": 2446667180.5365863
+  },
+  {
+    "design": {
+      "distance": 2.0,
+      "mass": 227.3153385558173,
+      "radius": 0.7656434061793719,
+      "power": 29680.143
+    },
+    "gap_m": 0.01,
+    "wall_thickness_m": 1.2016565938206283,
+    "magnetic_center_distance_m": 1.2416272029650401,
+    "tx_coil_half_thickness_m": 0.01497060914441197,
+    "tx_coil_mean_radius_m": 0.7506727970349599,
+    "rx_radius_m": 0.3403330741855069,
+    "noise_scenarios": [
+      {
+        "label": "quiet PCB extrapolation",
+        "capacity_failure_sigma": 618666168.4673811,
+        "bpsk_budget_sigma": 44658955.263590805
+      },
+      {
+        "label": "1 pT ambient",
+        "capacity_failure_sigma": 618666120.4243224,
+        "bpsk_budget_sigma": 44651722.95080546
+      },
+      {
+        "label": "10 pT stress",
+        "capacity_failure_sigma": 618665274.3003554,
+        "bpsk_budget_sigma": 44037882.91842475
+      },
+      {
+        "label": "10 Hz ambient knee",
+        "capacity_failure_sigma": 618665982.3614469,
+        "bpsk_budget_sigma": 44658680.11146229
+      },
+      {
+        "label": "optimistic flat 1 fT total",
+        "capacity_failure_sigma": 2618861864.205946,
+        "bpsk_budget_sigma": 72523189.76600532
+      }
+    ],
+    "points": [
+      {
+        "conductivity": 0.01,
+        "bpsk_required_average_W": 6.517312531279963e-17,
+        "carrier_Hz": 999.0,
+        "capacity_minimum_average_W": 8.252213593176887e-18
+      },
+      {
+        "conductivity": 4.0,
+        "bpsk_required_average_W": 7.460120858645518e-17,
+        "carrier_Hz": 757.8493259874152,
+        "capacity_minimum_average_W": 9.398160730805192e-18
+      },
+      {
+        "conductivity": 10000.0,
+        "bpsk_required_average_W": 6.841046309232198e-15,
+        "carrier_Hz": 73.23688743353709,
+        "capacity_minimum_average_W": 8.784242869405541e-16
+      },
+      {
+        "conductivity": 1000000.0,
+        "bpsk_required_average_W": 2.8202050318445364e-10,
+        "carrier_Hz": 2.1377268089531634,
+        "capacity_minimum_average_W": 4.393033349346617e-11
+      },
+      {
+        "conductivity": 10000000.0,
+        "bpsk_required_average_W": 1.3882839618515857e-05,
+        "carrier_Hz": 1.0,
+        "capacity_minimum_average_W": 9.143678749379633e-08
+      },
+      {
+        "conductivity": 58000000.0,
+        "bpsk_required_average_W": 10440108.081700763,
+        "carrier_Hz": 1.0,
+        "capacity_minimum_average_W": 0.00022155552438872059
+      }
+    ],
+    "gain_validation_max_abs_dB": 0.055869271884216615,
+    "gap_0.005_capacity_sigma": 611766570.491654,
+    "gap_0.02_capacity_sigma": 632971510.4152904
+  }
+]

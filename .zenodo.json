@@ -1,0 +1,23 @@
+{
+  "title": "Shaped-rotor gravitational communication",
+  "version": "0.5.0",
+  "upload_type": "software",
+  "publication_date": "2026-09-24",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Mandal, Soumyajit"
+    },
+    {
+      "name": "Madanayake, Arjuna"
+    }
+  ],
+  "description": "Simulation code and numerical data for rotating-mass Newtonian gravitational communication: source fields, constrained modulation, causal decoding, packet BER qualification, steel and tungsten rotor mechanics, tone-count studies, arrays, and finite-size magnetic links through conducting barriers. Includes the complete numerical data archive in datasets/. See docs/RELEASE_v0.5.0.md for scope, reproducibility and modeling limitations.",
+  "keywords": [
+    "Newtonian gravity",
+    "Gravitational communication",
+    "Electromechanics",
+    "Sequence detection",
+    "Finite-element analysis"
+  ]
+}

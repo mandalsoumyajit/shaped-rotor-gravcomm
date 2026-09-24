@@ -20,3 +20,8 @@ spooles.out
 # Optional release-data extraction and verification outputs
 /DATA_MANIFEST.sha256
 /results/fixed_rate_sizing_2026_09_20/*/*/
+
+/results/tone_count_study_2026_09_21/*/*/
+/fea/results/shaped_waveforms/medium_rounded.npz
+
+/fea/results/design_sweep/medium_rounded/h0.018_rpm1800/

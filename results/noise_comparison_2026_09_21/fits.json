@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Magnetic",
+    "band_Hz": [
+      0.1,
+      1
+    ],
+    "alpha": 1.4062153555470835,
+    "ASD_at_1Hz": 1.4150233041443995e-13,
+    "rms_residual_dB": 2.462838419331378
+  },
+  {
+    "name": "Residual support",
+    "band_Hz": [
+      1,
+      10
+    ],
+    "alpha": 1.3247118484120641,
+    "ASD_at_1Hz": 4.6683364712796065e-09,
+    "rms_residual_dB": 3.3651453072691173
+  },
+  {
+    "name": "Rayleigh gravity",
+    "band_Hz": [
+      1,
+      10
+    ],
+    "alpha": 0.30628499416660354,
+    "ASD_at_1Hz": 8.008710104295323e-15,
+    "rms_residual_dB": 2.311885800838135
+  }
+]

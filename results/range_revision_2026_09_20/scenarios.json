@@ -1,0 +1,307 @@
+{
+  "cases": [
+    {
+      "name": "desktop_0.5m",
+      "distance_m": 0.5,
+      "scale": 1.0,
+      "mass_kg": 7.913509491619676,
+      "diameter_m": 0.5,
+      "inertia_kg_m2": 0.3160713095850955,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 5.180259430854157e-10,
+      "gaussian_benchmark_bit_s": 3.9045249654503262,
+      "wideband_energy_upper_bit_s": 73.00237486617962,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.05,
+        "peak_limit": 2.0,
+        "rms_limit": 0.5,
+        "power_limit": 400.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "desktop_0.75m",
+      "distance_m": 0.75,
+      "scale": 1.0,
+      "mass_kg": 7.913509491619676,
+      "diameter_m": 0.5,
+      "inertia_kg_m2": 0.3160713095850955,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 9.562460292706905e-11,
+      "gaussian_benchmark_bit_s": 0.7606873509406501,
+      "wideband_energy_upper_bit_s": 2.487558243258542,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.05,
+        "peak_limit": 2.0,
+        "rms_limit": 0.5,
+        "power_limit": 400.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "desktop_1m",
+      "distance_m": 1.0,
+      "scale": 1.0,
+      "mass_kg": 7.913509491619676,
+      "diameter_m": 0.5,
+      "inertia_kg_m2": 0.3160713095850955,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 2.959361146589241e-11,
+      "gaussian_benchmark_bit_s": 0.1549479727447102,
+      "wideband_energy_upper_bit_s": 0.2382483511913497,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.05,
+        "peak_limit": 2.0,
+        "rms_limit": 0.5,
+        "power_limit": 400.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "desktop_1.5m",
+      "distance_m": 1.5,
+      "scale": 1.0,
+      "mass_kg": 7.913509491619676,
+      "diameter_m": 0.5,
+      "inertia_kg_m2": 0.3160713095850955,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 5.7565321055276614e-12,
+      "gaussian_benchmark_bit_s": 0.008466064383080334,
+      "wideband_energy_upper_bit_s": 0.009014794494224933,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.05,
+        "peak_limit": 2.0,
+        "rms_limit": 0.5,
+        "power_limit": 400.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "desktop_2m",
+      "distance_m": 2.0,
+      "scale": 1.0,
+      "mass_kg": 7.913509491619676,
+      "diameter_m": 0.5,
+      "inertia_kg_m2": 0.3160713095850955,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 1.8117911864138177e-12,
+      "gaussian_benchmark_bit_s": 0.0008806634330168966,
+      "wideband_energy_upper_bit_s": 0.0008929975220581491,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.05,
+        "peak_limit": 2.0,
+        "rms_limit": 0.5,
+        "power_limit": 400.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "scale2_2m_same_receiver",
+      "distance_m": 2.0,
+      "scale": 2.0,
+      "mass_kg": 63.30807593295741,
+      "diameter_m": 1.0,
+      "inertia_kg_m2": 10.114281906723056,
+      "carrier_hz": 50.3,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 5.918722293178482e-11,
+      "gaussian_benchmark_bit_s": 0.42022384249005695,
+      "wideband_energy_upper_bit_s": 0.9529934047653988,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 2.8112111111111107,
+      "illustrative_regional_mean_mpa": 71.6296591111111,
+      "illustrative_unconverged_peak_mpa": 163.41570188888886,
+      "drive": {
+        "drag": 0.4,
+        "peak_limit": 16.0,
+        "rms_limit": 4.0,
+        "power_limit": 1600.0,
+        "max_rpm": 1800
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons.",
+      "mechanical_caution": "Same-speed scaling increases centrifugal stress; not a qualified operating design."
+    },
+    {
+      "name": "scale2_2m_slow_same_receiver",
+      "distance_m": 2.0,
+      "scale": 2.0,
+      "mass_kg": 63.30807593295741,
+      "diameter_m": 1.0,
+      "inertia_kg_m2": 10.114281906723056,
+      "carrier_hz": 25.15,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 50.3,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": false,
+      "amplitude_m_s2": 5.918722293178482e-11,
+      "gaussian_benchmark_bit_s": 4.7499709501205116e-05,
+      "wideband_energy_upper_bit_s": 4.756085775687296e-05,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.4,
+        "peak_limit": 16.0,
+        "rms_limit": 4.0,
+        "power_limit": 1600.0,
+        "max_rpm": 900.0
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    },
+    {
+      "name": "scale2_2m_slow_retuned_receiver",
+      "distance_m": 2.0,
+      "scale": 2.0,
+      "mass_kg": 63.30807593295741,
+      "diameter_m": 1.0,
+      "inertia_kg_m2": 10.114281906723056,
+      "carrier_hz": 25.15,
+      "receiver": {
+        "mass_kg": 0.0031,
+        "resonance_hz": 25.15,
+        "quality_factor": 637000.0,
+        "temperature_k": 300.0,
+        "readout_displacement_asd": 1e-13,
+        "minimum_frequency_hz": 0.2,
+        "maximum_frequency_hz": 200.0
+      },
+      "receiver_redesigned": true,
+      "amplitude_m_s2": 5.918722293178482e-11,
+      "gaussian_benchmark_bit_s": 0.7427955810161022,
+      "wideband_energy_upper_bit_s": 1.9060091164970527,
+      "benchmark_bandwidth_hz": 2.0,
+      "centrifugal_stress_factor_vs_base1800": 0.7028027777777777,
+      "illustrative_regional_mean_mpa": 17.907414777777774,
+      "illustrative_unconverged_peak_mpa": 40.853925472222215,
+      "drive": {
+        "drag": 0.4,
+        "peak_limit": 16.0,
+        "rms_limit": 4.0,
+        "power_limit": 1600.0,
+        "max_rpm": 900.0
+      },
+      "assumptions": "No environmental noise; ideal acquired timing/phase; similarity transfers centrifugal statics only; no new FEA. Enlarged drive ratings scale explicitly, not fixed-hardware comparisons."
+    }
+  ],
+  "field_cache": {
+    "0.5": {
+      "distance_m": 0.5,
+      "amplitude_m_s2": 5.180259430854157e-10,
+      "phase_refinement_relative": 2.220446049250313e-16
+    },
+    "0.75": {
+      "distance_m": 0.75,
+      "amplitude_m_s2": 9.562460292706905e-11,
+      "phase_refinement_relative": 0.0
+    },
+    "1": {
+      "distance_m": 1.0,
+      "amplitude_m_s2": 2.959361146589241e-11,
+      "phase_refinement_relative": 4.440892098500626e-16
+    },
+    "1.5": {
+      "distance_m": 1.5,
+      "amplitude_m_s2": 5.7565321055276614e-12,
+      "phase_refinement_relative": 2.220446049250313e-16
+    },
+    "2": {
+      "distance_m": 2.0,
+      "amplitude_m_s2": 1.8117911864138177e-12,
+      "phase_refinement_relative": 8.881784197001252e-16
+    }
+  },
+  "source_sha256": "8ec19bf0075de6e0aa2a6b85b1d32f9b5961127f560f447fcba1e3cedcd0e072",
+  "provenance": "Finite-volume similarity a_s(d)=s*a_1(d/s); CAD inertia used for mechanics, accepted quadrature for field.",
+  "checks": "128/256 phase agreement; original 0.5/1/2 m field reproduction; baseline exact-message torque reproduction; physical carrier PSD translation."
+}

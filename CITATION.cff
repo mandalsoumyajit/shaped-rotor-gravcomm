@@ -7,8 +7,8 @@ authors:
     given-names: Soumyajit
   - family-names: Madanayake
     given-names: Arjuna
-version: 0.4.0
-date-released: 2026-09-21
+version: 0.5.0
+date-released: 2026-09-24
 license: MIT
 repository-code: "https://github.com/mandalsoumyajit/shaped-rotor-gravcomm"
 abstract: "Finite-volume Newtonian source fields, constrained CF-FSK modulation, causal streaming soft decoding and coded-link qualification, packet-aware BER statistics, and CalculiX assessment of a shaped rotor."

@@ -1,0 +1,338 @@
+[
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 0.01,
+    "label": "quiet sweep endpoint",
+    "bpsk_crossing_S_m": 791315999.0357254,
+    "capacity_crossing_S_m": 8055212288.560774,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.859762679864647e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.32697020672084e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 0.03,
+    "label": "quiet comparison",
+    "bpsk_crossing_S_m": 791315868.9693146,
+    "capacity_crossing_S_m": 8055209435.396418,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.859768774381905e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.3269743039214e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 0.1,
+    "label": "sweep",
+    "bpsk_crossing_S_m": 791314480.859834,
+    "capacity_crossing_S_m": 8055203284.633326,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.859838099515575e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.327020908764931e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 0.38,
+    "label": "mine-surface lower example",
+    "bpsk_crossing_S_m": 791294164.5552821,
+    "capacity_crossing_S_m": 8055187251.560458,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.860861978412923e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.327709052220419e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 1.0,
+    "label": "representative",
+    "bpsk_crossing_S_m": 791165153.820193,
+    "capacity_crossing_S_m": 8055173192.146202,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.867380064607703e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.332082182370882e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 3.0,
+    "label": "ELF sweep upper endpoint",
+    "bpsk_crossing_S_m": 789976829.5328913,
+    "capacity_crossing_S_m": 8055222045.724955,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.928325237069318e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.372346805994385e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 3.14,
+    "label": "mine-surface upper example",
+    "bpsk_crossing_S_m": 789850993.455314,
+    "capacity_crossing_S_m": 8055221515.669144,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 4.9348737958503206e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.376608929557174e-10
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.22700364668397519,
+    "power_ceiling_W": 120.49236454609739,
+    "ambient_pT_sqrtHz": 10.0,
+    "label": "tunnel / stress",
+    "bpsk_crossing_S_m": 778291748.96462,
+    "capacity_crossing_S_m": 8055197348.026373,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 5.621576573820305e-09,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 7.773525648459774e-10
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 0.01,
+    "label": "quiet sweep endpoint",
+    "bpsk_crossing_S_m": 190718106.22239265,
+    "capacity_crossing_S_m": 2316412262.0159883,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.346177070502639e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3092827487274268e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 0.03,
+    "label": "quiet comparison",
+    "bpsk_crossing_S_m": 190718076.82215968,
+    "capacity_crossing_S_m": 2316411506.0594816,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.346197571386545e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3092827819829118e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 0.1,
+    "label": "sweep",
+    "bpsk_crossing_S_m": 190717764.64295036,
+    "capacity_crossing_S_m": 2316409840.676157,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.346430768941084e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3092831602638352e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 0.38,
+    "label": "mine-surface lower example",
+    "bpsk_crossing_S_m": 190713265.48213273,
+    "capacity_crossing_S_m": 2316405492.5498385,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.349874917438916e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3092887471298378e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 1.0,
+    "label": "representative",
+    "bpsk_crossing_S_m": 190684771.59885806,
+    "capacity_crossing_S_m": 2316423204.0556393,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.371800612786685e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3093243112282473e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 3.0,
+    "label": "ELF sweep upper endpoint",
+    "bpsk_crossing_S_m": 190422196.3267722,
+    "capacity_crossing_S_m": 2316413238.297046,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.576809451942975e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.309656650007973e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 3.14,
+    "label": "mine-surface upper example",
+    "bpsk_crossing_S_m": 190394406.60821527,
+    "capacity_crossing_S_m": 2316413211.054142,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 9.598837651710329e-05,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.309692339255448e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5466712043500578,
+    "power_ceiling_W": 1980.2436500888432,
+    "ambient_pT_sqrtHz": 10.0,
+    "label": "tunnel / stress",
+    "bpsk_crossing_S_m": 187853423.34667355,
+    "capacity_crossing_S_m": 2316410311.1027136,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 0.00011908784997345819,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 1.3134128674345957e-07
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 0.01,
+    "label": "quiet sweep endpoint",
+    "bpsk_crossing_S_m": 44658959.090018205,
+    "capacity_crossing_S_m": 618666171.0308422,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10440078.824984284,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022155552393789452
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 0.03,
+    "label": "quiet comparison",
+    "bpsk_crossing_S_m": 44658955.263590805,
+    "capacity_crossing_S_m": 618666168.4673811,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10440108.081700763,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022155552438872059
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 0.1,
+    "label": "sweep",
+    "bpsk_crossing_S_m": 44658890.828227095,
+    "capacity_crossing_S_m": 618666161.969776,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10440440.876850456,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022155552951683906
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 0.38,
+    "label": "mine-surface lower example",
+    "bpsk_crossing_S_m": 44657916.47167995,
+    "capacity_crossing_S_m": 618666146.7153671,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10445356.005215392,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022155560525517938
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 1.0,
+    "label": "representative",
+    "bpsk_crossing_S_m": 44651722.95080546,
+    "capacity_crossing_S_m": 618666120.4243224,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10476646.063467266,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022155608740906404
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 3.0,
+    "label": "ELF sweep upper endpoint",
+    "bpsk_crossing_S_m": 44594722.77526517,
+    "capacity_crossing_S_m": 618666010.9217201,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10769213.228047632,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022156059547609306
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 3.14,
+    "label": "mine-surface upper example",
+    "bpsk_crossing_S_m": 44588693.03568568,
+    "capacity_crossing_S_m": 618666001.1867274,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 10800649.569881776,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.00022156107985170088
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2016565938206283,
+    "power_ceiling_W": 29680.143,
+    "ambient_pT_sqrtHz": 10.0,
+    "label": "tunnel / stress",
+    "bpsk_crossing_S_m": 44037882.91842475,
+    "capacity_crossing_S_m": 618665274.3003554,
+    "at_sigma_5_8e7": {
+      "bpsk_average_W": 14097164.725149194,
+      "bpsk_carrier_Hz": 1.0,
+      "capacity_minimum_average_W": 0.0002216118555907967
+    }
+  }
+]

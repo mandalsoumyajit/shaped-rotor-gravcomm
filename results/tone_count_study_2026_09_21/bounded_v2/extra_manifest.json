@@ -1,0 +1,586 @@
+{
+  "jobs": [
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M2_g1b1_spanT0.2_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 2,
+        "group_symbols": 1,
+        "group_bits": 1,
+        "span_symbol_product": 0.2,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M4_g1b2_spanT0.6_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 4,
+        "group_symbols": 1,
+        "group_bits": 2,
+        "span_symbol_product": 0.6000000000000001,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M6_g2b5_spanT1_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 6,
+        "group_symbols": 2,
+        "group_bits": 5,
+        "span_symbol_product": 1.0,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f24",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 24.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 0.8125,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52000,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52001,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52002,
+      false
+    ],
+    [
+      {
+        "id": "M8_g1b3_spanT1.4_f18",
+        "scheme": "tb_2/3",
+        "information_bits": 256,
+        "carrier_hz": 18.0,
+        "transition_fraction": 0.6,
+        "q": 0.08,
+        "amplitude_scale": 1.0,
+        "tone_count": 8,
+        "group_symbols": 1,
+        "group_bits": 3,
+        "span_symbol_product": 1.4000000000000001,
+        "beam_width": 32768
+      },
+      52003,
+      false
+    ]
+  ],
+  "reason": "Matched adjacent spacing q=0.08 control; avoids excluding eight-tone settings solely because the equal-span grid produces costly phase lattices.",
+  "sha256": {
+    "scripts\\tone_count_extra.py": "522fab7460312048f19760a20cbc8f0de8da346ad8afe1a3ce2871007583ae82",
+    "scripts\\tone_count_runtime.py": "c9f25ea893c9de98c91e3fc16f1181cd5ebcfde9d0d140f0fcc1b0d0da826efc",
+    "src\\gravcomm\\alphabet_streaming.py": "150a5b5c707e31aa945d96b5c25ae257f099fbdfb08a8ae04329a4c21bb2ef07"
+  }
+}

@@ -1,6 +1,6 @@
 # Shaped-rotor gravitational communication
 
-**v0.4.0 - causal coded links and three-distance transmitter sizing**
+**v0.5.0 - publication archive with tone-count and electromagnetic comparisons**
 
 Numerical code for a proposed rotating-source Newtonian gravitational communication link. The current study sizes steel-insert transmitters at 0.5, 1 and 2 m for a nominal payload rate of 1 bit/s, with fixed instrumental noise/bandwidth and a tunable center frequency. Results are conditional simulations, not a hardware demonstration.
 
@@ -12,7 +12,11 @@ Numerical code for a proposed rotating-source Newtonian gravitational communicat
 
 Independent packet-aware qualification supports post-decoding BER <=1e-3 for the selected channels, with 224 s frame budgets and approximately 0.99 bit/s empirical accepted throughput. The 0.5 and 1 m designs share the same normalized channel and qualification sample. The 2 m replacement was qualified in a separate statistical family; no joint 95% claim across both studies is made.
 
-## New in this release
+## Added in v0.5.0
+
+See `docs/RELEASE_v0.5.0.md` for new data, limitations and entry points. This release adds the tone-count study, planar-wall magnetic comparison, atomic receiver alternatives, historical environmental spectrum and array illustration. The seven-tone gravitational design results below are unchanged.
+
+## Retained from v0.4.0
 
 - Causal sixth-order receive filtering, decimation and aliased-noise covariance.
 - Explicit environmental spectrum with declared isolation and high-frequency extrapolation.
@@ -41,7 +45,7 @@ The Gmsh Python module and CalculiX executable are additional FEA dependencies. 
 
 ## Results and data asset
 
-Summary JSON and reports are included in Git. Download **gravcomm-v0.4.0-data.zip** from the v0.4.0 release and extract at repository root before auditing full packet records or rerunning FEA. The archive includes 36,992 qualification packets across the initial and replacement studies, exploratory/diagnostic records, frozen configurations, mechanical summaries, and the two original reference input decks needed by the scaled steel workflow. `DATA_MANIFEST.sha256` checks the extracted data.
+Summary JSON and reports are included in Git. Download **gravcomm-v0.5.0-data.zip** from the v0.5.0 release and extract at repository root before auditing full packet records or rerunning FEA. The archive includes 36,992 original qualification packets plus 26,240 four-tone packets across the initial and replacement studies, exploratory/diagnostic records, frozen configurations, mechanical summaries, and the two original reference input decks needed by the scaled steel workflow. `DATA_MANIFEST.sha256` checks the extracted data.
 
 Large solver result fields, meshes and logs are regenerated, not shipped. Serialized workstation folder paths have been made repository-relative; numerical inputs and original scientific source hashes are preserved. Run commands from repository root unless stated otherwise. Historical scripts whose data are not included require their original inputs and are not current-release entry points.
 
@@ -95,3 +99,5 @@ Included summary-only solver folders are evidence, not completed reusable solver
 The instrument profile is translated unchanged with carrier; physical tuning, acquisition and site noise are unvalidated. The environmental model is a declared scenario, not measured noise. The receiver is reduced-state, with numerical convergence checks, not an exact unlimited-memory decoder. Mechanical models fix the bore and bond inserts; actual retention, contact, fatigue and drivetrain dynamics remain unresolved. Commanded power excludes drag and electrical losses. Tungsten reduces protrusion; no CFD drag savings or new tungsten BER qualification is asserted.
 
 Original code and generated data retain the MIT License. Third-party dependencies retain their licenses. Manuscript drafts, coauthor correspondence and private editorial files are not included. Cite this software version with `CITATION.cff`; the paper itself is maintained separately.
+
+The complete numerical archive is also included in `datasets/gravcomm-v0.5.0-data.zip` so that repository-based archival services preserve the data with the code.

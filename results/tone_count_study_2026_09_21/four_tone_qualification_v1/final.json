@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "channels": {
+    "M4_g1b2_spanT0.6_f24": {
+      "packets": 16896,
+      "payload_bits": 3784704,
+      "errors": 2303,
+      "ber": 0.000608502012310606,
+      "confidence_interval": [
+        0.00043721750800026067,
+        0.0009972347306092509
+      ],
+      "alpha": 0.025,
+      "status": "pass",
+      "crc_rejections": 237,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.9859730113636364,
+      "max_latency_s": 224.09840120002627,
+      "max_block_s": 0.1800968000316061
+    },
+    "M4_g1b2_spanT0.6_f18": {
+      "packets": 9344,
+      "payload_bits": 2093056,
+      "errors": 666,
+      "ber": 0.0003181950220156556,
+      "confidence_interval": [
+        0.0001679215414655938,
+        0.000989751520872435
+      ],
+      "alpha": 0.025,
+      "status": "pass",
+      "crc_rejections": 73,
+      "wrong_accepted": 0,
+      "accepted_payload_rate_bps": 0.9921875,
+      "max_latency_s": 224.10003849997884,
+      "max_block_s": 0.18976179999299347
+    }
+  },
+  "packets_saved": 26240,
+  "elapsed_this_run_s": 3644.4053769111633,
+  "workers": 12
+}
