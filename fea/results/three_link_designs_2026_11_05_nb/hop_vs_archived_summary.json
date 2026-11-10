@@ -1,0 +1,1392 @@
+{
+  "archived": {
+    "rows": [
+      {
+        "distance_m": 0.5,
+        "carrier_hz": 24.0,
+        "scale": 0.9611854132640992,
+        "omega_max_rad_s": 76.76145049833775,
+        "alpha_max_rad_s2": 6.161906907745526,
+        "cad_mass_kg": 7.027334750750038,
+        "cad_inertia_kg_m2": 0.2593109958282796,
+        "mesh_mass_kg_fine": 7.019648097798766,
+        "mesh_inertia_kg_m2_fine": 0.25898179637057334,
+        "peak_torque_nm": 1.5978502164486474,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 8.90580204110765,
+          "centrifugal_alu_peak_coarse_mpa": 7.687027794809792,
+          "horizontal_combined_alu_bound_mpa": 9.718420931639972,
+          "horizontal_combined_u_bound_um": 15.263565656539013,
+          "centrifugal_u_um": 10.03138831549435,
+          "all_attitude_alu_bound_mpa": 12.332922105595339,
+          "all_attitude_u_bound_um": 51.6773786432433,
+          "all_attitude_insert_bound_mpa": 4.967582038473967,
+          "angular_only_alu_mpa": 0.7681030853363955,
+          "angular_only_u_um": 3.5018133246700085,
+          "horizontal_gravity_alu_bound_mpa": 0.6039654319801875,
+          "phase_sampled_alu_bound_mpa": 12.178459794783922,
+          "phase_sampled_u_bound_um": 48.539533986762756,
+          "regional_10mm_fine_mpa": 4.761743815998659,
+          "regional_10mm_coarse_mpa": 4.751716229413243,
+          "raw_peak_change_percent": 15.854947826788957,
+          "displacement_change_percent": 0.08921468150733247,
+          "regional_change_percent": 0.2110308381494841,
+          "modes": {
+            "center_first3_hz": [
+              77.33493,
+              94.68853,
+              105.2712
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 105.2712,
+            "torsional_eta": 0.9976030750303152,
+            "translation_fraction_first3": [
+              1.9985284051342695e-08,
+              0.8282113715301652,
+              1.0502675100912916e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 105.27,
+            "low_matched_torsional_mac": 0.999999999992927,
+            "low_matched_torsional_eta": 0.9976028581139975,
+            "low_first3_hz": [
+              77.29775,
+              94.65955,
+              105.27
+            ],
+            "low_min_mac": 0.9999999951776984,
+            "low_matched_first3_hz": [
+              77.29775,
+              94.65955,
+              105.27
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 105.2724,
+            "high_matched_torsional_mac": 0.9999999999926684,
+            "high_matched_torsional_eta": 0.9976032970336757,
+            "high_first3_hz": [
+              77.37277,
+              94.71803,
+              105.2724
+            ],
+            "high_min_mac": 0.9999999950116755,
+            "high_matched_first3_hz": [
+              77.37277,
+              94.71803,
+              105.2724
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.000164041129756,
+              "0.02": 1.0001008239597546,
+              "0.05": 1.0000974958680864
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0000455868171036,
+              "0.02": 1.0000522224909725,
+              "0.05": 1.0000523737762352
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0246702164875114,
+              "0.02": 1.0246507891918468,
+              "0.05": 1.0245420167527624
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0246702164875114,
+              "0.02": 1.0246507891918468,
+              "0.05": 1.0245420167527624
+            }
+          },
+          "torsional_period_s": 0.009499274255446884,
+          "first_mode_period_s": 0.012930767506998455,
+          "transition_s": 0.8296296296296297,
+          "transition_over_torsional_period": 87.33610666666667,
+          "transition_over_first_period": 64.15934933333334,
+          "insert_centrifugal_force_kn": 2.4079503469083336,
+          "series_shaft_carrier_torsion_hz": 44.10737197899884,
+          "shaft_only_torsion_hz": 48.57684167982042
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 9.720811506176723,
+          "horizontal_combined_u_bound_um": 15.191347388151975,
+          "steel_horizontal_alu_bound_mpa": 9.718420931639972,
+          "steel_horizontal_u_bound_um": 15.263565656539013,
+          "all_attitude_insert_bound_steel_mpa": 4.967582038473967,
+          "all_attitude_insert_bound_tungsten_mpa": 3.8034606229962944,
+          "centrifugal_alu_peak_coarse_mpa": 7.575533367738534,
+          "centrifugal_alu_peak_fine_mpa": 8.908987152809141,
+          "displacement_change_percent": 0.09229309419658271,
+          "regional_change_percent": 0.20323312085019918,
+          "modes": {
+            "center_first3_hz": [
+              77.97732,
+              95.49769,
+              105.2702
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 105.2702,
+            "torsional_eta": 0.9976029787547803,
+            "translation_fraction_first3": [
+              1.4675763973961782e-09,
+              0.8430803256814159,
+              1.1241524871837114e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 105.2691,
+            "low_matched_torsional_mac": 0.9999999999929234,
+            "low_matched_torsional_eta": 0.997602762095414,
+            "low_first3_hz": [
+              77.93933,
+              95.46809,
+              105.2691
+            ],
+            "low_min_mac": 0.9999999918425866,
+            "low_matched_first3_hz": [
+              77.93933,
+              95.46809,
+              105.2691
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 105.2714,
+            "high_matched_torsional_mac": 0.9999999999927724,
+            "high_matched_torsional_eta": 0.9976031977125729,
+            "high_first3_hz": [
+              78.01598,
+              95.52782,
+              105.2714
+            ],
+            "high_min_mac": 0.9999999915809941,
+            "high_matched_first3_hz": [
+              78.01598,
+              95.52782,
+              105.2714
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0000786409745461,
+              "0.02": 1.0000942778076332,
+              "0.05": 1.0000958784824896
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0000455183733679,
+              "0.02": 1.0000522224906914,
+              "0.05": 1.0000523747817753
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0242555980215973,
+              "0.02": 1.024236512675241,
+              "0.05": 1.0241296544479215
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0242555980215973,
+              "0.02": 1.024236512675241,
+              "0.05": 1.0241296544479215
+            }
+          },
+          "steel_insert_length_mm": 76.16475579216194,
+          "tungsten_insert_length_mm": 33.21629627602618,
+          "field": {
+            "steel_a2_m_s2": 4.2089607795180265e-10,
+            "steel_phase_relative_error": 0.0,
+            "tungsten_a2_m_s2": 4.2458594623300675e-10,
+            "tungsten_phase_relative_error": 2.220446049250313e-16,
+            "distance_m": 0.5,
+            "relative_signal_change_percent": 0.8766696756025816
+          }
+        }
+      },
+      {
+        "distance_m": 1.0,
+        "carrier_hz": 24.0,
+        "scale": 1.6825151825997688,
+        "omega_max_rad_s": 76.76145049833775,
+        "alpha_max_rad_s2": 6.161906907745526,
+        "cad_mass_kg": 37.69173275922457,
+        "cad_inertia_kg_m2": 4.2616721384923375,
+        "mesh_mass_kg_fine": 37.65050471486233,
+        "mesh_inertia_kg_m2_fine": 4.256261877533552,
+        "peak_torque_nm": 26.260026988722583,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 27.288310015799023,
+          "centrifugal_alu_peak_coarse_mpa": 23.553859079319675,
+          "horizontal_combined_alu_bound_mpa": 28.98486254538934,
+          "horizontal_combined_u_bound_um": 77.77273267295305,
+          "centrifugal_u_um": 53.80425005183921,
+          "all_attitude_alu_bound_mpa": 33.49929087081735,
+          "all_attitude_u_bound_um": 189.34790157010156,
+          "all_attitude_insert_bound_mpa": 15.116863580082903,
+          "angular_only_alu_mpa": 2.3535484901792025,
+          "angular_only_u_um": 18.782286128046806,
+          "horizontal_gravity_alu_bound_mpa": 1.057216427807861,
+          "phase_sampled_alu_bound_mpa": 33.026002158125124,
+          "phase_sampled_u_bound_um": 172.6864356993932,
+          "regional_10mm_fine_mpa": 13.568556284880376,
+          "regional_10mm_coarse_mpa": 13.538574947839063,
+          "raw_peak_change_percent": 15.854943021877045,
+          "displacement_change_percent": 0.08924592513572804,
+          "regional_change_percent": 0.22145120263266094,
+          "modes": {
+            "center_first3_hz": [
+              45.38614,
+              55.03611,
+              60.177
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 60.177,
+            "torsional_eta": 0.9976154938965065,
+            "translation_fraction_first3": [
+              2.012317637757584e-08,
+              0.8300725714148398,
+              1.0884508329080257e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 60.17499,
+            "low_matched_torsional_mac": 0.9999999999373783,
+            "low_matched_torsional_eta": 0.9976148348530813,
+            "low_first3_hz": [
+              45.32281,
+              54.98651,
+              60.17499
+            ],
+            "low_min_mac": 0.999999955664159,
+            "low_matched_first3_hz": [
+              45.32281,
+              54.98651,
+              60.17499
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 60.17904,
+            "high_matched_torsional_mac": 0.9999999999355098,
+            "high_matched_torsional_eta": 0.9976161623806477,
+            "high_first3_hz": [
+              45.45054,
+              55.08656,
+              60.17904
+            ],
+            "high_min_mac": 0.999999954084735,
+            "high_matched_first3_hz": [
+              45.45054,
+              55.08656,
+              60.17904
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0005145491029512,
+              "0.02": 1.000312835472692,
+              "0.05": 1.000284142541276
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0003078373590382,
+              "0.02": 1.0001756224007088,
+              "0.05": 1.00016138391062
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.075156087996925,
+              "0.02": 1.07509093230902,
+              "0.05": 1.0747262792339423
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.075156087996925,
+              "0.02": 1.07509093230902,
+              "0.05": 1.0747262792339423
+            }
+          },
+          "torsional_period_s": 0.016617644615052263,
+          "first_mode_period_s": 0.022033158140348574,
+          "transition_s": 0.8296296296296297,
+          "transition_over_torsional_period": 49.924622222222226,
+          "transition_over_first_period": 37.65368651851852,
+          "insert_centrifugal_force_kn": 22.607618146947967,
+          "series_shaft_carrier_torsion_hz": 32.807369363489826,
+          "shaft_only_torsion_hz": 39.13474407388112
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 28.99323541989256,
+          "horizontal_combined_u_bound_um": 77.39487659149334,
+          "steel_horizontal_alu_bound_mpa": 28.98486254538934,
+          "steel_horizontal_u_bound_um": 77.77273267295305,
+          "all_attitude_insert_bound_steel_mpa": 15.116863580082903,
+          "all_attitude_insert_bound_tungsten_mpa": 11.575412000671749,
+          "centrifugal_alu_peak_coarse_mpa": 23.212230249731427,
+          "centrifugal_alu_peak_fine_mpa": 27.298065160510628,
+          "displacement_change_percent": 0.09229084187096781,
+          "regional_change_percent": 0.22279532532261115,
+          "modes": {
+            "center_first3_hz": [
+              45.7789,
+              55.5184,
+              60.17648
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 60.17648,
+            "torsional_eta": 0.9976153864823193,
+            "translation_fraction_first3": [
+              1.438252556468926e-09,
+              0.8449361869595766,
+              1.6311232831841093e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 60.17447,
+            "low_matched_torsional_mac": 0.9999999999379283,
+            "low_matched_torsional_eta": 0.997614731092201,
+            "low_first3_hz": [
+              45.71423,
+              55.46776,
+              60.17447
+            ],
+            "low_min_mac": 0.9999999257537189,
+            "low_matched_first3_hz": [
+              45.71423,
+              55.46776,
+              60.17447
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 60.17853,
+            "high_matched_torsional_mac": 0.9999999999352183,
+            "high_matched_torsional_eta": 0.9976160570984755,
+            "high_first3_hz": [
+              45.84466,
+              55.56991,
+              60.17853
+            ],
+            "high_min_mac": 0.9999999231593218,
+            "high_matched_first3_hz": [
+              45.84466,
+              55.56991,
+              60.17853
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.00058924204392,
+              "0.02": 1.0003318067569587,
+              "0.05": 1.0002802709009544
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0003078106730567,
+              "0.02": 1.0001756212893154,
+              "0.05": 1.0001613866316164
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0737772871888316,
+              "0.02": 1.0737134906695833,
+              "0.05": 1.0733564401783953
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0737772871888316,
+              "0.02": 1.0737134906695833,
+              "0.05": 1.0733564401783953
+            }
+          },
+          "steel_insert_length_mm": 133.3232446424003,
+          "tungsten_insert_length_mm": 58.14374835793569,
+          "field": {
+            "steel_a2_m_s2": 4.208960787258846e-10,
+            "steel_phase_relative_error": 2.220446049250313e-16,
+            "tungsten_a2_m_s2": 4.235167591247796e-10,
+            "tungsten_phase_relative_error": 4.440892098500626e-16,
+            "distance_m": 1.0,
+            "relative_signal_change_percent": 0.6226431015532885
+          }
+        }
+      },
+      {
+        "distance_m": 2.0,
+        "carrier_hz": 18.0,
+        "scale": 3.0625736247174875,
+        "omega_max_rad_s": 57.911894576798986,
+        "alpha_max_rad_s2": 6.161906907745526,
+        "cad_mass_kg": 227.3153385558173,
+        "cad_inertia_kg_m2": 85.15649266353365,
+        "mesh_mass_kg_fine": 227.06669605052141,
+        "mesh_inertia_kg_m2_fine": 85.04838513374897,
+        "peak_torque_nm": 524.7263803828092,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 51.461324047339716,
+          "centrifugal_alu_peak_coarse_mpa": 44.418759167717035,
+          "horizontal_combined_alu_bound_mpa": 55.503991428429536,
+          "horizontal_combined_u_bound_um": 314.94626492450897,
+          "centrifugal_u_um": 184.69214189936392,
+          "all_attitude_alu_bound_mpa": 63.69116283430097,
+          "all_attitude_u_bound_um": 684.6423591365029,
+          "all_attitude_insert_bound_mpa": 28.539632909846528,
+          "angular_only_alu_mpa": 7.7979104363685705,
+          "angular_only_u_um": 113.27422268758086,
+          "horizontal_gravity_alu_bound_mpa": 1.9243827223118688,
+          "phase_sampled_alu_bound_mpa": 62.295897040933696,
+          "phase_sampled_u_bound_um": 600.4908013140853,
+          "regional_10mm_fine_mpa": 25.851200455130172,
+          "regional_10mm_coarse_mpa": 25.796044167324506,
+          "raw_peak_change_percent": 15.854933842323815,
+          "displacement_change_percent": 0.089252703823961,
+          "regional_change_percent": 0.21381684512515875,
+          "modes": {
+            "center_first3_hz": [
+              25.75824,
+              30.88293,
+              33.08649
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 33.08649,
+            "torsional_eta": 0.9976312594138723,
+            "translation_fraction_first3": [
+              2.0329965007729384e-08,
+              0.8323953619624194,
+              1.1921454506047539e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 33.08377,
+            "low_matched_torsional_mac": 0.9999999996392992,
+            "low_matched_torsional_eta": 0.9976296461010005,
+            "low_first3_hz": [
+              25.6748,
+              30.81724,
+              33.08377
+            ],
+            "low_min_mac": 0.9999997346183276,
+            "low_matched_first3_hz": [
+              25.6748,
+              30.81724,
+              33.08377
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 33.08927,
+            "high_matched_torsional_mac": 0.9999999996221569,
+            "high_matched_torsional_eta": 0.9976329088464999,
+            "high_first3_hz": [
+              25.84342,
+              30.95004,
+              33.08927
+            ],
+            "high_min_mac": 0.9999997222581634,
+            "high_matched_first3_hz": [
+              25.84342,
+              30.95004,
+              33.08927
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0012046245701571,
+              "0.02": 1.0008226076350846,
+              "0.05": 1.0008556595992528
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.000802691945076,
+              "0.02": 1.0005397942011938,
+              "0.05": 1.0005312497644483
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.1390498936365097,
+              "0.02": 1.1389146039235984,
+              "0.05": 1.1381578713708473
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.1390498936365097,
+              "0.02": 1.1389146039235984,
+              "0.05": 1.1381578713708473
+            }
+          },
+          "torsional_period_s": 0.030223816427792736,
+          "first_mode_period_s": 0.03882252824727155,
+          "transition_s": 0.8296296296296297,
+          "transition_over_torsional_period": 27.449532444444447,
+          "transition_over_first_period": 21.369799111111114,
+          "insert_centrifugal_force_kn": 141.25837124236077,
+          "series_shaft_carrier_torsion_hz": 21.232572244159783,
+          "shaft_only_torsion_hz": 27.685107929671187
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 55.51991749162808,
+          "horizontal_combined_u_bound_um": 313.67181020899864,
+          "steel_horizontal_alu_bound_mpa": 55.503991428429536,
+          "steel_horizontal_u_bound_um": 314.94626492450897,
+          "all_attitude_insert_bound_steel_mpa": 28.539632909846528,
+          "all_attitude_insert_bound_tungsten_mpa": 21.85475688821117,
+          "centrifugal_alu_peak_coarse_mpa": 43.774495271726394,
+          "centrifugal_alu_peak_fine_mpa": 51.47973644753415,
+          "displacement_change_percent": 0.09230104222086588,
+          "regional_change_percent": 0.21518118079268955,
+          "modes": {
+            "center_first3_hz": [
+              25.99115,
+              31.16132,
+              33.08623
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 33.08623,
+            "torsional_eta": 0.9976311404574207,
+            "translation_fraction_first3": [
+              1.4048196138013977e-09,
+              0.8472501333244187,
+              2.9462885776896304e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 33.08351,
+            "low_matched_torsional_mac": 0.9999999996369792,
+            "low_matched_torsional_eta": 0.9976295290535859,
+            "low_first3_hz": [
+              25.906,
+              31.09428,
+              33.08351
+            ],
+            "low_min_mac": 0.9999995607986618,
+            "low_matched_first3_hz": [
+              25.906,
+              31.09428,
+              33.08351
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 33.08901,
+            "high_matched_torsional_mac": 0.999999999619437,
+            "high_matched_torsional_eta": 0.9976327879445025,
+            "high_first3_hz": [
+              26.07808,
+              31.22979,
+              33.08901
+            ],
+            "high_min_mac": 0.9999995410402024,
+            "high_matched_first3_hz": [
+              26.07808,
+              31.22979,
+              33.08901
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0016592376305928,
+              "0.02": 1.0010568778301687,
+              "0.05": 1.000875789547303
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0008023629244307,
+              "0.02": 1.0005396754819984,
+              "0.05": 1.000531248587509
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.136231015442673,
+              "0.02": 1.1360991230985313,
+              "0.05": 1.1353613738012587
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.136231015442673,
+              "0.02": 1.1360991230985313,
+              "0.05": 1.1353613738012587
+            }
+          },
+          "steel_insert_length_mm": 242.67968386036267,
+          "tungsten_insert_length_mm": 105.83530657243594,
+          "field": {
+            "steel_a2_m_s2": 5.180259429886702e-10,
+            "steel_phase_relative_error": 0.0,
+            "tungsten_a2_m_s2": 5.205907277285922e-10,
+            "tungsten_phase_relative_error": 0.0,
+            "distance_m": 2.0,
+            "relative_signal_change_percent": 0.49510739271569904
+          }
+        }
+      }
+    ],
+    "tungsten_refinement": {
+      "fine_alu_peak_mpa": 8.908987152809141,
+      "refined_alu_peak_mpa": 8.962163525179063,
+      "change_percent": 0.5968846004358097,
+      "refined_displacement_um": 9.953240255524113,
+      "refined_frequencies_hz": [
+        77.96508,
+        95.48246,
+        105.2428,
+        157.6712,
+        235.829,
+        301.7584,
+        383.6979,
+        572.9658,
+        598.448,
+        605.4572,
+        651.8752,
+        987.9828
+      ],
+      "input_sha256": "9586acdbcea7d1bc584815fc22a3f623b3cb298952a7b8bb6990ba632cbd7324"
+    }
+  },
+  "hop": {
+    "rows": [
+      {
+        "distance_m": 0.5,
+        "carrier_hz": 24.0,
+        "scale": 0.9010437566657981,
+        "omega_max_rad_s": 77.11135300971347,
+        "alpha_max_rad_s2": 2.7244268483049114,
+        "cad_mass_kg": 5.789042966850119,
+        "cad_inertia_kg_m2": 0.18772170271562333,
+        "mesh_mass_kg_fine": 5.782710784623929,
+        "mesh_inertia_kg_m2_fine": 0.18748338701082157,
+        "peak_torque_nm": 0.5114340468879572,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 7.897701155462088,
+          "centrifugal_alu_peak_coarse_mpa": 6.816888238328447,
+          "horizontal_combined_alu_bound_mpa": 8.544946823880244,
+          "horizontal_combined_u_bound_um": 11.143448568517293,
+          "centrifugal_u_um": 8.339260104961665,
+          "all_attitude_alu_bound_mpa": 11.000606993111383,
+          "all_attitude_u_bound_um": 43.142348635683526,
+          "all_attitude_insert_bound_mpa": 4.404644476589025,
+          "angular_only_alu_mpa": 0.29843994339078306,
+          "angular_only_u_um": 1.27546674733432,
+          "horizontal_gravity_alu_bound_mpa": 0.5661751356376268,
+          "phase_sampled_alu_bound_mpa": 10.933542409059712,
+          "phase_sampled_u_bound_um": 41.87083554944289,
+          "regional_10mm_fine_mpa": 4.221967198131685,
+          "regional_10mm_coarse_mpa": 4.212461967413048,
+          "raw_peak_change_percent": 15.85493086210057,
+          "displacement_change_percent": 0.0892345687144136,
+          "regional_change_percent": 0.2256454964381316,
+          "modes": {
+            "center_first3_hz": [
+              82.36251,
+              100.904,
+              112.2935
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 112.2935,
+            "torsional_eta": 0.9976023440113005,
+            "translation_fraction_first3": [
+              1.9975942479641003e-08,
+              0.8281006956801188,
+              1.0486719225923486e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 112.2922,
+            "low_matched_torsional_mac": 0.9999999999916842,
+            "low_matched_torsional_eta": 0.9976021039547107,
+            "low_first3_hz": [
+              82.31873,
+              100.8699,
+              112.2922
+            ],
+            "low_min_mac": 0.9999999941459209,
+            "low_matched_first3_hz": [
+              82.31873,
+              100.8699,
+              112.2922
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 112.2949,
+            "high_matched_torsional_mac": 0.9999999999913785,
+            "high_matched_torsional_eta": 0.9976025877226401,
+            "high_first3_hz": [
+              82.40727,
+              100.9389,
+              112.2949
+            ],
+            "high_min_mac": 0.999999993870836,
+            "high_matched_first3_hz": [
+              82.40727,
+              100.9389,
+              112.2949
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0000257362864595,
+              "0.02": 1.0000425108833568,
+              "0.05": 1.0000423718149238
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0000251993942026,
+              "0.02": 1.0000228656687256,
+              "0.05": 1.0000226921190902
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0216869769015273,
+              "0.02": 1.0216699980873325,
+              "0.05": 1.0215749323683296
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0216869769015273,
+              "0.02": 1.0216699980873325,
+              "0.05": 1.0215749323683296
+            }
+          },
+          "torsional_period_s": 0.008905234942360868,
+          "first_mode_period_s": 0.012141446393510833,
+          "transition_s": 1.1789473684210525,
+          "transition_over_torsional_period": 132.38812631578946,
+          "transition_over_first_period": 97.10106442105263,
+          "insert_centrifugal_force_kn": 1.8765177219164701,
+          "series_shaft_carrier_torsion_hz": 50.89192149435621,
+          "shaft_only_torsion_hz": 57.09170591351647
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 8.54702406858518,
+          "horizontal_combined_u_bound_um": 11.082510001331011,
+          "steel_horizontal_alu_bound_mpa": 8.544946823880244,
+          "steel_horizontal_u_bound_um": 11.143448568517293,
+          "all_attitude_insert_bound_steel_mpa": 4.404644476589025,
+          "all_attitude_insert_bound_tungsten_mpa": 3.3722825091467916,
+          "centrifugal_alu_peak_coarse_mpa": 6.71801448777535,
+          "centrifugal_alu_peak_fine_mpa": 7.900526788768346,
+          "displacement_change_percent": 0.09229887434816231,
+          "regional_change_percent": 0.21781781343090945,
+          "modes": {
+            "center_first3_hz": [
+              83.04487,
+              101.765,
+              112.2925
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 112.2925,
+            "torsional_eta": 0.9976022461761763,
+            "translation_fraction_first3": [
+              1.4683894434111852e-09,
+              0.8429699098315766,
+              1.1021257445085325e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 112.2911,
+            "low_matched_torsional_mac": 0.9999999999916583,
+            "low_matched_torsional_eta": 0.9976020066534932,
+            "low_first3_hz": [
+              83.00015,
+              101.7301,
+              112.2911
+            ],
+            "low_min_mac": 0.9999999900997021,
+            "low_matched_first3_hz": [
+              83.00015,
+              101.7301,
+              112.2911
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 112.2939,
+            "high_matched_torsional_mac": 0.999999999991412,
+            "high_matched_torsional_eta": 0.9976024893219464,
+            "high_first3_hz": [
+              83.0906,
+              101.8006,
+              112.2939
+            ],
+            "high_min_mac": 0.9999999896427595,
+            "high_matched_first3_hz": [
+              83.0906,
+              101.8006,
+              112.2939
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0000593392253219,
+              "0.02": 1.0000421605318046,
+              "0.05": 1.000041674823842
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0000252161511234,
+              "0.02": 1.0000228661174315,
+              "0.05": 1.0000226925272457
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0213244793236633,
+              "0.02": 1.0213077961481443,
+              "0.05": 1.0212143854711981
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0213244793236633,
+              "0.02": 1.0213077961481443,
+              "0.05": 1.0212143854711981
+            }
+          },
+          "steel_insert_length_mm": 71.39910441571199,
+          "tungsten_insert_length_mm": 31.137942759074395,
+          "field": {
+            "steel_a2_m_s2": 3.004550469914866e-10,
+            "steel_phase_relative_error": 2.220446049250313e-16,
+            "tungsten_a2_m_s2": 3.0267971312637543e-10,
+            "tungsten_phase_relative_error": 2.220446049250313e-16,
+            "distance_m": 0.5,
+            "relative_signal_change_percent": 0.7404322733682855
+          }
+        }
+      },
+      {
+        "distance_m": 1.0,
+        "carrier_hz": 24.0,
+        "scale": 1.5761135310793883,
+        "omega_max_rad_s": 77.11135300971347,
+        "alpha_max_rad_s2": 2.724426848304912,
+        "cad_mass_kg": 30.98358165633984,
+        "cad_inertia_kg_m2": 3.0741323659525897,
+        "mesh_mass_kg_fine": 30.94969113485098,
+        "mesh_inertia_kg_m2_fine": 3.0702297057335115,
+        "peak_torque_nm": 8.375248753044335,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 24.164843384383005,
+          "centrifugal_alu_peak_coarse_mpa": 20.857845665475935,
+          "horizontal_combined_alu_bound_mpa": 25.403255841394454,
+          "horizontal_combined_u_bound_um": 56.05368835749056,
+          "centrifugal_u_um": 44.63261844862741,
+          "all_attitude_alu_bound_mpa": 29.646821977580093,
+          "all_attitude_u_bound_um": 153.95977792967506,
+          "all_attitude_insert_bound_mpa": 13.379454541767334,
+          "angular_only_alu_mpa": 0.9131459145118779,
+          "angular_only_u_um": 6.826435447495312,
+          "horizontal_gravity_alu_bound_mpa": 0.9903584433471094,
+          "phase_sampled_alu_bound_mpa": 29.44162238880448,
+          "phase_sampled_u_bound_um": 147.15450290230163,
+          "regional_10mm_fine_mpa": 11.962377525052679,
+          "regional_10mm_coarse_mpa": 11.93503729250843,
+          "raw_peak_change_percent": 15.854934262845944,
+          "displacement_change_percent": 0.0892422380150526,
+          "regional_change_percent": 0.22907538430072538,
+          "modes": {
+            "center_first3_hz": [
+              48.21861,
+              58.57029,
+              64.23216
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 64.23216,
+            "torsional_eta": 0.9976132431193924,
+            "translation_fraction_first3": [
+              2.0092378114901733e-08,
+              0.8297374316486893,
+              1.0802494666028335e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 64.2298,
+            "low_matched_torsional_mac": 0.9999999999254082,
+            "low_matched_torsional_eta": 0.9976125205096066,
+            "low_first3_hz": [
+              48.14385,
+              58.51179,
+              64.2298
+            ],
+            "low_min_mac": 0.999999946142615,
+            "low_matched_first3_hz": [
+              48.14385,
+              58.51179,
+              64.2298
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 64.23457,
+            "high_matched_torsional_mac": 0.9999999999218987,
+            "high_matched_torsional_eta": 0.997613986002667,
+            "high_first3_hz": [
+              48.29496,
+              58.63005,
+              64.23457
+            ],
+            "high_min_mac": 0.9999999437018846,
+            "high_matched_first3_hz": [
+              48.29496,
+              58.63005,
+              64.23457
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0001031798930229,
+              "0.02": 1.0001190348040974,
+              "0.05": 1.0001243218198632
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0001031798930229,
+              "0.02": 1.0000710646092357,
+              "0.05": 1.0000698069573823
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.0660199679541769,
+              "0.02": 1.0659637006620608,
+              "0.05": 1.0656487683953457
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.0660199679541769,
+              "0.02": 1.0659637006620608,
+              "0.05": 1.0656487683953457
+            }
+          },
+          "torsional_period_s": 0.01556852517492795,
+          "first_mode_period_s": 0.020738880693574536,
+          "transition_s": 1.1789473684210525,
+          "transition_over_torsional_period": 75.72633599999999,
+          "transition_over_first_period": 56.84720336842105,
+          "insert_centrifugal_force_kn": 17.56787097495362,
+          "series_shaft_carrier_torsion_hz": 37.43974935850766,
+          "shaft_only_torsion_hz": 46.07645669172442
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 25.41060108441671,
+          "horizontal_combined_u_bound_um": 55.73586872541485,
+          "steel_horizontal_alu_bound_mpa": 25.403255841394454,
+          "steel_horizontal_u_bound_um": 56.05368835749056,
+          "all_attitude_insert_bound_steel_mpa": 13.379454541767334,
+          "all_attitude_insert_bound_tungsten_mpa": 10.244588563796794,
+          "centrifugal_alu_peak_coarse_mpa": 20.55532072106482,
+          "centrifugal_alu_peak_fine_mpa": 24.173494407240685,
+          "displacement_change_percent": 0.09228303159432016,
+          "regional_change_percent": 0.23041531910414914,
+          "modes": {
+            "center_first3_hz": [
+              48.63299,
+              59.08132,
+              64.2316
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 64.2316,
+            "torsional_eta": 0.9976131384161905,
+            "translation_fraction_first3": [
+              1.4467571159600268e-09,
+              0.8446021170897418,
+              1.5171435179370822e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 64.22924,
+            "low_matched_torsional_mac": 0.9999999999254439,
+            "low_matched_torsional_eta": 0.9976124138699289,
+            "low_first3_hz": [
+              48.55664,
+              59.02159,
+              64.22924
+            ],
+            "low_min_mac": 0.9999999096795976,
+            "low_matched_first3_hz": [
+              48.55664,
+              59.02159,
+              64.22924
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 64.23401,
+            "high_matched_torsional_mac": 0.9999999999221107,
+            "high_matched_torsional_eta": 0.9976138788665925,
+            "high_first3_hz": [
+              48.71096,
+              59.14234,
+              64.23401
+            ],
+            "high_min_mac": 0.9999999056159949,
+            "high_matched_first3_hz": [
+              48.71096,
+              59.14234,
+              64.23401
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0001197496517147,
+              "0.02": 1.0001192516158657,
+              "0.05": 1.000122203228563
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0001031433719205,
+              "0.02": 1.000071063848884,
+              "0.05": 1.0000698081764483
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.064827088543645,
+              "0.02": 1.064771961416741,
+              "0.05": 1.0644634076518429
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.064827088543645,
+              "0.02": 1.064771961416741,
+              "0.05": 1.0644634076518429
+            }
+          },
+          "steel_insert_length_mm": 124.89193087910479,
+          "tungsten_insert_length_mm": 54.46675874449848,
+          "field": {
+            "steel_a2_m_s2": 3.0045492162832135e-10,
+            "steel_phase_relative_error": 3.3306690738754696e-16,
+            "tungsten_a2_m_s2": 3.020492307057843e-10,
+            "tungsten_phase_relative_error": 3.3306690738754696e-16,
+            "distance_m": 1.0,
+            "relative_signal_change_percent": 0.5306317063546784
+          }
+        }
+      },
+      {
+        "distance_m": 2.0,
+        "carrier_hz": 18.0,
+        "scale": 2.854447700523453,
+        "omega_max_rad_s": 58.26179708817471,
+        "alpha_max_rad_s2": 2.7244268483049114,
+        "cad_mass_kg": 184.04982052490345,
+        "cad_inertia_kg_m2": 59.895683744671054,
+        "mesh_mass_kg_fine": 183.8485027926056,
+        "mesh_inertia_kg_m2_fine": 59.81964521593568,
+        "peak_torque_nm": 163.1814088915619,
+        "steel": {
+          "centrifugal_alu_peak_mpa": 45.24641848894075,
+          "centrifugal_alu_peak_coarse_mpa": 39.05437426774902,
+          "horizontal_combined_alu_bound_mpa": 47.853632733554335,
+          "horizontal_combined_u_bound_um": 206.8900730640793,
+          "centrifugal_u_um": 151.35168160889268,
+          "all_attitude_alu_bound_mpa": 55.523683353641395,
+          "all_attitude_u_bound_um": 528.024881474499,
+          "all_attitude_insert_bound_mpa": 25.059419429769395,
+          "angular_only_alu_mpa": 2.9950864739125906,
+          "angular_only_u_um": 40.55064494712046,
+          "horizontal_gravity_alu_bound_mpa": 1.7936058066642864,
+          "phase_sampled_alu_bound_mpa": 54.90123701240315,
+          "phase_sampled_u_bound_um": 490.1053160793257,
+          "regional_10mm_fine_mpa": 22.45503345060722,
+          "regional_10mm_coarse_mpa": 22.404723054617804,
+          "raw_peak_change_percent": 15.854931329177901,
+          "displacement_change_percent": 0.08922575746737049,
+          "regional_change_percent": 0.22455263502598743,
+          "modes": {
+            "center_first3_hz": [
+              27.38886,
+              32.93993,
+              35.49089
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 35.49089,
+            "torsional_eta": 0.9976268107289095,
+            "translation_fraction_first3": [
+              2.0266572210405887e-08,
+              0.8317444566533007,
+              1.1537088919553648e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 35.48771,
+            "low_matched_torsional_mac": 0.9999999995712485,
+            "low_matched_torsional_eta": 0.9976250494768728,
+            "low_first3_hz": [
+              27.29051,
+              32.86262,
+              35.48771
+            ],
+            "low_min_mac": 0.9999996833663676,
+            "low_matched_first3_hz": [
+              27.29051,
+              32.86262,
+              35.48771
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 35.49416,
+            "high_matched_torsional_mac": 0.9999999995455081,
+            "high_matched_torsional_eta": 0.9976286230734985,
+            "high_first3_hz": [
+              27.48985,
+              33.01938,
+              35.49416
+            ],
+            "high_min_mac": 0.9999996645667817,
+            "high_matched_first3_hz": [
+              27.48985,
+              33.01938,
+              35.49416
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0007655373489537,
+              "0.02": 1.0004589439117,
+              "0.05": 1.000390274590905
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0004571044437436,
+              "0.02": 1.0002605570842427,
+              "0.05": 1.0002306445370348
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.1210415487107712,
+              "0.02": 1.120927471944277,
+              "0.05": 1.1202892849896888
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.1210415487107712,
+              "0.02": 1.120927471944277,
+              "0.05": 1.1202892849896888
+            }
+          },
+          "torsional_period_s": 0.02817624466447587,
+          "first_mode_period_s": 0.03651119469740617,
+          "transition_s": 1.1789473684210525,
+          "transition_over_torsional_period": 41.84189136842105,
+          "transition_over_first_period": 32.29002442105263,
+          "insert_centrifugal_force_kn": 107.89184254200839,
+          "series_shaft_carrier_torsion_hz": 24.17097939411615,
+          "shaft_only_torsion_hz": 33.00967216918857
+        },
+        "tungsten": {
+          "horizontal_combined_alu_bound_mpa": 47.86746440894705,
+          "horizontal_combined_u_bound_um": 205.82103775443483,
+          "steel_horizontal_alu_bound_mpa": 47.853632733554335,
+          "steel_horizontal_u_bound_um": 206.8900730640793,
+          "all_attitude_insert_bound_steel_mpa": 25.059419429769395,
+          "all_attitude_insert_bound_tungsten_mpa": 19.188366288168236,
+          "centrifugal_alu_peak_coarse_mpa": 38.48792119025378,
+          "centrifugal_alu_peak_fine_mpa": 45.26260367481631,
+          "displacement_change_percent": 0.09227008654233426,
+          "regional_change_percent": 0.2258963112870216,
+          "modes": {
+            "center_first3_hz": [
+              27.63366,
+              33.23462,
+              35.4906
+            ],
+            "torsional_mode": 3,
+            "torsional_hz": 35.4906,
+            "torsional_eta": 0.9976266942562871,
+            "translation_fraction_first3": [
+              1.4156640674594653e-09,
+              0.8466019545207807,
+              2.4517496519284784e-09
+            ],
+            "low_matched_torsional_mode": 3,
+            "low_matched_torsional_hz": 35.48742,
+            "low_matched_torsional_mac": 0.9999999995700996,
+            "low_matched_torsional_eta": 0.9976249353261329,
+            "low_first3_hz": [
+              27.53328,
+              33.1557,
+              35.48742
+            ],
+            "low_min_mac": 0.9999994741954055,
+            "low_matched_first3_hz": [
+              27.53328,
+              33.1557,
+              35.48742
+            ],
+            "low_identity_matching": true,
+            "high_matched_torsional_mode": 3,
+            "high_matched_torsional_hz": 35.49387,
+            "high_matched_torsional_mac": 0.9999999995433901,
+            "high_matched_torsional_eta": 0.997628505339983,
+            "high_first3_hz": [
+              27.73674,
+              33.3157,
+              35.49387
+            ],
+            "high_min_mac": 0.9999994436600829,
+            "high_matched_first3_hz": [
+              27.73674,
+              33.3157,
+              35.49387
+            ],
+            "high_identity_matching": true,
+            "isolated_transition_max_peak_over_static": {
+              "0.005": 1.0004984325076778,
+              "0.02": 1.0003707435080331,
+              "0.05": 1.000379495779362
+            },
+            "isolated_transition_torsional_peak_over_static": {
+              "0.005": 1.0004570464778255,
+              "0.02": 1.0002605466508816,
+              "0.05": 1.0002306479118444
+            },
+            "gravity_rotation_amplification_mode1": {
+              "0.005": 1.1186531759253275,
+              "0.02": 1.1185418257270787,
+              "0.05": 1.1179188785090473
+            },
+            "gravity_rotation_amplification_max": {
+              "0.005": 1.1186531759253275,
+              "0.02": 1.1185418257270787,
+              "0.05": 1.1179188785090473
+            }
+          },
+          "steel_insert_length_mm": 226.1876938951538,
+          "tungsten_insert_length_mm": 98.6429665042754,
+          "field": {
+            "steel_a2_m_s2": 3.6106408258847155e-10,
+            "steel_phase_relative_error": 3.3306690738754696e-16,
+            "tungsten_a2_m_s2": 3.625782524843191e-10,
+            "tungsten_phase_relative_error": 0.0,
+            "distance_m": 2.0,
+            "relative_signal_change_percent": 0.41936320139972505
+          }
+        }
+      }
+    ],
+    "tungsten_refinement": {
+      "fine_alu_peak_mpa": 7.900526788768346,
+      "refined_alu_peak_mpa": 7.947683077037216,
+      "change_percent": 0.5968752404701627,
+      "refined_displacement_um": 8.274292983239013,
+      "refined_frequencies_hz": [
+        83.03622,
+        101.7522,
+        112.2634,
+        168.1371,
+        251.5016,
+        321.7895,
+        409.2943,
+        611.1106,
+        638.2998,
+        645.8421,
+        695.3638,
+        1053.813
+      ],
+      "input_sha256": "016af3fe1697cd4197e8a18bdc74061fb4b80ce3e96ab34445a129f3671c4559"
+    }
+  },
+  "similarity_new_over_archived": [
+    {
+      "distance_m": 0.5,
+      "scale_ratio": 0.9374297031890387,
+      "omega_ratio": 1.004558310312066,
+      "alpha_ratio": 0.4421402155362495,
+      "checks": [
+        {
+          "quantity": "steel.centrifugal_alu_peak_mpa",
+          "ratio": 0.8868040316871696,
+          "predicted": 0.8868041610265311,
+          "relative_error": -1.458488437799943e-07
+        },
+        {
+          "quantity": "steel.centrifugal_u_um",
+          "ratio": 0.831316647575187,
+          "predicted": 0.8313165614579057,
+          "relative_error": 1.0359144186899982e-07
+        },
+        {
+          "quantity": "steel.angular_only_alu_mpa",
+          "ratio": 0.38854152403264913,
+          "predicted": 0.38854152403264913,
+          "relative_error": 0.0
+        },
+        {
+          "quantity": "steel.angular_only_u_um",
+          "ratio": 0.3642303655505431,
+          "predicted": 0.36423036555054306,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "quantity": "steel.horizontal_gravity_alu_bound_mpa",
+          "ratio": 0.9374297031890388,
+          "predicted": 0.9374297031890387,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "quantity": "steel.modes.torsional_hz",
+          "ratio": 1.0667067536040247,
+          "predicted": 1.0667466548137994,
+          "note": "prestress makes this approximate"
+        },
+        {
+          "quantity": "mass",
+          "ratio": 0.823789270353493,
+          "predicted": 0.8237892703534929
+        },
+        {
+          "quantity": "inertia",
+          "ratio": 0.7239249616701021,
+          "predicted": 0.7239249616701023
+        }
+      ]
+    },
+    {
+      "distance_m": 1.0,
+      "scale_ratio": 0.9367603617365449,
+      "omega_ratio": 1.004558310312066,
+      "alpha_ratio": 0.44214021553624955,
+      "checks": [
+        {
+          "quantity": "steel.centrifugal_alu_peak_mpa",
+          "ratio": 0.8855382898535074,
+          "predicted": 0.8855382253052017,
+          "relative_error": 7.289160852685939e-08
+        },
+        {
+          "quantity": "steel.centrifugal_u_um",
+          "ratio": 0.8295370422527005,
+          "predicted": 0.8295371082684386,
+          "relative_error": -7.95814164566977e-08
+        },
+        {
+          "quantity": "steel.angular_only_alu_mpa",
+          "ratio": 0.3879868710256952,
+          "predicted": 0.3879868710256951,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "quantity": "steel.angular_only_u_um",
+          "ratio": 0.36345072165106035,
+          "predicted": 0.36345072165106035,
+          "relative_error": 0.0
+        },
+        {
+          "quantity": "steel.horizontal_gravity_alu_bound_mpa",
+          "ratio": 0.9367603617365446,
+          "predicted": 0.9367603617365449,
+          "relative_error": -2.220446049250313e-16
+        },
+        {
+          "quantity": "steel.modes.torsional_hz",
+          "ratio": 1.0673872077371753,
+          "predicted": 1.0675088751046458,
+          "note": "prestress makes this approximate"
+        },
+        {
+          "quantity": "mass",
+          "ratio": 0.8220259295125402,
+          "predicted": 0.82202592951254
+        },
+        {
+          "quantity": "inertia",
+          "ratio": 0.7213441733788872,
+          "predicted": 0.7213441733788873
+        }
+      ]
+    },
+    {
+      "distance_m": 2.0,
+      "scale_ratio": 0.9320421483048482,
+      "omega_ratio": 1.0060419800445608,
+      "alpha_ratio": 0.4421402155362495,
+      "checks": [
+        {
+          "quantity": "steel.centrifugal_alu_peak_mpa",
+          "ratio": 0.8792315263268038,
+          "predicted": 0.8792316457975856,
+          "relative_error": -1.3588089375904389e-07
+        },
+        {
+          "quantity": "steel.centrifugal_u_um",
+          "ratio": 0.8194808942730332,
+          "predicted": 0.8194809520067889,
+          "relative_error": -7.045161409813261e-08
+        },
+        {
+          "quantity": "steel.angular_only_alu_mpa",
+          "ratio": 0.38408833986395213,
+          "predicted": 0.3840883398639522,
+          "relative_error": -1.1102230246251565e-16
+        },
+        {
+          "quantity": "steel.angular_only_u_um",
+          "ratio": 0.3579865214256407,
+          "predicted": 0.35798652142564064,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "quantity": "steel.horizontal_gravity_alu_bound_mpa",
+          "ratio": 0.9320421483048482,
+          "predicted": 0.9320421483048482,
+          "relative_error": 0.0
+        },
+        {
+          "quantity": "steel.modes.torsional_hz",
+          "ratio": 1.072670144218985,
+          "predicted": 1.0729128525128935,
+          "note": "prestress makes this approximate"
+        },
+        {
+          "quantity": "mass",
+          "ratio": 0.8096674060545632,
+          "predicted": 0.8096674060545632
+        },
+        {
+          "quantity": "inertia",
+          "ratio": 0.7033601534216313,
+          "predicted": 0.7033601534216315
+        }
+      ]
+    }
+  ]
+}

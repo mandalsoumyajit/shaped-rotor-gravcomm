@@ -1,0 +1,80 @@
+{
+ "wnb_f24_a0.4640": {
+  "packets": 384,
+  "errors": 10999,
+  "ber": 0.12787155877976192,
+  "interval": [
+   0.10151896474989679,
+   0.15216698817875277
+  ],
+  "failed_packets": 169,
+  "rejected": 169,
+  "wrong_accepted": 0,
+  "pruned": 0
+ },
+ "wnb_f18_a0.5576": {
+  "packets": 384,
+  "errors": 10716,
+  "ber": 0.12458147321428571,
+  "interval": [
+   0.09837207781666184,
+   0.14903790385476434
+  ],
+  "failed_packets": 162,
+  "rejected": 162,
+  "wrong_accepted": 0,
+  "pruned": 0
+ },
+ "vnb3_f24_a0.4935": {
+  "packets": 3000,
+  "errors": 416,
+  "ber": 0.000619047619047619,
+  "interval": [
+   9.854866402222319e-05,
+   0.0025204206126918163
+  ],
+  "failed_packets": 6,
+  "rejected": 6,
+  "wrong_accepted": 0,
+  "pruned": 0
+ },
+ "vnb3_f18_a0.4782": {
+  "packets": 3000,
+  "errors": 1432,
+  "ber": 0.002130952380952381,
+  "interval": [
+   0.0008686762311896529,
+   0.004325282825656331
+  ],
+  "failed_packets": 21,
+  "rejected": 21,
+  "wrong_accepted": 0,
+  "pruned": 0
+ },
+ "vnb3r_f24_a0.5103": {
+  "packets": 3000,
+  "errors": 0,
+  "ber": 0.0,
+  "interval": [
+   0.0,
+   0.0017903858052364101
+  ],
+  "failed_packets": 0,
+  "rejected": 0,
+  "wrong_accepted": 0,
+  "pruned": 0
+ },
+ "vnb3r_f18_a0.5097": {
+  "packets": 3000,
+  "errors": 154,
+  "ber": 0.00022916666666666666,
+  "interval": [
+   3.921461231835944e-06,
+   0.002065751091575213
+  ],
+  "failed_packets": 2,
+  "rejected": 2,
+  "wrong_accepted": 0,
+  "pruned": 0
+ }
+}

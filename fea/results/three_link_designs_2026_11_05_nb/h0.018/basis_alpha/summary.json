@@ -1,0 +1,13 @@
+{
+  "name": "basis_alpha",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "alpha",
+  "mesh": 0.018,
+  "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_alpha",
+  "input_sha256": "7b55132801f957748175a8753e2f1db7d2782fcd0a43c3e7bdd4c69a94a936f2",
+  "frequencies_hz": [],
+  "max_u_m": 6.384038735122873e-07,
+  "raw_max_vm_pa": 118944.27492649008,
+  "elapsed_s": 170.13406133651733
+}

@@ -1,0 +1,28 @@
+{
+ "trackqual_f24_a0.5800": {
+  "status": "pass",
+  "result": {
+   "packets": 6656,
+   "errors": 76,
+   "ber": 5.097441620879121e-05,
+   "interval": [
+    5.44252948754782e-10,
+    0.0009842899526052015
+   ],
+   "rejected": 1
+  }
+ },
+ "trackqual_f18_a0.6970": {
+  "status": "pass",
+  "result": {
+   "packets": 7168,
+   "errors": 196,
+   "ber": 0.0001220703125,
+   "interval": [
+    2.8875346491358e-06,
+    0.0009999570942272466
+   ],
+   "rejected": 3
+  }
+ }
+}

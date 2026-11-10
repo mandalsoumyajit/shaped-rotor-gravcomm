@@ -1,0 +1,3069 @@
+{
+ "noise": {
+  "baseline@10": {
+   "support_ngal": 26.148523662201143,
+   "newtonian_ngal": 0.00031976493666477395
+  },
+  "baseline@12": {
+   "support_ngal": 17.690873463599367,
+   "newtonian_ngal": 0.00022205898379498194
+  },
+  "baseline@15": {
+   "support_ngal": 11.077432112335325,
+   "newtonian_ngal": 0.00014211774962878847
+  },
+  "baseline@18": {
+   "support_ngal": 7.600406552831315,
+   "newtonian_ngal": 9.869288168665863e-05
+  },
+  "baseline@24": {
+   "support_ngal": 4.223655203514145,
+   "newtonian_ngal": 5.5514745948745486e-05
+  },
+  "feedforward@10": {
+   "support_ngal": 2.614852550898965,
+   "newtonian_ngal": 0.00031976493666477395
+  },
+  "feedforward@12": {
+   "support_ngal": 1.7690874713050475,
+   "newtonian_ngal": 0.00022205898379498194
+  },
+  "feedforward@15": {
+   "support_ngal": 1.1077432894699737,
+   "newtonian_ngal": 0.00014211774962878847
+  },
+  "feedforward@18": {
+   "support_ngal": 0.7600407089624277,
+   "newtonian_ngal": 9.869288168665863e-05
+  },
+  "feedforward@24": {
+   "support_ngal": 0.42236555018177124,
+   "newtonian_ngal": 5.5514745948745486e-05
+  },
+  "structural@10": {
+   "support_ngal": 2.180662580065466,
+   "newtonian_ngal": 0.00031976493666477395
+  },
+  "structural@12": {
+   "support_ngal": 1.0510525848066672,
+   "newtonian_ngal": 0.00022205898379498194
+  },
+  "structural@15": {
+   "support_ngal": 0.43031735400740895,
+   "newtonian_ngal": 0.00014211774962878847
+  },
+  "structural@18": {
+   "support_ngal": 0.20747113372019577,
+   "newtonian_ngal": 9.869288168665863e-05
+  },
+  "structural@24": {
+   "support_ngal": 0.06562920649302757,
+   "newtonian_ngal": 5.5514745948745486e-05
+  },
+  "three_stage@10": {
+   "support_ngal": 0.0819729870150786,
+   "newtonian_ngal": 0.00031976493666477395
+  },
+  "three_stage@12": {
+   "support_ngal": 0.04561670523705206,
+   "newtonian_ngal": 0.00022205898379498194
+  },
+  "three_stage@15": {
+   "support_ngal": 0.022602612822378104,
+   "newtonian_ngal": 0.00014211774962878847
+  },
+  "three_stage@18": {
+   "support_ngal": 0.01284562488154196,
+   "newtonian_ngal": 9.869288168665863e-05
+  },
+  "three_stage@24": {
+   "support_ngal": 0.00532148308784346,
+   "newtonian_ngal": 5.5514745948745486e-05
+  },
+  "gradiometer@10": {
+   "support_ngal": 0.2614852366220114,
+   "newtonian_ngal": 3.1976493666477395e-06
+  },
+  "gradiometer@12": {
+   "support_ngal": 0.17690873463599366,
+   "newtonian_ngal": 2.2205898379498194e-06
+  },
+  "gradiometer@15": {
+   "support_ngal": 0.11077432112335325,
+   "newtonian_ngal": 1.4211774962878846e-06
+  },
+  "gradiometer@18": {
+   "support_ngal": 0.07600406552831315,
+   "newtonian_ngal": 9.869288168665862e-07
+  },
+  "gradiometer@24": {
+   "support_ngal": 0.04223655203514145,
+   "newtonian_ngal": 5.551474594874548e-07
+  },
+  "combined@10": {
+   "support_ngal": 0.21806627340788487,
+   "newtonian_ngal": 0.00031976493666477395
+  },
+  "combined@12": {
+   "support_ngal": 0.10510526590392263,
+   "newtonian_ngal": 0.00022205898379498194
+  },
+  "combined@15": {
+   "support_ngal": 0.043031738439937885,
+   "newtonian_ngal": 0.00014211774962878847
+  },
+  "combined@18": {
+   "support_ngal": 0.020747114837323354,
+   "newtonian_ngal": 9.869288168665863e-05
+  },
+  "combined@24": {
+   "support_ngal": 0.0065629211128213315,
+   "newtonian_ngal": 5.5514745948745486e-05
+  }
+ },
+ "amplitude": {
+  "0.5m|baseline|10Hz|inst1": 2.6276960715318656,
+  "0.5m|baseline|10Hz|inst0.3": 2.3273786462192523,
+  "0.5m|baseline|10Hz|inst0.1": 2.292453417088608,
+  "0.5m|baseline|12Hz|inst1": 1.9765825134838233,
+  "0.5m|baseline|12Hz|inst0.3": 1.6227790335342938,
+  "0.5m|baseline|12Hz|inst0.1": 1.5751504861715568,
+  "0.5m|baseline|15Hz|inst1": 1.471132101852446,
+  "0.5m|baseline|15Hz|inst0.3": 1.061348493076898,
+  "0.5m|baseline|15Hz|inst0.1": 0.9934282995287279,
+  "0.5m|baseline|18Hz|inst1": 1.2189185196933627,
+  "0.5m|baseline|18Hz|inst0.3": 0.7751925347218748,
+  "0.5m|baseline|18Hz|inst0.1": 0.6892527233011183,
+  "0.5m|baseline|24Hz|inst1": 1.0,
+  "0.5m|baseline|24Hz|inst0.3": 0.5091451926919798,
+  "0.5m|baseline|24Hz|inst0.1": 0.3985835382921562,
+  "0.5m|feedforward|10Hz|inst1": 0.9188201561762417,
+  "0.5m|feedforward|10Hz|inst0.3": 0.3884096886974529,
+  "0.5m|feedforward|10Hz|inst0.1": 0.26279257491461766,
+  "0.5m|feedforward|12Hz|inst1": 0.8882144386109385,
+  "0.5m|feedforward|12Hz|inst0.3": 0.33101280182983145,
+  "0.5m|feedforward|12Hz|inst0.1": 0.1976738520375909,
+  "0.5m|feedforward|15Hz|inst1": 0.8713251294316621,
+  "0.5m|feedforward|15Hz|inst0.3": 0.2912504787974473,
+  "0.5m|feedforward|15Hz|inst0.1": 0.14712272674892682,
+  "0.5m|feedforward|18Hz|inst1": 0.8653933322452318,
+  "0.5m|feedforward|18Hz|inst0.3": 0.2747429200078617,
+  "0.5m|feedforward|18Hz|inst0.1": 0.12189807361838544,
+  "0.5m|feedforward|24Hz|inst1": 0.861702091645866,
+  "0.5m|feedforward|24Hz|inst0.3": 0.26343070925691464,
+  "0.5m|feedforward|24Hz|inst0.1": 0.10000284811160387,
+  "0.5m|structural|10Hz|inst1": 0.901921060859215,
+  "0.5m|structural|10Hz|inst0.3": 0.35824940472119743,
+  "0.5m|structural|10Hz|inst0.1": 0.2282921107687639,
+  "0.5m|structural|12Hz|inst1": 0.8702423402120099,
+  "0.5m|structural|12Hz|inst0.3": 0.288372946880092,
+  "0.5m|structural|12Hz|inst0.1": 0.14304228458988666,
+  "0.5m|structural|15Hz|inst1": 0.8617688990968395,
+  "0.5m|structural|15Hz|inst0.3": 0.2636442685289126,
+  "0.5m|structural|15Hz|inst0.1": 0.10048910414477877,
+  "0.5m|structural|18Hz|inst1": 0.8604438496150958,
+  "0.5m|structural|18Hz|inst0.3": 0.2593456086200742,
+  "0.5m|structural|18Hz|inst0.1": 0.08983380827907517,
+  "0.5m|structural|24Hz|inst1": 0.8600820796082396,
+  "0.5m|structural|24Hz|inst0.3": 0.25814664920396313,
+  "0.5m|structural|24Hz|inst0.1": 0.086404630436522,
+  "0.5m|three_stage|10Hz|inst1": 0.8601046785298124,
+  "0.5m|three_stage|10Hz|inst0.3": 0.25822187557337417,
+  "0.5m|three_stage|10Hz|inst0.1": 0.08662763181499511,
+  "0.5m|three_stage|12Hz|inst1": 0.8600614570823476,
+  "0.5m|three_stage|12Hz|inst0.3": 0.25807796155918844,
+  "0.5m|three_stage|12Hz|inst0.1": 0.08619997940027568,
+  "0.5m|three_stage|15Hz|inst1": 0.8600466569936219,
+  "0.5m|three_stage|15Hz|inst0.3": 0.25802864377377327,
+  "0.5m|three_stage|15Hz|inst0.1": 0.08605244193485191,
+  "0.5m|three_stage|18Hz|inst1": 0.8600433914687637,
+  "0.5m|three_stage|18Hz|inst0.3": 0.25801775960562245,
+  "0.5m|three_stage|18Hz|inst0.1": 0.086019813525767,
+  "0.5m|three_stage|24Hz|inst1": 0.860042097741324,
+  "0.5m|three_stage|24Hz|inst0.3": 0.25801344728479564,
+  "0.5m|three_stage|24Hz|inst0.1": 0.08600687930440237,
+  "0.5m|gradiometer|10Hz|inst1": 1.216730761630644,
+  "0.5m|gradiometer|10Hz|inst0.3": 0.36637176319091563,
+  "0.5m|gradiometer|10Hz|inst0.1": 0.12593580406757415,
+  "0.5m|gradiometer|12Hz|inst1": 1.2164892975318904,
+  "0.5m|gradiometer|12Hz|inst0.3": 0.36557179549783503,
+  "0.5m|gradiometer|12Hz|inst0.1": 0.12365552901470726,
+  "0.5m|gradiometer|15Hz|inst1": 1.2163637527553708,
+  "0.5m|gradiometer|15Hz|inst0.3": 0.3651544266586225,
+  "0.5m|gradiometer|15Hz|inst0.1": 0.1224317458967054,
+  "0.5m|gradiometer|18Hz|inst1": 1.2163209120288196,
+  "0.5m|gradiometer|18Hz|inst0.3": 0.3650117820871985,
+  "0.5m|gradiometer|18Hz|inst0.1": 0.12200791329399031,
+  "0.5m|gradiometer|24Hz|inst1": 1.2162945797906486,
+  "0.5m|gradiometer|24Hz|inst0.3": 0.3649240486483185,
+  "0.5m|gradiometer|24Hz|inst0.1": 0.121745779000928,
+  "0.5m|combined|10Hz|inst1": 0.8604847827146801,
+  "0.5m|combined|10Hz|inst0.3": 0.25948049451401023,
+  "0.5m|combined|10Hz|inst0.1": 0.09020258827475838,
+  "0.5m|combined|12Hz|inst1": 0.8601455668936016,
+  "0.5m|combined|12Hz|inst0.3": 0.25835787475468114,
+  "0.5m|combined|12Hz|inst0.1": 0.0870280605066563,
+  "0.5m|combined|15Hz|inst1": 0.8600592401165271,
+  "0.5m|combined|15Hz|inst0.3": 0.25807057526424815,
+  "0.5m|combined|15Hz|inst0.1": 0.0861779146256101,
+  "0.5m|combined|18Hz|inst1": 0.8600458848565256,
+  "0.5m|combined|18Hz|inst0.3": 0.2580260702841195,
+  "0.5m|combined|18Hz|inst0.1": 0.08604472938342807,
+  "0.5m|combined|24Hz|inst1": 0.8600422367635345,
+  "0.5m|combined|24Hz|inst0.3": 0.25801391068802926,
+  "0.5m|combined|24Hz|inst0.1": 0.08600826940507583,
+  "1m|baseline|10Hz|inst1": 2.6276960715318656,
+  "1m|baseline|10Hz|inst0.3": 2.3273786462192523,
+  "1m|baseline|10Hz|inst0.1": 2.292453417088608,
+  "1m|baseline|12Hz|inst1": 1.9765825134838233,
+  "1m|baseline|12Hz|inst0.3": 1.6227790335342938,
+  "1m|baseline|12Hz|inst0.1": 1.5751504861715568,
+  "1m|baseline|15Hz|inst1": 1.471132101852446,
+  "1m|baseline|15Hz|inst0.3": 1.061348493076898,
+  "1m|baseline|15Hz|inst0.1": 0.9934282995287279,
+  "1m|baseline|18Hz|inst1": 1.2189185196933627,
+  "1m|baseline|18Hz|inst0.3": 0.7751925347218748,
+  "1m|baseline|18Hz|inst0.1": 0.6892527233011183,
+  "1m|baseline|24Hz|inst1": 1.0,
+  "1m|baseline|24Hz|inst0.3": 0.5091451926919798,
+  "1m|baseline|24Hz|inst0.1": 0.3985835382921562,
+  "1m|feedforward|10Hz|inst1": 0.9188201561762417,
+  "1m|feedforward|10Hz|inst0.3": 0.3884096886974529,
+  "1m|feedforward|10Hz|inst0.1": 0.26279257491461766,
+  "1m|feedforward|12Hz|inst1": 0.8882144386109385,
+  "1m|feedforward|12Hz|inst0.3": 0.33101280182983145,
+  "1m|feedforward|12Hz|inst0.1": 0.1976738520375909,
+  "1m|feedforward|15Hz|inst1": 0.8713251294316621,
+  "1m|feedforward|15Hz|inst0.3": 0.2912504787974473,
+  "1m|feedforward|15Hz|inst0.1": 0.14712272674892682,
+  "1m|feedforward|18Hz|inst1": 0.8653933322452318,
+  "1m|feedforward|18Hz|inst0.3": 0.2747429200078617,
+  "1m|feedforward|18Hz|inst0.1": 0.12189807361838544,
+  "1m|feedforward|24Hz|inst1": 0.861702091645866,
+  "1m|feedforward|24Hz|inst0.3": 0.26343070925691464,
+  "1m|feedforward|24Hz|inst0.1": 0.10000284811160387,
+  "1m|structural|10Hz|inst1": 0.901921060859215,
+  "1m|structural|10Hz|inst0.3": 0.35824940472119743,
+  "1m|structural|10Hz|inst0.1": 0.2282921107687639,
+  "1m|structural|12Hz|inst1": 0.8702423402120099,
+  "1m|structural|12Hz|inst0.3": 0.288372946880092,
+  "1m|structural|12Hz|inst0.1": 0.14304228458988666,
+  "1m|structural|15Hz|inst1": 0.8617688990968395,
+  "1m|structural|15Hz|inst0.3": 0.2636442685289126,
+  "1m|structural|15Hz|inst0.1": 0.10048910414477877,
+  "1m|structural|18Hz|inst1": 0.8604438496150958,
+  "1m|structural|18Hz|inst0.3": 0.2593456086200742,
+  "1m|structural|18Hz|inst0.1": 0.08983380827907517,
+  "1m|structural|24Hz|inst1": 0.8600820796082396,
+  "1m|structural|24Hz|inst0.3": 0.25814664920396313,
+  "1m|structural|24Hz|inst0.1": 0.086404630436522,
+  "1m|three_stage|10Hz|inst1": 0.8601046785298124,
+  "1m|three_stage|10Hz|inst0.3": 0.25822187557337417,
+  "1m|three_stage|10Hz|inst0.1": 0.08662763181499511,
+  "1m|three_stage|12Hz|inst1": 0.8600614570823476,
+  "1m|three_stage|12Hz|inst0.3": 0.25807796155918844,
+  "1m|three_stage|12Hz|inst0.1": 0.08619997940027568,
+  "1m|three_stage|15Hz|inst1": 0.8600466569936219,
+  "1m|three_stage|15Hz|inst0.3": 0.25802864377377327,
+  "1m|three_stage|15Hz|inst0.1": 0.08605244193485191,
+  "1m|three_stage|18Hz|inst1": 0.8600433914687637,
+  "1m|three_stage|18Hz|inst0.3": 0.25801775960562245,
+  "1m|three_stage|18Hz|inst0.1": 0.086019813525767,
+  "1m|three_stage|24Hz|inst1": 0.860042097741324,
+  "1m|three_stage|24Hz|inst0.3": 0.25801344728479564,
+  "1m|three_stage|24Hz|inst0.1": 0.08600687930440237,
+  "1m|gradiometer|10Hz|inst1": 1.216730761630644,
+  "1m|gradiometer|10Hz|inst0.3": 0.36637176319091563,
+  "1m|gradiometer|10Hz|inst0.1": 0.12593580406757415,
+  "1m|gradiometer|12Hz|inst1": 1.2164892975318904,
+  "1m|gradiometer|12Hz|inst0.3": 0.36557179549783503,
+  "1m|gradiometer|12Hz|inst0.1": 0.12365552901470726,
+  "1m|gradiometer|15Hz|inst1": 1.2163637527553708,
+  "1m|gradiometer|15Hz|inst0.3": 0.3651544266586225,
+  "1m|gradiometer|15Hz|inst0.1": 0.1224317458967054,
+  "1m|gradiometer|18Hz|inst1": 1.2163209120288196,
+  "1m|gradiometer|18Hz|inst0.3": 0.3650117820871985,
+  "1m|gradiometer|18Hz|inst0.1": 0.12200791329399031,
+  "1m|gradiometer|24Hz|inst1": 1.2162945797906486,
+  "1m|gradiometer|24Hz|inst0.3": 0.3649240486483185,
+  "1m|gradiometer|24Hz|inst0.1": 0.121745779000928,
+  "1m|combined|10Hz|inst1": 0.8604847827146801,
+  "1m|combined|10Hz|inst0.3": 0.25948049451401023,
+  "1m|combined|10Hz|inst0.1": 0.09020258827475838,
+  "1m|combined|12Hz|inst1": 0.8601455668936016,
+  "1m|combined|12Hz|inst0.3": 0.25835787475468114,
+  "1m|combined|12Hz|inst0.1": 0.0870280605066563,
+  "1m|combined|15Hz|inst1": 0.8600592401165271,
+  "1m|combined|15Hz|inst0.3": 0.25807057526424815,
+  "1m|combined|15Hz|inst0.1": 0.0861779146256101,
+  "1m|combined|18Hz|inst1": 0.8600458848565256,
+  "1m|combined|18Hz|inst0.3": 0.2580260702841195,
+  "1m|combined|18Hz|inst0.1": 0.08604472938342807,
+  "1m|combined|24Hz|inst1": 0.8600422367635345,
+  "1m|combined|24Hz|inst0.3": 0.25801391068802926,
+  "1m|combined|24Hz|inst0.1": 0.08600826940507583,
+  "2m|baseline|10Hz|inst1": 2.1557602325977476,
+  "2m|baseline|10Hz|inst0.3": 1.9093800025326875,
+  "2m|baseline|10Hz|inst0.1": 1.8807273661452855,
+  "2m|baseline|12Hz|inst1": 1.621587072104756,
+  "2m|baseline|12Hz|inst0.3": 1.3313269158815704,
+  "2m|baseline|12Hz|inst0.1": 1.29225248506997,
+  "2m|baseline|15Hz|inst1": 1.206915866880529,
+  "2m|baseline|15Hz|inst0.3": 0.8707296475763583,
+  "2m|baseline|15Hz|inst0.1": 0.8150079627788738,
+  "2m|baseline|18Hz|inst1": 1.0,
+  "2m|baseline|18Hz|inst0.3": 0.6359674762484421,
+  "2m|baseline|18Hz|inst0.1": 0.5654625080883259,
+  "2m|baseline|24Hz|inst1": 0.8203993817827668,
+  "2m|baseline|24Hz|inst0.3": 0.41770240132216796,
+  "2m|baseline|24Hz|inst0.1": 0.3269976884036727,
+  "2m|feedforward|10Hz|inst1": 0.7537994880965341,
+  "2m|feedforward|10Hz|inst0.3": 0.3186510684858273,
+  "2m|feedforward|10Hz|inst0.1": 0.2155948659970538,
+  "2m|feedforward|12Hz|inst1": 0.7286905763269412,
+  "2m|feedforward|12Hz|inst0.3": 0.27156269798337523,
+  "2m|feedforward|12Hz|inst0.1": 0.1621715060062577,
+  "2m|feedforward|15Hz|inst1": 0.7148345975175249,
+  "2m|feedforward|15Hz|inst0.3": 0.2389417127493606,
+  "2m|feedforward|15Hz|inst0.1": 0.12069939407101452,
+  "2m|feedforward|18Hz|inst1": 0.7099681547729167,
+  "2m|feedforward|18Hz|inst0.3": 0.22539892172364193,
+  "2m|feedforward|18Hz|inst0.1": 0.10000510423703363,
+  "2m|feedforward|24Hz|inst1": 0.7069398632671856,
+  "2m|feedforward|24Hz|inst0.3": 0.2161183910169686,
+  "2m|feedforward|24Hz|inst0.1": 0.08204227476727574,
+  "2m|structural|10Hz|inst1": 0.7399354807457572,
+  "2m|structural|10Hz|inst0.3": 0.2939075901573146,
+  "2m|structural|10Hz|inst0.1": 0.18729070654057683,
+  "2m|structural|12Hz|inst1": 0.7139462779111211,
+  "2m|structural|12Hz|inst0.3": 0.23658098734330216,
+  "2m|structural|12Hz|inst0.1": 0.1173518018463376,
+  "2m|structural|15Hz|inst1": 0.7069946720586627,
+  "2m|structural|15Hz|inst0.3": 0.21629359491168967,
+  "2m|structural|15Hz|inst0.1": 0.08244119891628057,
+  "2m|structural|18Hz|inst1": 0.7059076022830086,
+  "2m|structural|18Hz|inst0.3": 0.21276697697998428,
+  "2m|structural|18Hz|inst0.1": 0.07369960077534488,
+  "2m|structural|24Hz|inst1": 0.7056108063930362,
+  "2m|structural|24Hz|inst0.3": 0.21178335141622412,
+  "2m|structural|24Hz|inst0.1": 0.07088630539329109,
+  "2m|three_stage|10Hz|inst1": 0.7056293465343235,
+  "2m|three_stage|10Hz|inst0.3": 0.21184506708318274,
+  "2m|three_stage|10Hz|inst0.1": 0.07106925558632714,
+  "2m|three_stage|12Hz|inst1": 0.7055938876855437,
+  "2m|three_stage|12Hz|inst0.3": 0.21172700011491485,
+  "2m|three_stage|12Hz|inst0.1": 0.07071840980967341,
+  "2m|three_stage|15Hz|inst1": 0.7055817457019028,
+  "2m|three_stage|15Hz|inst0.3": 0.21168653983424937,
+  "2m|three_stage|15Hz|inst0.1": 0.07059737016424995,
+  "2m|three_stage|18Hz|inst1": 0.7055790666673278,
+  "2m|three_stage|18Hz|inst0.3": 0.2116776104694272,
+  "2m|three_stage|18Hz|inst0.1": 0.07057060183760813,
+  "2m|three_stage|24Hz|inst1": 0.7055780052941362,
+  "2m|three_stage|24Hz|inst0.3": 0.21167407264408683,
+  "2m|three_stage|24Hz|inst0.1": 0.07055999061039675,
+  "2m|gradiometer|10Hz|inst1": 0.9982051646378555,
+  "2m|gradiometer|10Hz|inst0.3": 0.30057116802448947,
+  "2m|gradiometer|10Hz|inst0.1": 0.1033176558013535,
+  "2m|gradiometer|12Hz|inst1": 0.9980070676405152,
+  "2m|gradiometer|12Hz|inst0.3": 0.29991487502363995,
+  "2m|gradiometer|12Hz|inst0.1": 0.10144691955768682,
+  "2m|gradiometer|15Hz|inst1": 0.9979040707834725,
+  "2m|gradiometer|15Hz|inst0.3": 0.2995724658859746,
+  "2m|gradiometer|15Hz|inst0.1": 0.10044292864424191,
+  "2m|gradiometer|18Hz|inst1": 0.9978689242778949,
+  "2m|gradiometer|18Hz|inst0.3": 0.2994554403677636,
+  "2m|gradiometer|18Hz|inst0.1": 0.10009521663899507,
+  "2m|gradiometer|24Hz|inst1": 0.9978473213259782,
+  "2m|gradiometer|24Hz|inst0.3": 0.2993834639087448,
+  "2m|gradiometer|24Hz|inst0.1": 0.0998801618270227,
+  "2m|combined|10Hz|inst1": 0.7059411837726021,
+  "2m|combined|10Hz|inst0.3": 0.2128776372839806,
+  "2m|combined|10Hz|inst0.1": 0.07400214765581722,
+  "2m|combined|12Hz|inst1": 0.7056628913226982,
+  "2m|combined|12Hz|inst0.3": 0.21195664072744994,
+  "2m|combined|12Hz|inst0.1": 0.07139776703741407,
+  "2m|combined|15Hz|inst1": 0.7055920688881551,
+  "2m|combined|15Hz|inst0.3": 0.21172094040311218,
+  "2m|combined|15Hz|inst0.1": 0.0707003078821786,
+  "2m|combined|18Hz|inst1": 0.7055811122411062,
+  "2m|combined|18Hz|inst0.3": 0.21168442854492842,
+  "2m|combined|18Hz|inst0.1": 0.07059104279182986,
+  "2m|combined|24Hz|inst1": 0.7055781193478717,
+  "2m|combined|24Hz|inst0.3": 0.2116744528198132,
+  "2m|combined|24Hz|inst0.1": 0.07056113104812987
+ },
+ "sizing": {
+  "0.5m|baseline|10Hz|inst1": {
+   "scale": 1.1531499816097723,
+   "mass_kg": 12.13923217873809,
+   "inertia_kg_m2": 0.6437139471692293,
+   "peak_torque_nm": 3.976611256643887,
+   "peak_power_w": 124.77653393568279,
+   "diameter_m": 0.5765749908048862,
+   "rim_ok": true
+  },
+  "0.5m|baseline|10Hz|inst0.3": {
+   "scale": 1.1274545583087812,
+   "mass_kg": 11.345691463964135,
+   "inertia_kg_m2": 0.5751209274307612,
+   "peak_torque_nm": 3.552870594166864,
+   "peak_power_w": 111.48056715915766,
+   "diameter_m": 0.5637272791543906,
+   "rim_ok": true
+  },
+  "0.5m|baseline|10Hz|inst0.1": {
+   "scale": 1.1242937210878574,
+   "mass_kg": 11.250535242744018,
+   "inertia_kg_m2": 0.5671041992366395,
+   "peak_torque_nm": 3.5033464045506686,
+   "peak_power_w": 109.92661674070574,
+   "diameter_m": 0.5621468605439287,
+   "rim_ok": true
+  },
+  "0.5m|baseline|12Hz|inst1": {
+   "scale": 1.0937360775209022,
+   "mass_kg": 10.357893520526329,
+   "inertia_kg_m2": 0.49411339334585846,
+   "peak_torque_nm": 3.0524379511713264,
+   "peak_power_w": 114.93382773019785,
+   "diameter_m": 0.5468680387604511,
+   "rim_ok": true
+  },
+  "0.5m|baseline|12Hz|inst0.3": {
+   "scale": 1.0535605762632,
+   "mass_kg": 9.257897374006765,
+   "inertia_kg_m2": 0.40979012882033333,
+   "peak_torque_nm": 2.5315220313225226,
+   "peak_power_w": 95.31971548564086,
+   "diameter_m": 0.5267802881316,
+   "rim_ok": true
+  },
+  "0.5m|baseline|12Hz|inst0.1": {
+   "scale": 1.0476221425897267,
+   "mass_kg": 9.102230645197384,
+   "inertia_kg_m2": 0.3983706025517995,
+   "peak_torque_nm": 2.460976695300692,
+   "peak_power_w": 92.66346313024387,
+   "diameter_m": 0.5238110712948634,
+   "rim_ok": true
+  },
+  "0.5m|baseline|15Hz|inst1": {
+   "scale": 1.0341290897328603,
+   "mass_kg": 8.755039167504465,
+   "inertia_kg_m2": 0.3733685311680112,
+   "peak_torque_nm": 2.306523744667251,
+   "peak_power_w": 108.5597835917801,
+   "diameter_m": 0.5170645448664302,
+   "rim_ok": true
+  },
+  "0.5m|baseline|15Hz|inst0.3": {
+   "scale": 0.9720074622572624,
+   "mass_kg": 7.270137520819558,
+   "inertia_kg_m2": 0.27391255084593535,
+   "peak_torque_nm": 1.6921238662297164,
+   "peak_power_w": 79.64218931328848,
+   "diameter_m": 0.4860037311286312,
+   "rim_ok": true
+  },
+  "0.5m|baseline|15Hz|inst0.1": {
+   "scale": 0.9598861760082742,
+   "mass_kg": 7.001531388710112,
+   "inertia_kg_m2": 0.2572542880987178,
+   "peak_torque_nm": 1.5892156793743186,
+   "peak_power_w": 74.79867078430142,
+   "diameter_m": 0.4799430880041371,
+   "rim_ok": true
+  },
+  "0.5m|baseline|18Hz|inst1": {
+   "scale": 0.9978761789492315,
+   "mass_kg": 7.866178457080114,
+   "inertia_kg_m2": 0.3123541020832315,
+   "peak_torque_nm": 1.9296006306300015,
+   "peak_power_w": 108.9832406177854,
+   "diameter_m": 0.49893808947461576,
+   "rim_ok": true
+  },
+  "0.5m|baseline|18Hz|inst0.3": {
+   "scale": 0.9152758433710969,
+   "mass_kg": 6.070015912981274,
+   "inertia_kg_m2": 0.2027794488882806,
+   "peak_torque_nm": 1.2526915761438184,
+   "peak_power_w": 70.75162875448531,
+   "diameter_m": 0.45763792168554845,
+   "rim_ok": true
+  },
+  "0.5m|baseline|18Hz|inst0.1": {
+   "scale": 0.8947973592724504,
+   "mass_kg": 5.671630246701192,
+   "inertia_kg_m2": 0.18108705487353682,
+   "peak_torque_nm": 1.11868450887127,
+   "peak_power_w": 63.182951472140296,
+   "diameter_m": 0.4473986796362252,
+   "rim_ok": true
+  },
+  "0.5m|baseline|24Hz|inst1": {
+   "scale": 0.9610878283285169,
+   "mass_kg": 7.02785933320564,
+   "inertia_kg_m2": 0.2588685688899762,
+   "peak_torque_nm": 1.5991880703627877,
+   "peak_power_w": 120.42885662375767,
+   "diameter_m": 0.48054391416425846,
+   "rim_ok": true
+  },
+  "0.5m|baseline|24Hz|inst0.3": {
+   "scale": 0.8441001959360551,
+   "mass_kg": 4.761193499308008,
+   "inertia_kg_m2": 0.13528010831563245,
+   "peak_torque_nm": 0.8357072328378838,
+   "peak_power_w": 62.93397780289788,
+   "diameter_m": 0.42205009796802756,
+   "rim_ok": true
+  },
+  "0.5m|baseline|24Hz|inst0.1": {
+   "scale": 0.8050628498558845,
+   "mass_kg": 4.130695558110021,
+   "inertia_kg_m2": 0.10676105786787175,
+   "peak_torque_nm": 0.6595277706123351,
+   "peak_power_w": 49.66656317567516,
+   "diameter_m": 0.40253142492794225,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|10Hz|inst1": {
+   "scale": 0.9457319428202647,
+   "mass_kg": 6.696347802663508,
+   "inertia_kg_m2": 0.23883844033350957,
+   "peak_torque_nm": 1.4754498244541132,
+   "peak_power_w": 46.29608055949898,
+   "diameter_m": 0.47286597141013237,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|10Hz|inst0.3": {
+   "scale": 0.8010227646748626,
+   "mass_kg": 4.06881931823633,
+   "inertia_kg_m2": 0.10410898931801918,
+   "peak_torque_nm": 0.6431443355553309,
+   "peak_power_w": 20.180328383089012,
+   "diameter_m": 0.4005113823374313,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|10Hz|inst0.1": {
+   "scale": 0.7423866895531841,
+   "mass_kg": 3.2391000203715983,
+   "inertia_kg_m2": 0.07118931604014293,
+   "peak_torque_nm": 0.4397795585491455,
+   "peak_power_w": 13.799228908746493,
+   "diameter_m": 0.37119334477659205,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|12Hz|inst1": {
+   "scale": 0.9395821645231732,
+   "mass_kg": 6.566563094029129,
+   "inertia_kg_m2": 0.23117334555868746,
+   "peak_torque_nm": 1.4280978876212354,
+   "peak_power_w": 53.77234827483832,
+   "diameter_m": 0.4697910822615866,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|12Hz|inst0.3": {
+   "scale": 0.7764842190141383,
+   "mass_kg": 3.7062245615846297,
+   "inertia_kg_m2": 0.08911013579027705,
+   "peak_torque_nm": 0.5504873253453408,
+   "peak_power_w": 20.727568072143786,
+   "diameter_m": 0.38824210950706917,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|12Hz|inst0.1": {
+   "scale": 0.7023089116529169,
+   "mass_kg": 2.742321486684449,
+   "inertia_kg_m2": 0.05393924126406454,
+   "peak_torque_nm": 0.33321539004827516,
+   "peak_power_w": 12.54660073341146,
+   "diameter_m": 0.35115445582645843,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|15Hz|inst1": {
+   "scale": 0.9361148915062617,
+   "mass_kg": 6.49413467255607,
+   "inertia_kg_m2": 0.2269392977891982,
+   "peak_torque_nm": 1.401941607964159,
+   "peak_power_w": 65.98435325921933,
+   "diameter_m": 0.46805744575313085,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|15Hz|inst0.3": {
+   "scale": 0.7573882906086638,
+   "mass_kg": 3.439454656450156,
+   "inertia_kg_m2": 0.07867864459144827,
+   "peak_torque_nm": 0.48604568087381167,
+   "peak_power_w": 22.876423472064676,
+   "diameter_m": 0.3786941453043319,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|15Hz|inst0.1": {
+   "scale": 0.6628058361136309,
+   "mass_kg": 2.3051160791188976,
+   "inertia_kg_m2": 0.040382718900584126,
+   "peak_torque_nm": 0.24946853374878222,
+   "peak_power_w": 11.741587356012019,
+   "diameter_m": 0.33140291805681543,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|18Hz|inst1": {
+   "scale": 0.9348842494922243,
+   "mass_kg": 6.468556231676745,
+   "inertia_kg_m2": 0.2254515119368307,
+   "peak_torque_nm": 1.3927506528916183,
+   "peak_power_w": 78.66212164073956,
+   "diameter_m": 0.46744212474611213,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|18Hz|inst0.3": {
+   "scale": 0.7488383212488371,
+   "mass_kg": 3.3242831764233287,
+   "inertia_kg_m2": 0.07433686503721425,
+   "peak_torque_nm": 0.4592238766777714,
+   "peak_power_w": 25.936821047299066,
+   "diameter_m": 0.37441916062441855,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|18Hz|inst0.1": {
+   "scale": 0.6388160333702837,
+   "mass_kg": 2.0637697956949568,
+   "inertia_kg_m2": 0.03358481619379248,
+   "peak_torque_nm": 0.2074737679925404,
+   "peak_power_w": 11.718053580666185,
+   "diameter_m": 0.31940801668514185,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|24Hz|inst1": {
+   "scale": 0.9341150031573423,
+   "mass_kg": 6.4526018929700175,
+   "inertia_kg_m2": 0.22452550113585004,
+   "peak_torque_nm": 1.3870301228469502,
+   "peak_power_w": 104.45203718864313,
+   "diameter_m": 0.46705750157867115,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|24Hz|inst0.3": {
+   "scale": 0.7427371097684531,
+   "mass_kg": 3.243688930663528,
+   "inertia_kg_m2": 0.07135748807926966,
+   "peak_torque_nm": 0.4408184591769554,
+   "peak_power_w": 33.196385091394596,
+   "diameter_m": 0.37136855488422654,
+   "rim_ok": true
+  },
+  "0.5m|feedforward|24Hz|inst0.1": {
+   "scale": 0.614492694644041,
+   "mass_kg": 1.8368936009486223,
+   "inertia_kg_m2": 0.0276597058837734,
+   "peak_torque_nm": 0.1708707699383685,
+   "peak_power_w": 12.867636918671261,
+   "diameter_m": 0.3072463473220205,
+   "rim_ok": true
+  },
+  "0.5m|structural|10Hz|inst1": {
+   "scale": 0.9423571324826446,
+   "mass_kg": 6.624916283899595,
+   "inertia_kg_m2": 0.23460731371639454,
+   "peak_torque_nm": 1.4493115905259895,
+   "peak_power_w": 45.475925401686574,
+   "diameter_m": 0.4711785662413223,
+   "rim_ok": true
+  },
+  "0.5m|structural|10Hz|inst0.3": {
+   "scale": 0.7885231165187518,
+   "mass_kg": 3.881299156678397,
+   "inertia_kg_m2": 0.09623567250264772,
+   "peak_torque_nm": 0.5945060849584415,
+   "peak_power_w": 18.65417660850068,
+   "diameter_m": 0.3942615582593759,
+   "rim_ok": true
+  },
+  "0.5m|structural|10Hz|inst0.1": {
+   "scale": 0.7223329133278975,
+   "mass_kg": 2.9836373899857493,
+   "inertia_kg_m2": 0.062079892656372086,
+   "peak_torque_nm": 0.3835051283791326,
+   "peak_power_w": 12.033472114167104,
+   "diameter_m": 0.36116645666394875,
+   "rim_ok": true
+  },
+  "0.5m|structural|12Hz|inst1": {
+   "scale": 0.9358907560938913,
+   "mass_kg": 6.48947108771547,
+   "inertia_kg_m2": 0.22666774575027,
+   "peak_torque_nm": 1.4002640664109345,
+   "peak_power_w": 52.72431792557921,
+   "diameter_m": 0.46794537804694564,
+   "rim_ok": true
+  },
+  "0.5m|structural|12Hz|inst0.3": {
+   "scale": 0.7559264798408472,
+   "mass_kg": 3.4195779270322353,
+   "inertia_kg_m2": 0.07792229424617812,
+   "peak_torque_nm": 0.4813732463084363,
+   "peak_power_w": 18.12520701490734,
+   "diameter_m": 0.3779632399204236,
+   "rim_ok": true
+  },
+  "0.5m|structural|12Hz|inst0.1": {
+   "scale": 0.65916178391086,
+   "mass_kg": 2.2673047087490064,
+   "inertia_kg_m2": 0.039284754094856225,
+   "peak_torque_nm": 0.24268573958212342,
+   "peak_power_w": 9.13787648820314,
+   "diameter_m": 0.32958089195543,
+   "rim_ok": true
+  },
+  "0.5m|structural|15Hz|inst1": {
+   "scale": 0.9341289493018158,
+   "mass_kg": 6.452890905333959,
+   "inertia_kg_m2": 0.22454226223360518,
+   "peak_torque_nm": 1.3871336663079858,
+   "peak_power_w": 65.28739666150359,
+   "diameter_m": 0.4670644746509079,
+   "rim_ok": true
+  },
+  "0.5m|structural|15Hz|inst0.3": {
+   "scale": 0.7428542293863792,
+   "mass_kg": 3.24522363053818,
+   "inertia_kg_m2": 0.07141376638913201,
+   "peak_torque_nm": 0.4411661244116263,
+   "peak_power_w": 20.764104035295645,
+   "diameter_m": 0.3714271146931896,
+   "rim_ok": true
+  },
+  "0.5m|structural|15Hz|inst0.1": {
+   "scale": 0.6150803154163921,
+   "mass_kg": 1.8421683391326054,
+   "inertia_kg_m2": 0.027792209759895742,
+   "peak_torque_nm": 0.17168932670205864,
+   "peak_power_w": 8.080799599348063,
+   "diameter_m": 0.30754015770819604,
+   "rim_ok": true
+  },
+  "0.5m|structural|18Hz|inst1": {
+   "scale": 0.9338521802571139,
+   "mass_kg": 6.44715690677681,
+   "inertia_kg_m2": 0.22420981598931505,
+   "peak_torque_nm": 1.385079944335537,
+   "peak_power_w": 78.22888241858853,
+   "diameter_m": 0.46692609012855696,
+   "rim_ok": true
+  },
+  "0.5m|structural|18Hz|inst0.3": {
+   "scale": 0.7404819107264317,
+   "mass_kg": 3.214231770407624,
+   "inertia_kg_m2": 0.0702807204533661,
+   "peak_torque_nm": 0.4341666128393272,
+   "peak_power_w": 24.521594616098685,
+   "diameter_m": 0.37024095536321583,
+   "rim_ok": true
+  },
+  "0.5m|structural|18Hz|inst0.1": {
+   "scale": 0.6016440892035254,
+   "mass_kg": 1.72406165126661,
+   "inertia_kg_m2": 0.024886407535754235,
+   "peak_torque_nm": 0.1537384249313003,
+   "peak_power_w": 8.68309819686205,
+   "diameter_m": 0.3008220446017627,
+   "rim_ok": true
+  },
+  "0.5m|structural|24Hz|inst1": {
+   "scale": 0.9337765559270184,
+   "mass_kg": 6.445590741006065,
+   "inertia_kg_m2": 0.22411904696006044,
+   "peak_torque_nm": 1.3845192090196783,
+   "peak_power_w": 104.26294968423814,
+   "diameter_m": 0.4668882779635092,
+   "rim_ok": true
+  },
+  "0.5m|structural|24Hz|inst0.3": {
+   "scale": 0.7398145904530897,
+   "mass_kg": 3.205549628783186,
+   "inertia_kg_m2": 0.06996460676308668,
+   "peak_torque_nm": 0.4322137869534312,
+   "peak_power_w": 32.54839949376183,
+   "diameter_m": 0.36990729522654486,
+   "rim_ok": true
+  },
+  "0.5m|structural|24Hz|inst0.1": {
+   "scale": 0.5970476289763371,
+   "mass_kg": 1.6848481395424488,
+   "inertia_kg_m2": 0.023950182488726254,
+   "peak_torque_nm": 0.1479547952971506,
+   "peak_power_w": 11.141920803346048,
+   "diameter_m": 0.29852381448816856,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|10Hz|inst1": {
+   "scale": 0.9337812807530892,
+   "mass_kg": 6.4456885838435545,
+   "inertia_kg_m2": 0.22412471712936105,
+   "peak_torque_nm": 1.384554237092578,
+   "peak_power_w": 43.44399479877205,
+   "diameter_m": 0.4668906403765446,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|10Hz|inst0.3": {
+   "scale": 0.7398565334805205,
+   "mass_kg": 3.2060948657131703,
+   "inertia_kg_m2": 0.06998444186918906,
+   "peak_torque_nm": 0.43233632042742276,
+   "peak_power_w": 13.565677929244835,
+   "diameter_m": 0.36992826674026025,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|10Hz|inst0.1": {
+   "scale": 0.5973509509776679,
+   "mass_kg": 1.6874173375173276,
+   "inertia_kg_m2": 0.02401108217297724,
+   "peak_torque_nm": 0.14833100956279374,
+   "peak_power_w": 4.654271703703389,
+   "diameter_m": 0.29867547548883394,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|12Hz|inst1": {
+   "scale": 0.9337722442246003,
+   "mass_kg": 6.445501454096852,
+   "inertia_kg_m2": 0.22411387267234373,
+   "peak_torque_nm": 1.384487244307915,
+   "peak_power_w": 52.13027127083146,
+   "diameter_m": 0.46688612211230013,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|12Hz|inst0.3": {
+   "scale": 0.7397762845417624,
+   "mass_kg": 3.205051726429004,
+   "inertia_kg_m2": 0.06994649560025554,
+   "peak_torque_nm": 0.4321019033220419,
+   "peak_power_w": 16.26998697852276,
+   "diameter_m": 0.3698881422708812,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|12Hz|inst0.1": {
+   "scale": 0.5967687131137025,
+   "mass_kg": 1.6824879691735573,
+   "inertia_kg_m2": 0.02389429207829047,
+   "peak_torque_nm": 0.14760952635237354,
+   "peak_power_w": 5.557959946936715,
+   "diameter_m": 0.29838435655685125,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|15Hz|inst1": {
+   "scale": 0.9337691498102815,
+   "mass_kg": 6.445437375347397,
+   "inertia_kg_m2": 0.2241101592583685,
+   "peak_torque_nm": 1.3844643042988016,
+   "peak_power_w": 65.16175938475101,
+   "diameter_m": 0.46688457490514074,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|15Hz|inst0.3": {
+   "scale": 0.7397487758011121,
+   "mass_kg": 3.2046941981055532,
+   "inertia_kg_m2": 0.0699334916897946,
+   "peak_torque_nm": 0.43202157028444543,
+   "peak_power_w": 20.333702735770633,
+   "diameter_m": 0.36987438790055605,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|15Hz|inst0.1": {
+   "scale": 0.5965673064775323,
+   "mass_kg": 1.6807850486822469,
+   "inertia_kg_m2": 0.023853998229012973,
+   "peak_torque_nm": 0.14736060682015736,
+   "peak_power_w": 6.935734185844045,
+   "diameter_m": 0.29828365323876616,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|18Hz|inst1": {
+   "scale": 0.9337684670459583,
+   "mass_kg": 6.445423236805326,
+   "inertia_kg_m2": 0.22410933992203966,
+   "peak_torque_nm": 1.3844592427616351,
+   "peak_power_w": 78.19382538766378,
+   "diameter_m": 0.46688423352297914,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|18Hz|inst0.3": {
+   "scale": 0.7397427042006092,
+   "mass_kg": 3.2046152897091873,
+   "inertia_kg_m2": 0.06993062178809832,
+   "peak_torque_nm": 0.4320038411619973,
+   "peak_power_w": 24.399441947629242,
+   "diameter_m": 0.3698713521003046,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|18Hz|inst0.1": {
+   "scale": 0.5965227272835532,
+   "mass_kg": 1.6804082809162513,
+   "inertia_kg_m2": 0.023845086970483362,
+   "peak_torque_nm": 0.14730555657441458,
+   "peak_power_w": 8.319771802336506,
+   "diameter_m": 0.2982613636417766,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|24Hz|inst1": {
+   "scale": 0.9337681965495234,
+   "mass_kg": 6.445417635426945,
+   "inertia_kg_m2": 0.2241090153193973,
+   "peak_torque_nm": 1.3844572374943462,
+   "peak_power_w": 104.2582828410586,
+   "diameter_m": 0.4668840982747617,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|24Hz|inst0.3": {
+   "scale": 0.7397402985679549,
+   "mass_kg": 3.2045840257221077,
+   "inertia_kg_m2": 0.06992948472860308,
+   "peak_torque_nm": 0.4319968168562353,
+   "peak_power_w": 32.532060289379864,
+   "diameter_m": 0.36987014928397743,
+   "rim_ok": true
+  },
+  "0.5m|three_stage|24Hz|inst0.1": {
+   "scale": 0.5965050518958869,
+   "mass_kg": 1.6802589103070564,
+   "inertia_kg_m2": 0.023841554446401455,
+   "peak_torque_nm": 0.14728373403182368,
+   "peak_power_w": 11.09138569593402,
+   "diameter_m": 0.29825252594794344,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|10Hz|inst1": {
+   "scale": 0.9739531609446191,
+   "mass_kg": 7.313883578249725,
+   "inertia_kg_m2": 0.27666504626526023,
+   "peak_torque_nm": 1.7091276989359707,
+   "peak_power_w": 53.628332407498725,
+   "diameter_m": 0.4869765804723096,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|10Hz|inst0.3": {
+   "scale": 0.7716027877243209,
+   "mass_kg": 3.6367646152798763,
+   "inertia_kg_m2": 0.08634414176568958,
+   "peak_torque_nm": 0.5334001035718275,
+   "peak_power_w": 16.736817312335805,
+   "diameter_m": 0.38580139386216045,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|10Hz|inst0.1": {
+   "scale": 0.6257310110686389,
+   "mass_kg": 1.9395316270107905,
+   "inertia_kg_m2": 0.030283239558275034,
+   "peak_torque_nm": 0.18707792777312762,
+   "peak_power_w": 5.870057165985455,
+   "diameter_m": 0.31286550553431947,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|12Hz|inst1": {
+   "scale": 0.9739161352530258,
+   "mass_kg": 7.313049478683304,
+   "inertia_kg_m2": 0.2766124619302518,
+   "peak_torque_nm": 1.7088028536231772,
+   "peak_power_w": 64.3417674478302,
+   "diameter_m": 0.4869580676265129,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|12Hz|inst0.3": {
+   "scale": 0.7712731088764077,
+   "mass_kg": 3.632105020271776,
+   "inertia_kg_m2": 0.08615984018517277,
+   "peak_torque_nm": 0.5322615609894843,
+   "peak_power_w": 20.041311088632174,
+   "diameter_m": 0.3856365544382038,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|12Hz|inst0.1": {
+   "scale": 0.6234861331641547,
+   "mass_kg": 1.918731587656442,
+   "inertia_kg_m2": 0.02974390129506426,
+   "peak_torque_nm": 0.18374610838649738,
+   "peak_power_w": 6.918615187340333,
+   "diameter_m": 0.31174306658207734,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|15Hz|inst1": {
+   "scale": 0.9738968820841307,
+   "mass_kg": 7.312615776268169,
+   "inertia_kg_m2": 0.27658512150690734,
+   "peak_torque_nm": 1.708633955255026,
+   "peak_power_w": 80.41925987057738,
+   "diameter_m": 0.48694844104206536,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|15Hz|inst0.3": {
+   "scale": 0.7711008743823333,
+   "mass_kg": 3.6296722863580695,
+   "inertia_kg_m2": 0.08606368053672797,
+   "peak_torque_nm": 0.5316675245512154,
+   "peak_power_w": 25.023679700459343,
+   "diameter_m": 0.38555043719116666,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|15Hz|inst0.1": {
+   "scale": 0.6222676027350811,
+   "mass_kg": 1.9075037530654384,
+   "inertia_kg_m2": 0.029454380367501278,
+   "peak_torque_nm": 0.18195756211583802,
+   "peak_power_w": 8.56408853880364,
+   "diameter_m": 0.31113380136754054,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|18Hz|inst1": {
+   "scale": 0.9738903117916625,
+   "mass_kg": 7.3124677758963506,
+   "inertia_kg_m2": 0.2765757918712215,
+   "peak_torque_nm": 1.7085763204399784,
+   "peak_power_w": 96.49985664834982,
+   "diameter_m": 0.48694515589583126,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|18Hz|inst0.3": {
+   "scale": 0.7710419733108078,
+   "mass_kg": 3.628840584836829,
+   "inertia_kg_m2": 0.08603081539031625,
+   "peak_torque_nm": 0.5314644966197143,
+   "peak_power_w": 30.01694868642626,
+   "diameter_m": 0.3855209866554039,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|18Hz|inst0.1": {
+   "scale": 0.6218433079959017,
+   "mass_kg": 1.9036045042078378,
+   "inertia_kg_m2": 0.02935409949546512,
+   "peak_torque_nm": 0.18133806638125172,
+   "peak_power_w": 10.241917321067351,
+   "diameter_m": 0.31092165399795085,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|24Hz|inst1": {
+   "scale": 0.9738862732400931,
+   "mass_kg": 7.312376805726325,
+   "inertia_kg_m2": 0.27657005736333523,
+   "peak_torque_nm": 1.7085408949086347,
+   "peak_power_w": 128.66380776721337,
+   "diameter_m": 0.48694313662004657,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|24Hz|inst0.3": {
+   "scale": 0.7710057370521474,
+   "mass_kg": 3.628328980679518,
+   "inertia_kg_m2": 0.08601060156289839,
+   "peak_torque_nm": 0.5313396235545846,
+   "peak_power_w": 40.01319452630744,
+   "diameter_m": 0.3855028685260737,
+   "rim_ok": true
+  },
+  "0.5m|gradiometer|24Hz|inst0.1": {
+   "scale": 0.621580294918198,
+   "mass_kg": 1.901190096239022,
+   "inertia_kg_m2": 0.029292074353259857,
+   "peak_torque_nm": 0.1809548994795976,
+   "peak_power_w": 13.627034898935444,
+   "diameter_m": 0.310790147459099,
+   "rim_ok": true
+  },
+  "0.5m|combined|10Hz|inst1": {
+   "scale": 0.9338607352872671,
+   "mass_kg": 6.447334095827247,
+   "inertia_kg_m2": 0.22422008612050487,
+   "peak_torque_nm": 1.38514338916142,
+   "peak_power_w": 43.46248097918215,
+   "diameter_m": 0.46693036764363355,
+   "rim_ok": true
+  },
+  "0.5m|combined|10Hz|inst0.3": {
+   "scale": 0.7405568303139018,
+   "mass_kg": 3.215207486140368,
+   "inertia_kg_m2": 0.07031628153924899,
+   "peak_torque_nm": 0.43438629522315975,
+   "peak_power_w": 13.630001226937113,
+   "diameter_m": 0.3702784151569509,
+   "rim_ok": true
+  },
+  "0.5m|combined|10Hz|inst0.1": {
+   "scale": 0.6021299664339913,
+   "mass_kg": 1.7282419914127833,
+   "inertia_kg_m2": 0.02498705910799264,
+   "peak_torque_nm": 0.15436021070574604,
+   "peak_power_w": 4.843453590608161,
+   "diameter_m": 0.30106498321699565,
+   "rim_ok": true
+  },
+  "0.5m|combined|12Hz|inst1": {
+   "scale": 0.9337898291543835,
+   "mass_kg": 6.445865608714984,
+   "inertia_kg_m2": 0.22413497618649025,
+   "peak_torque_nm": 1.3846176135072756,
+   "peak_power_w": 52.135180078591134,
+   "diameter_m": 0.46689491457719173,
+   "rim_ok": true
+  },
+  "0.5m|combined|12Hz|inst0.3": {
+   "scale": 0.7399323358732609,
+   "mass_kg": 3.2070804131203685,
+   "inertia_kg_m2": 0.0700203006814742,
+   "peak_torque_nm": 0.4325578420477171,
+   "peak_power_w": 16.287154496352947,
+   "diameter_m": 0.36996616793663045,
+   "rim_ok": true
+  },
+  "0.5m|combined|12Hz|inst0.1": {
+   "scale": 0.5978940359387448,
+   "mass_kg": 1.6920238978160629,
+   "inertia_kg_m2": 0.024120429869297196,
+   "peak_torque_nm": 0.14900651656708694,
+   "peak_power_w": 5.610560994115095,
+   "diameter_m": 0.2989470179693724,
+   "rim_ok": true
+  },
+  "0.5m|combined|15Hz|inst1": {
+   "scale": 0.9337717807023617,
+   "mass_kg": 6.4454918555085525,
+   "inertia_kg_m2": 0.22411331642502824,
+   "peak_torque_nm": 1.3844838080310626,
+   "peak_power_w": 65.162677355337,
+   "diameter_m": 0.46688589035118083,
+   "rim_ok": true
+  },
+  "0.5m|combined|15Hz|inst0.3": {
+   "scale": 0.7397721648438761,
+   "mass_kg": 3.204998181438841,
+   "inertia_kg_m2": 0.06994454801673129,
+   "peak_torque_nm": 0.43208987191803117,
+   "peak_power_w": 20.33691744820452,
+   "diameter_m": 0.36988608242193804,
+   "rim_ok": true
+  },
+  "0.5m|combined|15Hz|inst0.1": {
+   "scale": 0.5967386096160708,
+   "mass_kg": 1.6822333669302227,
+   "inertia_kg_m2": 0.023888266048576634,
+   "peak_torque_nm": 0.14757229991398693,
+   "peak_power_w": 6.945697818998549,
+   "diameter_m": 0.2983693048080354,
+   "rim_ok": true
+  },
+  "0.5m|combined|18Hz|inst1": {
+   "scale": 0.933768988370064,
+   "mass_kg": 6.445434032274971,
+   "inertia_kg_m2": 0.2241099655253652,
+   "peak_torque_nm": 1.3844631074926035,
+   "peak_power_w": 78.19404366646116,
+   "diameter_m": 0.466884494185032,
+   "rim_ok": true
+  },
+  "0.5m|combined|18Hz|inst0.3": {
+   "scale": 0.7397473402299057,
+   "mass_kg": 3.2046755408616137,
+   "inertia_kg_m2": 0.06993281312079484,
+   "peak_torque_nm": 0.43201737835240056,
+   "peak_power_w": 24.400206523912843,
+   "diameter_m": 0.36987367011495287,
+   "rim_ok": true
+  },
+  "0.5m|combined|18Hz|inst0.1": {
+   "scale": 0.5965567702802912,
+   "mass_kg": 1.6806959953440785,
+   "inertia_kg_m2": 0.0238518918317123,
+   "peak_torque_nm": 0.14734759432718023,
+   "peak_power_w": 8.322146081475912,
+   "diameter_m": 0.2982783851401456,
+   "rim_ok": true
+  },
+  "0.5m|combined|24Hz|inst1": {
+   "scale": 0.9337682256167221,
+   "mass_kg": 6.4454182373437,
+   "inertia_kg_m2": 0.22410905020076144,
+   "peak_torque_nm": 1.384457452977677,
+   "peak_power_w": 104.25829906830018,
+   "diameter_m": 0.46688411280836106,
+   "rim_ok": true
+  },
+  "0.5m|combined|24Hz|inst0.3": {
+   "scale": 0.7397405570794832,
+   "mass_kg": 3.204587385369561,
+   "inertia_kg_m2": 0.06992960691736742,
+   "peak_torque_nm": 0.4319975716903007,
+   "peak_power_w": 32.5321171331027,
+   "diameter_m": 0.3698702785397416,
+   "rim_ok": true
+  },
+  "0.5m|combined|24Hz|inst0.1": {
+   "scale": 0.5965069516540243,
+   "mass_kg": 1.6802749642986905,
+   "inertia_kg_m2": 0.023841934103501,
+   "peak_torque_nm": 0.14728607940386718,
+   "peak_power_w": 11.091562317107472,
+   "diameter_m": 0.29825347582701217,
+   "rim_ok": true
+  },
+  "1m|baseline|10Hz|inst1": {
+   "scale": 2.023924346120186,
+   "mass_kg": 65.6060276509133,
+   "inertia_kg_m2": 10.735183047260831,
+   "peak_torque_nm": 66.14404195707871,
+   "peak_power_w": 2078.2730014769854,
+   "diameter_m": 1.011962173060093,
+   "rim_ok": true
+  },
+  "1m|baseline|10Hz|inst0.3": {
+   "scale": 1.977680158600532,
+   "mass_kg": 61.21094551841428,
+   "inertia_kg_m2": 9.56353304967477,
+   "peak_torque_nm": 58.92500654257615,
+   "peak_power_w": 1851.44793976693,
+   "diameter_m": 0.988840079300266,
+   "rim_ok": true
+  },
+  "1m|baseline|10Hz|inst0.1": {
+   "scale": 1.9719934413094824,
+   "mass_kg": 60.68443562674216,
+   "inertia_kg_m2": 9.426824281541286,
+   "peak_torque_nm": 58.082685507572556,
+   "peak_power_w": 1824.9818664241475,
+   "diameter_m": 0.9859967206547412,
+   "rim_ok": true
+  },
+  "1m|baseline|12Hz|inst1": {
+   "scale": 1.9170934319705941,
+   "mass_kg": 55.755890514561806,
+   "inertia_kg_m2": 8.185674617024054,
+   "peak_torque_nm": 50.43543299930824,
+   "peak_power_w": 1901.6424570173294,
+   "diameter_m": 0.9585467159852971,
+   "rim_ok": true
+  },
+  "1m|baseline|12Hz|inst0.3": {
+   "scale": 1.8464189027619962,
+   "mass_kg": 49.814024676825746,
+   "inertia_kg_m2": 6.7840535738300005,
+   "peak_torque_nm": 41.79944787629654,
+   "peak_power_w": 1576.0270118537217,
+   "diameter_m": 0.9232094513809981,
+   "rim_ok": true
+  },
+  "1m|baseline|12Hz|inst0.1": {
+   "scale": 1.8359731724924837,
+   "mass_kg": 48.97336114350894,
+   "inertia_kg_m2": 6.594315709417948,
+   "peak_torque_nm": 40.63039195901346,
+   "peak_power_w": 1531.9483505886674,
+   "diameter_m": 0.9179865862462419,
+   "rim_ok": true
+  },
+  "1m|baseline|15Hz|inst1": {
+   "scale": 1.8122396494558688,
+   "mass_kg": 47.098578821123716,
+   "inertia_kg_m2": 6.178971908244094,
+   "peak_torque_nm": 38.07128163080477,
+   "peak_power_w": 1794.3229897321219,
+   "diameter_m": 0.9061198247279344,
+   "rim_ok": true
+  },
+  "1m|baseline|15Hz|inst0.3": {
+   "scale": 1.7015483865454524,
+   "mass_kg": 38.98466704286105,
+   "inertia_kg_m2": 4.508785747489054,
+   "peak_torque_nm": 27.780552259282636,
+   "peak_power_w": 1309.3145660206073,
+   "diameter_m": 0.8507741932727262,
+   "rim_ok": true
+  },
+  "1m|baseline|15Hz|inst0.1": {
+   "scale": 1.6798742514776435,
+   "mass_kg": 37.51381557934498,
+   "inertia_kg_m2": 4.228846760801878,
+   "peak_torque_nm": 26.055728751444704,
+   "peak_power_w": 1228.022570039053,
+   "diameter_m": 0.8399371257388217,
+   "rim_ok": true
+  },
+  "1m|baseline|18Hz|inst1": {
+   "scale": 1.7478238047513388,
+   "mass_kg": 42.25264187930073,
+   "inertia_kg_m2": 5.1561593522217395,
+   "peak_torque_nm": 31.769297181919967,
+   "peak_power_w": 1796.7678898950455,
+   "diameter_m": 0.8739119023756694,
+   "rim_ok": true
+  },
+  "1m|baseline|18Hz|inst0.3": {
+   "scale": 1.6010112667072094,
+   "mass_kg": 32.474620400731716,
+   "inertia_kg_m2": 3.3251406614558308,
+   "peak_torque_nm": 20.487609988228563,
+   "peak_power_w": 1158.712437255038,
+   "diameter_m": 0.8005056333536047,
+   "rim_ok": true
+  },
+  "1m|baseline|18Hz|inst0.1": {
+   "scale": 1.564956391133534,
+   "mass_kg": 30.329666781551417,
+   "inertia_kg_m2": 2.967216813291419,
+   "peak_torque_nm": 18.282288483583454,
+   "peak_power_w": 1033.9866416621658,
+   "diameter_m": 0.782478195566767,
+   "rim_ok": true
+  },
+  "1m|baseline|24Hz|inst1": {
+   "scale": 1.6820226695938671,
+   "mass_kg": 37.65793079434242,
+   "inertia_kg_m2": 4.255957717095238,
+   "peak_torque_nm": 26.222770917625752,
+   "peak_power_w": 1977.4325926092617,
+   "diameter_m": 0.8410113347969336,
+   "rim_ok": true
+  },
+  "1m|baseline|24Hz|inst0.3": {
+   "scale": 1.4757215283595395,
+   "mass_kg": 25.431627727243843,
+   "inertia_kg_m2": 2.212382149613743,
+   "peak_torque_nm": 13.631430138164454,
+   "peak_power_w": 1027.9323387966024,
+   "diameter_m": 0.7378607641797698,
+   "rim_ok": true
+  },
+  "1m|baseline|24Hz|inst0.1": {
+   "scale": 1.4067081368138439,
+   "mass_kg": 22.027890929645046,
+   "inertia_kg_m2": 1.7412377683597977,
+   "peak_torque_nm": 10.728508633770131,
+   "peak_power_w": 809.0259686571577,
+   "diameter_m": 0.7033540684069219,
+   "rim_ok": true
+  },
+  "1m|feedforward|10Hz|inst1": {
+   "scale": 1.6546427652691156,
+   "mass_kg": 35.848719955897685,
+   "inertia_kg_m2": 3.9206611082070526,
+   "peak_torque_nm": 24.156865486043458,
+   "peak_power_w": 759.0186486113654,
+   "diameter_m": 0.8273213826345578,
+   "rim_ok": true
+  },
+  "1m|feedforward|10Hz|inst0.3": {
+   "scale": 1.399598028976929,
+   "mass_kg": 21.69556104259554,
+   "inertia_kg_m2": 1.6976755419730856,
+   "peak_torque_nm": 10.460103175085226,
+   "peak_power_w": 328.6607437076473,
+   "diameter_m": 0.6997990144884645,
+   "rim_ok": true
+  },
+  "1m|feedforward|10Hz|inst0.1": {
+   "scale": 1.2964347354082344,
+   "mass_kg": 17.243002632287237,
+   "inertia_kg_m2": 1.1576875792294747,
+   "peak_torque_nm": 7.1330069991942775,
+   "peak_power_w": 224.1220135199999,
+   "diameter_m": 0.6482173677041172,
+   "rim_ok": true
+  },
+  "1m|feedforward|12Hz|inst1": {
+   "scale": 1.643812417171403,
+   "mass_kg": 35.14938162386733,
+   "inertia_kg_m2": 3.7940178041957573,
+   "peak_torque_nm": 23.37656206902407,
+   "peak_power_w": 881.4014331981003,
+   "diameter_m": 0.8219062085857015,
+   "rim_ok": true
+  },
+  "1m|feedforward|12Hz|inst0.3": {
+   "scale": 1.356418474520684,
+   "mass_kg": 19.748858929936347,
+   "inertia_kg_m2": 1.4514649810880915,
+   "peak_torque_nm": 8.943094885821983,
+   "peak_power_w": 337.1948632273443,
+   "diameter_m": 0.678209237260342,
+   "rim_ok": true
+  },
+  "1m|feedforward|12Hz|inst0.1": {
+   "scale": 1.2260705811955919,
+   "mass_kg": 14.585030261557156,
+   "inertia_kg_m2": 0.8758211739679874,
+   "peak_torque_nm": 5.396307843359773,
+   "peak_power_w": 203.46505414574938,
+   "diameter_m": 0.6130352905977959,
+   "rim_ok": true
+  },
+  "1m|feedforward|15Hz|inst1": {
+   "scale": 1.6377064235717802,
+   "mass_kg": 34.759144275233986,
+   "inertia_kg_m2": 3.72407435216058,
+   "peak_torque_nm": 22.94561062593544,
+   "peak_power_w": 1081.4407841275322,
+   "diameter_m": 0.8188532117858901,
+   "rim_ok": true
+  },
+  "1m|feedforward|15Hz|inst0.3": {
+   "scale": 1.322822878710145,
+   "mass_kg": 18.31749204195998,
+   "inertia_kg_m2": 1.2804026633637469,
+   "peak_torque_nm": 7.889106977928671,
+   "peak_power_w": 371.8184787217601,
+   "diameter_m": 0.6614114393550725,
+   "rim_ok": true
+  },
+  "1m|feedforward|15Hz|inst0.1": {
+   "scale": 1.1568158599935487,
+   "mass_kg": 12.250494546792861,
+   "inertia_kg_m2": 0.6548762672080025,
+   "peak_torque_nm": 4.034972026485723,
+   "peak_power_w": 190.1707208141681,
+   "diameter_m": 0.5784079299967744,
+   "rim_ok": true
+  },
+  "1m|feedforward|18Hz|inst1": {
+   "scale": 1.6355392541810554,
+   "mass_kg": 34.621336947956486,
+   "inertia_kg_m2": 3.6994992261329473,
+   "peak_torque_nm": 22.794192791706056,
+   "peak_power_w": 1289.165241827342,
+   "diameter_m": 0.8177696270905277,
+   "rim_ok": true
+  },
+  "1m|feedforward|18Hz|inst0.3": {
+   "scale": 1.307782829633269,
+   "mass_kg": 17.699777701218377,
+   "inertia_kg_m2": 1.209250390067743,
+   "peak_torque_nm": 7.450707471416925,
+   "peak_power_w": 421.38772743332015,
+   "diameter_m": 0.6538914148166345,
+   "rim_ok": true
+  },
+  "1m|feedforward|18Hz|inst0.1": {
+   "scale": 1.1146655817814726,
+   "mass_kg": 10.959599725795307,
+   "inertia_kg_m2": 0.5439525758629612,
+   "peak_torque_nm": 3.351523848465829,
+   "peak_power_w": 189.55126387145773,
+   "diameter_m": 0.5573327908907363,
+   "rim_ok": true
+  },
+  "1m|feedforward|24Hz|inst1": {
+   "scale": 1.634184615440663,
+   "mass_kg": 34.53538259922893,
+   "inertia_kg_m2": 3.684203994647362,
+   "peak_torque_nm": 22.69995234618483,
+   "peak_power_w": 1711.7804125669857,
+   "diameter_m": 0.8170923077203315,
+   "rim_ok": true
+  },
+  "1m|feedforward|24Hz|inst0.3": {
+   "scale": 1.2970510886626057,
+   "mass_kg": 17.267607421041802,
+   "inertia_kg_m2": 1.1604421463483219,
+   "peak_torque_nm": 7.149979062202473,
+   "peak_power_w": 539.1726785276398,
+   "diameter_m": 0.6485255443313028,
+   "rim_ok": true
+  },
+  "1m|feedforward|24Hz|inst0.1": {
+   "scale": 1.0719537871260643,
+   "mass_kg": 9.747407164080231,
+   "inertia_kg_m2": 0.4474230928761831,
+   "peak_torque_nm": 2.7567645281390356,
+   "peak_power_w": 207.88482060936954,
+   "diameter_m": 0.5359768935630321,
+   "rim_ok": true
+  },
+  "1m|structural|10Hz|inst1": {
+   "scale": 1.6486993435786146,
+   "mass_kg": 35.46380365574972,
+   "inertia_kg_m2": 3.8507507265237124,
+   "peak_torque_nm": 23.726117803498994,
+   "peak_power_w": 745.484379271402,
+   "diameter_m": 0.8243496717893073,
+   "rim_ok": true
+  },
+  "1m|structural|10Hz|inst0.3": {
+   "scale": 1.3776016588186166,
+   "mass_kg": 20.68863749235702,
+   "inertia_kg_m2": 1.568398311920712,
+   "peak_torque_nm": 9.663571016198476,
+   "peak_power_w": 303.63337568413414,
+   "diameter_m": 0.6888008294093083,
+   "rim_ok": true
+  },
+  "1m|structural|10Hz|inst0.1": {
+   "scale": 1.2611657229297797,
+   "mass_kg": 15.87367172174557,
+   "inertia_kg_m2": 1.008553344482875,
+   "peak_torque_nm": 6.214127364176513,
+   "peak_power_w": 195.2504374783717,
+   "diameter_m": 0.6305828614648898,
+   "rim_ok": true
+  },
+  "1m|structural|12Hz|inst1": {
+   "scale": 1.6373117181063412,
+   "mass_kg": 34.73401831058198,
+   "inertia_kg_m2": 3.7195887980967735,
+   "peak_torque_nm": 22.91797321398904,
+   "peak_power_w": 864.1105726822096,
+   "diameter_m": 0.8186558590531706,
+   "rim_ok": true
+  },
+  "1m|structural|12Hz|inst0.3": {
+   "scale": 1.3202513548083425,
+   "mass_kg": 18.210873778085656,
+   "inertia_kg_m2": 1.268005653869379,
+   "peak_torque_nm": 7.812723714361778,
+   "peak_power_w": 294.5747907107343,
+   "diameter_m": 0.6601256774041713,
+   "rim_ok": true
+  },
+  "1m|structural|12Hz|inst0.1": {
+   "scale": 1.1504125513857575,
+   "mass_kg": 12.04818847734149,
+   "inertia_kg_m2": 0.6369511670924474,
+   "peak_torque_nm": 3.9245278385376983,
+   "peak_power_w": 147.97233448183343,
+   "diameter_m": 0.5752062756928787,
+   "rim_ok": true
+  },
+  "1m|structural|15Hz|inst1": {
+   "scale": 1.6342091744620653,
+   "mass_kg": 34.53693964720034,
+   "inertia_kg_m2": 3.684480839636222,
+   "peak_torque_nm": 22.701658106252278,
+   "peak_power_w": 1069.9431513786417,
+   "diameter_m": 0.8171045872310326,
+   "rim_ok": true
+  },
+  "1m|structural|15Hz|inst0.3": {
+   "scale": 1.297257090537803,
+   "mass_kg": 17.27583622065401,
+   "inertia_kg_m2": 1.1613639651062342,
+   "peak_torque_nm": 7.155658780781256,
+   "peak_power_w": 337.2506127202559,
+   "diameter_m": 0.6486285452689015,
+   "rim_ok": true
+  },
+  "1m|structural|15Hz|inst0.1": {
+   "scale": 1.072980400675935,
+   "mass_kg": 9.775439361962366,
+   "inertia_kg_m2": 0.449569693144611,
+   "peak_torque_nm": 2.769990648047275,
+   "peak_power_w": 130.5513680714284,
+   "diameter_m": 0.5364902003379675,
+   "rim_ok": true
+  },
+  "1m|structural|18Hz|inst1": {
+   "scale": 1.6337217873856242,
+   "mass_kg": 34.506047937799515,
+   "inertia_kg_m2": 3.6789898120767854,
+   "peak_torque_nm": 22.667825543204223,
+   "peak_power_w": 1282.018322172736,
+   "diameter_m": 0.8168608936928121,
+   "rim_ok": true
+  },
+  "1m|structural|18Hz|inst0.3": {
+   "scale": 1.2930844613236796,
+   "mass_kg": 17.109668594177123,
+   "inertia_kg_m2": 1.1428060886415625,
+   "peak_torque_nm": 7.041315787829056,
+   "peak_power_w": 398.23386830799535,
+   "diameter_m": 0.6465422306618398,
+   "rim_ok": true
+  },
+  "1m|structural|18Hz|inst0.1": {
+   "scale": 1.0495067676391439,
+   "mass_kg": 9.14779974886244,
+   "inertia_kg_m2": 0.4024985295138188,
+   "peak_torque_nm": 2.4799651302282695,
+   "peak_power_w": 140.2587437971219,
+   "diameter_m": 0.5247533838195719,
+   "rim_ok": true
+  },
+  "1m|structural|24Hz|inst1": {
+   "scale": 1.6335886139835527,
+   "mass_kg": 34.49761030798686,
+   "inertia_kg_m2": 3.6774905858195717,
+   "peak_torque_nm": 22.658588170723128,
+   "peak_power_w": 1708.6611819951547,
+   "diameter_m": 0.8167943069917764,
+   "rim_ok": true
+  },
+  "1m|structural|24Hz|inst0.3": {
+   "scale": 1.2919107408828863,
+   "mass_kg": 17.063120022133873,
+   "inertia_kg_m2": 1.137628924729785,
+   "peak_torque_nm": 7.009417072596001,
+   "peak_power_w": 528.5730412733246,
+   "diameter_m": 0.6459553704414431,
+   "rim_ok": true
+  },
+  "1m|structural|24Hz|inst0.1": {
+   "scale": 1.041476744323679,
+   "mass_kg": 8.939426319175643,
+   "inertia_kg_m2": 0.3873343068850744,
+   "peak_torque_nm": 2.3865318861572167,
+   "peak_power_w": 179.96595210373061,
+   "diameter_m": 0.5207383721618395,
+   "rim_ok": true
+  },
+  "1m|three_stage|10Hz|inst1": {
+   "scale": 1.633596934335001,
+   "mass_kg": 34.49813743036278,
+   "inertia_kg_m2": 3.6775842395263583,
+   "peak_torque_nm": 22.659165211159593,
+   "peak_power_w": 711.960290012482,
+   "diameter_m": 0.8167984671675005,
+   "rim_ok": true
+  },
+  "1m|three_stage|10Hz|inst0.3": {
+   "scale": 1.2919845124145979,
+   "mass_kg": 17.066043237354382,
+   "inertia_kg_m2": 1.1379537699796378,
+   "peak_torque_nm": 7.011418582746433,
+   "peak_power_w": 220.30165546931002,
+   "diameter_m": 0.6459922562072989,
+   "rim_ok": true
+  },
+  "1m|three_stage|10Hz|inst0.1": {
+   "scale": 1.0420066454949708,
+   "mass_kg": 8.953078346723343,
+   "inertia_kg_m2": 0.3883206845009569,
+   "peak_torque_nm": 2.3926093793982,
+   "peak_power_w": 75.17677071368831,
+   "diameter_m": 0.5210033227474854,
+   "rim_ok": true
+  },
+  "1m|three_stage|12Hz|inst1": {
+   "scale": 1.633581021137218,
+   "mass_kg": 34.4971292802037,
+   "inertia_kg_m2": 3.67740512256061,
+   "peak_torque_nm": 22.65806159512943,
+   "peak_power_w": 854.3107367315137,
+   "diameter_m": 0.816790510568609,
+   "rim_ok": true
+  },
+  "1m|three_stage|12Hz|inst0.3": {
+   "scale": 1.2918433665224613,
+   "mass_kg": 17.060450588071415,
+   "inertia_kg_m2": 1.1373323135755942,
+   "peak_torque_nm": 7.007589524752489,
+   "peak_power_w": 264.2176138708277,
+   "diameter_m": 0.6459216832612307,
+   "rim_ok": true
+  },
+  "1m|three_stage|12Hz|inst0.1": {
+   "scale": 1.0409894808423588,
+   "mass_kg": 8.926885035634651,
+   "inertia_kg_m2": 0.3864290665854091,
+   "peak_torque_nm": 2.380954314531404,
+   "peak_power_w": 89.77267653860753,
+   "diameter_m": 0.5204947404211794,
+   "rim_ok": true
+  },
+  "1m|three_stage|15Hz|inst1": {
+   "scale": 1.6335755719179712,
+   "mass_kg": 34.49678405987242,
+   "inertia_kg_m2": 3.6773437884338582,
+   "peak_torque_nm": 22.65768368941181,
+   "peak_power_w": 1067.8706099847875,
+   "diameter_m": 0.8167877859589856,
+   "rim_ok": true
+  },
+  "1m|three_stage|15Hz|inst0.3": {
+   "scale": 1.2917949827835313,
+   "mass_kg": 17.058533751649914,
+   "inertia_kg_m2": 1.1371193455435071,
+   "peak_torque_nm": 7.006277337863092,
+   "peak_power_w": 330.2101731609389,
+   "diameter_m": 0.6458974913917657,
+   "rim_ok": true
+  },
+  "1m|three_stage|15Hz|inst0.1": {
+   "scale": 1.0406376254885477,
+   "mass_kg": 8.917836210016343,
+   "inertia_kg_m2": 0.38577644110029524,
+   "peak_torque_nm": 2.376933210533495,
+   "peak_power_w": 112.02632856118736,
+   "diameter_m": 0.5203188127442738,
+   "rim_ok": true
+  },
+  "1m|three_stage|18Hz|inst1": {
+   "scale": 1.6335743695798037,
+   "mass_kg": 34.49670788934748,
+   "inertia_kg_m2": 3.6773302555298417,
+   "peak_torque_nm": 22.657600307417564,
+   "peak_power_w": 1281.4400161679519,
+   "diameter_m": 0.8167871847899019,
+   "rim_ok": true
+  },
+  "1m|three_stage|18Hz|inst0.3": {
+   "scale": 1.2917843037528447,
+   "mass_kg": 17.058110695897547,
+   "inertia_kg_m2": 1.1370723445418955,
+   "peak_torque_nm": 7.005987744643402,
+   "peak_power_w": 396.23582934461115,
+   "diameter_m": 0.6458921518764223,
+   "rim_ok": true
+  },
+  "1m|three_stage|18Hz|inst0.1": {
+   "scale": 1.0405597461121594,
+   "mass_kg": 8.915834177231412,
+   "inertia_kg_m2": 0.38563210876317355,
+   "peak_torque_nm": 2.376043917438043,
+   "peak_power_w": 134.38129875478418,
+   "diameter_m": 0.5202798730560797,
+   "rim_ok": true
+  },
+  "1m|three_stage|24Hz|inst1": {
+   "scale": 1.6335738932394681,
+   "mass_kg": 34.49667771226662,
+   "inertia_kg_m2": 3.6773248940974543,
+   "peak_torque_nm": 22.657567273345652,
+   "peak_power_w": 1708.5841971580346,
+   "diameter_m": 0.8167869466197341,
+   "rim_ok": true
+  },
+  "1m|three_stage|24Hz|inst0.3": {
+   "scale": 1.291780072607554,
+   "mass_kg": 17.057943078653413,
+   "inertia_kg_m2": 1.1370537226761352,
+   "peak_torque_nm": 7.005873007385104,
+   "peak_power_w": 528.3057869057227,
+   "diameter_m": 0.645890036303777,
+   "rim_ok": true
+  },
+  "1m|three_stage|24Hz|inst0.1": {
+   "scale": 1.0405288674008506,
+   "mass_kg": 8.915040466055542,
+   "inertia_kg_m2": 0.38557489380799276,
+   "peak_torque_nm": 2.375691391693546,
+   "peak_power_w": 179.14848139707638,
+   "diameter_m": 0.5202644337004253,
+   "rim_ok": true
+  },
+  "1m|gradiometer|10Hz|inst1": {
+   "scale": 1.6875998197674602,
+   "mass_kg": 38.033765960342954,
+   "inertia_kg_m2": 4.326985427118888,
+   "peak_torque_nm": 26.660402936682786,
+   "peak_power_w": 837.6808249450481,
+   "diameter_m": 0.8437999098837301,
+   "rim_ok": true
+  },
+  "1m|gradiometer|10Hz|inst0.3": {
+   "scale": 1.3340509029185814,
+   "mass_kg": 18.78789490266421,
+   "inertia_kg_m2": 1.335672813930844,
+   "peak_torque_nm": 8.229649951624582,
+   "peak_power_w": 258.5789861037868,
+   "diameter_m": 0.6670254514592907,
+   "rim_ok": true
+  },
+  "1m|gradiometer|10Hz|inst0.1": {
+   "scale": 1.0805081280581723,
+   "mass_kg": 9.982631350744413,
+   "inertia_kg_m2": 0.4655628003841155,
+   "peak_torque_nm": 2.86853100377449,
+   "peak_power_w": 90.13042388478033,
+   "diameter_m": 0.5402540640290862,
+   "rim_ok": true
+  },
+  "1m|gradiometer|12Hz|inst1": {
+   "scale": 1.6875344366412652,
+   "mass_kg": 38.029345474847304,
+   "inertia_kg_m2": 4.326147284361628,
+   "peak_torque_nm": 26.655238781636875,
+   "peak_power_w": 1005.0222780835606,
+   "diameter_m": 0.8437672183206326,
+   "rim_ok": true
+  },
+  "1m|gradiometer|12Hz|inst0.3": {
+   "scale": 1.3334769764548078,
+   "mass_kg": 18.76365692540878,
+   "inertia_kg_m2": 1.332802163820055,
+   "peak_torque_nm": 8.211962651786637,
+   "peak_power_w": 309.62789264230713,
+   "diameter_m": 0.6667384882274039,
+   "rim_ok": true
+  },
+  "1m|gradiometer|12Hz|inst0.1": {
+   "scale": 1.076607501333201,
+   "mass_kg": 9.874909477128018,
+   "inertia_kg_m2": 0.45721986198866355,
+   "peak_torque_nm": 2.8171266015538023,
+   "peak_power_w": 106.2183317109844,
+   "diameter_m": 0.5383037506666005,
+   "rim_ok": true
+  },
+  "1m|gradiometer|15Hz|inst1": {
+   "scale": 1.687500437771253,
+   "mass_kg": 38.027046981797966,
+   "inertia_kg_m2": 4.325711506016981,
+   "peak_torque_nm": 26.652553765369767,
+   "peak_power_w": 1256.1513011313743,
+   "diameter_m": 0.8437502188856265,
+   "rim_ok": true
+  },
+  "1m|gradiometer|15Hz|inst0.3": {
+   "scale": 1.3331771400753396,
+   "mass_kg": 18.751002574138717,
+   "inertia_kg_m2": 1.3313044142897432,
+   "peak_torque_nm": 8.202734378049898,
+   "peak_power_w": 386.59993156867694,
+   "diameter_m": 0.6665885700376698,
+   "rim_ok": true
+  },
+  "1m|gradiometer|15Hz|inst0.1": {
+   "scale": 1.0744902592881138,
+   "mass_kg": 9.816764376225585,
+   "inertia_kg_m2": 0.45274169745115284,
+   "peak_torque_nm": 2.789534719630989,
+   "peak_power_w": 131.4724922220599,
+   "diameter_m": 0.5372451296440569,
+   "rim_ok": true
+  },
+  "1m|gradiometer|18Hz|inst1": {
+   "scale": 1.6874888353974247,
+   "mass_kg": 38.02626262470156,
+   "inertia_kg_m2": 4.325562801368653,
+   "peak_torque_nm": 26.651637532599917,
+   "peak_power_w": 1507.32974221884,
+   "diameter_m": 0.8437444176987123,
+   "rim_ok": true
+  },
+  "1m|gradiometer|18Hz|inst0.3": {
+   "scale": 1.3330746015805963,
+   "mass_kg": 18.74667632601044,
+   "inertia_kg_m2": 1.3307925207481759,
+   "peak_torque_nm": 8.199580383586838,
+   "peak_power_w": 463.7415382366907,
+   "diameter_m": 0.6665373007902982,
+   "rim_ok": true
+  },
+  "1m|gradiometer|18Hz|inst0.1": {
+   "scale": 1.0737530374421826,
+   "mass_kg": 9.796572004812985,
+   "inertia_kg_m2": 0.4511906672218269,
+   "peak_torque_nm": 2.779978160780191,
+   "peak_power_w": 157.22650284948682,
+   "diameter_m": 0.5368765187210913,
+   "rim_ok": true
+  },
+  "1m|gradiometer|24Hz|inst1": {
+   "scale": 1.6874817037848857,
+   "mass_kg": 38.02578051053362,
+   "inertia_kg_m2": 4.325471399350082,
+   "peak_torque_nm": 26.651074365775028,
+   "peak_power_w": 2009.7305217853136,
+   "diameter_m": 0.8437408518924429,
+   "rim_ok": true
+  },
+  "1m|gradiometer|24Hz|inst0.3": {
+   "scale": 1.3330115193693597,
+   "mass_kg": 18.744015126476597,
+   "inertia_kg_m2": 1.330477679440434,
+   "peak_torque_nm": 8.197640511991038,
+   "peak_power_w": 618.175767230203,
+   "diameter_m": 0.6665057596846798,
+   "rim_ok": true
+  },
+  "1m|gradiometer|24Hz|inst0.1": {
+   "scale": 1.0732960477625868,
+   "mass_kg": 9.784069053859044,
+   "inertia_kg_m2": 0.4502313495886534,
+   "peak_torque_nm": 2.7740673956353916,
+   "peak_power_w": 209.18961232037427,
+   "diameter_m": 0.5366480238812934,
+   "rim_ok": true
+  },
+  "1m|combined|10Hz|inst1": {
+   "scale": 1.6337368526801888,
+   "mass_kg": 34.50700253467308,
+   "inertia_kg_m2": 3.6791594434297354,
+   "peak_torque_nm": 22.66887071432775,
+   "peak_power_w": 712.2652409136263,
+   "diameter_m": 0.8168684263400944,
+   "rim_ok": true
+  },
+  "1m|combined|10Hz|inst0.3": {
+   "scale": 1.2932162345853535,
+   "mass_kg": 17.114899868705624,
+   "inertia_kg_m2": 1.1433885021874333,
+   "peak_torque_nm": 7.044904286119662,
+   "peak_power_w": 221.3537900410256,
+   "diameter_m": 0.6466081172926768,
+   "rim_ok": true
+  },
+  "1m|combined|10Hz|inst0.1": {
+   "scale": 1.050355601316164,
+   "mass_kg": 9.17001373359,
+   "inertia_kg_m2": 0.4041288544422018,
+   "peak_torque_nm": 2.4900102575439282,
+   "peak_power_w": 78.23714636327094,
+   "diameter_m": 0.525177800658082,
+   "rim_ok": true
+  },
+  "1m|combined|12Hz|inst1": {
+   "scale": 1.6336119879486917,
+   "mass_kg": 34.499091141297065,
+   "inertia_kg_m2": 3.677753687545039,
+   "peak_torque_nm": 22.66020925268248,
+   "peak_power_w": 854.3917130718195,
+   "diameter_m": 0.8168059939743458,
+   "rim_ok": true
+  },
+  "1m|combined|12Hz|inst0.3": {
+   "scale": 1.2921178375980649,
+   "mass_kg": 17.071327127678625,
+   "inertia_kg_m2": 1.138541041768569,
+   "peak_torque_nm": 7.015037014744869,
+   "peak_power_w": 264.4984177090323,
+   "diameter_m": 0.6460589187990324,
+   "rim_ok": true
+  },
+  "1m|combined|12Hz|inst0.1": {
+   "scale": 1.0429554116944375,
+   "mass_kg": 8.977556448052402,
+   "inertia_kg_m2": 0.3900917723784349,
+   "peak_torque_nm": 2.403521807287119,
+   "peak_power_w": 90.62357242311965,
+   "diameter_m": 0.5214777058472188,
+   "rim_ok": true
+  },
+  "1m|combined|15Hz|inst1": {
+   "scale": 1.6335802048811945,
+   "mass_kg": 34.4970775683967,
+   "inertia_kg_m2": 3.6773959350729877,
+   "peak_torque_nm": 22.658004987099172,
+   "peak_power_w": 1067.885752943004,
+   "diameter_m": 0.8167901024405972,
+   "rim_ok": true
+  },
+  "1m|combined|15Hz|inst0.3": {
+   "scale": 1.2918361205924405,
+   "mass_kg": 17.06016351424904,
+   "inertia_kg_m2": 1.1373004175341654,
+   "peak_torque_nm": 7.007392999635662,
+   "peak_power_w": 330.2627549885406,
+   "diameter_m": 0.6459180602962202,
+   "rim_ok": true
+  },
+  "1m|combined|15Hz|inst0.1": {
+   "scale": 1.0409368903255338,
+   "mass_kg": 8.925532152279272,
+   "inertia_kg_m2": 0.38633146496968473,
+   "peak_torque_nm": 2.3803529493439517,
+   "peak_power_w": 112.18750296098789,
+   "diameter_m": 0.5204684451627669,
+   "rim_ok": true
+  },
+  "1m|combined|18Hz|inst1": {
+   "scale": 1.6335752876240661,
+   "mass_kg": 34.49676604927545,
+   "inertia_kg_m2": 3.6773405885633412,
+   "peak_torque_nm": 22.657663973644617,
+   "peak_power_w": 1281.4436169222206,
+   "diameter_m": 0.8167876438120331,
+   "rim_ok": true
+  },
+  "1m|combined|18Hz|inst0.3": {
+   "scale": 1.2917924578299704,
+   "mass_kg": 17.058433723575977,
+   "inertia_kg_m2": 1.137108232470787,
+   "peak_torque_nm": 7.006208865481669,
+   "peak_power_w": 396.24833521843357,
+   "diameter_m": 0.6458962289149852,
+   "rim_ok": true
+  },
+  "1m|combined|18Hz|inst0.1": {
+   "scale": 1.0406192188635623,
+   "mass_kg": 8.917363006781944,
+   "inertia_kg_m2": 0.38574232456004626,
+   "peak_torque_nm": 2.376723003976259,
+   "peak_power_w": 134.4197056757601,
+   "diameter_m": 0.5203096094317812,
+   "rim_ok": true
+  },
+  "1m|combined|24Hz|inst1": {
+   "scale": 1.6335739444263875,
+   "mass_kg": 34.49668095505604,
+   "inertia_kg_m2": 3.677325470229779,
+   "peak_torque_nm": 22.657570823142656,
+   "peak_power_w": 1708.5844648446312,
+   "diameter_m": 0.8167869722131937,
+   "rim_ok": true
+  },
+  "1m|combined|24Hz|inst0.3": {
+   "scale": 1.2917805272903677,
+   "mass_kg": 17.057961090905923,
+   "inertia_kg_m2": 1.1370557237874734,
+   "peak_torque_nm": 7.005885337085654,
+   "peak_power_w": 528.3067166759517,
+   "diameter_m": 0.6458902636451839,
+   "rim_ok": true
+  },
+  "1m|combined|24Hz|inst0.1": {
+   "scale": 1.0405321862577281,
+   "mass_kg": 8.91512577220705,
+   "inertia_kg_m2": 0.3855810429696904,
+   "peak_torque_nm": 2.3757292793017535,
+   "peak_power_w": 179.1513384632332,
+   "diameter_m": 0.5202660931288641,
+   "rim_ok": true
+  },
+  "2m|baseline|10Hz|inst1": {
+   "scale": 3.552287723762674,
+   "mass_kg": 354.72452655642167,
+   "inertia_kg_m2": 178.77407401738114,
+   "peak_torque_nm": 1101.6031736946359,
+   "peak_power_w": 34616.46563174405,
+   "diameter_m": 1.776143861881337,
+   "rim_ok": true
+  },
+  "2m|baseline|10Hz|inst0.3": {
+   "scale": 3.4698000462614167,
+   "mass_kg": 330.58272728661035,
+   "inertia_kg_m2": 158.9593597085776,
+   "peak_torque_nm": 979.505200101953,
+   "peak_power_w": 30779.69354583837,
+   "diameter_m": 1.7349000231307083,
+   "rim_ok": true
+  },
+  "2m|baseline|10Hz|inst0.1": {
+   "scale": 3.45965859278034,
+   "mass_kg": 327.69253190376344,
+   "inertia_kg_m2": 156.64988519002006,
+   "peak_torque_nm": 965.2742526158958,
+   "peak_power_w": 30332.504289015462,
+   "diameter_m": 1.72982929639017,
+   "rim_ok": true
+  },
+  "2m|baseline|12Hz|inst1": {
+   "scale": 3.3617772122094602,
+   "mass_kg": 300.65857850310067,
+   "inertia_kg_m2": 135.7089553288309,
+   "peak_torque_nm": 836.2365556120232,
+   "peak_power_w": 31533.19236392383,
+   "diameter_m": 1.6808886061047301,
+   "rim_ok": true
+  },
+  "2m|baseline|12Hz|inst0.3": {
+   "scale": 3.2358396023744285,
+   "mass_kg": 268.1191108473158,
+   "inertia_kg_m2": 112.12405398425797,
+   "peak_torque_nm": 690.9067458213124,
+   "peak_power_w": 26053.029104391422,
+   "diameter_m": 1.6179198011872142,
+   "rim_ok": true
+  },
+  "2m|baseline|12Hz|inst0.1": {
+   "scale": 3.217232628733655,
+   "mass_kg": 263.52037912394553,
+   "inertia_kg_m2": 108.93719421843694,
+   "peak_torque_nm": 671.2693635473768,
+   "peak_power_w": 25312.533668486063,
+   "diameter_m": 1.6086163143668275,
+   "rim_ok": true
+  },
+  "2m|baseline|15Hz|inst1": {
+   "scale": 3.1749626189892948,
+   "mass_kg": 253.26936532161315,
+   "inertia_kg_m2": 101.96636664785505,
+   "peak_torque_nm": 628.3152281827349,
+   "peak_power_w": 29615.99923864895,
+   "diameter_m": 1.5874813094946474,
+   "rim_ok": true
+  },
+  "2m|baseline|15Hz|inst0.3": {
+   "scale": 2.9804989586616886,
+   "mass_kg": 209.52398048087895,
+   "inertia_kg_m2": 74.3376340273639,
+   "peak_torque_nm": 458.06739047370314,
+   "peak_power_w": 21591.269603247027,
+   "diameter_m": 1.4902494793308443,
+   "rim_ok": true
+  },
+  "2m|baseline|15Hz|inst0.1": {
+   "scale": 2.942583682149478,
+   "mass_kg": 201.62913162690617,
+   "inertia_kg_m2": 69.72812287214336,
+   "peak_torque_nm": 429.66365158884616,
+   "peak_power_w": 20252.443053361054,
+   "diameter_m": 1.471291841074739,
+   "rim_ok": true
+  },
+  "2m|baseline|18Hz|inst1": {
+   "scale": 3.0614479361741473,
+   "mass_kg": 227.06356235223726,
+   "inertia_kg_m2": 84.99595401598359,
+   "peak_torque_nm": 523.7437990371444,
+   "peak_power_w": 29624.35782126867,
+   "diameter_m": 1.5307239680870737,
+   "rim_ok": true
+  },
+  "2m|baseline|18Hz|inst0.3": {
+   "scale": 2.8033494282974547,
+   "mass_kg": 174.3405919984363,
+   "inertia_kg_m2": 54.720497217631014,
+   "peak_torque_nm": 337.1868864790211,
+   "peak_power_w": 19072.197123971284,
+   "diameter_m": 1.4016747141487274,
+   "rim_ok": true
+  },
+  "2m|baseline|18Hz|inst0.1": {
+   "scale": 2.739438870295731,
+   "mass_kg": 162.68655172504737,
+   "inertia_kg_m2": 48.760924485077815,
+   "peak_torque_nm": 300.4640883209038,
+   "peak_power_w": 16995.056898475003,
+   "diameter_m": 1.3697194351478654,
+   "rim_ok": true
+  },
+  "2m|baseline|24Hz|inst1": {
+   "scale": 2.9463420093485992,
+   "mass_kg": 202.40269316938793,
+   "inertia_kg_m2": 70.17455261569086,
+   "peak_torque_nm": 432.4145450001346,
+   "peak_power_w": 32611.372791442696,
+   "diameter_m": 1.4731710046742996,
+   "rim_ok": false
+  },
+  "2m|baseline|24Hz|inst0.3": {
+   "scale": 2.581341869029812,
+   "mass_kg": 136.1141858404824,
+   "inertia_kg_m2": 36.223590089521664,
+   "peak_torque_nm": 223.20922104930602,
+   "peak_power_w": 16833.751783544172,
+   "diameter_m": 1.290670934514906,
+   "rim_ok": false
+  },
+  "2m|baseline|24Hz|inst0.1": {
+   "scale": 2.4602439573976023,
+   "mass_kg": 117.84233362995023,
+   "inertia_kg_m2": 28.48752579408608,
+   "peak_torque_nm": 175.53970841667982,
+   "peak_power_w": 13238.664002099456,
+   "diameter_m": 1.2301219786988011,
+   "rim_ok": false
+  },
+  "2m|feedforward|10Hz|inst1": {
+   "scale": 2.8984445972118666,
+   "mass_kg": 192.69117411189848,
+   "inertia_kg_m2": 64.65302943379669,
+   "peak_torque_nm": 398.3910016299044,
+   "peak_power_w": 12518.92582123271,
+   "diameter_m": 1.4492222986059333,
+   "rim_ok": true
+  },
+  "2m|feedforward|10Hz|inst0.3": {
+   "scale": 2.4477905496536385,
+   "mass_kg": 116.06187276999516,
+   "inertia_kg_m2": 27.773788953940436,
+   "peak_torque_nm": 171.14167266899764,
+   "peak_power_w": 5377.907373157013,
+   "diameter_m": 1.2238952748268193,
+   "rim_ok": true
+  },
+  "2m|feedforward|10Hz|inst0.1": {
+   "scale": 2.2671099970582738,
+   "mass_kg": 92.21139428672346,
+   "inertia_kg_m2": 18.92896300384562,
+   "peak_torque_nm": 116.63998728225742,
+   "peak_power_w": 3665.2618723868777,
+   "diameter_m": 1.1335549985291369,
+   "rim_ok": true
+  },
+  "2m|feedforward|12Hz|inst1": {
+   "scale": 2.8792416690474707,
+   "mass_kg": 188.88660880144056,
+   "inertia_kg_m2": 62.539507504170615,
+   "peak_torque_nm": 385.3675110698417,
+   "peak_power_w": 14531.615217990779,
+   "diameter_m": 1.4396208345237353,
+   "rim_ok": true
+  },
+  "2m|feedforward|12Hz|inst0.3": {
+   "scale": 2.3721632524435203,
+   "mass_kg": 105.63322388958677,
+   "inertia_kg_m2": 23.740328924980588,
+   "peak_torque_nm": 146.28755221951553,
+   "peak_power_w": 5516.278251205422,
+   "diameter_m": 1.1860816262217602,
+   "rim_ok": true
+  },
+  "2m|feedforward|12Hz|inst0.1": {
+   "scale": 2.143061648708791,
+   "mass_kg": 77.88804552856753,
+   "inertia_kg_m2": 14.286873009449897,
+   "peak_torque_nm": 88.03549807704265,
+   "peak_power_w": 3319.683021612838,
+   "diameter_m": 1.0715308243543955,
+   "rim_ok": true
+  },
+  "2m|feedforward|15Hz|inst1": {
+   "scale": 2.8684133912508023,
+   "mass_kg": 186.76351407309767,
+   "inertia_kg_m2": 61.37232399783241,
+   "peak_torque_nm": 378.1753437383461,
+   "peak_power_w": 17825.512083519516,
+   "diameter_m": 1.4342066956254012,
+   "rim_ok": true
+  },
+  "2m|feedforward|15Hz|inst0.3": {
+   "scale": 2.313324331433778,
+   "mass_kg": 97.96622876362095,
+   "inertia_kg_m2": 20.93854458941619,
+   "peak_torque_nm": 129.0229989948372,
+   "peak_power_w": 6081.573179518716,
+   "diameter_m": 1.156662165716889,
+   "rim_ok": true
+  },
+  "2m|feedforward|15Hz|inst0.1": {
+   "scale": 2.0214545765614385,
+   "mass_kg": 65.36703309632911,
+   "inertia_kg_m2": 10.668019400895684,
+   "peak_torque_nm": 65.73617619700305,
+   "peak_power_w": 3098.512429553799,
+   "diameter_m": 1.0107272882807192,
+   "rim_ok": true
+  },
+  "2m|feedforward|18Hz|inst1": {
+   "scale": 2.8645702865089437,
+   "mass_kg": 186.01384124007416,
+   "inertia_kg_m2": 60.96229052012435,
+   "peak_torque_nm": 375.6487235734986,
+   "peak_power_w": 21247.702068650047,
+   "diameter_m": 1.4322851432544719,
+   "rim_ok": true
+  },
+  "2m|feedforward|18Hz|inst0.3": {
+   "scale": 2.2869840812457545,
+   "mass_kg": 94.65776322805705,
+   "inertia_kg_m2": 19.773318904751527,
+   "peak_torque_nm": 121.84289573124934,
+   "peak_power_w": 6891.761864785475,
+   "diameter_m": 1.1434920406228772,
+   "rim_ok": true
+  },
+  "2m|feedforward|18Hz|inst0.1": {
+   "scale": 1.9476358290637525,
+   "mass_kg": 58.46420907173939,
+   "inertia_kg_m2": 8.85732619231781,
+   "peak_torque_nm": 54.578711692598574,
+   "peak_power_w": 3087.118716398839,
+   "diameter_m": 0.9738179145318763,
+   "rim_ok": true
+  },
+  "2m|feedforward|24Hz|inst1": {
+   "scale": 2.8621680983647035,
+   "mass_kg": 185.54626782737841,
+   "inertia_kg_m2": 60.70710828873813,
+   "peak_torque_nm": 374.07629447542814,
+   "peak_power_w": 28211.681666665227,
+   "diameter_m": 1.4310840491823518,
+   "rim_ok": false
+  },
+  "2m|feedforward|24Hz|inst0.3": {
+   "scale": 2.2681894190075442,
+   "mass_kg": 92.34316875042195,
+   "inertia_kg_m2": 18.974068455335033,
+   "peak_torque_nm": 116.91792640058189,
+   "peak_power_w": 8817.589805751444,
+   "diameter_m": 1.1340947095037721,
+   "rim_ok": true
+  },
+  "2m|feedforward|24Hz|inst0.1": {
+   "scale": 1.872840150491882,
+   "mass_kg": 51.9839105590551,
+   "inertia_kg_m2": 7.2822807654095545,
+   "peak_torque_nm": 44.873305298902665,
+   "peak_power_w": 3384.2064389538054,
+   "diameter_m": 0.936420075245941,
+   "rim_ok": true
+  },
+  "2m|structural|10Hz|inst1": {
+   "scale": 2.8879084331023788,
+   "mass_kg": 190.59744285651104,
+   "inertia_kg_m2": 63.48643742390858,
+   "peak_torque_nm": 391.20247909069883,
+   "peak_power_w": 12293.035728172385,
+   "diameter_m": 1.4439542165511894,
+   "rim_ok": true
+  },
+  "2m|structural|10Hz|inst0.3": {
+   "scale": 2.4092643330783643,
+   "mass_kg": 110.66751722502953,
+   "inertia_kg_m2": 25.65583294713755,
+   "peak_torque_nm": 158.09085939160468,
+   "peak_power_w": 4967.802318931366,
+   "diameter_m": 1.2046321665391821,
+   "rim_ok": true
+  },
+  "2m|structural|10Hz|inst0.1": {
+   "scale": 2.2049812978494288,
+   "mass_kg": 84.83626568170831,
+   "inertia_kg_m2": 16.473596092274413,
+   "peak_torque_nm": 101.51005304968707,
+   "peak_power_w": 3189.823111062556,
+   "diameter_m": 1.1024906489247144,
+   "rim_ok": true
+  },
+  "2m|structural|12Hz|inst1": {
+   "scale": 2.867713443796971,
+   "mass_kg": 186.62682587832492,
+   "inertia_kg_m2": 61.29748045833938,
+   "peak_torque_nm": 377.7141589659498,
+   "peak_power_w": 14243.019099462765,
+   "diameter_m": 1.4338567218984855,
+   "rim_ok": true
+  },
+  "2m|structural|12Hz|inst0.3": {
+   "scale": 2.308820685530096,
+   "mass_kg": 97.3951715987458,
+   "inertia_kg_m2": 20.735517862114662,
+   "peak_torque_nm": 127.77195133387461,
+   "peak_power_w": 4818.083463447977,
+   "diameter_m": 1.154410342765048,
+   "rim_ok": true
+  },
+  "2m|structural|12Hz|inst0.1": {
+   "scale": 2.0102399166611558,
+   "mass_kg": 64.28512459143083,
+   "inertia_kg_m2": 10.375363574969157,
+   "peak_torque_nm": 63.932835369129194,
+   "peak_power_w": 2410.808738910431,
+   "diameter_m": 1.0051199583305779,
+   "rim_ok": true
+  },
+  "2m|structural|15Hz|inst1": {
+   "scale": 2.8622116487879277,
+   "mass_kg": 185.55473770877765,
+   "inertia_kg_m2": 60.71172699145785,
+   "peak_torque_nm": 374.10475485259616,
+   "peak_power_w": 17633.642537893666,
+   "diameter_m": 1.4311058243939638,
+   "rim_ok": true
+  },
+  "2m|structural|15Hz|inst0.3": {
+   "scale": 2.2685501910939796,
+   "mass_kg": 92.38723932490045,
+   "inertia_kg_m2": 18.98916307694869,
+   "peak_torque_nm": 117.01093923349248,
+   "peak_power_w": 5515.377841908456,
+   "diameter_m": 1.1342750955469898,
+   "rim_ok": true
+  },
+  "2m|structural|15Hz|inst0.1": {
+   "scale": 1.8746378486245048,
+   "mass_kg": 52.13374893614451,
+   "inertia_kg_m2": 7.317298433227068,
+   "peak_torque_nm": 45.08908364492507,
+   "peak_power_w": 2125.2998606475176,
+   "diameter_m": 0.9373189243122524,
+   "rim_ok": true
+  },
+  "2m|structural|18Hz|inst1": {
+   "scale": 2.8613473685878117,
+   "mass_kg": 185.3866968184171,
+   "inertia_kg_m2": 60.62011904897944,
+   "peak_torque_nm": 373.54026807941875,
+   "peak_power_w": 21128.442155460292,
+   "diameter_m": 1.4306736842939058,
+   "rim_ok": true
+  },
+  "2m|structural|18Hz|inst0.3": {
+   "scale": 2.2612426617281622,
+   "mass_kg": 91.49730961315579,
+   "inertia_kg_m2": 18.685284500941044,
+   "peak_torque_nm": 115.13844398725625,
+   "peak_power_w": 6512.540043305936,
+   "diameter_m": 1.1306213308640811,
+   "rim_ok": true
+  },
+  "2m|structural|18Hz|inst0.1": {
+   "scale": 1.8335342642393733,
+   "mass_kg": 48.77911353724931,
+   "inertia_kg_m2": 6.549513078495308,
+   "peak_torque_nm": 40.358001757701665,
+   "peak_power_w": 2282.75711754394,
+   "diameter_m": 0.9167671321196866,
+   "rim_ok": true
+  },
+  "2m|structural|24Hz|inst1": {
+   "scale": 2.861111213656088,
+   "mass_kg": 185.34079917240646,
+   "inertia_kg_m2": 60.59510744536955,
+   "peak_torque_nm": 373.3861469515802,
+   "peak_power_w": 28159.632866638647,
+   "diameter_m": 1.430555606828044,
+   "rim_ok": false
+  },
+  "2m|structural|24Hz|inst0.3": {
+   "scale": 2.2591871303014615,
+   "mass_kg": 91.2480156946047,
+   "inertia_kg_m2": 18.600511589535362,
+   "peak_torque_nm": 114.61607457345214,
+   "peak_power_w": 8643.991232546261,
+   "diameter_m": 1.1295935651507307,
+   "rim_ok": true
+  },
+  "2m|structural|24Hz|inst0.1": {
+   "scale": 1.8194737414950384,
+   "mass_kg": 47.66550401428509,
+   "inertia_kg_m2": 6.302209320874423,
+   "peak_torque_nm": 38.834119697290106,
+   "peak_power_w": 2928.7496665391795,
+   "diameter_m": 0.9097368707475192,
+   "rim_ok": true
+  },
+  "2m|three_stage|10Hz|inst1": {
+   "scale": 2.8611259680369208,
+   "mass_kg": 185.34366652285095,
+   "inertia_kg_m2": 60.59666986718061,
+   "peak_torque_nm": 373.3957745714416,
+   "peak_power_w": 11733.482896694835,
+   "diameter_m": 1.4305629840184604,
+   "rim_ok": true
+  },
+  "2m|three_stage|10Hz|inst0.3": {
+   "scale": 2.2593163259782756,
+   "mass_kg": 91.26367113522781,
+   "inertia_kg_m2": 18.605830716311573,
+   "peak_torque_nm": 114.64885095319379,
+   "peak_power_w": 3602.6929692200697,
+   "diameter_m": 1.1296581629891378,
+   "rim_ok": true
+  },
+  "2m|three_stage|10Hz|inst0.1": {
+   "scale": 1.8204015877104782,
+   "mass_kg": 47.73846271709064,
+   "inertia_kg_m2": 6.318294873135162,
+   "peak_torque_nm": 38.93323863004619,
+   "peak_power_w": 1223.4270462832517,
+   "diameter_m": 0.9102007938552391,
+   "rim_ok": true
+  },
+  "2m|three_stage|12Hz|inst1": {
+   "scale": 2.861097749352288,
+   "mass_kg": 185.3381825599473,
+   "inertia_kg_m2": 60.593681664972344,
+   "peak_torque_nm": 373.3773613140699,
+   "peak_power_w": 14079.485140462306,
+   "diameter_m": 1.430548874676144,
+   "rim_ok": true
+  },
+  "2m|three_stage|12Hz|inst0.3": {
+   "scale": 2.259069137964953,
+   "mass_kg": 91.23371939644721,
+   "inertia_kg_m2": 18.59565477941382,
+   "peak_torque_nm": 114.5861469820308,
+   "peak_power_w": 4320.86709290143,
+   "diameter_m": 1.1295345689824765,
+   "rim_ok": true
+  },
+  "2m|three_stage|12Hz|inst0.1": {
+   "scale": 1.8186205539566018,
+   "mass_kg": 47.59848153481248,
+   "inertia_kg_m2": 6.287447013606498,
+   "peak_torque_nm": 38.74315458041404,
+   "peak_power_w": 1460.9446788358837,
+   "diameter_m": 0.9093102769783009,
+   "rim_ok": true
+  },
+  "2m|three_stage|15Hz|inst1": {
+   "scale": 2.861088086317305,
+   "mass_kg": 185.3363046898603,
+   "inertia_kg_m2": 60.59265843025273,
+   "peak_torque_nm": 373.37105615701205,
+   "peak_power_w": 17599.059228377733,
+   "diameter_m": 1.4305440431586525,
+   "rim_ok": true
+  },
+  "2m|three_stage|15Hz|inst0.3": {
+   "scale": 2.2589844038021005,
+   "mass_kg": 91.22345367759762,
+   "inertia_kg_m2": 18.59216757086575,
+   "peak_torque_nm": 114.56465885504704,
+   "peak_power_w": 5400.071010916781,
+   "diameter_m": 1.1294922019010503,
+   "rim_ok": true
+  },
+  "2m|three_stage|15Hz|inst0.1": {
+   "scale": 1.8180044636069344,
+   "mass_kg": 47.55012340122779,
+   "inertia_kg_m2": 6.276804299317845,
+   "peak_torque_nm": 38.677574333940676,
+   "peak_power_w": 1823.0896859524041,
+   "diameter_m": 0.9090022318034672,
+   "rim_ok": true
+  },
+  "2m|three_stage|18Hz|inst1": {
+   "scale": 2.861085954225539,
+   "mass_kg": 185.33589035059205,
+   "inertia_kg_m2": 60.592432661398945,
+   "peak_torque_nm": 373.36966497270737,
+   "peak_power_w": 21118.79238492758,
+   "diameter_m": 1.4305429771127696,
+   "rim_ok": true
+  },
+  "2m|three_stage|18Hz|inst0.3": {
+   "scale": 2.2589657016778966,
+   "mass_kg": 91.22118798036628,
+   "inertia_kg_m2": 18.591397961148306,
+   "peak_torque_nm": 114.55991653146404,
+   "peak_power_w": 6479.816974524359,
+   "diameter_m": 1.1294828508389483,
+   "rim_ok": true
+  },
+  "2m|three_stage|18Hz|inst0.1": {
+   "scale": 1.8178680987364664,
+   "mass_kg": 47.53942428547317,
+   "inertia_kg_m2": 6.2744505998964035,
+   "peak_torque_nm": 38.66307087326365,
+   "peak_power_w": 2186.88726840163,
+   "diameter_m": 0.9089340493682332,
+   "rim_ok": true
+  },
+  "2m|three_stage|24Hz|inst1": {
+   "scale": 2.8610851095369774,
+   "mass_kg": 185.33572619852222,
+   "inertia_kg_m2": 60.59234321685691,
+   "peak_torque_nm": 373.36911381677544,
+   "peak_power_w": 28158.348280087735,
+   "diameter_m": 1.4305425547684887,
+   "rim_ok": false
+  },
+  "2m|three_stage|24Hz|inst0.3": {
+   "scale": 2.258958291697872,
+   "mass_kg": 91.22029029746255,
+   "inertia_kg_m2": 18.591093040662706,
+   "peak_torque_nm": 114.55803761598645,
+   "peak_power_w": 8639.614264015765,
+   "diameter_m": 1.129479145848936,
+   "rim_ok": true
+  },
+  "2m|three_stage|24Hz|inst0.1": {
+   "scale": 1.8178140308796904,
+   "mass_kg": 47.53518259433393,
+   "inertia_kg_m2": 6.273517567634064,
+   "peak_torque_nm": 38.6573215424001,
+   "peak_power_w": 2915.4160943811116,
+   "diameter_m": 0.9089070154398452,
+   "rim_ok": true
+  },
+  "2m|gradiometer|10Hz|inst1": {
+   "scale": 3.115564446500531,
+   "mass_kg": 239.31891788582115,
+   "inertia_kg_m2": 92.77854521733892,
+   "peak_torque_nm": 571.700009769062,
+   "peak_power_w": 17964.938929382868,
+   "diameter_m": 1.5577822232502656,
+   "rim_ok": true
+  },
+  "2m|gradiometer|10Hz|inst0.3": {
+   "scale": 2.462323623034281,
+   "mass_kg": 118.14142576446426,
+   "inertia_kg_m2": 28.608133290799376,
+   "peak_torque_nm": 176.28289000987783,
+   "peak_power_w": 5539.463528436609,
+   "diameter_m": 1.2311618115171405,
+   "rim_ok": true
+  },
+  "2m|gradiometer|10Hz|inst0.1": {
+   "scale": 1.9940641623770834,
+   "mass_kg": 62.74573311063366,
+   "inertia_kg_m2": 9.964591608510577,
+   "peak_torque_nm": 61.40166464763205,
+   "peak_power_w": 1929.4684917055436,
+   "diameter_m": 0.9970320811885417,
+   "rim_ok": true
+  },
+  "2m|gradiometer|12Hz|inst1": {
+   "scale": 3.115444213590995,
+   "mass_kg": 239.2912122486307,
+   "inertia_kg_m2": 92.76064449069737,
+   "peak_torque_nm": 571.5897057588852,
+   "peak_power_w": 21553.76732094921,
+   "diameter_m": 1.5577221067954976,
+   "rim_ok": true
+  },
+  "2m|gradiometer|12Hz|inst0.3": {
+   "scale": 2.4612648185924955,
+   "mass_kg": 117.98908808898159,
+   "inertia_kg_m2": 28.546678371499816,
+   "peak_torque_nm": 175.90420571512396,
+   "peak_power_w": 6633.076632698314,
+   "diameter_m": 1.2306324092962477,
+   "rim_ok": true
+  },
+  "2m|gradiometer|12Hz|inst0.1": {
+   "scale": 1.986859671539494,
+   "mass_kg": 62.068092257524036,
+   "inertia_kg_m2": 9.785878875733232,
+   "peak_torque_nm": 60.30043945774224,
+   "peak_power_w": 2273.836684475589,
+   "diameter_m": 0.993429835769747,
+   "rim_ok": true
+  },
+  "2m|gradiometer|15Hz|inst1": {
+   "scale": 3.115381693124733,
+   "mass_kg": 239.2768063113929,
+   "inertia_kg_m2": 92.75133730111834,
+   "peak_torque_nm": 571.5323549957235,
+   "peak_power_w": 26939.50589001768,
+   "diameter_m": 1.5576908465623664,
+   "rim_ok": true
+  },
+  "2m|gradiometer|15Hz|inst0.3": {
+   "scale": 2.4607116673414415,
+   "mass_kg": 117.90955441473454,
+   "inertia_kg_m2": 28.51461450199464,
+   "peak_torque_nm": 175.70662863018046,
+   "peak_power_w": 8282.032881468826,
+   "diameter_m": 1.2303558336707208,
+   "rim_ok": true
+  },
+  "2m|gradiometer|15Hz|inst0.1": {
+   "scale": 1.9829491164395059,
+   "mass_kg": 61.702324176530134,
+   "inertia_kg_m2": 9.6899539455901,
+   "peak_torque_nm": 59.70935147105891,
+   "peak_power_w": 2814.4345837704377,
+   "diameter_m": 0.9914745582197529,
+   "rim_ok": true
+  },
+  "2m|gradiometer|18Hz|inst1": {
+   "scale": 3.115360357537409,
+   "mass_kg": 239.27189030744552,
+   "inertia_kg_m2": 92.74816132246366,
+   "peak_torque_nm": 571.5127846626939,
+   "peak_power_w": 32326.300117352934,
+   "diameter_m": 1.5576801787687045,
+   "rim_ok": true
+  },
+  "2m|gradiometer|18Hz|inst0.3": {
+   "scale": 2.4605224998329773,
+   "mass_kg": 117.88236357116736,
+   "inertia_kg_m2": 28.50365586474194,
+   "peak_torque_nm": 175.6391016711217,
+   "peak_power_w": 9934.619951352362,
+   "diameter_m": 1.2302612499164887,
+   "rim_ok": true
+  },
+  "2m|gradiometer|18Hz|inst0.1": {
+   "scale": 1.981587466034225,
+   "mass_kg": 61.575302286022335,
+   "inertia_kg_m2": 9.656730143989328,
+   "peak_torque_nm": 59.504626901868576,
+   "peak_power_w": 3365.7417283083214,
+   "diameter_m": 0.9907937330171125,
+   "rim_ok": true
+  },
+  "2m|gradiometer|24Hz|inst1": {
+   "scale": 3.1153472432258336,
+   "mass_kg": 239.26886862852103,
+   "inertia_kg_m2": 92.74620919188223,
+   "peak_torque_nm": 571.5007556632105,
+   "peak_power_w": 43100.826299722095,
+   "diameter_m": 1.5576736216129168,
+   "rim_ok": false
+  },
+  "2m|gradiometer|24Hz|inst0.3": {
+   "scale": 2.4604061230018,
+   "mass_kg": 117.86563770045909,
+   "inertia_kg_m2": 28.49691572850339,
+   "peak_torque_nm": 175.59756905229912,
+   "peak_power_w": 13243.027672979511,
+   "diameter_m": 1.2302030615009,
+   "rim_ok": false
+  },
+  "2m|gradiometer|24Hz|inst0.1": {
+   "scale": 1.9807434054571251,
+   "mass_kg": 61.49665148038322,
+   "inertia_kg_m2": 9.63618115343282,
+   "peak_torque_nm": 59.378004329005634,
+   "peak_power_w": 4478.106153400779,
+   "diameter_m": 0.9903717027285626,
+   "rim_ok": true
+  },
+  "2m|combined|10Hz|inst1": {
+   "scale": 2.861374083724383,
+   "mass_kg": 185.3918894880165,
+   "inertia_kg_m2": 60.622949018206654,
+   "peak_torque_nm": 373.5577063075247,
+   "peak_power_w": 11738.571393633356,
+   "diameter_m": 1.4306870418621915,
+   "rim_ok": true
+  },
+  "2m|combined|10Hz|inst0.3": {
+   "scale": 2.261473435831337,
+   "mass_kg": 91.52532610816559,
+   "inertia_kg_m2": 18.694821204113317,
+   "peak_torque_nm": 115.19720900975129,
+   "peak_power_w": 3619.9244172332856,
+   "diameter_m": 1.1307367179156684,
+   "rim_ok": true
+  },
+  "2m|combined|10Hz|inst0.1": {
+   "scale": 1.8350205812286025,
+   "mass_kg": 48.89783509173353,
+   "inertia_kg_m2": 6.5761022945850165,
+   "peak_torque_nm": 40.52184411007558,
+   "peak_power_w": 1273.3469342383685,
+   "diameter_m": 0.9175102906143012,
+   "rim_ok": true
+  },
+  "2m|combined|12Hz|inst1": {
+   "scale": 2.8611526624344474,
+   "mass_kg": 185.34885435840624,
+   "inertia_kg_m2": 60.599496764347954,
+   "peak_torque_nm": 373.4131938695606,
+   "peak_power_w": 14080.836330932987,
+   "diameter_m": 1.4305763312172237,
+   "rim_ok": true
+  },
+  "2m|combined|12Hz|inst0.3": {
+   "scale": 2.259549817664687,
+   "mass_kg": 91.29196931182355,
+   "inertia_kg_m2": 18.61544691030974,
+   "peak_torque_nm": 114.7081057969706,
+   "peak_power_w": 4325.465971946079,
+   "diameter_m": 1.1297749088323434,
+   "rim_ok": true
+  },
+  "2m|combined|12Hz|inst0.1": {
+   "scale": 1.8220628607794183,
+   "mass_kg": 47.869278388422416,
+   "inertia_kg_m2": 6.347177479139541,
+   "peak_torque_nm": 39.11121281681727,
+   "peak_power_w": 1474.8235879695983,
+   "diameter_m": 0.9110314303897091,
+   "rim_ok": true
+  },
+  "2m|combined|15Hz|inst1": {
+   "scale": 2.861096301895267,
+   "mass_kg": 185.33790126695266,
+   "inertia_kg_m2": 60.593528390479605,
+   "peak_torque_nm": 373.37641683893514,
+   "peak_power_w": 17599.311907199815,
+   "diameter_m": 1.4305481509476334,
+   "rim_ok": true
+  },
+  "2m|combined|15Hz|inst0.3": {
+   "scale": 2.2590564482092144,
+   "mass_kg": 91.23218195729818,
+   "inertia_kg_m2": 18.59513250308781,
+   "peak_torque_nm": 114.58292872311132,
+   "peak_power_w": 5400.9321716437735,
+   "diameter_m": 1.1295282241046072,
+   "rim_ok": true
+  },
+  "2m|combined|15Hz|inst0.1": {
+   "scale": 1.8185284691833512,
+   "mass_kg": 47.59125153825605,
+   "inertia_kg_m2": 6.285855369044214,
+   "peak_torque_nm": 38.7333468903961,
+   "peak_power_w": 1825.7185574414789,
+   "diameter_m": 0.9092642345916756,
+   "rim_ok": true
+  },
+  "2m|combined|18Hz|inst1": {
+   "scale": 2.86108758218235,
+   "mass_kg": 185.33620671892368,
+   "inertia_kg_m2": 60.592605046949856,
+   "peak_torque_nm": 373.3707272098971,
+   "peak_power_w": 21118.852467919794,
+   "diameter_m": 1.430543791091175,
+   "rim_ok": true
+  },
+  "2m|combined|18Hz|inst0.3": {
+   "scale": 2.2589799818656244,
+   "mass_kg": 91.22291797200315,
+   "inertia_kg_m2": 18.5919856017872,
+   "peak_torque_nm": 114.56353756430315,
+   "peak_power_w": 6480.021789880083,
+   "diameter_m": 1.1294899909328122,
+   "rim_ok": true
+  },
+  "2m|combined|18Hz|inst0.1": {
+   "scale": 1.8179722340577138,
+   "mass_kg": 47.5475945429577,
+   "inertia_kg_m2": 6.2762479436966165,
+   "peak_torque_nm": 38.67414607891312,
+   "peak_power_w": 2187.513711818635,
+   "diameter_m": 0.9089861170288569,
+   "rim_ok": true
+  },
+  "2m|combined|24Hz|inst1": {
+   "scale": 2.861085200306123,
+   "mass_kg": 185.33574383808772,
+   "inertia_kg_m2": 60.5923528284472,
+   "peak_torque_nm": 373.3691730432512,
+   "peak_power_w": 28158.35274676607,
+   "diameter_m": 1.4305426001530614,
+   "rim_ok": false
+  },
+  "2m|combined|24Hz|inst0.3": {
+   "scale": 2.258959087981225,
+   "mass_kg": 91.22038676302083,
+   "inertia_kg_m2": 18.591125807510142,
+   "peak_torque_nm": 114.55823952481089,
+   "peak_power_w": 8639.629491357256,
+   "diameter_m": 1.1294795439906125,
+   "rim_ok": true
+  },
+  "2m|combined|24Hz|inst0.1": {
+   "scale": 1.8178198421155003,
+   "mass_kg": 47.53563848096543,
+   "inertia_kg_m2": 6.273617845006825,
+   "peak_torque_nm": 38.65793945007317,
+   "peak_power_w": 2915.462695074152,
+   "diameter_m": 0.9089099210577501,
+   "rim_ok": true
+  }
+ },
+ "gradiometer": {
+  "0.5m|radial|0.1": 0.5342347477015137,
+  "0.5m|radial|0.2": 0.7535996702905806,
+  "0.5m|radial|0.3": 0.8573923286761451,
+  "0.5m|radial|0.5": 0.942438084258165,
+  "0.5m|transverse|0.1": 0.5077566330893118,
+  "0.5m|transverse|0.2": 0.9072385956463347,
+  "0.5m|transverse|0.3": 1.1352413830688663,
+  "0.5m|transverse|0.5": 1.11126582820245,
+  "0.5m|transverse|0.8": 0.6054390671401586,
+  "1m|radial|0.1": 0.326992273285116,
+  "1m|radial|0.2": 0.5300129424214789,
+  "1m|radial|0.3": 0.6616449620489727,
+  "1m|radial|0.5": 0.8113707835851386,
+  "1m|transverse|0.1": 0.2619940208062321,
+  "1m|transverse|0.2": 0.5092695240829225,
+  "1m|transverse|0.3": 0.728796795219338,
+  "1m|transverse|0.5": 1.0485910870730977,
+  "1m|transverse|0.8": 1.196694993453465,
+  "2m|radial|0.1": 0.18258295995544388,
+  "2m|radial|0.2": 0.32512066766838776,
+  "2m|radial|0.3": 0.43775609973525864,
+  "2m|radial|0.5": 0.600357353001419,
+  "2m|transverse|0.1": 0.13213385885033635,
+  "2m|transverse|0.2": 0.26239049084206617,
+  "2m|transverse|0.3": 0.38894780410553137,
+  "2m|transverse|0.5": 0.624261038359301,
+  "2m|transverse|0.8": 0.9124231148865449
+ },
+ "grids": {
+  "0.5m|single": {
+   "scale": [
+    0.3,
+    0.3464223624289034,
+    0.4000281773027417,
+    0.4619290207311468,
+    0.533408475453846,
+    0.6159487473544035,
+    0.7112614006454542,
+    0.8213228490536301,
+    0.9484153389533206,
+    1.0951742742800616,
+    1.2646428645581962,
+    1.4603352292303535,
+    1.6863092668271114,
+    1.9472508
+   ],
+   "a2": [
+    1.1304515703597724e-12,
+    2.3286176883106335e-12,
+    4.802089854544108e-12,
+    9.917891809715622e-12,
+    2.052584759990062e-11,
+    4.259939963412515e-11,
+    8.875433666811772e-11,
+    1.8591984189525437e-10,
+    3.924597968511693e-10,
+    8.377172719191582e-10,
+    1.818103081676529e-09,
+    4.0489632386504586e-09,
+    9.399581746244122e-09,
+    2.322561550169993e-08
+   ]
+  },
+  "0.5m|gradiometer": {
+   "scale": [
+    0.3,
+    0.3464223624289034,
+    0.4000281773027417,
+    0.4619290207311468,
+    0.533408475453846,
+    0.6159487473544035,
+    0.7112614006454542,
+    0.8213228490536301,
+    0.9484153389533206,
+    1.0951742742800616,
+    1.2646428645581962,
+    1.4603352292303535,
+    1.6863092668271114,
+    1.9472508
+   ],
+   "a2": [
+    1.30552101532066e-12,
+    2.6877513317655103e-12,
+    5.5385612864023876e-12,
+    1.1427431266245022e-11,
+    2.361770958693552e-11,
+    4.892524874907747e-11,
+    1.0167441298198828e-10,
+    2.1223297057405163e-10,
+    4.4578476004334875e-10,
+    9.447963581712823e-10,
+    2.0291726932086114e-09,
+    4.447813693198937e-09,
+    1.0072370612729586e-08,
+    2.403089622595101e-08
+   ],
+   "layout": "transverse",
+   "baseline_m": 0.3
+  },
+  "1m|single": {
+   "scale": [
+    0.3,
+    0.3657586369386559,
+    0.4459312683174117,
+    0.5436773762270085,
+    0.6628489868772516,
+    0.8081424731213087,
+    0.985283631403614,
+    1.2012533267338499,
+    1.4645625980139962,
+    1.7855880652031202,
+    2.1769808562087505,
+    2.6541651686948686,
+    3.235946114372976,
+    3.9452507999999997
+   ],
+   "a2": [
+    7.013871557329401e-14,
+    1.8916321913808596e-13,
+    5.104656235869364e-13,
+    1.3787052333111309e-12,
+    3.728539318042065e-12,
+    1.0103054680881447e-11,
+    2.7456768545203627e-11,
+    7.495628810131693e-11,
+    2.0606814002529997e-10,
+    5.72850671704498e-10,
+    1.6217736522629498e-09,
+    4.738168224826195e-09,
+    1.467482594285622e-08,
+    5.057991054981686e-08
+   ]
+  },
+  "1m|gradiometer": {
+   "scale": [
+    0.3,
+    0.3657586369386559,
+    0.4459312683174117,
+    0.5436773762270085,
+    0.6628489868772516,
+    0.8081424731213087,
+    0.985283631403614,
+    1.2012533267338499,
+    1.4645625980139962,
+    1.7855880652031202,
+    2.1769808562087505,
+    2.6541651686948686,
+    3.235946114372976,
+    3.9452507999999997
+   ],
+   "a2": [
+    8.540052377691565e-14,
+    2.3026601947157277e-13,
+    6.211496001022096e-13,
+    1.6767058713853383e-12,
+    4.5306263263900325e-12,
+    1.2260884604947435e-11,
+    3.3257207748433736e-11,
+    9.052600828682151e-11,
+    2.477478145835606e-10,
+    6.838097699346304e-10,
+    1.9134724552150453e-09,
+    5.479956162723607e-09,
+    1.63642070898326e-08,
+    5.294937393750527e-08
+   ],
+   "layout": "transverse",
+   "baseline_m": 0.8
+  },
+  "2m|single": {
+   "scale": [
+    0.3,
+    0.3859801056615177,
+    0.4966021398882545,
+    0.6389284880860142,
+    0.8220456178053117,
+    1.0576441813969395,
+    1.3607653762929335,
+    1.7507612124069383,
+    2.2525299925097224,
+    2.898105881715468,
+    3.7287040481426743,
+    4.797351941608795,
+    6.172274697725498,
+    7.941250800000001
+   ],
+   "a2": [
+    4.375724254924472e-15,
+    1.5432638881614314e-14,
+    5.444316217385015e-14,
+    1.9214708026745534e-13,
+    6.786336850497811e-13,
+    2.399690634676955e-12,
+    8.502400785398822e-12,
+    3.022639147679574e-11,
+    1.0807201897774647e-10,
+    3.902520274765471e-10,
+    1.434453743417393e-09,
+    5.452816026770729e-09,
+    2.2226456578896783e-08,
+    1.0572213925443909e-07
+   ]
+  },
+  "2m|gradiometer": {
+   "scale": [
+    0.3,
+    0.3859801056615177,
+    0.4966021398882545,
+    0.6389284880860142,
+    0.8220456178053117,
+    1.0576441813969395,
+    1.3607653762929335,
+    1.7507612124069383,
+    2.2525299925097224,
+    2.898105881715468,
+    3.7287040481426743,
+    4.797351941608795,
+    6.172274697725498,
+    7.941250800000001
+   ],
+   "a2": [
+    4.027751320347167e-15,
+    1.4204640435272612e-14,
+    5.010670621823984e-14,
+    1.768170135164696e-13,
+    6.243416560428259e-13,
+    2.2068366637436156e-12,
+    7.813928794027042e-12,
+    2.7748040798998056e-11,
+    9.902454245259497e-11,
+    3.5642593789542085e-10,
+    1.302640774318437e-09,
+    4.899472612587657e-09,
+    1.9550731299097946e-08,
+    8.901189884546209e-08
+   ],
+   "layout": "transverse",
+   "baseline_m": 0.8
+  }
+ }
+}

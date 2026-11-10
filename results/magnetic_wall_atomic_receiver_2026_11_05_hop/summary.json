@@ -1,0 +1,242 @@
+[
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 62537147.62011895,
+    "capacity_boundary_S_m": 69756304.68408121,
+    "copper_capacity_W": 1.2121720160198932
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 58429483.611761145,
+    "capacity_boundary_S_m": 65363980.27910749,
+    "copper_capacity_W": 4.5566305283243995
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 52136942.375671856,
+    "capacity_boundary_S_m": 58535209.103833154,
+    "copper_capacity_W": 39.1875007422095
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 45935960.07068464,
+    "capacity_boundary_S_m": 51758396.31082313,
+    "copper_capacity_W": 391.53288960429416
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 49576088.855813034,
+    "capacity_boundary_S_m": 55738067.50672544,
+    "copper_capacity_W": 98.92871837224259
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 49486214.71904086,
+    "capacity_boundary_S_m": 55639985.5151413,
+    "copper_capacity_W": 102.27313125995693
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 48701796.42853823,
+    "capacity_boundary_S_m": 54784845.61509267,
+    "copper_capacity_W": 136.9039872202999
+  },
+  {
+    "distance_m": 0.5,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 45366683.281117894,
+    "capacity_boundary_S_m": 51135169.99226217,
+    "copper_capacity_W": 489.2493747680045
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 13558362.626431769,
+    "capacity_boundary_S_m": 14921733.463807894,
+    "copper_capacity_W": 7.953746415134755e+21
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 12680613.552996356,
+    "capacity_boundary_S_m": 14001173.665791344,
+    "copper_capacity_W": 2.9845791011841967e+22
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 11465333.991954813,
+    "capacity_boundary_S_m": 12713991.196045125,
+    "copper_capacity_W": 2.565333263323194e+23
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 10260357.476673514,
+    "capacity_boundary_S_m": 11432607.187726773,
+    "copper_capacity_W": 2.562924373037295e+24
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 10973967.251614802,
+    "capacity_boundary_S_m": 12192016.573621318,
+    "copper_capacity_W": 6.475888432921682e+23
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 10956518.412754042,
+    "capacity_boundary_S_m": 12173333.259547403,
+    "copper_capacity_W": 6.694807827702025e+23
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 10803439.818037013,
+    "capacity_boundary_S_m": 12009603.973497016,
+    "copper_capacity_W": 8.96168284941499e+23
+  },
+  {
+    "distance_m": 1.0,
+    "carrier_Hz": 24.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 10147738.258499403,
+    "capacity_boundary_S_m": 11312628.526509847,
+    "copper_capacity_W": 3.202559328588669e+24
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 4418836.384260142,
+    "capacity_boundary_S_m": 4909894.267487253,
+    "copper_capacity_W": 4.063443859473944e+54
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 4108275.329421564,
+    "capacity_boundary_S_m": 4578804.889152078,
+    "copper_capacity_W": 1.3987578219180357e+55
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 3716809.1860066345,
+    "capacity_boundary_S_m": 4158638.6980546853,
+    "copper_capacity_W": 1.167500930357712e+56
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "optimistic compensated SERF",
+    "instrument_ASD_T_sqrtHz": 3.5e-14,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 3334056.580697887,
+    "capacity_boundary_S_m": 3746579.031716423,
+    "copper_capacity_W": 1.1622886325878395e+57
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 0.38,
+    "bpsk_boundary_S_m": 3560394.76018324,
+    "capacity_boundary_S_m": 3990262.517263763,
+    "copper_capacity_W": 2.940242868854298e+56
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 1.0,
+    "bpsk_boundary_S_m": 3554854.2462836625,
+    "capacity_boundary_S_m": 3984245.1624738346,
+    "copper_capacity_W": 3.0394839167102565e+56
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 3.14,
+    "bpsk_boundary_S_m": 3506344.6128198556,
+    "capacity_boundary_S_m": 3931623.4806414167,
+    "copper_capacity_W": 4.067108960103681e+56
+  },
+  {
+    "distance_m": 2.0,
+    "carrier_Hz": 18.0,
+    "sensor": "Mx benchmark",
+    "instrument_ASD_T_sqrtHz": 5e-12,
+    "background_pT_sqrtHz": 10.0,
+    "bpsk_boundary_S_m": 3298269.6387851024,
+    "capacity_boundary_S_m": 3707856.308048371,
+    "copper_capacity_W": 1.4522494345611302e+57
+  }
+]

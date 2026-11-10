@@ -1,0 +1,104 @@
+{
+ "cf": {
+  "in_band_fraction_pm1Hz": 0.999593906501731,
+  "ref24|three_stage|24Hz|inst1": {
+   "model": 0.860042097741324,
+   "actual": 0.8481375952704315
+  },
+  "ref24|three_stage|10Hz|inst1": {
+   "model": 0.8601046785298124,
+   "actual": 0.8482045510928449
+  },
+  "ref24|baseline|10Hz|inst1": {
+   "model": 2.6276960715318656,
+   "actual": 2.9215704496783528
+  },
+  "ref24|three_stage|24Hz|inst0.1": {
+   "model": 0.08600687930440237,
+   "actual": 0.084816615314501
+  },
+  "ref24|baseline|24Hz|inst0.1": {
+   "model": 0.3985835382921562,
+   "actual": 0.4535477030541096
+  },
+  "ref24|gradiometer|24Hz|inst1": {
+   "model": 1.2162945797906486,
+   "actual": 1.199459865366095
+  },
+  "ref18|three_stage|18Hz|inst1": {
+   "model": 0.7055790666673278,
+   "actual": 0.6811271533644467
+  },
+  "ref18|three_stage|10Hz|inst1": {
+   "model": 0.7056293465343235,
+   "actual": 0.6811798131534593
+  },
+  "ref18|baseline|10Hz|inst1": {
+   "model": 2.1557602325977476,
+   "actual": 2.3462675488624316
+  },
+  "ref18|three_stage|18Hz|inst0.1": {
+   "model": 0.07057060183760813,
+   "actual": 0.06812600907499795
+  },
+  "ref18|baseline|18Hz|inst0.1": {
+   "model": 0.5654625080883259,
+   "actual": 0.6398590330033639
+  },
+  "ref18|gradiometer|18Hz|inst1": {
+   "model": 0.9978689242778949,
+   "actual": 0.9632900865014188
+  }
+ },
+ "hop": {
+  "in_band_fraction_pm1Hz": 0.9994216194237912,
+  "ref24|three_stage|24Hz|inst1": {
+   "model": 0.8631760412609331,
+   "actual": 0.850888082198054
+  },
+  "ref24|three_stage|10Hz|inst1": {
+   "model": 0.8632375035279061,
+   "actual": 0.8509544064246006
+  },
+  "ref24|baseline|10Hz|inst1": {
+   "model": 2.530071686039907,
+   "actual": 2.8826681717624605
+  },
+  "ref24|three_stage|24Hz|inst0.1": {
+   "model": 0.08632022587929618,
+   "actual": 0.08509162341120644
+  },
+  "ref24|baseline|24Hz|inst0.1": {
+   "model": 0.37881181023418237,
+   "actual": 0.44366528020448526
+  },
+  "ref24|gradiometer|24Hz|inst1": {
+   "model": 1.2207264413705499,
+   "actual": 1.2033494514854102
+  },
+  "ref18|three_stage|18Hz|inst1": {
+   "model": 0.7124313296515202,
+   "actual": 0.6861279581424927
+  },
+  "ref18|three_stage|10Hz|inst1": {
+   "model": 0.7124810093900884,
+   "actual": 0.6861803377461333
+  },
+  "ref18|baseline|10Hz|inst1": {
+   "model": 2.0882179253472644,
+   "actual": 2.3244843728125857
+  },
+  "ref18|three_stage|18Hz|inst0.1": {
+   "model": 0.07125567653092561,
+   "actual": 0.0686259729617133
+  },
+  "ref18|baseline|18Hz|inst0.1": {
+   "model": 0.5352704870278049,
+   "actual": 0.629036853825656
+  },
+  "ref18|gradiometer|18Hz|inst1": {
+   "model": 1.0075591352876798,
+   "actual": 0.9703619628356764
+  }
+ }
+}

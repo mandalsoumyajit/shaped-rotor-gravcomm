@@ -1,0 +1,96 @@
+{
+ "summary": {
+  "packets": 6,
+  "structure_identical": 6,
+  "results_identical": 6,
+  "max_rel_metric_diff": 4.090870191315039e-15,
+  "cpu_detect_s": 13.422947300015949,
+  "gpu_detect_s": 2.252051900024526
+ },
+ "rows": [
+  {
+   "index": 7200000,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 2.6418003617706843e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 12.534760999958962,
+   "gpu_detect_s": 1.8840749999508262,
+   "cpu_total_s": 19.26802369998768,
+   "gpu_total_s": 3.554414900019765,
+   "accepted": true,
+   "iterations": 9
+  },
+  {
+   "index": 7200001,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 4.090870191315039e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 12.769001099979505,
+   "gpu_detect_s": 1.961941699963063,
+   "cpu_total_s": 14.577856600051746,
+   "gpu_total_s": 2.584228599909693,
+   "accepted": true,
+   "iterations": 3
+  },
+  {
+   "index": 7200002,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 2.659493791865183e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 13.280487400013953,
+   "gpu_detect_s": 2.196288099978119,
+   "cpu_total_s": 21.680869600037113,
+   "gpu_total_s": 4.912846799939871,
+   "accepted": true,
+   "iterations": 15
+  },
+  {
+   "index": 7200003,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 2.4923709714570526e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 13.68946380005218,
+   "gpu_detect_s": 2.3078157000709325,
+   "cpu_total_s": 23.55265420000069,
+   "gpu_total_s": 5.587844100082293,
+   "accepted": false,
+   "iterations": 16
+  },
+  {
+   "index": 7200004,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 2.0721914312432073e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 13.654740899801254,
+   "gpu_detect_s": 2.4780907998792827,
+   "cpu_total_s": 14.589599199825898,
+   "gpu_total_s": 2.8838040998671204,
+   "accepted": true,
+   "iterations": 1
+  },
+  {
+   "index": 7200005,
+   "graph_identical_structure": true,
+   "max_rel_metric_diff": 2.4324885529812837e-15,
+   "edges": 8195495,
+   "edges_gpu": 8195495,
+   "result_identical": true,
+   "cpu_detect_s": 13.565407200017944,
+   "gpu_detect_s": 2.3601937000639737,
+   "cpu_total_s": 14.582051600096747,
+   "gpu_total_s": 2.7229126000311226,
+   "accepted": true,
+   "iterations": 1
+  }
+ ]
+}

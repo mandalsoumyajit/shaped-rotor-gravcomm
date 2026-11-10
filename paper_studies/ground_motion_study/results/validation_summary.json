@@ -1,0 +1,174 @@
+{
+ "cases": {
+  "baseline_f12_a1.2973": {
+   "packets": 384,
+   "errors": 10242,
+   "ber": 0.11907087053571429,
+   "ber_se": 0.007632876044010595,
+   "packet_failure": 0.6223958333333334,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 3.0446465501876574e-05
+  },
+  "baseline_f18_a0.8000": {
+   "packets": 384,
+   "errors": 7013,
+   "ber": 0.08153134300595238,
+   "ber_se": 0.006534839314640403,
+   "packet_failure": 0.4817708333333333,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 1.2671641513861687e-10
+  },
+  "baseline_f24_a0.6500": {
+   "packets": 384,
+   "errors": 8575,
+   "ber": 0.09969075520833333,
+   "ber_se": 0.007268469815356627,
+   "packet_failure": 0.53125,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 9.544871759636919e-08
+  },
+  "gradiometer_f18_a0.7983": {
+   "packets": 384,
+   "errors": 9039,
+   "ber": 0.10508510044642858,
+   "ber_se": 0.007221920594308825,
+   "packet_failure": 0.5598958333333334,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.0853343925849614e-06
+  },
+  "structural_f12_a0.5712": {
+   "packets": 384,
+   "errors": 8843,
+   "ber": 0.10280645461309523,
+   "ber_se": 0.007195841247069259,
+   "packet_failure": 0.5494791666666666,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 3.854102099465351e-06
+  },
+  "structural_f18_a0.5647": {
+   "packets": 384,
+   "errors": 9039,
+   "ber": 0.10508510044642858,
+   "ber_se": 0.007221920594308825,
+   "packet_failure": 0.5598958333333334,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.03345213498374e-06
+  },
+  "structural_f18_a0.5929": {
+   "packets": 384,
+   "errors": 4564,
+   "ber": 0.053059895833333336,
+   "ber_se": 0.005316609000952578,
+   "packet_failure": 0.3333333333333333,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.033452132430227e-06
+  },
+  "structural_f24_a0.5591": {
+   "packets": 384,
+   "errors": 10410,
+   "ber": 0.12102399553571429,
+   "ber_se": 0.007626542048183436,
+   "packet_failure": 0.6171875,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.0834838347668665e-06
+  },
+  "structural_f24_a0.5871": {
+   "packets": 384,
+   "errors": 5267,
+   "ber": 0.06123279389880952,
+   "ber_se": 0.005746013986781647,
+   "packet_failure": 0.3697916666666667,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.083483839096736e-06
+  },
+  "three_stage_f18_a0.7056": {
+   "packets": 3000,
+   "errors": 188,
+   "ber": 0.0002797619047619048,
+   "ber_se": 8.070360532283383e-05,
+   "packet_failure": 0.007666666666666666,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.088872917502485e-06
+  },
+  "three_stage_f24_a0.6988": {
+   "packets": 3000,
+   "errors": 304,
+   "ber": 0.00045238095238095237,
+   "ber_se": 0.00010049563284453419,
+   "packet_failure": 0.011333333333333334,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.0890531547720386e-06
+  }
+ },
+ "equivalence": {
+  "structural@24": {
+   "predicted": 0.5591,
+   "matched": 0.5670694665382726,
+   "ratio": 1.014254098619697
+  },
+  "structural@18": {
+   "predicted": 0.5647,
+   "matched": 0.5751729483642497,
+   "ratio": 1.018546039249601
+  }
+ },
+ "operating_point": {
+  "three_stage_f24_a0.6988": {
+   "packets": 3000,
+   "errors": 304,
+   "ber": 0.00045238095238095237,
+   "ber_se": 0.00010049563284453419,
+   "packet_failure": 0.011333333333333334,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.0890531547720386e-06,
+   "interval_95": [
+    0.0001931754208282321,
+    0.002256726804905307
+   ],
+   "reference": {
+    "ber": 0.000369,
+    "interval": [
+     0.000206,
+     0.000993
+    ]
+   },
+   "accepted": 0.9886666666666667,
+   "wrong_accepted": 0
+  },
+  "three_stage_f18_a0.7056": {
+   "packets": 3000,
+   "errors": 188,
+   "ber": 0.0002797619047619048,
+   "ber_se": 8.070360532283383e-05,
+   "packet_failure": 0.007666666666666666,
+   "pruned": 0,
+   "missing": 0,
+   "max_whitening": 5.088872917502485e-06,
+   "interval_95": [
+    9.725885251814277e-05,
+    0.0020792244518486724
+   ],
+   "reference": {
+    "ber": 0.00035,
+    "interval": [
+     0.000168,
+     0.000993
+    ]
+   },
+   "accepted": 0.9923333333333333,
+   "wrong_accepted": 0
+  }
+ }
+}

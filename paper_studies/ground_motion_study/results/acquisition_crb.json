@@ -1,0 +1,196 @@
+{
+ "T_s": 1.1789473684210525,
+ "search_window_s": 0.5,
+ "guard_s": 0.6,
+ "bounds": {
+  "24|maxhop": {
+   "known_frequency": {
+    "amp_rel_std": 0.10899231376190295,
+    "phase_std_deg": 6.26559242142418,
+    "timing_std_s": 0.07082100834482205
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10899991299719604,
+    "phase_std_deg": 11.399764978660931,
+    "timing_std_s": 0.07114319963737588,
+    "freq_std_Hz": 0.004335914875935206,
+    "phase_drift_std_deg_over_frame": 349.648175595415
+   }
+  },
+  "24|maxhop_mirror": {
+   "known_frequency": {
+    "amp_rel_std": 0.10901967772011197,
+    "phase_std_deg": 6.2654430161548005,
+    "timing_std_s": 0.07079710402733375
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10902536836107282,
+    "phase_std_deg": 11.40049899565284,
+    "timing_std_s": 0.0711158380276822,
+    "freq_std_Hz": 0.004338464489739137,
+    "phase_drift_std_deg_over_frame": 349.853776452564
+   }
+  },
+  "24|slow": {
+   "known_frequency": {
+    "amp_rel_std": 0.1154154945502831,
+    "phase_std_deg": 6.624745302397584,
+    "timing_std_s": 0.06823299869380266
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.11543808034883087,
+    "phase_std_deg": 12.222287944642606,
+    "timing_std_s": 0.06981565268869785,
+    "freq_std_Hz": 0.004901930887360115,
+    "phase_drift_std_deg_over_frame": 395.2917067567197
+   }
+  },
+  "24|ramp": {
+   "known_frequency": {
+    "amp_rel_std": 0.10239603901104052,
+    "phase_std_deg": 5.884785762593253,
+    "timing_std_s": 0.07341345190246795
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.1025417919207859,
+    "phase_std_deg": 13.064965616130154,
+    "timing_std_s": 0.09489558544052505,
+    "freq_std_Hz": 0.005771341053622495,
+    "phase_drift_std_deg_over_frame": 465.4009425641179
+   }
+  },
+  "24|mixed": {
+   "known_frequency": {
+    "amp_rel_std": 0.11047245436873739,
+    "phase_std_deg": 6.350759308073934,
+    "timing_std_s": 0.07043033078587083
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.11048515289338343,
+    "phase_std_deg": 11.813414247958615,
+    "timing_std_s": 0.07259078173181178,
+    "freq_std_Hz": 0.004473664728508724,
+    "phase_drift_std_deg_over_frame": 360.75632370694353
+   }
+  },
+  "24|centre": {
+   "known_frequency": "singular",
+   "unknown_frequency": "singular"
+  },
+  "18|maxhop": {
+   "known_frequency": {
+    "amp_rel_std": 0.10400424035279507,
+    "phase_std_deg": 5.985416001092331,
+    "timing_std_s": 0.06577608788466359
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10401017833654605,
+    "phase_std_deg": 10.883045930370232,
+    "timing_std_s": 0.06608241421556008,
+    "freq_std_Hz": 0.004158349065965951,
+    "phase_drift_std_deg_over_frame": 335.32926867949425
+   }
+  },
+  "18|maxhop_mirror": {
+   "known_frequency": {
+    "amp_rel_std": 0.10415539296456838,
+    "phase_std_deg": 5.982052445384817,
+    "timing_std_s": 0.06573046270957554
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10415875403555393,
+    "phase_std_deg": 10.897329701305047,
+    "timing_std_s": 0.06603632104581945,
+    "freq_std_Hz": 0.0041713788280526186,
+    "phase_drift_std_deg_over_frame": 336.3799886941631
+   }
+  },
+  "18|slow": {
+   "known_frequency": {
+    "amp_rel_std": 0.11434356781099908,
+    "phase_std_deg": 6.569106523298861,
+    "timing_std_s": 0.06068289514995485
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.11435639443648266,
+    "phase_std_deg": 11.957636541284044,
+    "timing_std_s": 0.06227452415309256,
+    "freq_std_Hz": 0.004775993472207569,
+    "phase_drift_std_deg_over_frame": 385.1361135988183
+   }
+  },
+  "18|ramp": {
+   "known_frequency": {
+    "amp_rel_std": 0.10212806825568416,
+    "phase_std_deg": 5.870732384563926,
+    "timing_std_s": 0.06692686150672016
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10219828942114526,
+    "phase_std_deg": 13.06868445825255,
+    "timing_std_s": 0.08841616605082243,
+    "freq_std_Hz": 0.0057391258517657485,
+    "phase_drift_std_deg_over_frame": 462.80310868639
+   }
+  },
+  "18|mixed": {
+   "known_frequency": {
+    "amp_rel_std": 0.10489326654044899,
+    "phase_std_deg": 6.036747328259835,
+    "timing_std_s": 0.06533073633164435
+   },
+   "unknown_frequency": {
+    "amp_rel_std": 0.10490357493127034,
+    "phase_std_deg": 11.254288830511603,
+    "timing_std_s": 0.06753746810130347,
+    "freq_std_Hz": 0.004291782915502867,
+    "phase_drift_std_deg_over_frame": 346.0893743061512
+   }
+  },
+  "18|centre": {
+   "known_frequency": "singular",
+   "unknown_frequency": "singular"
+  }
+ },
+ "monte_carlo": {
+  "24": {
+   "trials": 2000,
+   "amp_rel_std": 0.10756558389590956,
+   "amp_bias": 0.012151597834923918,
+   "phase_std_deg": 6.173875536203383,
+   "phase_bias_deg": -0.007029786039378026,
+   "timing_std_s": 0.07070612766890165,
+   "timing_bias_s": 0.0011917480453931362,
+   "max_abs_phase_deg": 21.32363740993896,
+   "max_abs_timing_s": 0.253020904576578,
+   "outliers_timing_gt_5sigma": 0,
+   "crb": {
+    "amp_rel_std": 0.10899231376190295,
+    "phase_std_deg": 6.26559242142418,
+    "timing_std_s": 0.07082100834482205
+   }
+  },
+  "18": {
+   "trials": 2000,
+   "amp_rel_std": 0.10236222038319588,
+   "amp_bias": 0.013795672805834895,
+   "phase_std_deg": 5.912719685309989,
+   "phase_bias_deg": -0.05532203537967946,
+   "timing_std_s": 0.06644888006392309,
+   "timing_bias_s": 0.001794950297780284,
+   "max_abs_phase_deg": 23.23378905459475,
+   "max_abs_timing_s": 0.2867529344998989,
+   "outliers_timing_gt_5sigma": 0,
+   "crb": {
+    "amp_rel_std": 0.10400424035279507,
+    "phase_std_deg": 5.985416001092331,
+    "timing_std_s": 0.06577608788466359
+   }
+  }
+ },
+ "clock_offset_for_5deg_Hz": 6.200396825396825e-05,
+ "clock_ppm_for_5deg": {
+  "24": 2.583498677248677,
+  "18": 3.444664902998236
+ }
+}

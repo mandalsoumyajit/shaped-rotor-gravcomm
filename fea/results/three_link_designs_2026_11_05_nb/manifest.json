@@ -1,0 +1,391 @@
+{
+  "frozen": {
+    "selection": "Hop-limited CPFSK final design points (user, 2026-11-05, tag 2026_11_05_nb) replacing the 2026-09-20 tb_2/3 designs",
+    "cad_reference": {
+      "mass_kg": 7.913509491619677,
+      "inertia_kg_m2": 0.31607130958509544,
+      "source": "fea/results/three_link_designs_2026_09_20/frozen_designs.json"
+    },
+    "channels": [
+      {
+        "config": {
+          "id": "hop_cpfsk_f24_d0.5",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 24.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          0.5
+        ],
+        "source_designs": [
+          {
+            "distance_m": 0.5,
+            "scale": 0.9010437566657981,
+            "diameter_m": 0.45052187833289903,
+            "mass_kg": 5.789042966850119,
+            "inertia_kg_m2": 0.18772170271562333,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 0.5114340468879572,
+            "peak_power_w": 39.437371330763625,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "hop_cpfsk_f24_d1",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 24.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          1.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 1.0,
+            "scale": 1.5761135310793883,
+            "diameter_m": 0.7880567655396942,
+            "mass_kg": 30.98358165633984,
+            "inertia_kg_m2": 3.0741323659525897,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 8.375248753044335,
+            "peak_power_w": 645.8267631401643,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "hop_cpfsk_f18_d2",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 18.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          2.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 2.0,
+            "scale": 2.854447700523453,
+            "diameter_m": 1.4272238502617265,
+            "mass_kg": 184.04982052490345,
+            "inertia_kg_m2": 59.895683744671054,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 163.1814088915619,
+            "peak_power_w": 9507.242133402648,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_alpha",
+      "input_sha256": "7b55132801f957748175a8753e2f1db7d2782fcd0a43c3e7bdd4c69a94a936f2"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_gx",
+      "input_sha256": "754d820623714a3c296e75dd48e471e72547a958a8562016410df5d659ad432d"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_gy",
+      "input_sha256": "f1ce961327972e520bf4e1ad3ed42a73cf6f50a840da512bb025365b87b45026"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_gz",
+      "input_sha256": "b518b03fd43b88bcf59734339c840d0f6c45655a43e7001829eafaf835268bb4"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design1_low",
+      "input_sha256": "6bb20e32cb20192e05b76999e3526bed42cde79183df8718d208aab34a98de68"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design1_center",
+      "input_sha256": "156257b33dca115aab03d46bcf5361646675ad2e190fd23c7a1f4a0d73a84701"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design1_high",
+      "input_sha256": "6994019ad3c91530a89c2f76234993b37bcc3ffe08b9945772f04504fcd59941"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design2_low",
+      "input_sha256": "b94eaabcd68c1a355a2e271337142abf28b3dd47a88c53165d3cbbd527c64e97"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design2_center",
+      "input_sha256": "fb9f84332b3c87e82259146bc2be6b400d8814b602162b4cba490bb39ca761d5"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design2_high",
+      "input_sha256": "caffafd8a59304e4badd334ec44c9f0112abdba009c61fba98aedadc0cafa1cc"
+    },
+    {
+      "name": "design3_low",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 523.64082,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design3_low",
+      "input_sha256": "08d91761c61c15a9404501b385f497b538dc3037ded6e28e19673bdab128419a"
+    },
+    {
+      "name": "design3_center",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design3_center",
+      "input_sha256": "edbb8720cadc5cdecbf05c7cdb16d4c86a528ca75bcc0cc2de0f648483993214"
+    },
+    {
+      "name": "design3_high",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 556.35918,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design3_high",
+      "input_sha256": "84b55216e963ed54bf5e6a901bdb015621d9c9b51884ebe80ed566b015b53d51"
+    },
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/basis_alpha",
+      "input_sha256": "e676588a9e335cd1f2e84248a3359fa1ab13a5fe72bc72da8eda89b3df461d4b"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/basis_gx",
+      "input_sha256": "efd83c27ece07a3f115231ae50d101222110ddb6c3e7876b133c3aae433261a1"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/basis_gy",
+      "input_sha256": "287584b4d801a9542b91bc7a4a31d7bac4c295a178b44599c8d32015f28ac90a"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/basis_gz",
+      "input_sha256": "09d6830646707fc9a04363434258f7d82f9c554c7a5c8cc02f3327553855c57b"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design1_low",
+      "input_sha256": "6bbb031847aa250d397684101052b0e1f06e45761391f78d0fd11e78d0405ceb"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design1_center",
+      "input_sha256": "84216d0515ab5d9814da5ded93aac0b7d1db4ff37a28101f4ecb0f10b9a40d04"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design1_high",
+      "input_sha256": "63d07cb353ea8c09a4250ddaf9ab4fa6924cc2e92bcb7f8fe9102f9f3c685365"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design2_low",
+      "input_sha256": "c7834775680f88e5d448264fb4060effc7f5ca1cfaf2d4da84877ebac283ea89"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design2_center",
+      "input_sha256": "4a019be686239175d6eac8d6c8e4ac81d2428b27f1e165280bd896020fe688ac"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design2_high",
+      "input_sha256": "fa4f7fe2a8be6fe6399b00a25cc453423b73012615ffc13914553915ea64565d"
+    },
+    {
+      "name": "design3_low",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 523.64082,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design3_low",
+      "input_sha256": "2d6b43661e46d314fdd3af2e7a1c9f999dc0d7f91edc77211b253d1da592f6a7"
+    },
+    {
+      "name": "design3_center",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design3_center",
+      "input_sha256": "06ab734a9aee8d27875190b310f40de6dcf99bcebfa889e274c0731cd3d8955d"
+    },
+    {
+      "name": "design3_high",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 556.35918,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.013/design3_high",
+      "input_sha256": "9063e09f6b2b7635c8a61870787bbc9bbca30723947d5e3fdb311e114dee18c4"
+    }
+  ],
+  "source_sha256": {
+    "fea/three_link_fea_hop.py": "208e3c5302b03609e6432e174261f77eb5cf8f4017cd9a9df85ad7967b7264f1",
+    "fea/run_calculix.py": "0d8072aca2350c3eccd4439cdca0fb183a32f06ddecf18a8c0e8b0c64700b1d2",
+    "fea/postprocess_carrier.py": "590982a422db58124e7b25123c45ce11391d39f0142abb477dd8d4a61e363421",
+    "fea/make_hop_frozen_designs.py": "0cb49a8621688997498d6db712c309569f51d35074015c98ed4f78547d246b09",
+    "fea/results/three_link_designs_2026_11_05_nb/frozen_designs.json": "24c8e1b685a298bde1609d444cc33315a5578f076fe2335502b0b4797ebbecf1"
+  },
+  "assumptions": "linear elastic, fixed bore, bonded inserts; gravity/tangential static bases omit geometric stiffness; modal step includes centrifugal prestress only"
+}

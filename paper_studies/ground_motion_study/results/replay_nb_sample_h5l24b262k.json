@@ -1,0 +1,1730 @@
+[
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700000,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 72.63534529996105,
+  "elapsed_s": 77.07219640002586,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 77.40038469992578
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700001,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 70.62578560016118,
+  "elapsed_s": 75.42308910004795,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 75.57628430007026
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700002,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 72.44712919997983,
+  "elapsed_s": 77.3722107000649,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 77.75790759990923
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700003,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 71.30877660005353,
+  "elapsed_s": 76.04766499996185,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 76.22750700009055
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700004,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.20113269984722,
+  "elapsed_s": 90.65966539992951,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.85373859992251
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700005,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.48529289988801,
+  "elapsed_s": 91.01279799989425,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.29364180006087
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700006,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.5920058998745,
+  "elapsed_s": 89.77722389996052,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.06692459993064
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700007,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.97950490005314,
+  "elapsed_s": 90.25371600012295,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.78138240007684
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700008,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.49534789985046,
+  "elapsed_s": 90.53482019994408,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.70524120004848
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700009,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.6833538999781,
+  "elapsed_s": 92.11518509988673,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 92.44924079999328
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700010,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.51316339988261,
+  "elapsed_s": 90.8400057000108,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.01511629996821
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700011,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.33258930011652,
+  "elapsed_s": 91.69172260002233,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.98046349990182
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700012,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 83.58242690004408,
+  "elapsed_s": 87.72341470001265,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 87.8963540000841
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700013,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.9898727000691,
+  "elapsed_s": 91.10673510003835,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.2610273999162
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700014,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.85388409998268,
+  "elapsed_s": 91.99015449988656,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 92.15873310016468
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700015,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.26002349983901,
+  "elapsed_s": 91.64998969994485,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.88468170003034
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700016,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.29795519984327,
+  "elapsed_s": 89.5426307998132,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 89.72854989999905
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700017,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.15575379994698,
+  "elapsed_s": 88.38544839993119,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 88.57665140018798
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700018,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.28725940012373,
+  "elapsed_s": 91.34465690003708,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 91.57411859999411
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700019,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.68344939989038,
+  "elapsed_s": 88.95047209993936,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 89.13582110009156
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700020,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.64511270006187,
+  "elapsed_s": 90.74792110011913,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.94887050008401
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700021,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.1312903999351,
+  "elapsed_s": 89.52584440005012,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 89.83101069997065
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700022,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.75693859998137,
+  "elapsed_s": 88.79089700011536,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 88.97818570001982
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700023,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.3892530000303,
+  "elapsed_s": 90.63344330014661,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.8054477002006
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700024,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.77315869997256,
+  "elapsed_s": 90.03506059991196,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.24718679999933
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700025,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.39204600010999,
+  "elapsed_s": 91.84794649994001,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 92.0241058000829
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700026,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 86.45854599983431,
+  "elapsed_s": 90.63642379990779,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.81222019996494
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700027,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.77983910008334,
+  "elapsed_s": 90.08436889993027,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.27390839997679
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700028,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.75771080004051,
+  "elapsed_s": 88.76553960004821,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 88.95278949989006
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700029,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.70522529981099,
+  "elapsed_s": 90.04787379992194,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.27537519996986
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700030,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.60153270000592,
+  "elapsed_s": 89.98250709986314,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 90.19357039988972
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 24.0,
+  "amplitude_m_s2": 3.004550469895411e-10,
+  "index": 8700031,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.24770489986986,
+  "elapsed_s": 89.61121220001951,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 24.0,
+  "amplitude_A0": 0.58,
+  "wall_s": 89.80383670004085
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700000,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 87.41378719988279,
+  "elapsed_s": 91.55043300008401,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 91.71251009986736
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700001,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 85.20326249999925,
+  "elapsed_s": 89.20114840008318,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 89.3974361999426
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700002,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.6652191998437,
+  "elapsed_s": 88.74864759994671,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 88.93735930020921
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700003,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.0133095998317,
+  "elapsed_s": 88.15422459994443,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 88.32661180011928
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700004,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 83.37588329985738,
+  "elapsed_s": 87.4779052999802,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 87.64587330003269
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700005,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 83.33111550007015,
+  "elapsed_s": 87.53724849992432,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 87.70825550006703
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700006,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 84.2648086999543,
+  "elapsed_s": 88.55593689996749,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 88.72392200003378
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700007,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 83.79229409992695,
+  "elapsed_s": 88.03032119991258,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 88.2634340999648
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700008,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 88.9697024000343,
+  "elapsed_s": 94.01642260001972,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 94.49274769984186
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700009,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 91.09699359978549,
+  "elapsed_s": 96.36936079990119,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 96.80987269990146
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700010,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 94.48708970006555,
+  "elapsed_s": 99.7403142999392,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 100.08813460008241
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700011,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 93.28446280001663,
+  "elapsed_s": 99.15675440011546,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 99.43503910000436
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700012,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 98.70750859985128,
+  "elapsed_s": 103.57916620001197,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 103.9658599998802
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700013,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 101.37536259996705,
+  "elapsed_s": 105.90158839989454,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 106.39294090005569
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700014,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.7075443000067,
+  "elapsed_s": 104.89805100020021,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 105.34605460008606
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700015,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.93044829997234,
+  "elapsed_s": 105.41457089991309,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 105.9359700998757
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700016,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 96.22199840005487,
+  "elapsed_s": 101.69653950002976,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 102.20785779994912
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700017,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 96.78610759996809,
+  "elapsed_s": 101.69823609990999,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 102.24476010003127
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700018,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 96.75817020004615,
+  "elapsed_s": 102.17424400011078,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 102.7290415999014
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700019,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 98.6061130000744,
+  "elapsed_s": 103.79327320004813,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 104.38043490005657
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700020,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 96.61466289986856,
+  "elapsed_s": 102.02870369981974,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 102.43704480002634
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700021,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 97.40012879995629,
+  "elapsed_s": 101.98933619982563,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 102.58151140017435
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700022,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 99.00367320002988,
+  "elapsed_s": 104.030358399963,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 104.40515370015055
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700023,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.88037939998321,
+  "elapsed_s": 105.57574560004286,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 106.0886307999026
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700024,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 96.28524570004083,
+  "elapsed_s": 101.01798469992355,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 101.46943629998714
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700025,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.25081399991177,
+  "elapsed_s": 105.03579330001958,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 105.445219400106
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700026,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 95.70550699997693,
+  "elapsed_s": 100.63784549990669,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 101.30492149991915
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700027,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 97.73816210008226,
+  "elapsed_s": 103.08222280000336,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 103.51965460018255
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700028,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.84679359989241,
+  "elapsed_s": 106.20000789989717,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 106.60111150005832
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700029,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 99.41691939998418,
+  "elapsed_s": 104.69567669997923,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 105.29432679992169
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700030,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 100.25817970000207,
+  "elapsed_s": 105.07280410011299,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 105.58138679992408
+ },
+ {
+  "code": "NB-LDPC GF(512) (43,29) dv=2 seed=1",
+  "words": "lex",
+  "device": "cpu",
+  "carrier_hz": 18.0,
+  "amplitude_m_s2": 3.610640823305347e-10,
+  "index": 8700031,
+  "errors": [
+   0
+  ],
+  "accepted": [
+   true
+  ],
+  "symbol_errors": [
+   0
+  ],
+  "pruned_states": 0,
+  "graph_edges": 39264120,
+  "detect_s": 97.44310440006666,
+  "elapsed_s": 101.49234420014545,
+  "history": 5,
+  "lookahead": 24,
+  "beam": 262144,
+  "carrier": 18.0,
+  "amplitude_A0": 0.697,
+  "wall_s": 101.96111889998429
+ }
+]

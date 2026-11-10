@@ -1,0 +1,226 @@
+"""Hop-limited CF-FSK: waveform, enumerative tone mapping, and streaming detector.
+
+Fork of the released AlphabetStreamingReceiver (gravcomm v0.5.0) with three changes:
+  1. tone spacing is set directly through the modulation index h = df*T (rational), so the
+     transition may fill the whole symbol (beta = 1, no dwell);
+  2. consecutive tones may differ by at most D spacings (peak torque ~ D df / (beta T));
+  3. each group of L symbols carries `bits` coded bits through a lexicographic enumerative code
+     over the hop-limited sequences that start from the group's preceding tone. Word w is the
+     w-th valid sequence (w < 2**bits <= min over start tones of the number of sequences).
+Everything else (causal filtering, compact innovations, reduced-state merging, fixed-lag
+max-log soft outputs) is unchanged. Odd tone counts only; the centre tone is the acquisition
+and tail tone.
+"""
+from collections import deque
+from fractions import Fraction
+from math import lcm
+import numpy as np
+from scipy.signal import sosfilt, sosfilt_zi
+from gravcomm.compact_innovations import CompactInnovations
+
+
+class HopCode:
+    """Enumerative code for hop-limited tone sequences (tone indices 0..M-1)."""
+
+    def __init__(self, M, D, L, bits):
+        self.M, self.D, self.L, self.bits = M, D, L, bits
+        adj = (np.abs(np.arange(M)[:, None] - np.arange(M)[None, :]) <= D)
+        self.adj = adj
+        N = [np.ones(M, np.int64)]                       # N[k][c]: sequences of k further symbols after tone c
+        for _ in range(L):
+            N.append(adj.astype(np.int64) @ N[-1])
+        self.N = N
+        if N[L].min() < 2**bits:
+            raise ValueError('Too many bits for the hop-limited group')
+        # G[k][p, c]: number of sequences that choose a smaller tone c' < c after p, with k symbols to follow
+        self.G = [np.array([[sum(N[k][cc] for cc in range(c) if adj[p, cc]) for c in range(M)] for p in range(M)])
+                  for k in range(L)]
+
+    def encode(self, word, start):
+        out, prev, r = [], start, int(word)
+        for i in range(self.L):
+            k = self.L - 1 - i
+            for c in range(self.M):
+                if not self.adj[prev, c]:
+                    continue
+                if r < self.N[k][c]:
+                    out.append(c); prev = c; break
+                r -= self.N[k][c]
+        return out
+
+    def decode(self, seq, start):
+        prev, r = start, 0
+        for i, c in enumerate(seq):
+            r += self.G[self.L - 1 - i][prev, c]; prev = c
+        return r
+
+
+def sampled_hop(indices, symbol_s, h, beta, M, input_rate_hz=16.):
+    """Continuous-phase analytic waveform for tone indices (centre tone = M//2 before the frame)."""
+    offs = np.asarray(indices, float) - (M - 1)/2
+    spacing = float(h)/symbol_s
+    before = np.r_[0., offs[:-1]]
+    increments = spacing*symbol_s*(beta*before/2 + (1 - beta/2)*offs)
+    phase0 = np.r_[0, np.cumsum(increments)[:-1]]
+    count = int(np.ceil(len(offs)*symbol_s*input_rate_hz - 1e-12))
+    t = np.arange(count)/input_rate_hz; index = np.minimum((t/symbol_s).astype(int), len(offs) - 1)
+    local = t - index*symbol_s; tr = beta*symbol_s; u = np.minimum(local/tr, 1)
+    primitive = tr*(2.5*u**4 - 3*u**5 + u**6) + np.maximum(local - tr, 0)
+    phase = phase0[index] + spacing*(before[index]*local + (offs[index] - before[index])*primitive)
+    return np.exp(2j*np.pi*phase)
+
+
+class HopLimitedReceiver:
+    def __init__(self, receiver, symbol_s, amplitude, ngroups, tail_symbols=6, *, noise_order=64, history_symbols=4,
+                 beam_width=32768, lookahead_symbols=12, h=Fraction(3, 14), beta=Fraction(1), tone_count=7,
+                 max_hop=3, group_symbols=4, group_bits=9, pad_bits=3, word_table=None):
+        M, L = int(tone_count), int(group_symbols)
+        if M % 2 == 0 or history_symbols < L:
+            raise ValueError('Odd tone count and history >= group length required')
+        self.code = HopCode(M, max_hop, L, group_bits)
+        # optional general word set (TableHopCode); None keeps the lexicographic enumerative code
+        self.table = word_table
+        if word_table is not None and pad_bits:
+            raise ValueError('word tables require pad_bits=0')
+        self.M, self.B, self.L, self.bits, self.pad, self.D = M, M, L, group_bits, pad_bits, max_hop
+        self.zero = M//2
+        self.offsets = np.arange(M) - (M - 1)/2
+        h, beta = Fraction(h), Fraction(beta)
+        offs = [Fraction(2*i - (M - 1), 2) for i in range(M)]
+        increments = [[h*(beta*a/2 + (1 - beta/2)*b) for b in offs] for a in offs]
+        self.phases = lcm(*(v.denominator for row in increments for v in row))
+        self.inc = np.array([[int(v*self.phases) % self.phases for v in row] for row in increments])
+        self.h, self.r = h, float(beta)
+        self.receiver = receiver; self.T = symbol_s; self.nbytes = ngroups; self.tail = tail_symbols
+        self.total = L*ngroups + tail_symbols; self.order = noise_order; self.hlen = history_symbols
+        self.width = beam_width; self.lag = lookahead_symbols
+        self.whitener = CompactInnovations(receiver, amplitude, noise_order)
+        self.sos = receiver.sos; self.state = sosfilt_zi(self.sos).astype(complex)[:, None, :]
+        self.hist = np.array([sum(self.zero*self.B**j for j in range(history_symbols))], np.int64)
+        self.modulus = self.B**history_symbols
+        self.phase = np.array([0]); self.cost = np.zeros(1); self.mean_past = np.empty((1, 0), complex)
+        self.obs_past = np.empty(0, complex); self.graph = deque(); self.buffer = np.empty(0, complex)
+        self.symbol = 0; self.sample = 0; self.next_byte = 0; self.peak_states = 1; self.peak_graph = 0
+        self.missing = 0; self.pruned_states = 0
+
+    def _geometry(self, t):
+        fs = self.receiver.input_rate_hz; D = self.receiver.decimation
+        start = int(np.ceil(t*self.T*fs - 1e-12)); end = int(np.ceil((t + 1)*self.T*fs - 1e-12))
+        first = (-start) % D
+        return start, end, first, len(range(first, end - start, D))
+
+    def push(self, samples):
+        x = np.asarray(samples, complex); outputs = []; position = 0
+        while position < len(x) or len(self.buffer):
+            if self.symbol >= self.total:
+                raise ValueError('Samples beyond configured frame')
+            count = self._geometry(self.symbol)[3]
+            need = count - len(self.buffer); take = min(need, len(x) - position)
+            self.buffer = np.r_[self.buffer, x[position:position + take]]; position += take
+            if len(self.buffer) < count:
+                break
+            y = self.buffer; self.buffer = np.empty(0, complex)
+            outputs.extend(self._step(y))
+        return outputs
+
+    def _step(self, y):
+        t = self.symbol; start, end, first, count = self._geometry(t)
+        fs = self.receiver.input_rate_hz; Dd = self.receiver.decimation; B, L = self.B, self.L
+        local = np.arange(start, end)/fs - t*self.T; tr = self.r*self.T; u = np.minimum(local/tr, 1)
+        integral = tr*(2.5*u**4 - 3*u**5 + u**6) + np.maximum(local - tr, 0)
+        spacing = float(self.h)/self.T
+        before = np.repeat(self.offsets, B); after = np.tile(self.offsets, B)
+        raw = np.exp(2j*np.pi*spacing*(before[:, None]*local + (after - before)[:, None]*integral))
+        branch, bstate = sosfilt(self.sos, raw, axis=1, zi=np.zeros((len(self.sos), B**2, 2), complex))
+        dim = 2*len(self.sos); initial = np.eye(dim, dtype=complex).reshape(dim, len(self.sos), 2).transpose(1, 0, 2)
+        response, transition = sosfilt(self.sos, np.zeros((dim, len(local)), complex), axis=1, zi=initial)
+        branch = branch[:, first::Dd]; response = response[:, first::Dd]
+        bstate = bstate.transpose(1, 0, 2).reshape(B**2, dim); transition = transition.transpose(1, 0, 2).reshape(dim, dim)
+        data = t < L*self.nbytes
+        choices = np.arange(self.M) if data else np.array([self.zero])
+        parent = np.repeat(np.arange(len(self.cost)), len(choices)); choice = np.tile(choices, len(self.cost))
+        old = self.hist % B
+        valid = np.abs(choice - old[parent]) <= self.D
+        parent, choice = parent[valid], choice[valid]
+        values = np.zeros(len(choice), np.int64)
+        if data and self.table is not None:
+            pos = t % L
+            digits = [(self.hist[parent]//B**j) % B for j in range(pos + 1)]   # digits[0] = previous tone
+            start_tone = digits[pos]
+            code = np.zeros(len(choice), np.int64)
+            for i in range(pos):                                              # completed prefix symbols c_0..
+                code = code*B + digits[pos - 1 - i]
+            code = code*B + choice
+            values = self.table.lookup[pos][start_tone, code]
+            ok = values >= 0
+            parent, choice, values = parent[ok], choice[ok], values[ok]
+        elif data:
+            pos = t % L
+            digits = [(self.hist[parent]//B**j) % B for j in range(pos + 1)]   # digits[0] = previous tone
+            seq_prev = [digits[pos - i] for i in range(pos + 1)]              # prev of symbol i: s, c0, ..
+            offset = np.zeros(len(choice), np.int64)
+            for i in range(pos):                                              # completed prefix symbols
+                offset += self.code.G[L - 1 - i][seq_prev[i], digits[pos - 1 - i]]
+            offset += self.code.G[L - 1 - pos][seq_prev[pos], choice]
+            cnt = self.code.N[L - 1 - pos][choice]
+            high = np.minimum(offset + cnt - 1, 2**self.bits - 1)
+            stride = 2**self.pad if t//L == self.nbytes - 1 else 1
+            ok = ((offset + stride - 1)//stride)*stride <= high
+            parent, choice, values = parent[ok], choice[ok], offset[ok]
+        index = old[parent]*B + choice; factor = np.exp(2j*np.pi*self.phase[parent]/self.phases)
+        flat = self.state.transpose(1, 0, 2).reshape(len(self.cost), dim)
+        means = (flat@response)[parent] + factor[:, None]*branch[index]
+        Wp, Wc = self.whitener.block_matrices(self.sample, count)
+        wy = Wp@self.obs_past + Wc@y
+        prediction = (self.mean_past@Wp.T)[parent] + means@Wc.T
+        edge = np.sum(abs(prediction - wy)**2, axis=1); scores = self.cost[parent] + edge
+        next_hist = (self.hist[parent]*B + choice) % self.modulus
+        next_phase = (self.phase[parent] + self.inc[old[parent], choice]) % self.phases
+        keys = next_hist*self.phases + next_phase
+        order = np.argsort(scores, kind='stable'); _, first_key = np.unique(keys[order], return_index=True)
+        selection = order[np.sort(first_key)[:self.width]]; selected_keys = keys[selection]
+        self.pruned_states += max(0, len(first_key) - self.width)
+        sorting = np.argsort(selected_keys); sorted_keys = selected_keys[sorting]
+        where = np.searchsorted(sorted_keys, keys); okk = where < len(selection)
+        okk &= sorted_keys[np.minimum(where, len(selection) - 1)] == keys
+        destinations = sorting[np.minimum(where, len(selection) - 1)]
+        self.graph.append((t, self.cost.copy(), parent[okk], destinations[okk], edge[okk], values[okk]))
+        self.cost = scores[selection]; self.cost -= min(self.cost)
+        updated = (flat@transition)[parent[selection]] + factor[selection, None]*bstate[index[selection]]
+        self.state = updated.reshape(-1, len(self.sos), 2).transpose(1, 0, 2)
+        self.mean_past = np.concatenate((self.mean_past[parent[selection]], means[selection]), axis=1)[:, -self.order:]
+        self.obs_past = np.r_[self.obs_past, y][-self.order:]
+        self.hist = next_hist[selection]; self.phase = next_phase[selection]
+        self.symbol += 1; self.sample += count; self.peak_states = max(self.peak_states, len(selection))
+        self.peak_graph = max(self.peak_graph, len(self.graph))
+        outputs = []
+        while self.next_byte < self.nbytes and (t >= L*self.next_byte + L - 1 + self.lag or self.symbol == self.total):
+            target = L*self.next_byte + L - 1; back = np.zeros(len(self.cost)); llr = np.full(self.bits, np.nan); hard = None
+            last = self.next_byte == self.nbytes - 1
+            for step, forward, src, dst, metric, words in reversed(self.graph):
+                if step == target:
+                    total = forward[src] + metric + back[dst]; hard = int(words[np.argmin(total)])
+                    for bit in range(self.bits):
+                        if last and bit >= self.bits - self.pad:
+                            llr[bit] = np.inf; continue
+                        labels = (words >> (self.bits - 1 - bit)) & 1; zero = total[labels == 0]; one = total[labels == 1]
+                        if len(zero) and len(one) and np.isfinite(zero.min()) and np.isfinite(one.min()):
+                            llr[bit] = one.min() - zero.min()
+                    break
+                prior = np.full(len(forward), np.inf); np.minimum.at(prior, src, metric + back[dst])
+                back = prior - np.min(prior)
+            check = llr[:self.bits - self.pad] if (last and self.pad) else llr
+            missing = int(np.count_nonzero(~np.isfinite(check))); self.missing += missing
+            outputs.append(dict(byte_index=self.next_byte, byte=hard, llr=llr, available_after_symbol=self.symbol,
+                                missing_bit_hypotheses=missing))
+            self.next_byte += 1
+            while self.graph and self.graph[0][0] < L*self.next_byte:
+                self.graph.popleft()
+        return outputs
+
+    def finish(self):
+        if self.symbol != self.total or len(self.buffer):
+            raise ValueError('Incomplete frame')
+        return dict(symbols=self.symbol, groups_emitted=self.next_byte, peak_states=self.peak_states,
+                    peak_graph_symbols=self.peak_graph, missing_bit_hypotheses=self.missing,
+                    pruned_states=self.pruned_states)

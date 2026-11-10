@@ -1,0 +1,13 @@
+{
+  "name": "basis_gy",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gy",
+  "mesh": 0.018,
+  "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_gy",
+  "input_sha256": "f1ce961327972e520bf4e1ad3ed42a73cf6f50a840da512bb025365b87b45026",
+  "frequencies_hz": [],
+  "max_u_m": 2.435378830544057e-07,
+  "raw_max_vm_pa": 53119.09795906736,
+  "elapsed_s": 179.28265523910522
+}

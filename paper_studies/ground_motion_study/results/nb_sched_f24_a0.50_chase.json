@@ -1,0 +1,502 @@
+{
+ "summary": {
+  "S0 bp30 x16": {
+   "ok": 5,
+   "n": 18,
+   "mean_iters": 5.8,
+   "wrong": 13,
+   "mean_s": 5.674818705586302
+  },
+  "C1 chase S8 L2 app": {
+   "ok": 5,
+   "n": 18,
+   "mean_iters": 5.8,
+   "wrong": 0,
+   "mean_s": 8.250433544460167
+  },
+  "C2 chase S5 L3 app": {
+   "ok": 5,
+   "n": 18,
+   "mean_iters": 5.8,
+   "wrong": 0,
+   "mean_s": 7.70897038332704
+  },
+  "C3 chase S10 L2 app": {
+   "ok": 5,
+   "n": 18,
+   "mean_iters": 5.8,
+   "wrong": 0,
+   "mean_s": 16.49660402779571
+  }
+ },
+ "packets": {
+  "7200004": {
+   "S0 bp30 x16": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.7382650999352336
+   },
+   "C1 chase S8 L2 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.3848596999887377
+   },
+   "C2 chase S5 L3 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.3758781999349594
+   },
+   "C3 chase S10 L2 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.36147539992816746
+   }
+  },
+  "7200005": {
+   "S0 bp30 x16": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.7246616000775248
+   },
+   "C1 chase S8 L2 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.4288898000959307
+   },
+   "C2 chase S5 L3 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.4186209000181407
+   },
+   "C3 chase S10 L2 app": {
+    "ok": true,
+    "iters": 1,
+    "errors": 0,
+    "seconds": 0.4154354000929743
+   }
+  },
+  "7200001": {
+   "S0 bp30 x16": {
+    "ok": true,
+    "iters": 3,
+    "errors": 0,
+    "seconds": 1.8916535000316799
+   },
+   "C1 chase S8 L2 app": {
+    "ok": true,
+    "iters": 3,
+    "errors": 0,
+    "seconds": 1.2380157001316547
+   },
+   "C2 chase S5 L3 app": {
+    "ok": true,
+    "iters": 3,
+    "errors": 0,
+    "seconds": 1.1944960001856089
+   },
+   "C3 chase S10 L2 app": {
+    "ok": true,
+    "iters": 3,
+    "errors": 0,
+    "seconds": 1.1993098000530154
+   }
+  },
+  "7200000": {
+   "S0 bp30 x16": {
+    "ok": true,
+    "iters": 9,
+    "errors": 0,
+    "seconds": 4.500075299991295
+   },
+   "C1 chase S8 L2 app": {
+    "ok": true,
+    "iters": 9,
+    "errors": 0,
+    "seconds": 3.536596199963242
+   },
+   "C2 chase S5 L3 app": {
+    "ok": true,
+    "iters": 9,
+    "errors": 0,
+    "seconds": 3.4376648999750614
+   },
+   "C3 chase S10 L2 app": {
+    "ok": true,
+    "iters": 9,
+    "errors": 0,
+    "seconds": 3.5115442001260817
+   }
+  },
+  "7200002": {
+   "S0 bp30 x16": {
+    "ok": true,
+    "iters": 15,
+    "errors": 0,
+    "seconds": 6.268236899981275
+   },
+   "C1 chase S8 L2 app": {
+    "ok": true,
+    "iters": 15,
+    "errors": 0,
+    "seconds": 5.786971499910578
+   },
+   "C2 chase S5 L3 app": {
+    "ok": true,
+    "iters": 15,
+    "errors": 0,
+    "seconds": 5.910444800043479
+   },
+   "C3 chase S10 L2 app": {
+    "ok": true,
+    "iters": 15,
+    "errors": 0,
+    "seconds": 5.5968867999035865
+   }
+  },
+  "7200014": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 74,
+    "seconds": 7.145194800104946
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.324914400000125
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.924825799884275
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.97061900002882
+   }
+  },
+  "7200113": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 77,
+    "seconds": 7.07643730007112
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.584930000128224
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.977994199842215
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.1321084999945
+   }
+  },
+  "7200084": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 62,
+    "seconds": 6.814614299917594
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.607632800005376
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.806790200062096
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.897939699934795
+   }
+  },
+  "7200094": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 69,
+    "seconds": 7.0083327000029385
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.449490499915555
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.727812599856406
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.042558799963444
+   }
+  },
+  "7200046": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 44,
+    "seconds": 6.9784951999317855
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.633088100003079
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.814447100041434
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.9283963998314
+   }
+  },
+  "7200044": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 58,
+    "seconds": 6.724010800011456
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.5356974999886
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.81517200008966
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.00732220010832
+   }
+  },
+  "7200049": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 77,
+    "seconds": 6.589526199968532
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.51915100007318
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.749752999981865
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.073209200054407
+   }
+  },
+  "7200003": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 53,
+    "seconds": 6.679666900075972
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.528980399947613
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.67747630015947
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.068654699949548
+   }
+  },
+  "7200082": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 60,
+    "seconds": 6.656237100018188
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.523879300104454
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.905414999928325
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 22.087246800074354
+   }
+  },
+  "7200034": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 71,
+    "seconds": 6.696435499936342
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.579383099917322
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.617601999780163
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.869607200147584
+   }
+  },
+  "7200088": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 62,
+    "seconds": 6.532238700194284
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.524321499979123
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.828529799822718
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.999153000069782
+   }
+  },
+  "7200089": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 51,
+    "seconds": 6.678840800188482
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.635104099987075
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.709969300078228
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.788919399958104
+   }
+  },
+  "7200022": {
+   "S0 bp30 x16": {
+    "ok": false,
+    "iters": 16,
+    "errors": 86,
+    "seconds": 6.4438140001147985
+   },
+   "C1 chase S8 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 10.685898200143129
+   },
+   "C2 chase S5 L3 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 9.868574800202623
+   },
+   "C3 chase S10 L2 app": {
+    "ok": false,
+    "iters": 16,
+    "errors": -1,
+    "seconds": 21.988486000103876
+   }
+  }
+ }
+}

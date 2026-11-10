@@ -1,0 +1,1309 @@
+{
+  "new": {
+    "label": "hop-limited CF-FSK designs 2026-11-05",
+    "designs": [
+      {
+        "geometry": {
+          "distance_m": 0.5,
+          "rotor_radius_m": 0.22526093916644951,
+          "rotor_diameter_m": 0.45052187833289903,
+          "rotor_mass_kg": 5.791239,
+          "copper_mass_kg": 0.5791239,
+          "power_ceiling_W": 38.9548,
+          "carrier_Hz": 24.0,
+          "wall_thickness_m": 0.2420390608335505,
+          "tx_coil_half_thickness_m": 0.0044053660735889335,
+          "tx_coil_mean_radius_m": 0.22085557309286058,
+          "magnetic_center_distance_m": 0.27144442690713944,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 1.784902221891103e-07,
+            "finite_loop_ratio": 9.731265141375431e-08
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 1.613004389781392e-08,
+            "finite_loop_ratio": 7.033307224390597e-09
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.2420390608335505,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 38.9548,
+            "bpsk_boundary_S_m": 53789699.3948908,
+            "capacity_boundary_S_m": 60157540.46943217,
+            "copper_bpsk_W": 165.82852382930878,
+            "copper_capacity_W": 19.09316957379665,
+            "quadrature_change_dB": {
+              "bpsk": -2.074410329559197e-08,
+              "capacity": -1.3545210328184719e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.2420390608335505,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 38.9548,
+            "bpsk_boundary_S_m": 50024156.10674151,
+            "capacity_boundary_S_m": 56184073.75337693,
+            "copper_bpsk_W": 637.204339379446,
+            "copper_capacity_W": 71.58694942713751,
+            "quadrature_change_dB": {
+              "bpsk": -7.312518322732773e-09,
+              "capacity": -1.3755693698578316e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.2420390608335505,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 38.9548,
+            "bpsk_boundary_S_m": 44291370.66432205,
+            "capacity_boundary_S_m": 50035890.68021429,
+            "copper_bpsk_W": 5518.224881043772,
+            "copper_capacity_W": 615.0709193038537,
+            "quadrature_change_dB": {
+              "bpsk": 2.5780037335285742e-08,
+              "capacity": -1.1658653303496021e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.2420390608335505,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 38.9548,
+            "bpsk_boundary_S_m": 38566209.590851486,
+            "capacity_boundary_S_m": 43850380.94952927,
+            "copper_bpsk_W": 55179.286783820266,
+            "copper_capacity_W": 6144.625470774335,
+            "quadrature_change_dB": {
+              "bpsk": -1.8670687380516282e-08,
+              "capacity": -1.1914896326563493e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 59010363.24477737,
+            "capacity_boundary_S_m": 65666681.38315666,
+            "copper_capacity_W": 3.0225447196545567
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 55239163.623720065,
+            "capacity_boundary_S_m": 61629552.44733908,
+            "copper_capacity_W": 11.360377261458463
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 49471716.19533561,
+            "capacity_boundary_S_m": 55379950.65447454,
+            "copper_capacity_W": 97.6962224950627
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 43750890.753819056,
+            "capacity_boundary_S_m": 49167617.00854741,
+            "copper_capacity_W": 976.1043480768512
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 47113456.4161477,
+            "capacity_boundary_S_m": 52819700.82619968,
+            "copper_capacity_W": 246.6329550524333
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 47030037.51126189,
+            "capacity_boundary_S_m": 52728986.86622474,
+            "copper_capacity_W": 254.97068146591596
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 46304652.061597645,
+            "capacity_boundary_S_m": 51939462.032049134,
+            "copper_capacity_W": 341.3064935187506
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 43217971.962419674,
+            "capacity_boundary_S_m": 48588861.70385199,
+            "copper_capacity_W": 1219.7146160402126
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.23777609422166288,
+          "serf_1pT": 0.2508087071815024
+        },
+        "free_band_supplementary": [
+          {
+            "label": "quiet PCB extrapolation",
+            "capacity_failure_sigma": 6050199423.429508,
+            "bpsk_budget_sigma": 634578777.6516632
+          },
+          {
+            "label": "1 pT ambient",
+            "capacity_failure_sigma": 6050182340.874321,
+            "bpsk_budget_sigma": 634454247.5867385
+          },
+          {
+            "label": "10 pT stress",
+            "capacity_failure_sigma": 6050184743.497732,
+            "bpsk_budget_sigma": 623823426.0664212
+          },
+          {
+            "label": "10 Hz ambient knee",
+            "capacity_failure_sigma": 6050196282.064963,
+            "bpsk_budget_sigma": 634573845.6898185
+          },
+          {
+            "label": "optimistic flat 1 fT total",
+            "capacity_failure_sigma": 35458284952.85172,
+            "bpsk_budget_sigma": 1199734259.510866
+          }
+        ]
+      },
+      {
+        "geometry": {
+          "distance_m": 1.0,
+          "rotor_radius_m": 0.3940283827698471,
+          "rotor_diameter_m": 0.7880567655396942,
+          "rotor_mass_kg": 30.982996,
+          "copper_mass_kg": 3.0982996000000003,
+          "power_ceiling_W": 638.768,
+          "carrier_Hz": 24.0,
+          "wall_thickness_m": 0.5732716172301529,
+          "tx_coil_half_thickness_m": 0.007704354991426002,
+          "tx_coil_mean_radius_m": 0.38632402777842106,
+          "magnetic_center_distance_m": 0.6059759722215788,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 1.0384609761765183e-16,
+            "finite_loop_ratio": 2.519948561682055e-16
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 3.4971731614379896e-19,
+            "finite_loop_ratio": 7.775857249916982e-19
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5732716172301529,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 638.768,
+            "bpsk_boundary_S_m": 13370797.74745484,
+            "capacity_boundary_S_m": 14833618.72416913,
+            "copper_bpsk_W": 2.4529241802617425e+22,
+            "copper_capacity_W": 1.352589196345307e+21,
+            "quadrature_change_dB": {
+              "bpsk": 1.5110471377508737e-09,
+              "capacity": -1.5721837247678137e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5732716172301529,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 638.768,
+            "bpsk_boundary_S_m": 12524190.96914327,
+            "capacity_boundary_S_m": 13945281.45468678,
+            "copper_bpsk_W": 9.462767357712357e+22,
+            "copper_capacity_W": 5.040752400899842e+21,
+            "quadrature_change_dB": {
+              "bpsk": 1.5238534065067015e-09,
+              "capacity": -1.584562372151873e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5732716172301529,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 638.768,
+            "bpsk_boundary_S_m": 11225083.212262303,
+            "capacity_boundary_S_m": 12558797.01491695,
+            "copper_bpsk_W": 8.204856284034628e+23,
+            "copper_capacity_W": 4.3229026458131285e+22,
+            "quadrature_change_dB": {
+              "bpsk": -1.3661935803449715e-08,
+              "capacity": -1.5274082261332062e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5732716172301529,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 638.768,
+            "bpsk_boundary_S_m": 9919220.011669923,
+            "capacity_boundary_S_m": 11157813.229086693,
+            "copper_bpsk_W": 8.205596287036857e+24,
+            "copper_capacity_W": 4.3176806759213225e+23,
+            "quadrature_change_dB": {
+              "bpsk": -1.9717117687571916e-08,
+              "capacity": -1.407575379186186e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 13147281.98548016,
+            "capacity_boundary_S_m": 14483491.432344362,
+            "copper_capacity_W": 5.842472928297382e+22
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 12278856.111628221,
+            "capacity_boundary_S_m": 13573439.894010637,
+            "copper_capacity_W": 2.1922698631804146e+23
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 11088111.179232264,
+            "capacity_boundary_S_m": 12310250.644694783,
+            "copper_capacity_W": 1.8843008392533942e+24
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 9905128.693962807,
+            "capacity_boundary_S_m": 11049430.552584425,
+            "copper_capacity_W": 1.8825291589263135e+25
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 10602586.569686616,
+            "capacity_boundary_S_m": 11792404.049590478,
+            "copper_capacity_W": 4.75669661288016e+24
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 10585332.078038797,
+            "capacity_boundary_S_m": 11774075.159452373,
+            "copper_capacity_W": 4.917498114739664e+24
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 10435256.27547042,
+            "capacity_boundary_S_m": 11614591.902320202,
+            "copper_capacity_W": 6.582571729600619e+24
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 9793024.363248454,
+            "capacity_boundary_S_m": 10930156.374350738,
+            "copper_capacity_W": 2.3523562457598414e+25
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.27793094341284247,
+          "serf_1pT": 0.24920797291326974
+        },
+        "free_band_supplementary": [
+          {
+            "label": "quiet PCB extrapolation",
+            "capacity_failure_sigma": 1867674026.4186127,
+            "bpsk_budget_sigma": 163342263.46465713
+          },
+          {
+            "label": "1 pT ambient",
+            "capacity_failure_sigma": 1867668426.2938094,
+            "bpsk_budget_sigma": 163313525.84229526
+          },
+          {
+            "label": "10 pT stress",
+            "capacity_failure_sigma": 1867671516.1923265,
+            "bpsk_budget_sigma": 160820670.40251186
+          },
+          {
+            "label": "10 Hz ambient knee",
+            "capacity_failure_sigma": 1867673283.3874466,
+            "bpsk_budget_sigma": 163341127.29212478
+          },
+          {
+            "label": "optimistic flat 1 fT total",
+            "capacity_failure_sigma": 9232961055.38159,
+            "bpsk_budget_sigma": 284539726.2258865
+          }
+        ]
+      },
+      {
+        "geometry": {
+          "distance_m": 2.0,
+          "rotor_radius_m": 0.7136119251308632,
+          "rotor_diameter_m": 1.4272238502617265,
+          "rotor_mass_kg": 184.04884,
+          "copper_mass_kg": 18.404884000000003,
+          "power_ceiling_W": 9367.954,
+          "carrier_Hz": 18.0,
+          "wall_thickness_m": 1.2536880748691368,
+          "tx_coil_half_thickness_m": 0.013953201166069587,
+          "tx_coil_mean_radius_m": 0.6996587239647937,
+          "magnetic_center_distance_m": 1.2926412760352064,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 1.1102818164321992e-35,
+            "finite_loop_ratio": 4.7124226434731714e-36
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 4.344531282567858e-41,
+            "finite_loop_ratio": 1.1910961421445702e-41
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2536880748691368,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 9367.954,
+            "bpsk_boundary_S_m": 4099312.952653831,
+            "capacity_boundary_S_m": 4564443.389432399,
+            "copper_bpsk_W": 6.858409155151677e+57,
+            "copper_capacity_W": 2.0215575041101472e+55,
+            "quadrature_change_dB": {
+              "bpsk": -3.936032931810719e-08,
+              "capacity": -2.5778227485496516e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2536880748691368,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 9367.954,
+            "bpsk_boundary_S_m": 3910214.6378861084,
+            "capacity_boundary_S_m": 4370486.10671263,
+            "copper_bpsk_W": 1.9858482678846502e+58,
+            "copper_capacity_W": 5.436161199640814e+55,
+            "quadrature_change_dB": {
+              "bpsk": 6.154558529667425e-08,
+              "capacity": -2.721038955063544e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2536880748691368,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 9367.954,
+            "bpsk_boundary_S_m": 3554341.2092077434,
+            "capacity_boundary_S_m": 3989925.9615117405,
+            "copper_bpsk_W": 1.544721472306569e+59,
+            "copper_capacity_W": 4.079124433988182e+56,
+            "quadrature_change_dB": {
+              "bpsk": 6.314888385718548e-08,
+              "capacity": -2.643961032123913e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2536880748691368,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 9367.954,
+            "bpsk_boundary_S_m": 3175616.711775205,
+            "capacity_boundary_S_m": 3580265.150829201,
+            "copper_bpsk_W": 1.524074563611295e+60,
+            "copper_capacity_W": 4.005038202728922e+57,
+            "quadrature_change_dB": {
+              "bpsk": -9.393629570991555e-10,
+              "capacity": -2.434449240939415e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 4277227.924746105,
+            "capacity_boundary_S_m": 4756948.723357162,
+            "copper_capacity_W": 9.170862181870709e+55
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 3971839.183490229,
+            "capacity_boundary_S_m": 4431493.249124356,
+            "copper_capacity_W": 3.1567749826358537e+56
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 3589308.241987682,
+            "capacity_boundary_S_m": 4019757.165454309,
+            "copper_capacity_W": 2.6348325939464852e+57
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 3215065.9122930947,
+            "capacity_boundary_S_m": 3615649.5309448335,
+            "copper_capacity_W": 2.6230654887394936e+58
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 3435671.329803643,
+            "capacity_boundary_S_m": 3853733.1837951033,
+            "copper_capacity_W": 6.635575002441326e+57
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 3430220.053428777,
+            "capacity_boundary_S_m": 3847887.9452041048,
+            "copper_capacity_W": 6.859543229419191e+57
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 3382782.661819835,
+            "capacity_boundary_S_m": 3797030.741216555,
+            "copper_capacity_W": 9.17869809467029e+57
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 3179736.9516379857,
+            "capacity_boundary_S_m": 3577582.3841869305,
+            "copper_capacity_W": 3.277452036611089e+58
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.2978267178913925,
+          "serf_1pT": 0.2903647017072474
+        },
+        "free_band_supplementary": [
+          {
+            "label": "quiet PCB extrapolation",
+            "capacity_failure_sigma": 512932615.93499726,
+            "bpsk_budget_sigma": 39442073.73303634
+          },
+          {
+            "label": "1 pT ambient",
+            "capacity_failure_sigma": 512930035.52287537,
+            "bpsk_budget_sigma": 39435512.35210777
+          },
+          {
+            "label": "10 pT stress",
+            "capacity_failure_sigma": 512929400.92252165,
+            "bpsk_budget_sigma": 38877861.9236117
+          },
+          {
+            "label": "10 Hz ambient knee",
+            "capacity_failure_sigma": 512932444.99708223,
+            "bpsk_budget_sigma": 39441822.561681464
+          },
+          {
+            "label": "optimistic flat 1 fT total",
+            "capacity_failure_sigma": 2277248422.790813,
+            "bpsk_budget_sigma": 64983723.388408825
+          }
+        ]
+      }
+    ]
+  },
+  "old_reproduction": {
+    "label": "released 2026-09-21 designs (reproduction)",
+    "designs": [
+      {
+        "geometry": {
+          "distance_m": 0.5,
+          "rotor_radius_m": 0.2402963533160248,
+          "rotor_diameter_m": 0.4805927066320496,
+          "rotor_mass_kg": 7.027334750750038,
+          "copper_mass_kg": 0.7027334750750038,
+          "power_ceiling_W": 120.49236454609739,
+          "carrier_Hz": 24.0,
+          "wall_thickness_m": 0.22700364668397519,
+          "tx_coil_half_thickness_m": 0.0046985094566059,
+          "tx_coil_mean_radius_m": 0.2355978438594189,
+          "magnetic_center_distance_m": 0.25670215614058106,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 4.6862201090825856e-07,
+            "finite_loop_ratio": 2.7640109705675176e-07
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 4.9169472024112527e-08,
+            "finite_loop_ratio": 2.3825374946193506e-08
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.22700364668397519,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 120.49236454609739,
+            "bpsk_boundary_S_m": 66374257.32548506,
+            "capacity_boundary_S_m": 74035575.86597857,
+            "copper_bpsk_W": 9.439042192632217,
+            "copper_capacity_W": 1.1224632233000489,
+            "quadrature_change_dB": {
+              "bpsk": -1.5415839170377367e-08,
+              "capacity": -1.371902823251052e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.22700364668397519,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 120.49236454609739,
+            "bpsk_boundary_S_m": 61878619.78819217,
+            "capacity_boundary_S_m": 69302606.10989642,
+            "copper_bpsk_W": 36.261517671216886,
+            "copper_capacity_W": 4.211263570324119,
+            "quadrature_change_dB": {
+              "bpsk": 1.8799602533554992e-08,
+              "capacity": -1.407961148745906e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.22700364668397519,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 120.49236454609739,
+            "bpsk_boundary_S_m": 54992835.6061597,
+            "capacity_boundary_S_m": 61925636.87481716,
+            "copper_bpsk_W": 314.00392504623863,
+            "copper_capacity_W": 36.190093123836945,
+            "quadrature_change_dB": {
+              "bpsk": 1.2199976791056268e-09,
+              "capacity": -1.3507973980256723e-07
+            }
+          },
+          {
+            "distance_m": 0.5,
+            "wall_thickness_m": 0.22700364668397519,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 120.49236454609739,
+            "bpsk_boundary_S_m": 48128918.68762232,
+            "capacity_boundary_S_m": 54528711.025333576,
+            "copper_bpsk_W": 3139.843883706611,
+            "copper_capacity_W": 361.5513162783413,
+            "quadrature_change_dB": {
+              "bpsk": 8.837383887348368e-08,
+              "capacity": -1.2638727658981644e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 68665535.54466484,
+            "capacity_boundary_S_m": 76565031.26524954,
+            "copper_capacity_W": 0.5451413006941531
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 64179468.99298365,
+            "capacity_boundary_S_m": 71793270.21630281,
+            "copper_capacity_W": 2.049446942365113
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 57236550.90317805,
+            "capacity_boundary_S_m": 64304905.72455674,
+            "copper_capacity_W": 17.626071721419226
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 50342644.1359298,
+            "capacity_boundary_S_m": 56799077.74981071,
+            "copper_capacity_W": 176.10755825427162
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 54389505.28880042,
+            "capacity_boundary_S_m": 61209925.70627387,
+            "copper_capacity_W": 44.497083189011356
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 54289678.17193584,
+            "capacity_boundary_S_m": 61101013.41434974,
+            "copper_capacity_W": 46.001367175267276
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 53419132.34083017,
+            "capacity_boundary_S_m": 60153910.09330874,
+            "copper_capacity_W": 61.57798519307642
+          },
+          {
+            "distance_m": 0.5,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 49709377.308499284,
+            "capacity_boundary_S_m": 56104481.6398875,
+            "copper_capacity_W": 220.05947110254112
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.2503276048989568,
+          "serf_1pT": 0.2552492558990176
+        }
+      },
+      {
+        "geometry": {
+          "distance_m": 1.0,
+          "rotor_radius_m": 0.4206287956499422,
+          "rotor_diameter_m": 0.8412575912998844,
+          "rotor_mass_kg": 37.69173275922457,
+          "copper_mass_kg": 3.769173275922457,
+          "power_ceiling_W": 1980.2436500888432,
+          "carrier_Hz": 24.0,
+          "wall_thickness_m": 0.5466712043500578,
+          "tx_coil_half_thickness_m": 0.008224545844367614,
+          "tx_coil_mean_radius_m": 0.4124042498055746,
+          "magnetic_center_distance_m": 0.5798957501944254,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 5.728576008765654e-16,
+            "finite_loop_ratio": 1.081444633275241e-15
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 2.5125128712237024e-18,
+            "finite_loop_ratio": 4.262843109795893e-18
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5466712043500578,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 1980.2436500888432,
+            "bpsk_boundary_S_m": 15480082.474387135,
+            "capacity_boundary_S_m": 17137279.78221168,
+            "copper_bpsk_W": 5.383251737036588e+20,
+            "copper_capacity_W": 3.1671462827256664e+19,
+            "quadrature_change_dB": {
+              "bpsk": -2.4045165935237986e-08,
+              "capacity": -1.4155235590310114e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5466712043500578,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 1980.2436500888432,
+            "bpsk_boundary_S_m": 14525907.698742075,
+            "capacity_boundary_S_m": 16136821.657846097,
+            "copper_bpsk_W": 2.076137165712417e+21,
+            "copper_capacity_W": 1.1806372308484253e+20,
+            "quadrature_change_dB": {
+              "bpsk": 1.648783958453613e-09,
+              "capacity": -1.6764455375392993e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5466712043500578,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 1980.2436500888432,
+            "bpsk_boundary_S_m": 13064382.888859732,
+            "capacity_boundary_S_m": 14579042.294056598,
+            "copper_bpsk_W": 1.7999932308770808e+22,
+            "copper_capacity_W": 1.0125907249648132e+21,
+            "quadrature_change_dB": {
+              "bpsk": -2.4050959614657037e-08,
+              "capacity": -1.5749182488781696e-07
+            }
+          },
+          {
+            "distance_m": 1.0,
+            "wall_thickness_m": 0.5466712043500578,
+            "carrier_Hz": 24.0,
+            "capacity_band_Hz": [
+              23.0,
+              25.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 1980.2436500888432,
+            "bpsk_boundary_S_m": 11589135.396211412,
+            "capacity_boundary_S_m": 12997465.970147898,
+            "copper_bpsk_W": 1.800137098735977e+23,
+            "copper_capacity_W": 1.0113777956051248e+22,
+            "quadrature_change_dB": {
+              "bpsk": 1.3186213777649647e-09,
+              "capacity": -1.466728884627807e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 14349789.8782159,
+            "capacity_boundary_S_m": 15770717.229748905,
+            "copper_capacity_W": 1.6016333754571419e+21
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 13447917.369415307,
+            "capacity_boundary_S_m": 14823335.065816442,
+            "copper_capacity_W": 6.010188746577774e+21
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 12199043.70674988,
+            "capacity_boundary_S_m": 13498897.749831682,
+            "copper_capacity_W": 5.165985137676998e+22
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 10956622.152331742,
+            "capacity_boundary_S_m": 12176141.595813919,
+            "copper_capacity_W": 5.161140292568719e+23
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 11691444.522055913,
+            "capacity_boundary_S_m": 12956657.833183156,
+            "copper_capacity_W": 1.3040944976555584e+23
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 11673226.0053964,
+            "capacity_boundary_S_m": 12937316.107536944,
+            "copper_capacity_W": 1.3481798350798576e+23
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 11514141.252376903,
+            "capacity_boundary_S_m": 12768787.610339422,
+            "copper_capacity_W": 1.8046763932313285e+23
+          },
+          {
+            "distance_m": 1.0,
+            "carrier_Hz": 24.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 10839649.192841485,
+            "capacity_boundary_S_m": 12050921.946772553,
+            "copper_capacity_W": 6.449218165736418e+23
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.283303254445486,
+          "serf_1pT": 0.25471952487747623
+        }
+      },
+      {
+        "geometry": {
+          "distance_m": 2.0,
+          "rotor_radius_m": 0.7656434061793719,
+          "rotor_diameter_m": 1.5312868123587438,
+          "rotor_mass_kg": 227.3153385558173,
+          "copper_mass_kg": 22.73153385558173,
+          "power_ceiling_W": 29680.143,
+          "carrier_Hz": 18.0,
+          "wall_thickness_m": 1.2016565938206283,
+          "tx_coil_half_thickness_m": 0.01497060914441197,
+          "tx_coil_mean_radius_m": 0.7506727970349599,
+          "magnetic_center_distance_m": 1.2416272029650401,
+          "pcb_rx_radius_m": 0.3403330741855069
+        },
+        "skin_depth": [
+          {
+            "f_Hz": 18.0,
+            "skin_depth_m": 0.015576500103212156,
+            "bulk_amplitude": 3.1343195266423756e-34,
+            "finite_loop_ratio": 5.562326043960372e-35
+          },
+          {
+            "f_Hz": 24.0,
+            "skin_depth_m": 0.013489644791432656,
+            "bulk_amplitude": 2.056262683604754e-39,
+            "finite_loop_ratio": 2.8447278941761642e-40
+          }
+        ],
+        "aligned_pcb": [
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2016565938206283,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 0.38,
+            "power_ceiling_W": 29680.143,
+            "bpsk_boundary_S_m": 4607299.393196989,
+            "capacity_boundary_S_m": 5121603.37571674,
+            "copper_bpsk_W": 2.964004236279161e+55,
+            "copper_capacity_W": 1.1397356232259471e+53,
+            "quadrature_change_dB": {
+              "bpsk": 4.369477298553144e-08,
+              "capacity": -2.7213210015609614e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2016565938206283,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 1.0,
+            "power_ceiling_W": 29680.143,
+            "bpsk_boundary_S_m": 4400398.746586625,
+            "capacity_boundary_S_m": 4908483.121340775,
+            "copper_bpsk_W": 8.576720771966869e+55,
+            "copper_capacity_W": 3.065835049057927e+53,
+            "quadrature_change_dB": {
+              "bpsk": 3.253394004319353e-09,
+              "capacity": -2.8262706112546915e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2016565938206283,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 3.14,
+            "power_ceiling_W": 29680.143,
+            "bpsk_boundary_S_m": 4011118.3760825237,
+            "capacity_boundary_S_m": 4493058.9050587155,
+            "copper_bpsk_W": 6.6695495222154095e+56,
+            "copper_capacity_W": 2.3008732374336478e+54,
+            "quadrature_change_dB": {
+              "bpsk": -1.035369085283281e-08,
+              "capacity": -2.763834265105232e-07
+            }
+          },
+          {
+            "distance_m": 2.0,
+            "wall_thickness_m": 1.2016565938206283,
+            "carrier_Hz": 18.0,
+            "capacity_band_Hz": [
+              17.0,
+              19.0
+            ],
+            "background_pT_sqrtHz": 10.0,
+            "power_ceiling_W": 29680.143,
+            "bpsk_boundary_S_m": 3597110.859503102,
+            "capacity_boundary_S_m": 4045906.904838991,
+            "copper_bpsk_W": 6.580144685899831e+57,
+            "copper_capacity_W": 2.2591334157175742e+55,
+            "quadrature_change_dB": {
+              "bpsk": -3.3206762888537354e-08,
+              "capacity": -2.304416239501477e-07
+            }
+          }
+        ],
+        "atomic": [
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 4698232.704272755,
+            "capacity_boundary_S_m": 5211714.566447798,
+            "copper_capacity_W": 1.9636556564887385e+53
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 4379045.219913509,
+            "capacity_boundary_S_m": 4871764.657022884,
+            "copper_capacity_W": 6.759706221191424e+53
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 3975174.4545690473,
+            "capacity_boundary_S_m": 4438572.458160406,
+            "copper_capacity_W": 5.6421889575911957e+54
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "optimistic compensated SERF",
+            "instrument_ASD_T_sqrtHz": 3.5e-14,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 3578719.601814741,
+            "capacity_boundary_S_m": 4011568.5223997445,
+            "copper_capacity_W": 5.617007513259732e+55
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 0.38,
+            "bpsk_boundary_S_m": 3813259.3026693636,
+            "capacity_boundary_S_m": 4263389.970576616,
+            "copper_capacity_W": 1.4209343539284283e+55
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 1.0,
+            "bpsk_boundary_S_m": 3807491.088878483,
+            "capacity_boundary_S_m": 4257158.277731768,
+            "copper_capacity_W": 1.4688947129242594e+55
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 3.14,
+            "bpsk_boundary_S_m": 3756902.6105480352,
+            "capacity_boundary_S_m": 4202844.868252321,
+            "copper_capacity_W": 1.9655164945135478e+55
+          },
+          {
+            "distance_m": 2.0,
+            "carrier_Hz": 18.0,
+            "sensor": "Mx benchmark",
+            "instrument_ASD_T_sqrtHz": 5e-12,
+            "background_pT_sqrtHz": 10.0,
+            "bpsk_boundary_S_m": 3541544.3952334896,
+            "capacity_boundary_S_m": 3971213.9385045087,
+            "copper_capacity_W": 7.018305107050676e+55
+          }
+        ],
+        "critical_copper_thickness_m": {
+          "pcb_1pT": 0.3029990918557419,
+          "serf_1pT": 0.29682543302135134
+        }
+      }
+    ]
+  },
+  "new_designs": [
+    {
+      "distance": 0.5,
+      "scale": 0.9010437566657981,
+      "radius": 0.22526093916644951,
+      "mass": 5.791239,
+      "inertia": 0.187497,
+      "carrier": 24.0,
+      "power": 38.9548
+    },
+    {
+      "distance": 1.0,
+      "scale": 1.5761135310793883,
+      "radius": 0.3940283827698471,
+      "mass": 30.982996,
+      "inertia": 3.074508,
+      "carrier": 24.0,
+      "power": 638.768
+    },
+    {
+      "distance": 2.0,
+      "scale": 2.854447700523453,
+      "radius": 0.7136119251308632,
+      "mass": 184.04884,
+      "inertia": 59.892758,
+      "carrier": 18.0,
+      "power": 9367.954
+    }
+  ],
+  "old_designs": [
+    {
+      "distance": 0.5,
+      "mass": 7.027334750750038,
+      "radius": 0.2402963533160248,
+      "power": 120.49236454609739,
+      "carrier": 24.0
+    },
+    {
+      "distance": 1.0,
+      "mass": 37.69173275922457,
+      "radius": 0.4206287956499422,
+      "power": 1980.2436500888432,
+      "carrier": 24.0
+    },
+    {
+      "distance": 2.0,
+      "mass": 227.3153385558173,
+      "radius": 0.7656434061793719,
+      "power": 29680.143,
+      "carrier": 18.0
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+ "baseline|24|1": {
+  "scenario": "baseline",
+  "carrier_hz": 24.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.36142886727384776,
+  "seconds": 201.64784121513367
+ },
+ "baseline|18|1": {
+  "scenario": "baseline",
+  "carrier_hz": 18.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.4348992607642362,
+  "seconds": 201.28580856323242
+ },
+ "three_stage|24|1": {
+  "scenario": "three_stage",
+  "carrier_hz": 24.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.31800535478297925,
+  "seconds": 202.27758502960205
+ },
+ "three_stage|18|1": {
+  "scenario": "three_stage",
+  "carrier_hz": 18.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.3180057459579293,
+  "seconds": 201.92017269134521
+ },
+ "baseline|24|0.3": {
+  "scenario": "baseline",
+  "carrier_hz": 24.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.18192230548669533,
+  "seconds": 340.9793004989624
+ },
+ "baseline|24|0.1": {
+  "scenario": "baseline",
+  "carrier_hz": 24.0,
+  "instrument": 0.1,
+  "threshold_A0": 0.14717030349465676,
+  "seconds": 343.9162287712097
+ },
+ "baseline|18|0.3": {
+  "scenario": "baseline",
+  "carrier_hz": 18.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.28212657309025035,
+  "seconds": 303.1121664047241
+ },
+ "baseline|18|0.1": {
+  "scenario": "baseline",
+  "carrier_hz": 18.0,
+  "instrument": 0.1,
+  "threshold_A0": 0.25626028176841437,
+  "seconds": 299.308317899704
+ },
+ "baseline|15|1": {
+  "scenario": "baseline",
+  "carrier_hz": 15.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.5247592899306512,
+  "seconds": 264.2010145187378
+ },
+ "baseline|15|0.3": {
+  "scenario": "baseline",
+  "carrier_hz": 15.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.39042989951249646,
+  "seconds": 305.04051542282104
+ },
+ "baseline|15|0.1": {
+  "scenario": "baseline",
+  "carrier_hz": 15.0,
+  "instrument": 0.1,
+  "threshold_A0": 0.37053620355324834,
+  "seconds": 338.9084355831146
+ },
+ "baseline|12|1": {
+  "scenario": "baseline",
+  "carrier_hz": 12.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.7120887808691875,
+  "seconds": 298.481333732605
+ },
+ "baseline|12|0.3": {
+  "scenario": "baseline",
+  "carrier_hz": 12.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.6025038836752673,
+  "seconds": 300.4155504703522
+ },
+ "baseline|12|0.1": {
+  "scenario": "baseline",
+  "carrier_hz": 12.0,
+  "instrument": 0.1,
+  "threshold_A0": 0.5888754365402362,
+  "seconds": 264.70661425590515
+ },
+ "baseline|10|1": {
+  "scenario": "baseline",
+  "carrier_hz": 10.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.958394506964053,
+  "seconds": 263.93683648109436
+ },
+ "baseline|10|0.3": {
+  "scenario": "baseline",
+  "carrier_hz": 10.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.8689248567319656,
+  "seconds": 263.5757300853729
+ },
+ "baseline|10|0.1": {
+  "scenario": "baseline",
+  "carrier_hz": 10.0,
+  "instrument": 0.1,
+  "threshold_A0": 0.8592409920170332,
+  "seconds": 276.60659646987915
+ },
+ "feedforward|24|1": {
+  "scenario": "feedforward",
+  "carrier_hz": 24.0,
+  "instrument": 1.0,
+  "threshold_A0": 0.31812876647334376,
+  "seconds": 313.0544710159302
+ },
+ "feedforward|24|0.3": {
+  "scenario": "feedforward",
+  "carrier_hz": 24.0,
+  "instrument": 0.3,
+  "threshold_A0": 0.09712412624962437,
+  "seconds": 368.79478883743286
+ }
+}

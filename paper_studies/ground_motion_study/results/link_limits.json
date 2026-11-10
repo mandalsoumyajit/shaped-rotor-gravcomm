@@ -1,0 +1,89 @@
+{
+ "0.5m": {
+  "carrier_hz": 24.0,
+  "A2_nGal": 42.08960787569003,
+  "A2_check_nGal": 42.08960475528567,
+  "noise_asd_eff_nGal": 11.241393982427308,
+  "noise_asd_carrier_nGal": 6.660024988974939,
+  "P_over_N0_Hz": 7.009377105640773,
+  "EbN0_dB": 8.456794257266239,
+  "gap_to_shannon_dB": 10.048539646814856,
+  "capacity_wideband_bit_s": 10.11239359002858,
+  "occupied_span_Hz": 0.86784,
+  "capacity_in_span_bit_s": 2.7616274737850657,
+  "confinement": {
+   "0.8": {
+    "distance_m": 0.5271519606888039,
+    "ratio": 1.0543039213776078
+   },
+   "0.5": {
+    "distance_m": 0.5898489479317806,
+    "ratio": 1.179697895863561
+   },
+   "0.25": {
+    "distance_m": 0.6975342933402371,
+    "ratio": 1.3950685866804742
+   }
+  },
+  "amplitude_ratio_at_twice_distance": 0.05756191574183504,
+  "integration_penalty_at_twice_distance": 301.807147813368
+ },
+ "1m": {
+  "carrier_hz": 24.0,
+  "A2_nGal": 42.08960787569003,
+  "A2_check_nGal": 42.08764355678035,
+  "noise_asd_eff_nGal": 11.241393982427308,
+  "noise_asd_carrier_nGal": 6.660024988974939,
+  "P_over_N0_Hz": 7.009377105640773,
+  "EbN0_dB": 8.456794257266239,
+  "gap_to_shannon_dB": 10.048539646814856,
+  "capacity_wideband_bit_s": 10.11239359002858,
+  "occupied_span_Hz": 0.86784,
+  "capacity_in_span_bit_s": 2.7616274737850657,
+  "confinement": {
+   "0.8": {
+    "distance_m": 1.0550793969438887,
+    "ratio": 1.0550793969438887
+   },
+   "0.5": {
+    "distance_m": 1.182088940752285,
+    "ratio": 1.182088940752285
+   },
+   "0.25": {
+    "distance_m": 1.399857488246339,
+    "ratio": 1.399857488246339
+   }
+  },
+  "amplitude_ratio_at_twice_distance": 0.0587717220689432,
+  "integration_penalty_at_twice_distance": 289.50973225244934
+ },
+ "2m": {
+  "carrier_hz": 18.0,
+  "A2_nGal": 51.80259430854157,
+  "A2_check_nGal": 51.8048871544186,
+  "noise_asd_eff_nGal": 13.702343312350168,
+  "noise_asd_carrier_nGal": 9.180625284387567,
+  "P_over_N0_Hz": 7.146334414935035,
+  "EbN0_dB": 8.540833352869011,
+  "gap_to_shannon_dB": 10.132578742417628,
+  "capacity_wideband_bit_s": 10.309981220960907,
+  "occupied_span_Hz": 0.86784,
+  "capacity_in_span_bit_s": 2.783208805420542,
+  "confinement": {
+   "0.8": {
+    "distance_m": 2.110993312000871,
+    "ratio": 1.0554966560004355
+   },
+   "0.5": {
+    "distance_m": 2.3667769335212436,
+    "ratio": 1.1833884667606218
+   },
+   "0.25": {
+    "distance_m": 2.80492366658355,
+    "ratio": 1.402461833291775
+   }
+  },
+  "amplitude_ratio_at_twice_distance": 0.05943662973024463,
+  "integration_penalty_at_twice_distance": 283.06856886162245
+ }
+}

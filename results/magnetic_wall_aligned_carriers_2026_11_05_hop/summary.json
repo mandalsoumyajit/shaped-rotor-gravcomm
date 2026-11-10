@@ -1,0 +1,230 @@
+[
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.2337595002183845,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 0.38,
+    "power_ceiling_W": 46.6598,
+    "bpsk_boundary_S_m": 58968411.71504796,
+    "capacity_boundary_S_m": 65912202.371877454,
+    "copper_bpsk_W": 34.039587377801595,
+    "copper_capacity_W": 3.990223170552431,
+    "quadrature_change_dB": {
+      "bpsk": 3.424979876291072e-08,
+      "capacity": -1.3589246534810368e-07
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.2337595002183845,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 1.0,
+    "power_ceiling_W": 46.6598,
+    "bpsk_boundary_S_m": 54867558.62002156,
+    "capacity_boundary_S_m": 61589241.70761789,
+    "copper_bpsk_W": 130.78199700904418,
+    "copper_capacity_W": 14.966008962101672,
+    "quadrature_change_dB": {
+      "bpsk": 1.260970024504543e-09,
+      "capacity": -1.380893518233419e-07
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.2337595002183845,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 3.14,
+    "power_ceiling_W": 46.6598,
+    "bpsk_boundary_S_m": 48623103.73864456,
+    "capacity_boundary_S_m": 54890958.27493934,
+    "copper_bpsk_W": 1132.5340451261043,
+    "copper_capacity_W": 128.6007810993644,
+    "quadrature_change_dB": {
+      "bpsk": -2.6369823871139598e-08,
+      "capacity": -1.3028552601429464e-07
+    }
+  },
+  {
+    "distance_m": 0.5,
+    "wall_thickness_m": 0.2337595002183845,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 10.0,
+    "power_ceiling_W": 46.6598,
+    "bpsk_boundary_S_m": 42377265.04819664,
+    "capacity_boundary_S_m": 48150494.95982896,
+    "copper_bpsk_W": 11324.679324607243,
+    "copper_capacity_W": 1284.751777240478,
+    "quadrature_change_dB": {
+      "bpsk": -7.2199158847745935e-09,
+      "capacity": -1.187554250838444e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5586315176733118,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 0.38,
+    "power_ceiling_W": 766.587,
+    "bpsk_boundary_S_m": 14198953.45985992,
+    "capacity_boundary_S_m": 15745812.543481907,
+    "copper_bpsk_W": 2.942301683886746e+21,
+    "copper_capacity_W": 1.6820640999854935e+20,
+    "quadrature_change_dB": {
+      "bpsk": 2.1466484858096905e-08,
+      "capacity": -1.3834498732010544e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5586315176733118,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 1.0,
+    "power_ceiling_W": 766.587,
+    "bpsk_boundary_S_m": 13303530.942983761,
+    "capacity_boundary_S_m": 14806322.245885905,
+    "copper_bpsk_W": 1.1348890114207125e+22,
+    "copper_capacity_W": 6.269559964584009e+20,
+    "quadrature_change_dB": {
+      "bpsk": 7.492801271259842e-09,
+      "capacity": -1.6243343227204235e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5586315176733118,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 3.14,
+    "power_ceiling_W": 766.587,
+    "bpsk_boundary_S_m": 11933312.019826395,
+    "capacity_boundary_S_m": 13344403.327114323,
+    "copper_bpsk_W": 9.839775740881565e+22,
+    "copper_capacity_W": 5.37697000413183e+21,
+    "quadrature_change_dB": {
+      "bpsk": -2.7573964149385223e-08,
+      "capacity": -1.5463468461143394e-07
+    }
+  },
+  {
+    "distance_m": 1.0,
+    "wall_thickness_m": 0.5586315176733118,
+    "carrier_Hz": 24.0,
+    "capacity_band_Hz": [
+      23.0,
+      25.0
+    ],
+    "background_pT_sqrtHz": 10.0,
+    "power_ceiling_W": 766.587,
+    "bpsk_boundary_S_m": 10551225.009462178,
+    "capacity_boundary_S_m": 11861484.35622869,
+    "copper_bpsk_W": 9.840607351372548e+23,
+    "copper_capacity_W": 5.370504566112367e+22,
+    "quadrature_change_dB": {
+      "bpsk": 1.2763144031523389e-09,
+      "capacity": -1.3914070020047696e-07
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2272205289262745,
+    "carrier_Hz": 18.0,
+    "capacity_band_Hz": [
+      17.0,
+      19.0
+    ],
+    "background_pT_sqrtHz": 0.38,
+    "power_ceiling_W": 11238.958,
+    "bpsk_boundary_S_m": 4275537.153546399,
+    "capacity_boundary_S_m": 4759893.769884984,
+    "copper_bpsk_W": 4.6460553833517445e+56,
+    "copper_capacity_W": 1.536557670701093e+54,
+    "quadrature_change_dB": {
+      "bpsk": -3.127876369810804e-08,
+      "capacity": -2.638981553671421e-07
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2272205289262745,
+    "carrier_Hz": 18.0,
+    "capacity_band_Hz": [
+      17.0,
+      19.0
+    ],
+    "background_pT_sqrtHz": 1.0,
+    "power_ceiling_W": 11238.958,
+    "bpsk_boundary_S_m": 4079435.2359724385,
+    "capacity_boundary_S_m": 4557209.434127183,
+    "copper_bpsk_W": 1.344894937239373e+57,
+    "copper_capacity_W": 4.13250617871654e+54,
+    "quadrature_change_dB": {
+      "bpsk": 1.0594726431752738e-08,
+      "capacity": -2.716652345137489e-07
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2272205289262745,
+    "carrier_Hz": 18.0,
+    "capacity_band_Hz": [
+      17.0,
+      19.0
+    ],
+    "background_pT_sqrtHz": 3.14,
+    "power_ceiling_W": 11238.958,
+    "bpsk_boundary_S_m": 3710044.3406037535,
+    "capacity_boundary_S_m": 4162824.091168677,
+    "copper_bpsk_W": 1.0460149680731021e+58,
+    "copper_capacity_W": 3.1011115440933523e+55,
+    "quadrature_change_dB": {
+      "bpsk": -3.180583423284713e-10,
+      "capacity": -2.6597122798163966e-07
+    }
+  },
+  {
+    "distance_m": 2.0,
+    "wall_thickness_m": 1.2272205289262745,
+    "carrier_Hz": 18.0,
+    "capacity_band_Hz": [
+      17.0,
+      19.0
+    ],
+    "background_pT_sqrtHz": 10.0,
+    "power_ceiling_W": 11238.958,
+    "bpsk_boundary_S_m": 3317757.0036804457,
+    "capacity_boundary_S_m": 3739004.741736548,
+    "copper_bpsk_W": 1.0320166269263179e+59,
+    "copper_capacity_W": 3.044816320377354e+56,
+    "quadrature_change_dB": {
+      "bpsk": -3.13941666946854e-08,
+      "capacity": -2.4960750119935885e-07
+    }
+  }
+]

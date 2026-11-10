@@ -1,0 +1,27 @@
+{
+  "name": "design1_high",
+  "scale": 0.9010437566657981,
+  "kind": "centrifugal",
+  "rpm": 736.35918,
+  "design": 1,
+  "mesh": 0.018,
+  "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/design1_high",
+  "input_sha256": "6994019ad3c91530a89c2f76234993b37bcc3ffe08b9945772f04504fcd59941",
+  "frequencies_hz": [
+    82.56076,
+    101.1378,
+    112.4356,
+    166.4226,
+    252.2533,
+    304.8455,
+    409.8202,
+    551.8032,
+    640.7271,
+    646.8093,
+    696.8273,
+    904.8303
+  ],
+  "max_u_m": 8.331825236645707e-06,
+  "raw_max_vm_pa": 6816888.238328448,
+  "elapsed_s": 727.2002785205841
+}

@@ -1,0 +1,116 @@
+{
+ "24": {
+  "amplitude_A0": 0.525,
+  "probit_s_db": 0.567145074463526,
+  "known": {
+   "packets": 2048,
+   "failures": 53
+  },
+  "track": {
+   "packets": 2048,
+   "failures_known": 53,
+   "failures": 63,
+   "fer_known": 0.02587890625,
+   "fer": 0.03076171875,
+   "only_receiver": 20,
+   "only_known": 10,
+   "loss_db": 0.04246916690134311,
+   "loss_db_ci95": [
+    0.0,
+    0.08935284289679456
+   ]
+  },
+  "acq": {
+   "packets": 2048,
+   "failures_known": 53,
+   "failures": 554,
+   "fer_known": 0.02587890625,
+   "fer": 0.2705078125,
+   "only_receiver": 503,
+   "only_known": 2,
+   "loss_db": 0.7545135024123429,
+   "loss_db_ci95": [
+    0.6958258605142038,
+    0.8235315226329201
+   ]
+  }
+ },
+ "18": {
+  "amplitude_A0": 0.63,
+  "probit_s_db": 0.5978830193977871,
+  "known": {
+   "packets": 2048,
+   "failures": 46
+  },
+  "track": {
+   "packets": 2048,
+   "failures_known": 46,
+   "failures": 56,
+   "fer_known": 0.0224609375,
+   "fer": 0.02734375,
+   "only_receiver": 14,
+   "only_known": 4,
+   "loss_db": 0.049827060723331464,
+   "loss_db_ci95": [
+    0.009941469188902343,
+    0.0931674933555146
+   ]
+  },
+  "acq": {
+   "packets": 2048,
+   "failures_known": 46,
+   "failures": 466,
+   "fer_known": 0.0224609375,
+   "fer": 0.2275390625,
+   "only_receiver": 423,
+   "only_known": 3,
+   "loss_db": 0.7500474859372553,
+   "loss_db_ci95": [
+    0.682405008344338,
+    0.8277063255395045
+   ]
+  }
+ },
+ "sync_errors": {
+  "acqqual_f24_a0.5800": {
+   "packets": 256,
+   "rejected": 16,
+   "rms_phase_err_deg": 6.364813337263488,
+   "rms_timing_err_s": 0.07288500145071347,
+   "rms_amp_err": 0.11041718013768123,
+   "max_abs_phase_err_deg": 18.180632566294022,
+   "max_abs_timing_err_s": 0.20463566542356781,
+   "max_abs_amp_err": 0.3982818032561237
+  },
+  "acqqual_f18_a0.6970": {
+   "packets": 256,
+   "rejected": 9,
+   "rms_phase_err_deg": 6.090956636174668,
+   "rms_timing_err_s": 0.06763091636712515,
+   "rms_amp_err": 0.10506965832607033,
+   "max_abs_phase_err_deg": 17.649479347318938,
+   "max_abs_timing_err_s": 0.18847070844214187,
+   "max_abs_amp_err": 0.37526743056830325
+  },
+  "trackqual_f24_a0.5800": {
+   "packets": 6656,
+   "rejected": 1,
+   "rms_phase_err_deg": 1.3183084633841549,
+   "rms_timing_err_s": 0.019141042725671523,
+   "rms_amp_err": 0.022378899980026092,
+   "max_abs_phase_err_deg": 5.089446122105224,
+   "max_abs_timing_err_s": 0.07406182298285313,
+   "max_abs_amp_err": 0.08548663726442374
+  },
+  "trackqual_f18_a0.6970": {
+   "packets": 7168,
+   "rejected": 3,
+   "rms_phase_err_deg": 1.3567257961045316,
+   "rms_timing_err_s": 0.017773014078434336,
+   "rms_amp_err": 0.022885696853934333,
+   "max_abs_phase_err_deg": 5.283943905527618,
+   "max_abs_timing_err_s": 0.07089979652710002,
+   "max_abs_amp_err": 0.08824567033631125
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "design1_low",
+  "scale": 0.9010437566657981,
+  "kind": "centrifugal",
+  "rpm": 703.64082,
+  "design": 1,
+  "mesh": 0.018,
+  "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design1_low",
+  "input_sha256": "778d3e98f56c7441cd4e9b483a0529ab6c7e67f12b35b88f33e9260144094c0d",
+  "frequencies_hz": [
+    83.15466,
+    101.9315,
+    112.4327,
+    168.7405,
+    252.2808,
+    324.0093,
+    410.5002,
+    613.7088,
+    640.8099,
+    647.7868,
+    697.268,
+    1057.324
+  ],
+  "max_u_m": 7.54681727694201e-06,
+  "raw_max_vm_pa": 6134280.076854968,
+  "elapsed_s": 96.24580264091492
+}

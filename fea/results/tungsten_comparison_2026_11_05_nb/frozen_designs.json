@@ -1,0 +1,127 @@
+{
+  "selection": "Hop-limited CPFSK final design points (user, 2026-11-05, tag 2026_11_05_nb) replacing the 2026-09-20 tb_2/3 designs",
+  "cad_reference": {
+    "mass_kg": 7.913509491619677,
+    "inertia_kg_m2": 0.31607130958509544,
+    "source": "fea/results/three_link_designs_2026_09_20/frozen_designs.json"
+  },
+  "channels": [
+    {
+      "config": {
+        "id": "hop_cpfsk_f24_d0.5",
+        "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+        "carrier_hz": 24.0,
+        "tone_spacing_hz": 0.18176,
+        "tone_offsets_k": [
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3
+        ],
+        "commanded_half_range_hz": 0.545306,
+        "symbol_s": 1.1789473684210525,
+        "transition_s": 1.1789473684210525,
+        "transition_profile": "quintic over the full symbol, no dwell",
+        "max_hop_tones": 3,
+        "peak_dfg_dt_hz_s": 0.867212
+      },
+      "distance_m": [
+        0.5
+      ],
+      "source_designs": [
+        {
+          "distance_m": 0.5,
+          "scale": 0.9010437566657981,
+          "diameter_m": 0.45052187833289903,
+          "mass_kg": 5.789042966850119,
+          "inertia_kg_m2": 0.18772170271562333,
+          "peak_alpha_rad_s2": 2.7244268483049114,
+          "peak_torque_nm": 0.5114340468879572,
+          "peak_power_w": 39.437371330763625,
+          "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "hop_cpfsk_f24_d1",
+        "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+        "carrier_hz": 24.0,
+        "tone_spacing_hz": 0.18176,
+        "tone_offsets_k": [
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3
+        ],
+        "commanded_half_range_hz": 0.545306,
+        "symbol_s": 1.1789473684210525,
+        "transition_s": 1.1789473684210525,
+        "transition_profile": "quintic over the full symbol, no dwell",
+        "max_hop_tones": 3,
+        "peak_dfg_dt_hz_s": 0.867212
+      },
+      "distance_m": [
+        1.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 1.0,
+          "scale": 1.5761135310793883,
+          "diameter_m": 0.7880567655396942,
+          "mass_kg": 30.98358165633984,
+          "inertia_kg_m2": 3.0741323659525897,
+          "peak_alpha_rad_s2": 2.7244268483049114,
+          "peak_torque_nm": 8.375248753044335,
+          "peak_power_w": 645.8267631401643,
+          "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+        }
+      ]
+    },
+    {
+      "config": {
+        "id": "hop_cpfsk_f18_d2",
+        "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+        "carrier_hz": 18.0,
+        "tone_spacing_hz": 0.18176,
+        "tone_offsets_k": [
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3
+        ],
+        "commanded_half_range_hz": 0.545306,
+        "symbol_s": 1.1789473684210525,
+        "transition_s": 1.1789473684210525,
+        "transition_profile": "quintic over the full symbol, no dwell",
+        "max_hop_tones": 3,
+        "peak_dfg_dt_hz_s": 0.867212
+      },
+      "distance_m": [
+        2.0
+      ],
+      "source_designs": [
+        {
+          "distance_m": 2.0,
+          "scale": 2.854447700523453,
+          "diameter_m": 1.4272238502617265,
+          "mass_kg": 184.04982052490345,
+          "inertia_kg_m2": 59.895683744671054,
+          "peak_alpha_rad_s2": 2.7244268483049114,
+          "peak_torque_nm": 163.1814088915619,
+          "peak_power_w": 9507.242133402648,
+          "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+        }
+      ]
+    }
+  ]
+}

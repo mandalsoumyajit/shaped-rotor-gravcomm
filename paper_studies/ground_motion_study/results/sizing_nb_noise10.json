@@ -1,0 +1,47 @@
+{
+ "0.5 m": {
+  "carrier_hz": 24.0,
+  "amplitude_A0": 5.8,
+  "scale": 1.3850581627187715,
+  "diameter_m": 0.6925290813593857,
+  "mass_kg": 21.034774569672805,
+  "inertia_kg_m2": 1.6091776516415552,
+  "peak_torque_nm": 4.3841032754822855,
+  "peak_power_w": 334.32722562471844,
+  "rim_speed_ok": true,
+  "vs_released": {
+   "mass": 3.632171847606196,
+   "torque": 8.582437443522023
+  }
+ },
+ "1 m": {
+  "carrier_hz": 24.0,
+  "amplitude_A0": 5.8,
+  "scale": 2.442123496587983,
+  "diameter_m": 1.2210617482939914,
+  "mass_kg": 115.25606423784335,
+  "inertia_kg_m2": 27.45846097105306,
+  "peak_torque_nm": 74.80884945182613,
+  "peak_power_w": 5704.846240570121,
+  "rim_speed_ok": true,
+  "vs_released": {
+   "mass": 3.7199780210784015,
+   "torque": 8.931010978204712
+  }
+ },
+ "2 m": {
+  "carrier_hz": 18.0,
+  "amplitude_A0": 6.97,
+  "scale": 4.442548559064738,
+  "diameter_m": 2.221274279532369,
+  "mass_kg": 693.8464385401313,
+  "inertia_kg_m2": 546.9212277661545,
+  "peak_torque_nm": 1490.0524771981436,
+  "peak_power_w": 85545.1157886351,
+  "rim_speed_ok": false,
+  "vs_released": {
+   "mass": 3.769903902968039,
+   "torque": 9.131675424133732
+  }
+ }
+}

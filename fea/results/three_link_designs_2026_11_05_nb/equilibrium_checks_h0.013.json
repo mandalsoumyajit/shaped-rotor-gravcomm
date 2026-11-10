@@ -1,0 +1,26 @@
+[
+  {
+    "mesh": 0.013,
+    "basis": "alpha",
+    "force_relative_error": 6.335376964143372e-06,
+    "torque_relative_error": 1.0547871520660834e-07
+  },
+  {
+    "mesh": 0.013,
+    "basis": "gx",
+    "force_relative_error": 0.00012316741719458208,
+    "torque_relative_error": null
+  },
+  {
+    "mesh": 0.013,
+    "basis": "gy",
+    "force_relative_error": 0.00012317097705079124,
+    "torque_relative_error": null
+  },
+  {
+    "mesh": 0.013,
+    "basis": "gz",
+    "force_relative_error": 0.00012315926015058254,
+    "torque_relative_error": null
+  }
+]

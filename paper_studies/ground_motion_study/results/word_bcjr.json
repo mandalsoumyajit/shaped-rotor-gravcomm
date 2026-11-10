@@ -1,0 +1,112 @@
+[
+ {
+  "fc": 24.0,
+  "amp": 0.4,
+  "rate_word_input_bits_per_symbol": 1.8398741299733827,
+  "gmi_exact": 0.2109869018653551,
+  "gmi_maxlog": 0.1883058030832899,
+  "scale_exact": 1.0094645693471493,
+  "scale_maxlog": 0.7474592332123355,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 24.0,
+  "amp": 0.48,
+  "rate_word_input_bits_per_symbol": 2.121668053786027,
+  "gmi_exact": 0.36588355453640226,
+  "gmi_maxlog": 0.34598300561257256,
+  "scale_exact": 1.0313100702645241,
+  "scale_maxlog": 0.8407975046008809,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 24.0,
+  "amp": 0.56,
+  "rate_word_input_bits_per_symbol": 2.3269207224074333,
+  "gmi_exact": 0.5413785365085846,
+  "gmi_maxlog": 0.5306167235121716,
+  "scale_exact": 1.0526084045566848,
+  "scale_maxlog": 0.9278449872704614,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 24.0,
+  "amp": 0.64,
+  "rate_word_input_bits_per_symbol": 2.4662073290470343,
+  "gmi_exact": 0.6993255739090912,
+  "gmi_maxlog": 0.6925675877986404,
+  "scale_exact": 1.0515986396867616,
+  "scale_maxlog": 0.9644547083714278,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 24.0,
+  "amp": 0.72,
+  "rate_word_input_bits_per_symbol": 2.554049773177074,
+  "gmi_exact": 0.8187786928985291,
+  "gmi_maxlog": 0.8163595815220206,
+  "scale_exact": 1.0347362093682573,
+  "scale_maxlog": 0.979539445237331,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 18.0,
+  "amp": 0.48,
+  "rate_word_input_bits_per_symbol": 1.825388128066791,
+  "gmi_exact": 0.21176557884133487,
+  "gmi_maxlog": 0.18986425079186833,
+  "scale_exact": 1.016066911907884,
+  "scale_maxlog": 0.7531454810543577,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 18.0,
+  "amp": 0.57,
+  "rate_word_input_bits_per_symbol": 2.0934072290295256,
+  "gmi_exact": 0.3545709953948282,
+  "gmi_maxlog": 0.33554678843638974,
+  "scale_exact": 1.0358429581280264,
+  "scale_maxlog": 0.8433597713175766,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 18.0,
+  "amp": 0.66,
+  "rate_word_input_bits_per_symbol": 2.2927036302601564,
+  "gmi_exact": 0.5148362688514667,
+  "gmi_maxlog": 0.5033519869481464,
+  "scale_exact": 1.0511119598270149,
+  "scale_maxlog": 0.9214358113776071,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 18.0,
+  "amp": 0.75,
+  "rate_word_input_bits_per_symbol": 2.433675503913957,
+  "gmi_exact": 0.6646912118459462,
+  "gmi_maxlog": 0.6583337829439273,
+  "scale_exact": 1.0558093959513744,
+  "scale_maxlog": 0.9660847173630737,
+  "p": 12,
+  "n_words": 3000
+ },
+ {
+  "fc": 18.0,
+  "amp": 0.84,
+  "rate_word_input_bits_per_symbol": 2.5279613607714233,
+  "gmi_exact": 0.7849778893274535,
+  "gmi_maxlog": 0.7817528446049931,
+  "scale_exact": 1.0465870799005499,
+  "scale_maxlog": 0.984080682009234,
+  "p": 12,
+  "n_words": 3000
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "basis_gx",
+  "scale": 1.0,
+  "kind": "basis",
+  "axis": "gx",
+  "mesh": 0.018,
+  "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/three_link_designs_2026_11_05_nb/h0.018/basis_gx",
+  "input_sha256": "754d820623714a3c296e75dd48e471e72547a958a8562016410df5d659ad432d",
+  "frequencies_hz": [],
+  "max_u_m": 8.533338003526564e-08,
+  "raw_max_vm_pa": 17142.405345203806,
+  "elapsed_s": 217.3952407836914
+}

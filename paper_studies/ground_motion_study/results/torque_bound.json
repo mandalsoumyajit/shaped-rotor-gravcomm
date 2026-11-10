@@ -1,0 +1,166 @@
+{
+ "assumptions": {
+  "Ts": 1.382716049382716,
+  "beta": 0.6,
+  "spacing_Hz": 0.14464,
+  "tones": 7,
+  "excursion_Hz": 0.43392,
+  "peak_slew_Hz_per_s": 1.9613571428571428
+ },
+ "links": {
+  "24Hz (0.5 and 1 m)": {
+   "rate_at_design": {
+    "rate": 3.1697235152490304,
+    "slew_used": 0.19887540895717004,
+    "excursion_used": 0.9999999999591098,
+    "band_Hz": 0.6587314457576183
+   },
+   "min_slew_for_1bit": 0.01740985282517862,
+   "torque_ratio": 112.6578818644907,
+   "excursion_scan": [
+    {
+     "excursion_Hz": 0.2,
+     "min_slew": 0.01760323633958028,
+     "torque_ratio": 111.42025846958028
+    },
+    {
+     "excursion_Hz": 0.3,
+     "min_slew": 0.017465562671262206,
+     "torque_ratio": 112.29853740036415
+    },
+    {
+     "excursion_Hz": 0.43392,
+     "min_slew": 0.01740985146272215,
+     "torque_ratio": 112.65789068084739
+    },
+    {
+     "excursion_Hz": 0.6,
+     "min_slew": 0.017386198175884354,
+     "torque_ratio": 112.81115762143196
+    },
+    {
+     "excursion_Hz": 0.8,
+     "min_slew": 0.01737522974791246,
+     "torque_ratio": 112.88237170462676
+    },
+    {
+     "excursion_Hz": 1.0,
+     "min_slew": 0.017370424869075498,
+     "torque_ratio": 112.91359639388784
+    },
+    {
+     "excursion_Hz": 1.5,
+     "min_slew": 0.017366218983772927,
+     "torque_ratio": 112.94094268244825
+    }
+   ],
+   "rate_vs_slew": [
+    {
+     "slew_fraction": 0.05,
+     "rate": 1.8637129437207272
+    },
+    {
+     "slew_fraction": 0.1,
+     "rate": 2.3362404306886866
+    },
+    {
+     "slew_fraction": 0.2,
+     "rate": 2.832523494851517
+    },
+    {
+     "slew_fraction": 0.3,
+     "rate": 3.0690383390479465
+    },
+    {
+     "slew_fraction": 0.5,
+     "rate": 3.1697235152490304
+    },
+    {
+     "slew_fraction": 0.75,
+     "rate": 3.1697235152490304
+    },
+    {
+     "slew_fraction": 1.0,
+     "rate": 3.1697235152490304
+    }
+   ]
+  },
+  "18Hz (2 m)": {
+   "rate_at_design": {
+    "rate": 3.274290682070833,
+    "slew_used": 0.23067074388978326,
+    "excursion_used": 0.9999999992046599,
+    "band_Hz": 0.7114834709863292
+   },
+   "min_slew_for_1bit": 0.018726083260409483,
+   "torque_ratio": 104.73931550885638,
+   "excursion_scan": [
+    {
+     "excursion_Hz": 0.2,
+     "min_slew": 0.018957032079916895,
+     "torque_ratio": 103.4633024087672
+    },
+    {
+     "excursion_Hz": 0.3,
+     "min_slew": 0.018792578569962023,
+     "torque_ratio": 104.36870786812447
+    },
+    {
+     "excursion_Hz": 0.43392,
+     "min_slew": 0.01872608308050182,
+     "torque_ratio": 104.73931651512156
+    },
+    {
+     "excursion_Hz": 0.6,
+     "min_slew": 0.018697784041804284,
+     "torque_ratio": 104.8978391488512
+    },
+    {
+     "excursion_Hz": 0.8,
+     "min_slew": 0.01868465376545265,
+     "torque_ratio": 104.97155406131377
+    },
+    {
+     "excursion_Hz": 1.0,
+     "min_slew": 0.018678849231709198,
+     "torque_ratio": 105.00417442887995
+    },
+    {
+     "excursion_Hz": 1.5,
+     "min_slew": 0.01867366102293063,
+     "torque_ratio": 105.03334833210594
+    }
+   ],
+   "rate_vs_slew": [
+    {
+     "slew_fraction": 0.05,
+     "rate": 1.8472521215880395
+    },
+    {
+     "slew_fraction": 0.1,
+     "rate": 2.3368422071481882
+    },
+    {
+     "slew_fraction": 0.2,
+     "rate": 2.8639423322388162
+    },
+    {
+     "slew_fraction": 0.3,
+     "rate": 3.1293943021997555
+    },
+    {
+     "slew_fraction": 0.5,
+     "rate": 3.274290682070833
+    },
+    {
+     "slew_fraction": 0.75,
+     "rate": 3.274290682070833
+    },
+    {
+     "slew_fraction": 1.0,
+     "rate": 3.274290682070833
+    }
+   ]
+  }
+ }
+}

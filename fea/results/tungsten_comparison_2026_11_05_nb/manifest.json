@@ -1,0 +1,393 @@
+{
+  "frozen": {
+    "selection": "Hop-limited CPFSK final design points (user, 2026-11-05, tag 2026_11_05_nb) replacing the 2026-09-20 tb_2/3 designs",
+    "cad_reference": {
+      "mass_kg": 7.913509491619677,
+      "inertia_kg_m2": 0.31607130958509544,
+      "source": "fea/results/three_link_designs_2026_09_20/frozen_designs.json"
+    },
+    "channels": [
+      {
+        "config": {
+          "id": "hop_cpfsk_f24_d0.5",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 24.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          0.5
+        ],
+        "source_designs": [
+          {
+            "distance_m": 0.5,
+            "scale": 0.9010437566657981,
+            "diameter_m": 0.45052187833289903,
+            "mass_kg": 5.789042966850119,
+            "inertia_kg_m2": 0.18772170271562333,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 0.5114340468879572,
+            "peak_power_w": 39.437371330763625,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "hop_cpfsk_f24_d1",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 24.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          1.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 1.0,
+            "scale": 1.5761135310793883,
+            "diameter_m": 0.7880567655396942,
+            "mass_kg": 30.98358165633984,
+            "inertia_kg_m2": 3.0741323659525897,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 8.375248753044335,
+            "peak_power_w": 645.8267631401643,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      },
+      {
+        "config": {
+          "id": "hop_cpfsk_f18_d2",
+          "scheme": "hop-limited continuous-phase FSK, iterative receiver",
+          "carrier_hz": 18.0,
+          "tone_spacing_hz": 0.18176,
+          "tone_offsets_k": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "commanded_half_range_hz": 0.545306,
+          "symbol_s": 1.1789473684210525,
+          "transition_s": 1.1789473684210525,
+          "transition_profile": "quintic over the full symbol, no dwell",
+          "max_hop_tones": 3,
+          "peak_dfg_dt_hz_s": 0.867212
+        },
+        "distance_m": [
+          2.0
+        ],
+        "source_designs": [
+          {
+            "distance_m": 2.0,
+            "scale": 2.854447700523453,
+            "diameter_m": 1.4272238502617265,
+            "mass_kg": 184.04982052490345,
+            "inertia_kg_m2": 59.895683744671054,
+            "peak_alpha_rad_s2": 2.7244268483049114,
+            "peak_torque_nm": 163.1814088915619,
+            "peak_power_w": 9507.242133402648,
+            "provenance": "scale supplied by user 2026-11-05; mass/inertia = archived CAD values scaled by s^3/s^5; peak_torque = inertia*pi*peak_dfg_dt (rigid body, no drag)"
+          }
+        ]
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/basis_alpha",
+      "input_sha256": "f3180f409fb1fcf25d9bf4f11e3c619ef1939529a7d037baee5eeb99adb5cdc9"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/basis_gx",
+      "input_sha256": "5c86d848aaae5569747697de7313daedc6321e97c02d73c9e0e1bd74a5f07cf3"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/basis_gy",
+      "input_sha256": "60f77bb37271d3cbfb76f7d9eaee48c2b99923f4ffc0d31a9655ba4a6c5759c6"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/basis_gz",
+      "input_sha256": "fc9b535e239c40c6e2fb2bf3dbece0c60d197c2bdc193e5c48bf328ca02a6caa"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design1_low",
+      "input_sha256": "778d3e98f56c7441cd4e9b483a0529ab6c7e67f12b35b88f33e9260144094c0d"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design1_center",
+      "input_sha256": "2aad66666c2025ad82da47d032802d01d0c3af61575c960a56e9258b9f9eb2e8"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 1,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design1_high",
+      "input_sha256": "e1d618f587c3328ea88544074196d0a108f1e63c990bf7fadfdd0c466ee5a2a1"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design2_low",
+      "input_sha256": "ec4deb748200eaeb92256f9157829120a2e6db8c0e27e1e16e36ba4776570d27"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design2_center",
+      "input_sha256": "4897c8ef79b035aa772958db3bdf593f63d34e59cf39d7d9c94242f595282205"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 2,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design2_high",
+      "input_sha256": "155fa03610d9c5822ca90d6af7bc132e636a0e216c546d3ee3acaee9b5dc4cb7"
+    },
+    {
+      "name": "design3_low",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 523.64082,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design3_low",
+      "input_sha256": "0d0c1312bd2a62689cb3f404ca217514705305362995af385dcea01022c73356"
+    },
+    {
+      "name": "design3_center",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design3_center",
+      "input_sha256": "3505fb67a952a11aa84ff6c4e4dc12cebbae414880f29a395fae2dca27b62cc3"
+    },
+    {
+      "name": "design3_high",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 556.35918,
+      "design": 3,
+      "mesh": 0.018,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.018/design3_high",
+      "input_sha256": "d680fa7f4ed8a4f3f32bc03849b65a03f7eaf3f44cea228d25199ae2b1358d44"
+    },
+    {
+      "name": "basis_alpha",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "alpha",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/basis_alpha",
+      "input_sha256": "bff90e01c1468df9aeae8cae4474ed7842ced10334d012a004529131e1aa4e81"
+    },
+    {
+      "name": "basis_gx",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gx",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/basis_gx",
+      "input_sha256": "545cffd2b9c61ece8d68d3ea68f364b7cf5bcf94a6a16b713142f8b55d903f97"
+    },
+    {
+      "name": "basis_gy",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gy",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/basis_gy",
+      "input_sha256": "46892219aaae590923ccd5f4c6c3e2ebd75b6d30723a4c4345c048b433d2ea0e"
+    },
+    {
+      "name": "basis_gz",
+      "scale": 1.0,
+      "kind": "basis",
+      "axis": "gz",
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/basis_gz",
+      "input_sha256": "94eff482e0cc40b395c1e727921ed6bf24af2a17a5906b6c16de9f6d6cae0bd9"
+    },
+    {
+      "name": "design1_low",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design1_low",
+      "input_sha256": "441916c305b215330b08f79b1ace0e571dab2ede3ffeb827a19651b41442780a"
+    },
+    {
+      "name": "design1_center",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design1_center",
+      "input_sha256": "470065dd8bb8f9f46a87d7b252bfa712e4ae3c6abfb6b7c310759d86f324a87d"
+    },
+    {
+      "name": "design1_high",
+      "scale": 0.9010437566657981,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 1,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design1_high",
+      "input_sha256": "024fbfb4c7f3aaabcc2701f505620847c460eb3828c47ff4870a675e35be5ba7"
+    },
+    {
+      "name": "design2_low",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 703.64082,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design2_low",
+      "input_sha256": "8928a51d4eb46bc5baf9886f5b497a193026dab7ab94e7f9243dd09c5e575665"
+    },
+    {
+      "name": "design2_center",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 720.0,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design2_center",
+      "input_sha256": "ba015fba4d1d00557d91f0f353be1610629045837bedb64af7da4120eff6b5f8"
+    },
+    {
+      "name": "design2_high",
+      "scale": 1.5761135310793883,
+      "kind": "centrifugal",
+      "rpm": 736.35918,
+      "design": 2,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design2_high",
+      "input_sha256": "fa336a681db9b7f8dbc9197fce8e63a56a1f0efc0efdcccf076b523aff431755"
+    },
+    {
+      "name": "design3_low",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 523.64082,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design3_low",
+      "input_sha256": "3ae2014443f75878c2443b97e078b9727e73be9e7fac878247ab1dc7793a1a04"
+    },
+    {
+      "name": "design3_center",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 540.0,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design3_center",
+      "input_sha256": "11bec8a2d6c460a75869728f9514e5916c3d255679a9810258f7b00ec4ef660f"
+    },
+    {
+      "name": "design3_high",
+      "scale": 2.854447700523453,
+      "kind": "centrifugal",
+      "rpm": 556.35918,
+      "design": 3,
+      "mesh": 0.013,
+      "folder": "/home/supertjhok/gravcomm_fea_nb_2026_11_05/public_release_v0_5_0/fea/results/tungsten_comparison_2026_11_05_nb/h0.013/design3_high",
+      "input_sha256": "c9f867833387d997537cfca6830dfc85a1c153719b5f8e527adb5c3267f9220f"
+    }
+  ],
+  "source_sha256": {
+    "fea/tungsten_link_fea_hop.py": "ff90db86c2d836ebb63cd85be9129dd23148c932d714ac236036555df1d5df78",
+    "fea/run_calculix.py": "0d8072aca2350c3eccd4439cdca0fb183a32f06ddecf18a8c0e8b0c64700b1d2",
+    "fea/postprocess_carrier.py": "590982a422db58124e7b25123c45ce11391d39f0142abb477dd8d4a61e363421",
+    "fea/design_sweep.py": "c952bc6aa3c89e6a275ec90b47d933761a1eab7f61bf3b753039b2d557111f2e",
+    "fea/shaped_rotor.py": "19daa7d9e8a5fce731447909eeb1a929ffe2679a12bdac9dcfcf8cb0fa579536",
+    "fea/make_hop_frozen_designs.py": "0cb49a8621688997498d6db712c309569f51d35074015c98ed4f78547d246b09",
+    "fea/results/tungsten_comparison_2026_11_05_nb/frozen_designs.json": "24c8e1b685a298bde1609d444cc33315a5578f076fe2335502b0b4797ebbecf1"
+  },
+  "assumptions": "linear elastic, fixed bore, bonded inserts; gravity/tangential static bases omit geometric stiffness; modal step includes centrifugal prestress only"
+}

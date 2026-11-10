@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "steel_a2_m_s2": 3.004550469914866e-10,
+      "steel_phase_relative_error": 2.220446049250313e-16,
+      "tungsten_a2_m_s2": 3.0267971312637543e-10,
+      "tungsten_phase_relative_error": 2.220446049250313e-16,
+      "distance_m": 0.5,
+      "relative_signal_change_percent": 0.7404322733682855
+    },
+    {
+      "steel_a2_m_s2": 3.0045492162832135e-10,
+      "steel_phase_relative_error": 3.3306690738754696e-16,
+      "tungsten_a2_m_s2": 3.020492307057843e-10,
+      "tungsten_phase_relative_error": 3.3306690738754696e-16,
+      "distance_m": 1.0,
+      "relative_signal_change_percent": 0.5306317063546784
+    },
+    {
+      "steel_a2_m_s2": 3.6106408258847155e-10,
+      "steel_phase_relative_error": 3.3306690738754696e-16,
+      "tungsten_a2_m_s2": 3.625782524843191e-10,
+      "tungsten_phase_relative_error": 0.0,
+      "distance_m": 2.0,
+      "relative_signal_change_percent": 0.41936320139972505
+    }
+  ],
+  "source_sha256": "8ec19bf0075de6e0aa2a6b85b1d32f9b5961127f560f447fcba1e3cedcd0e072",
+  "method": "Exact axial coordinate transform of existing insert quadrature, preserving every mass weight. Same faceted radial geometry and carrier as steel. Fourier phase refinement checked; no new BER qualification."
+}

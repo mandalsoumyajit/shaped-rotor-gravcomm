@@ -1,0 +1,29 @@
+{
+ "T_K": 300.0,
+ "brack_modal_mass_kg": 0.16234860052873407,
+ "brack_thermal_nGal_rtHz": 2.4637490314699484,
+ "carter_thermal_nGal_rtHz": 5.14938813486474,
+ "brack_linewidth_mHz": 0.9466666666666668,
+ "brack_ringdown_s": 336.2428375180887,
+ "coupling": {
+  "0.5m|L1": 0.7233122300148076,
+  "0.5m|L0.5": 0.520639171512651,
+  "0.5m|L0.2": 0.12757715808332415,
+  "1m|L1": 0.5205965951689023,
+  "1m|L0.5": 0.18931291538197267,
+  "1m|L0.2": 0.03407862247499362,
+  "2m|L1": 0.18914508380868786,
+  "2m|L0.5": 0.052501599355224166,
+  "2m|L0.2": 0.008658048227717303
+ },
+ "effective_floor_nGal_rtHz": {
+  "0.5m": 3.4062040281269828,
+  "1m": 4.732549260470306,
+  "2m": 13.025710115531869
+ },
+ "brack_thermal_displacement_fm_rtHz_at_0.1Hz": 73.24823006637276,
+ "brack_thermal_displacement_fm_rtHz_at_0.5Hz": 14.649646013274554,
+ "carter_thermal_displacement_fm_rtHz_at_0.1Hz": 129.6575797361594,
+ "carter_thermal_displacement_fm_rtHz_at_0.5Hz": 25.93151594723188,
+ "coupling_check_1m_L1_n64_nphi64": 0.5205965951689286
+}

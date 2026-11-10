@@ -1,0 +1,32 @@
+{
+ "qual_hopk5opt_f24_a0.7000": {
+  "status": "exhausted",
+  "result": {
+   "packets": 3072,
+   "errors": 67,
+   "ber": 9.736560639880953e-05,
+   "interval": [
+    1.7423493212611472e-08,
+    0.0021127188136419316
+   ],
+   "rejected": 1,
+   "pruned": 0,
+   "missing": 0
+  }
+ },
+ "qual_hopk5opt_f18_a0.8400": {
+  "status": "exhausted",
+  "result": {
+   "packets": 3072,
+   "errors": 192,
+   "ber": 0.00027901785714285713,
+   "interval": [
+    3.318393776048438e-06,
+    0.0023545076673259714
+   ],
+   "rejected": 2,
+   "pruned": 0,
+   "missing": 0
+  }
+ }
+}
