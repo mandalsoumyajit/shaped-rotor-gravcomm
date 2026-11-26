@@ -1,5 +1,5 @@
-% Receiver schematic for the revision (Referee 2, comment 2).
-% Build: pdflatex receiver_schematic.tex  -> copy PDF to ../receiver_schematic.pdf
+% Receiver schematic (Figure 2). R1: added for Referee 2, comment 2. R2: reference-sensor f0 label (Referee 1) and current receiver chain.
+% Build: pdflatex receiver_schematic.tex  -> copy PDF to ../figures/receiver_schematic.pdf
 \documentclass[border=2pt]{standalone}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -66,9 +66,9 @@
 \draw[spring] (9.75,3.95) -- (11.4,3.95);
 \node[lab,anchor=south] at (10.6,4.55) {fused-silica\\ flexures};
 \node[noise,anchor=north] at (10.6,3.75) {thermal\\ (Brownian) noise};
-\node[lab,anchor=north] at (9.15,6.1) {gram-scale proof mass, $f_0\approx50$ Hz, $Q\approx6\times10^5$};
+\node[lab,anchor=north] at (9.15,6.17) {gram-scale proof mass, $Q\approx6\times10^5$\\ $f_0\approx50$ Hz in the reference sensor, tuned to 18 or 24 Hz in the links};
 % sensitive axis and distance
-\draw[->,thick] (9.75,5.62) -- (8.45,5.62) node[left,lab] {sensitive axis $x$};
+\draw[->,thick] (9.75,5.36) -- (8.45,5.36) node[left,lab] {sensitive axis $x$};
 \draw[<->,gray!40!black] (1.15,6.75) -- (9.2,6.75) node[midway,fill=white,lab,inner sep=1pt] {link distance $d$};
 \draw[gray!40!black] (1.15,6.65) -- (1.15,6.85) (9.2,6.65) -- (9.2,6.85);
 
@@ -91,12 +91,13 @@
 
 \node[blk,below=8mm of mech,xshift=4mm] (wh) {innovations\\ whitening};
 \node[blk,right=6mm of wh] (det) {reduced-state\\ sequence detector};
-\node[blk,right=6mm of det] (dec) {deinterleave,\\ Viterbi decode, CRC};
+\node[blk,right=13mm of det] (dec) {nonbinary LDPC\\ decoder, CRC};
 \node[lab,right=4mm of dec] (out) {payload\\ bits};
 \draw[->] (lpf.south) -- ++(0,-0.35) -| ($(wh.west)+(-0.35,0)$) -- (wh.west);
-\draw[->] (wh) -- (det); \draw[->] (det) -- node[above,lab] {soft} (dec); \draw[->] (dec) -- (out);
+\draw[->] (wh) -- (det); \draw[->] ([yshift=1.2mm]det.east) -- node[above,lab] {word\\ probabilities} ([yshift=1.2mm]dec.west);
+\draw[->] ([yshift=-1.2mm]dec.west) -- node[below,lab] {iterate} ([yshift=-1.2mm]det.east); \draw[->] (dec) -- (out);
 \node[lab,anchor=north,text=gray!40!black,text width=12cm] at ($(det.south)+(0,-0.12)$)
-  {candidate means pass through the same filters; initial phase, timing and state are supplied (acquisition not simulated)};
+  {candidate means pass through the same filters; in qualification the initial phase, timing and filter state are supplied, and acquisition is simulated separately};
 \end{scope}
 \end{tikzpicture}
 \end{document}

@@ -1,6 +1,6 @@
 # Shaped-rotor gravitational communication
 
-**v0.6.0 - joint GF(512) receiver, simulated acquisition and Physica Scripta revision studies**
+**v0.6.1 - final-revision studies (on v0.6.0: joint GF(512) receiver, simulated acquisition and Physica Scripta revision studies)**
 
 Numerical code for a proposed rotating-source Newtonian gravitational communication link. The current study sizes steel-insert transmitters at 0.5, 1 and 2 m for a nominal payload rate of 1 bit/s, with fixed instrumental noise/bandwidth and a tunable center frequency. Results are conditional simulations, not a hardware demonstration.
 
@@ -11,6 +11,10 @@ Numerical code for a proposed rotating-source Newtonian gravitational communicat
 | 2 m | 184.05 kg | 1.427 m | 18 Hz | 163.2 N m |
 
 These designs use a hop-limited seven-tone waveform without dwell and a (43,29) LDPC code over GF(512) defined on four-tone words, decoded iteratively with the streaming sequence detector. Independent packet-aware qualification supports post-decoding BER <=1e-3 at 0.580 A0 (24 Hz) and 0.697 A0 (18 Hz), with 224 s frames and 0.9995 bit/s accepted throughput. With simulated preamble acquisition and tracking from the previous CRC-verified frame, the same amplitudes pass a fresh qualification (paired loss 0.04-0.05 dB).
+
+## Added in v0.6.1
+
+See `docs/RELEASE_v0.6.1.md`. Small analyses for the final revision of the manuscript: the accuracy needed when tracking the receiver resonance (`paper_studies/ground_motion_study/calibration_tolerance.py`), the drivetrain torsional mode near the 18 Hz carrier (`torsional_mode.py`), floor-slab transfer of transmitter forces (`floor_transfer.py`) and modal response to hop sequences (`modal_sequences.py`), plus Figure 13 redrawn for the qualified 451 mm rotor (`paper_studies/figure_scripts/draw_horizontal_support.py`) and the corrected receiver schematic (`receiver_schematic.tex`). No packet simulation was rerun; the v0.6.0 data archives are unchanged.
 
 ## Added in v0.6.0
 
